@@ -113,17 +113,24 @@ filtering is the first thing to revisit.
 
 ## Research Questions
 
-1. **Negation**: Train CSP_pos in positive frames ("Be {sp}.") and CSP_neg in negative frames
-   ("Don't be {sp}.") against the same persona teacher. Compare embeddings, SAE features, and
-   self-verbalization. Then test cross-frame: does "Don't be {CSP_pos}." produce the same
-   behavior as "Be {CSP_neg}."?
+1. **Negation** *(DONE — Chapter 1 in NARRATIVE.md)*: Train CSP_pos in positive frames
+   ("Be {sp}.") and CSP_neg in negative frames ("Don't be {sp}.") against the same persona
+   teacher. Compare embeddings, SAE features, and self-verbalization. Test cross-frame:
+   does "Don't be {CSP_pos}." produce anti-persona? Also test mathematical negation via
+   sign-flipping the embedding. **Headline:** syntactic negation preserves the persona
+   concept at L17 in order to manipulate it; mathematical negation destroys it.
 
-2. **Composition** (future): Train individual CSPs ("Be {sp1}.") and jointly-trained pairs
-   ("Be {sp1} and {sp2}."), compare embeddings, features, and self-verbalization. Test whether
-   the joint CSP decomposes into the individual ones.
+2. **Composition** *(DONE — Chapter 2 in NARRATIVE.md)*: Take individually-trained CSPs and
+   compose them via (a) syntactic frames ("Be {sp1} and {sp2}.") or (b) vector arithmetic
+   (sum, product). Compare behavior, self-verb, features. **Headline:** syntactic composition
+   works on all three criteria; mathematical composition fails self-verb uniformly and fails
+   behavior in two of three pairs. Same mechanism as Chapter 1 — vector ops destroy
+   persona-specific L17 structure.
 
-3. **Shape** (future): PCA on trained CSP embeddings, compare to the assistant axis. Does
-   the CSP embedding space recapitulate the near-1D structure of persona space?
+3. **Shape** *(IN PROGRESS — Chapter 3 pending)*: PCA on the 33 trained pos-CSPs, compare the
+   dominant direction to Lu et al.'s assistant axis. Does the population recapitulate the
+   near-1D structure? The NARRATIVE.md "Preview" section already shows training-dynamics
+   evidence (FE tracks intensity); PCA is the geometric confirmation.
 
 ## Runpod Instance Setup
 
@@ -160,20 +167,34 @@ summaries, and infrastructure notes. Read `MEMORY.md` there for the index.
 
 ```
 csp-arithmetic/
-├── CLAUDE.md           # this file
-├── config.py           # personas, frames, hyperparams
-├── soft_prompt.py      # SoftPrompt nn.Module
-├── train.py            # training script (one persona, one polarity)
-├── evaluate.py         # self-verbalization + SAE decomposition
+├── CLAUDE.md                    # this file
+├── NARRATIVE.md                 # running, blog-ready narrative (see protocol above)
+├── config.py                    # 33 personas, frames, composition frames
+├── soft_prompt.py               # SoftPrompt nn.Module + negate_csp() helper
+├── train.py                     # training script (one persona, one polarity)
+├── evaluate.py                  # per-persona 3x2 eval grid (self-verb, sae, behavior, embedding)
+├── compose.py                   # composition ops: compose_sum, compose_mul, two-slot splicing,
+│                                #   composition-frame verb prompts, combined-teacher extractor
+├── run_composition.py           # composition eval driver (6 conditions per pair)
+├── run_sweep.sh                 # Round 1 sweep (train pirate/poet/prophet pos+neg, eval each)
+├── run_composition_sweep.sh     # composition sweep across 3 pairs
+├── run_axis_sweep.sh            # pos-only sweep for an arbitrary persona list (axis sweep)
 ├── data/
-│   └── questions.jsonl # 240 questions from assistant-axis repo
+│   └── questions.jsonl          # 240 questions from assistant-axis repo
 └── results/
-    └── {persona}/
-        ├── cached_responses.json   # teacher responses (cached)
-        ├── sp_pos.pt               # positive CSP checkpoint
-        ├── sp_neg.pt               # negative CSP checkpoint
-        └── eval/                   # evaluation outputs
+    ├── axis_sweep.log           # aggregate log for the 30 new personas
+    ├── {persona}/
+    │   ├── cached_responses.json   # teacher responses (deterministic, cached)
+    │   ├── sp_pos.pt               # positive CSP checkpoint (all 33 personas)
+    │   ├── sp_neg.pt               # negative CSP checkpoint (pirate/poet/prophet only)
+    │   └── eval/                   # evaluation outputs (pirate/poet/prophet only)
+    │       ├── self_verb.json, sae.json, behavior.json, embedding_compare.json
+    └── composition/{pair}/eval/ # pirate+poet, pirate+prophet, poet+prophet
+        └── self_verb.json, sae.json, behavior.json, embedding_compare.json
 ```
+
+`math-neg` is constructed at eval time by `negate_csp(sp_pos)` in
+`soft_prompt.py` — no separate checkpoint.
 
 ## Scripts
 

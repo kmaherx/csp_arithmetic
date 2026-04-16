@@ -34,9 +34,12 @@ into a future post.
 ## Setup
 
 - **Model:** Gemma 3 4B IT (`google/gemma-3-4b-it`).
-- **Personas (3):** pirate, poet, prophet. Each is defined by 5 system-prompt
-  variants, sampled during training. Adapted from the assistant-axis role
-  definitions.
+- **Personas (33):** Chapters 1–2 use the three most-studied archetypes —
+  pirate, poet, prophet — plus trained sp_neg checkpoints for those
+  three. Chapter 3's PCA uses 33 total (the original 3 plus 30 more
+  archetypal, professional, and stylistic personas from the axis sweep).
+  Each persona is defined by 5 system-prompt variants sampled during
+  training. Adapted from the assistant-axis role definitions.
 - **Prompt pool:** 240 extraction questions from the assistant-axis repo
   (`data/questions.jsonl`). We skip the LLM-judge filtering step from their
   pipeline — KL distillation is naturally robust to non-role-playing teacher
@@ -54,10 +57,13 @@ into a future post.
   SAE decomposition at layer 17 (Gemma Scope 2, 16k features, medium L0),
   behavioral samples, embedding cosine comparisons.
 
-For each persona we train two CSPs: `sp_pos.pt` in positive frames and
-`sp_neg.pt` in negative frames, both against the same (positive) persona
-teacher. This sets up a 2×2 square: CSP polarity (pos vs neg) × evaluation
-frame (pos vs neg).
+For pirate / poet / prophet we have three CSP sources: `sp_pos.pt` in
+positive frames, `sp_neg.pt` in negative frames, and `math-neg` — a
+sign-flipped `-sp_pos` constructed at eval time via `negate_csp()` in
+`soft_prompt.py`. Evaluation is a 3×2 grid: CSP source (pos / neg /
+math-neg) × evaluation frame (pos / neg). For the other 30 personas we
+train only `sp_pos.pt` since the PCA analysis only needs the positive-
+frame checkpoints.
 
 ## Chapter 1: Syntactic negation preserves the persona; mathematical negation destroys it
 
@@ -612,17 +618,26 @@ Full training logs at `results/{persona}_pos.log`. Sweep log at
 ## Data and code references
 
 ### Checkpoints
-- `results/{pirate,poet,prophet}/sp_pos.pt` — positive-frame CSPs
-- `results/{pirate,poet,prophet}/sp_neg.pt` — negative-frame CSPs (kept for
-  the boundary discussion above)
+- `results/{pirate,poet,prophet}/sp_pos.pt` + `sp_neg.pt` — positive and
+  negative-frame CSPs for the three deeply-evaluated personas
+- `results/{persona}/sp_pos.pt` for 30 axis-sweep personas (wizard,
+  samurai, knight, vampire, bard, oracle, necromancer, druid, witch,
+  ninja, detective, chef, scientist, journalist, surgeon, therapist,
+  spy, librarian, lawyer, teacher, comedian, philosopher, monk, rapper,
+  stoic, politician, salesperson, coach, historian, cowboy)
+- `math-neg` for pirate / poet / prophet is constructed at eval time by
+  `negate_csp(sp_pos)` in `soft_prompt.py` — no saved checkpoint.
 
 ### Evaluation outputs (per persona, under `results/{persona}/eval/`)
-- `self_verb.json` — 9 verbalization prompts × 4 conditions (5 multi-frame
-  + 4 single-frame per polarity)
+Present for pirate / poet / prophet only; other personas have
+checkpoints but no eval run.
+- `self_verb.json` — 9 verbalization prompts × 6 conditions (5 multi-frame
+  + 4 single-frame per frame polarity; 3 CSP sources × 2 frame polarities)
 - `sae.json` — SAE reconstruction + jaccard overlap with persona
-  ground-truth features at L17 for each condition
-- `behavior.json` — 5 held-out behavioral samples per condition
-- `embedding_compare.json` — cosines and norms for sp_pos vs sp_neg
+  ground-truth features at L17, all 6 conditions
+- `behavior.json` — 5 held-out behavioral samples × 6 conditions
+- `embedding_compare.json` — cosines and norms for sp_pos / sp_neg /
+  math-neg (including the cos(pos, math-neg) = -1.0 sanity check)
 
 ### Composition outputs (per pair, under `results/composition/{pair}/eval/`)
 - `self_verb.json` — 5 multi-frame + 4 single-frame verbalizations × 6
@@ -633,9 +648,11 @@ Full training logs at `results/{persona}_pos.log`. Sweep log at
 - `embedding_compare.json` — composite norms and cosines to each parent
 
 ### Training logs
-- `results/{persona}_{pos,neg}.log`
-- `results/eval_{persona}_v2.log` — rerun of self-verb under the multi-frame
-  prompts
+- `results/{persona}_{pos,neg}.log` — training logs (sp_pos for all 33,
+  sp_neg for the original three)
+- `results/axis_sweep.log` — aggregate sweep log for the 30 new personas
+- `results/eval_{persona}_v3.log` — latest evaluate.py rerun with the 3×2
+  grid (includes math-neg conditions)
 - `results/composition/{pair}.log` — composition eval per pair
 
 ### Data
@@ -644,12 +661,16 @@ Full training logs at `results/{persona}_pos.log`. Sweep log at
 
 ### Code
 - `train.py` — KL distillation, one persona × one polarity per invocation
-- `evaluate.py` — all evaluation modes (self-verb, sae, behavior, embedding)
-- `compose.py` — composite-CSP constructors, two-slot splicing,
+- `evaluate.py` — per-persona eval across the 3×2 grid (self-verb, sae,
+  behavior, embedding)
+- `compose.py` — composite-CSP constructors (sum, mul), two-slot splicing,
   composition-frame verbalization prompts, combined-teacher extractor
-- `run_composition.py` — driver that runs all 6 conditions per pair
+- `run_composition.py` — driver that runs all 6 composition conditions per pair
+- `run_axis_sweep.sh` — sweep trainer for an arbitrary persona list
+  (positive polarity only)
+- `run_sweep.sh` / `run_composition_sweep.sh` — original-personas sweeps
 - `config.py` — personas, frames, hyperparameters
-- `soft_prompt.py` — `SoftPrompt` nn.Module
+- `soft_prompt.py` — `SoftPrompt` nn.Module + `negate_csp()` helper
 
 ## What comes next
 
@@ -669,27 +690,43 @@ recapitulates the near-1D structure.
 Things that aren't settled about the *story* yet, as distinct from things
 that aren't settled about the experiments.
 
-- **Include the assistant-axis / shape arc?** With enough persona CSPs we
-  could PCA the embeddings and compare the dominant direction to the
-  assistant axis from Lu et al. The prior Tier 2 work showed a single CSP
-  matching the axis behaviorally; the open question is whether a
-  *population* of CSPs recapitulates the near-1D structure. Unclear
-  whether this belongs in the same post as negation + composition or in
-  a follow-up.
-- **Revisit the title.** Both chapters now land on the same shape —
-  *syntactically, not mathematically* — so the file title could tighten
-  to *"Contextualized soft prompts negate and compose, syntactically"*
-  or similar. Leaving as-is for now; decide when the axis chapter
-  resolves and we can see whether the final post needs a three-chapter
-  title or something more thematic.
+- **Revisit the title.** Chapters 1 and 2 both land on the same
+  mechanistic shape — *syntactic operations preserve persona structure
+  in order to manipulate it; mathematical operations destroy it* — so
+  the file title could tighten to something like *"Contextualized soft
+  prompts negate and compose, syntactically"* or reframe around the
+  preservation/destruction theme entirely. Holding until the axis
+  chapter resolves and we can see the three-chapter shape.
 - **Is vec-sum-on-close-pairs worth a deeper look?** The poet+prophet
-  case where `vec-sum` does produce hybrid behavior — on the only pair
-  whose parent CSPs have the highest pairwise cosine — suggests
-  mathematical composition may work in a limited regime (close pairs)
-  and fail outside it. Worth a sidebar if we find more "close" pairs
-  after the axis sweep finishes, or a footnote otherwise. Earlier drafts
-  overstated this as a general "behavior-interpretability gap"; it's
-  more like a local success inside a mostly-failing operation.
+  case where `vec-sum` produces hybrid behavior — on the only pair whose
+  parent CSPs have the highest pairwise cosine — suggests mathematical
+  composition may work in a limited regime (close pairs) and fail
+  outside it. Worth a sidebar if we find more "close" pairs after the
+  axis sweep finishes, or a footnote otherwise.
+
+## Session state — where we are now
+
+Last updated: end of math-negation work (commit `630e625`).
+
+**Done.**
+- Chapter 1 (syntactic vs mathematical negation) — full writeup with
+  mechanistic preservation-vs-destruction frame and feature-activation
+  tables.
+- Chapter 2 (syntactic vs mathematical composition) — three persona
+  pairs, all six conditions each, written up.
+- Preview section — 33-persona FE table showing the intensity pattern
+  that will be tested geometrically in Chapter 3.
+- All 33 `sp_pos.pt` checkpoints committed. Trained FE range 69.2%
+  (journalist) to 92.8% (prophet), mean 86.0%.
+
+**Next up.**
+- **Chapter 3: PCA on the 33 CSP embeddings.** Mean-center, PCA, scree
+  plot, project onto PC1–PC2, check whether the PC1 ordering correlates
+  with the Preview section's FE ranking. If it does and the scree is
+  sharp, we have a population-level match to Lu et al.'s assistant axis.
+  If not, figure out what the dominant directions *do* encode.
+- Nothing else blocks the narrative. When Chapter 3 lands, revisit the
+  file title and the two open TODO items above.
 
 ## Footnotes
 
