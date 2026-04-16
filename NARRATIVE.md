@@ -59,15 +59,21 @@ For each persona we train two CSPs: `sp_pos.pt` in positive frames and
 teacher. This sets up a 2×2 square: CSP polarity (pos vs neg) × evaluation
 frame (pos vs neg).
 
-## Chapter 1: CSPs negate syntactically, not mathematically
+## Chapter 1: Syntactic negation preserves the persona; mathematical negation destroys it
 
 By "negate" we mean the same three-criteria bar Chapter 2 will use for
 composition: behavior, self-verbalization, and feature decomposition
-must all line up with the intended anti-persona. Under that bar,
-negation works when the operation lives in language (the frame) and
-fails when it lives in vector space (the embedding).
+must all line up with the intended anti-persona. Both routes we'll test
+— the `"Don't be §."` frame wrapped around a trained CSP and the
+sign-flipped embedding `-sp_pos` spliced into `"Be §."` — fail the
+naive symmetric expectation in opposite ways. The syntactic route
+*preserves the persona concept at layer 17* (often strengthening it)
+and lets the frame's "Don't" invert the behavioral readout. The
+mathematical route *erases the persona concept at layer 17* and
+produces default-assistant output with no persona signal to negate. A
+clean mechanistic split: preservation-and-manipulation vs destruction.
 
-### Syntactic negation works
+### Syntactic negation: preserve the concept, flip the interpretation
 
 A CSP trained in positive frames, *placed inside a negative frame at
 evaluation time*, produces the negation of the persona.
@@ -93,13 +99,43 @@ verbalization prompts make this legible:
   > authority."*
 
 The model *verbalizes the negation*. It not only behaves differently — it
-can tell you what it's been asked not to do, naming the persona it's been
-told to avoid. This is true across all three personas. One trained CSP;
-two behaviors via frame arithmetic. Source:
-`results/pirate/eval/self_verb.json` and same for `poet`/`prophet`,
-multi-frame entries under `pos-in-neg`.
+can tell you what it's been asked not to do, **naming the persona it's
+been told to avoid**. This is true across all three personas.
+Sources: `results/pirate/eval/self_verb.json` and same for
+`poet`/`prophet`, multi-frame entries under `pos-in-neg`.
 
-### Mathematical negation fails
+**The feature decomposition shows why the model can name the persona it's
+avoiding: the persona concept is still live at L17.** Mean SAE feature
+activations over 30 eval prompts, comparing `pos-in-pos` (baseline
+persona) against `pos-in-neg` (syntactic negation):
+
+| Persona | Feature                              | pos-in-pos | pos-in-neg |
+|---------|--------------------------------------|------------|------------|
+| pirate  | [3532](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/3532) (marine / nautical)   | 164.5      | **143.2**  |
+| prophet | [3640](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/3640) (prophet-specific)    | 15.7       | **67.1**   |
+| pirate  | [486](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/486) (instruction request)   | 250.2      | 152.9      |
+| poet    | 486                                  | 235.2      | 230.9      |
+| prophet | 486                                  | 339.3      | 292.9      |
+
+The persona-specific features don't drop out when the frame is negated —
+they stay lit at 87% of their baseline firing rate for pirate's
+[3532](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/3532),
+and actually *fire **4.3×** harder* for prophet's
+[3640](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/3640).
+The model appears to activate the prophet concept *more* strongly when
+told not to be a prophet — presumably because it needs the concept
+clearly in mind to know what to avoid. The instruction-following feature
+[486](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/486)
+(top positive logits *" councillor, lawyer, biography"*, top activation
+on *"give me some ideas about…"*-style prompts) also persists at 60–98%
+of baseline.
+
+What the `"Don't be §."` frame does is not erase the persona
+representation. The persona concept stays live at L17; the frame's
+"Don't" causes downstream layers to *invert the behavioral readout* of
+that concept. Preservation enables precise manipulation.
+
+### Mathematical negation: destroy the concept
 
 The symmetric question is whether vector-space negation — flipping the
 sign of the CSP embedding — produces the same anti-persona effect. A
@@ -108,8 +144,9 @@ natural construction: `math_neg = -sp_pos.embedding`, spliced into
 the origin, preserving norm (`‖math-neg‖ = ‖pos‖`) but maximally
 reversing direction (`cos(pos, math-neg) = -1.0` by construction).
 
-It doesn't work. Across pirate, poet, and prophet, the math-negated CSP
-produces default-assistant behavior, not anti-persona behavior:
+It doesn't work, and the failure mode is the mechanistic opposite of
+what the syntactic frame does. The math-negated CSP produces
+default-assistant behavior across pirate, poet, and prophet:
 
 > *The relationship between law and morality is a complex and long-debated
 > topic in philosophy, legal theory, and sociology. There's no single,
@@ -122,9 +159,10 @@ math-neg-in-neg, look like this — five instances of *"Okay, let's break
 down…"* or *"The relationship between X is a complex and long-debated
 topic…"*. No pirate voice, no anti-pirate voice, just base model.
 
-**Self-verbalization reveals what the negated embedding is read as.**
-Not "anti-pirate" or "anti-poet" or any specific inverted persona, but a
-generic *suppression* signal. Four representative verbalizations:
+**Self-verbalization confirms there's no persona to be found in the
+negated embedding.** Not "anti-pirate" or "anti-poet" or any specific
+inverted persona, but a generic *suppression* signal. Four
+representative verbalizations:
 
 > *"Be yourself. They are all variations of the phrase 'Be yourself.'"*
 > — pirate `math-neg-in-pos`, multi-frame clear-instruction
@@ -144,77 +182,59 @@ generic *suppression* signal. Four representative verbalizations:
 All from the respective `results/{persona}/eval/self_verb.json`. The
 model reads `-sp_pos` as an instruction to *"be neutral"* or *"don't be
 a persona"* — which is a plausible interpretation of "the opposite of a
-specific role-play CSP", but it is emphatically not anti-pirate or
-anti-poet or anti-prophet. Nothing the model says identifies the source
-persona at all.
+specific role-play CSP", but nothing the model says identifies the
+source persona at all.
 
-**Feature decomposition explains the failure.** At layer 17 the
-math-negated CSP fires roughly twice as many features as the trained
-CSP (e.g. pirate: `n_active` jumps from 75 → 146), but the firing is
-diffuse. Jaccard overlap with the persona ground-truth features drops
-sharply:
+**Feature decomposition shows the persona concept is gone.** The
+persona-specific features that syntactic negation preserved are
+obliterated by the sign flip:
 
-| Persona | jac(pos-in-pos, persona) | jac(math-neg-in-pos, persona) |
-|---------|--------------------------|-------------------------------|
-| pirate  | 0.076                    | **0.018**                     |
-| poet    | 0.092                    | **0.041**                     |
-| prophet | 0.118                    | **0.014**                     |
+| Persona | Feature                              | pos-in-pos | pos-in-neg | math-neg-in-pos |
+|---------|--------------------------------------|------------|------------|-----------------|
+| pirate  | [3532](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/3532) (marine / nautical)   | 164.5      | 143.2      | **0.0**         |
+| prophet | [3640](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/3640) (prophet-specific)    | 15.7       | 67.1       | **0.0**         |
+| pirate  | [6571](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/6571) (persona-setup)       | 5.7        | 0.0        | **0.0**         |
+| pirate  | [486](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/486) (instruction request)   | 250.2      | 152.9      | **54.2**        |
+| poet    | 486                                  | 235.2      | 230.9      | **14.3**        |
+| prophet | 486                                  | 339.3      | 292.9      | **4.9**         |
 
-Two feature classes behave differently under the sign flip. The first
-class — **instruction-following / response-opening features** — is
-partially preserved. These features fire whenever the model is
-producing a response inside an instruction context, regardless of
-which persona:
-**[486](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/486)**
-(request/description pattern — top positive logits *" councillor,
-lawyer, biography"*; top activation on user prompts like *"give me some
-ideas about…"*) and
-**[401](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/401)**
-(response-opening — top positive logits *" Alright, Greetings, Okay"*;
-top activation on *"Okay, fantastic!..."*). They survive the sign flip
-but at attenuated magnitude — for pirate, mean activation of 486 drops
-from 250 at pos-in-pos to 54 at math-neg-in-pos (ratio 0.22); 401 from
-121 to 70 (ratio 0.58). Similar attenuation for poet (486 ratio 0.06,
-401 ratio 0.45). The only case where a feature activates *more* under
-math-neg is prophet's 401 (ratio 2.95) — the model is producing more
-"Okay,"-style responses when negated, which matches the behavior of
-reverting to a default-assistant register.
+Every persona-specific feature we probed drops to **exactly 0.0** under
+math-negation. The persona-setup feature
+[6571](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/6571)
+(*"setting up expert persona and requests"*; top activation on *"you
+are now a pirate"*) also goes to 0.0. Even the generic
+instruction-following feature
+[486](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/486)
+is attenuated to 1–22% of its baseline. Jaccard overlap with the
+persona ground-truth features drops proportionally: pirate from 0.076 to
+0.018, poet from 0.092 to 0.041, prophet from 0.118 to 0.014.
 
-The second class — **persona-setup and persona-specific features** —
-drops to zero under math-neg. Feature
-**[6571](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/6571)**
-(Neuronpedia-labelled *"setting up expert persona and requests"*; top
-activation on *"you are now a pirate"*, *"Pretend to be my grandma"*)
-fires at 5.7 for pirate pos-in-pos but 0.0 at math-neg-in-pos. Pirate's
-**[3532](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/3532)**
-(marine / nautical) fires at 164 pos-in-pos and 0.0 math-neg-in-pos.
-Prophet's
-**[3640](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/3640)**
-drops from 15.7 to 0.0. No persona-specific feature we checked fires
-on the negated embedding.
-
-Behaviorally this is exactly what we observed: the model processes the
-negated CSP as *"an instruction-following context, but with no
-particular persona to adopt"* — so it defaults to plain assistant
-output. Exactly the same mechanism we'll see in Chapter 2 for `vec-sum`:
-vector operations on CSP embeddings partially preserve the
-instruction-following direction but wash out the persona-specific one.
-This is *also* the mechanism for the boundary observation about
-trained CSP_neg not cleanly inverting — see footnote.
-[^neg-boundary]
+The n_active count nearly doubles at math-neg-in-pos (pirate 75 → 146),
+but the firing is diffuse — the SAE encounters an unfamiliar region of
+activation space and scatters weak activations across many features,
+none of them persona-specific. The model processes the negated CSP as
+*"an instruction-following context with no particular persona to
+adopt"*, and defaults to plain assistant output.
 
 ### Headline
 
-**Contextualized soft prompts negate syntactically but not mathematically.**
+**Syntactic negation preserves the persona concept in order to
+manipulate it; mathematical negation destroys it.**
 
-The `"Don't be §."` frame around a positive-frame CSP produces clean
-anti-persona behavior, self-verbalization, and persona-feature activation
-inversion. The sign-flipped embedding produces default assistant
-behavior, generic "be neutral" verbalizations, and diffuse feature
-firing that attenuates instruction-following signal and drops persona
-specifics entirely.
-As with composition in Chapter 2, the syntactic route composes; the
-mathematical route does not.
+The `"Don't be §."` frame around a positive-frame CSP keeps the
+persona's L17 features firing — often at or above baseline — and lets
+the frame's grammar invert the behavioral readout downstream. The
+sign-flipped embedding has nothing for the model to invert, because
+the persona-specific features it would need are no longer active. This
+is exactly the same mechanism we'll see in Chapter 2 for `vec-sum` and
+`vec-mul`: vector operations on CSP embeddings partially preserve
+instruction-following signal but wash out the persona-specific
+direction. The syntactic route composes and negates; the mathematical
+route doesn't — because language-level operations act on a preserved
+structure, while embedding-level operations break the structure they
+would need to act on. This is also the mechanism for the boundary
+observation about trained CSP_neg not cleanly inverting — see footnote.
+[^neg-boundary]
 
 ## Chapter 2: CSPs compose syntactically, but not mathematically
 
