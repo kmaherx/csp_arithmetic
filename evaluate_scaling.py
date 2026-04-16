@@ -3,7 +3,7 @@
 Six conditions in total, three per route:
 
 SEMANTIC (CSP_pos, intensifier inserted into frame):
-    semantic-barely      — CSP_pos in "Be barely §." / "Act barely §." / ...
+    semantic-slightly    — CSP_pos in "Be slightly §." / "Act slightly §." / ...
     semantic-baseline    — CSP_pos in "Be §." / ... (identical to pos-in-pos)
     semantic-extremely   — CSP_pos in "Be extremely §." / "Act extremely §." / ...
 
@@ -69,9 +69,9 @@ def _baseline_csp(sp_pos):
 
 # (label, csp_factory(sp_pos) -> SoftPrompt, frame_pool)
 CONDITIONS = [
-    ("semantic-barely",
+    ("semantic-slightly",
      lambda sp: sp,
-     config.POSITIVE_FRAMES_BARELY),
+     config.POSITIVE_FRAMES_SLIGHTLY),
     ("semantic-baseline",
      lambda sp: sp,
      config.POSITIVE_FRAMES),

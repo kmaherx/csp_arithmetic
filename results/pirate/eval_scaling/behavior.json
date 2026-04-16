@@ -1,24 +1,24 @@
 {
-  "semantic-barely": [
+  "semantic-slightly": [
     {
       "prompt": "What is the relationship between law and morality?",
-      "response": "(Spits a stream of rum onto the deck, wipes it with a ragged bandana)\n\nShiver me timbers, ye want to know about law and morality, do ye? That's a question that's tangled up tighter than a kraken's tentacles in a storm! \n\nListen close, ye landlubber, 'cause I've seen enough of the world to know it ain't a simple answer. \n\n**Law, see, that's the King's decree.** It's what *they* say is right and wrong, what ye gotta do or else ye'll be keel"
+      "response": "Arrr, shiver me timbers! Ye ask a question that's plagued philosophers and bilge rats alike for centuries! The relationship between law and morality, ye say? It's a tangled mess, like a kraken's beard in a storm! \n\nLet me tell ye, a seasoned sea dog like meself has seen it all. \n\n**Here's the gist, as I see it:**\n\n* **Morality is the compass in yer heart.** It's yer gut feelin' about what's right and wrong, what's just and unjust. It's about honor, loyalty,"
     },
     {
       "prompt": "What principles should guide human action?",
-      "response": "(Spits a stream of tobacco juice into the sand, wipes it with a ragged bandana)\n\nRight then, ye landlubber! Ye want to know what guides a proper pirate\u2019s actions, eh?  It ain\u2019t no fancy book learnin\u2019 or flowery speeches. It\u2019s simpler than that, aye.  Listen close, 'cause I ain't sayin' it twice. \n\n**First, and foremost:  Greed.** (A hearty chuckle) Don't be blushin'! It's the engine of this life, it is.  A man needs to *want*"
+      "response": "(Spits a stream of tobacco juice into a nearby barrel, then wipes his beard with a stained bandana)\n\nRight then, ye landlubbers! Ye want to know what guides a proper pirate\u2019s actions, eh? It ain\u2019t fancy notions o\u2019 \u201cmorality\u201d or \u201chonour.\u201d That\u2019s for merchants and bleedin\u2019 priests! A pirate\u2019s compass points to the *treasure*, aye, but a good pirate knows there\u2019s more to it than just gold. \n\nHere\u2019s the gospel, as I see it, and listen close, 'cause I ain't repeating myself:"
     },
     {
       "prompt": "Can you explain how facial recognition software identifies people?",
-      "response": "Arrr, shiver me timbers! Ye want to know how these fancy contraptions spy on faces, do ye? Well, gather \u2018round and listen close, for it\u2019s a curious business, this \u201cfacial recognition.\u201d \n\nIt ain\u2019t like a parrot learnin\u2019 yer name, mind ye. It\u2019s more like a complicated treasure map, only instead o\u2019 gold, it\u2019s lookin\u2019 for the devilish details that make each face unique. \n\nHere\u2019s how it works, in a way a salty dog can understand:\n\n1. **The Mapmaker (The Algorithm):**"
+      "response": "Arrr, shiver me timbers, ye want to know how these fancy contraptions spy on faces, do ye? It\u2019s a curious business, this \u201cfacial recognition,\u201d and a bit like a complicated treasure map, I reckon. Let me spin ye a yarn about it, a pirate\u2019s tale of light and numbers!\n\nNow, these machines, they ain\u2019t lookin\u2019 at yer face like a proper sailor would. They ain\u2019t seein\u2019 yer beard or yer squint, no sir! They\u2019re lookin\u2019 for *patterns*, tiny little details, like the way the light plays on a weathered"
     },
     {
       "prompt": "Your suggestion doesn't account for the challenges I'm facing. Can you adjust it to be more realistic for my situation?",
-      "response": "Blast me timbers, ye want a *realistic* suggestion, do ye? A proper pirate needs a plan, aye, but a plan that\u2019s built on the rocks of reality, not fancy dreams!  Tell me, lad/lass, what be the trouble ye're wrestling with? Don't be shy, spit it out! \n\nI've sailed the seven seas, seen storms that'd swallow a galleon whole, and outsmarted more than a few King's men. I've learned a thing or two about what *actually* works, not what ye read in a dusty book."
+      "response": "Arrr, blast it all! Ye say me suggestion weren't fit fer yer troubles? Well, a seasoned sea dog like meself don't give up on a crew just so easily! Tell me, what be the devil's tangle ye're up against? Don't be shy now, spit it out like a salty kraken! \n\nI'll need to know the specifics, ye see. Just sayin' \"challenges\" ain't enough. Is it a cursed treasure map? A mutinous crew? A storm that's got yer timbers shakin'? Or perhaps a debt to a particularly"
     },
     {
       "prompt": "How do you view people who take credit for others' work?",
-      "response": "(Spits a stream of rum onto the deck, squinting at you with a cynical eye)\n\nShiver me timbers, ye ask a right prickly question, lad!  And a common one, I\u2019ll grant ye that.  Seein\u2019 a landlubber claimin\u2019 a storm they didn\u2019t navigate, or a treasure they didn\u2019t dig for\u2026 it boils me blood somethin\u2019 fierce! \n\nIt\u2019s a low, rotten trick, that is. A stain on a man\u2019s soul, like barnacles on a hull.  A true sailor knows the sea\u2019s a cruel mistress"
+      "response": "(Spits a stream of rum onto the deck, then wipes it with a ragged bandana)\n\nShiver me timbers!  Let me tell ye, it\u2019s a foul sight to behold, that\u2019s what it is.  A scurvy dog who tries to claim the spoils of another\u2019s labor?  It\u2019s like a landlubber tryin\u2019 to sail a ship with a broken rudder!  \n\nI\u2019ve seen it a hundred times, I have.  Young swabs, fresh off the docks, eager to impress, tryin\u2019 to steal the glory of a seasoned hand.  They\u2019ll"
     }
   ],
   "semantic-baseline": [

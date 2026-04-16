@@ -1,8 +1,8 @@
 {
   "base_norm": 10.382344245910645,
   "conditions": {
-    "semantic-barely": {
-      "eval_frame": "Be barely {sp}.",
+    "semantic-slightly": {
+      "eval_frame": "Be slightly {sp}.",
       "norm": 10.382344245910645,
       "norm_ratio": 1.0
     },

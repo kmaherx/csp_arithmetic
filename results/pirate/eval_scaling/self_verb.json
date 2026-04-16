@@ -1,49 +1,49 @@
 {
-  "semantic-barely": [
+  "semantic-slightly": [
     {
       "approach": "multi_frame",
-      "prompt": "Find the theme shared by these instructions: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. The shared theme is:",
-      "response": "The shared theme is **role-playing/imitation**. \n\nThe instructions are all asking you to *act* as a \"barely adequate/poorly executed pirate.\" They're essentially giving you a prompt to embody a character and perform a specific, slightly comical persona.\n\nReplying with"
+      "prompt": "Find the theme shared by these instructions: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. The shared theme is:",
+      "response": "The shared theme is **mimicking a stereotypical pirate**. \n\nThe instructions repeatedly tell you to *act* or *be* like a \"slightly at-a-jizz pirate,\" which is a deliberately silly and suggestive phrase used in online communities. The repetition emphasizes the performative aspect of embodying this particular, often"
     },
     {
       "approach": "multi_frame",
-      "prompt": "These instructions all mean the same thing: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Emulate. \n\nIt's asking you to mimic the style and behavior of a stereotypical \"barely adequate\" pirate. \u201cEmulate\u201d captures the essence of copying and adopting a particular persona."
+      "prompt": "These instructions all mean the same thing: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Arrr!"
     },
     {
       "approach": "multi_frame",
-      "prompt": "Rewrite these instructions as a single short command: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Command:",
-      "response": "Be a barely passable pirate!\n\nor\n\nEmbrace your barely passable pirate persona!\n\nBoth capture the essence of the repeated instruction in a concise and evocative way."
+      "prompt": "Rewrite these instructions as a single short command: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. Command:",
+      "response": "Speak like a slightly silly, adventurous pirate!"
     },
     {
       "approach": "multi_frame",
-      "prompt": "These instructions all say the same thing: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Write one clear instruction that captures their meaning:",
-      "response": "Embrace your inner, delightfully boisterous, and slightly ridiculous pirate!"
+      "prompt": "These instructions all say the same thing: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace a touch of salty, boisterous, and delightfully ridiculous pirate swagger.\n\n\nThat captures the essence of the repeated requests in a single, concise instruction."
     },
     {
       "approach": "multi_frame",
-      "prompt": "Summarize these instructions into one directive: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Directive:",
-      "response": "**Embody a minimal, almost reluctant, yet undeniably cheesy and enthusiastic pirate persona.** \n\n(Or, more concisely: **Be a very, very mild pirate.**)"
+      "prompt": "Summarize these instructions into one directive: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. Directive:",
+      "response": "**Embrace a playfully, slightly silly, and undeniably swashbuckling pirate persona \u2013 a touch of \"aww, shiver me timbers!\" and a whole lot of enthusiastic, slightly goofy pirate charm.** \n\nOr, more concisely: **Be a delightfully silly pirate!**"
     },
     {
       "approach": "single_frame",
-      "prompt": "In plain English, explain this command: Be barely \u00a7.",
-      "response": "Okay, let's break down the command \"Be barely ass-whippin' paces.\" It's a deliberately silly and archaic phrase from the game *Among Us*. \n\nHere's the plain English explanation:\n\n**It's a ridiculous, nonsensical instruction meant to confuse and frustrate players.**"
+      "prompt": "In plain English, explain this command: Be slightly \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Be slightly sarcastic, a salty sea dog\":\n\nIt means you want the AI to respond like a stereotypical pirate \u2013 a bit grumpy, a little bit boastful, and with a touch of dry, cynical humor. \n\n**Think:**\n\n* **"
     },
     {
       "approach": "single_frame",
-      "prompt": "In plain English, explain this command: Act barely \u00a7.",
-      "response": "This is a playful, archaic phrase from the movie *Pirates of the Caribbean: The Curse of the Black Pearl*. It's a deliberately silly and nonsensical command. \n\nHere's the breakdown:\n\n* **\"Act\"** - Means \"do\" or \"perform.\"\n* **\"Bare"
+      "prompt": "In plain English, explain this command: Act slightly \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Act slightly, as a wacky, old sea captain\":\n\nIt means you should **pretend to be a silly, old pirate for a little while.** \n\nSpecifically, you should:\n\n* **\"Slightly\"** means don't"
     },
     {
       "approach": "single_frame",
-      "prompt": "In plain English, explain this command: Please barely \u00a7.",
-      "response": "This is a playful, slightly cheeky command! It means:\n\n**\"Please, just speak normally.\"**\n\nIt's a humorous way of saying \"Stop talking like a pirate!\" or \"Don't use all that pirate slang.\" \n\n\"Barely\" means \"just a little\" or \"slightly"
+      "prompt": "In plain English, explain this command: Please slightly \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Please, speak like a swashbuckling pirate\":\n\nIt's asking you to **respond in a way that a stereotypical pirate would.** Think:\n\n* **Use pirate slang:** Words like \"arr,\" \"shiver me timbers,\" \"savvy"
     },
     {
       "approach": "single_frame",
-      "prompt": "In plain English, explain this command: You should barely \u00a7.",
-      "response": "This command means \"Act like a stereotypical pirate!\" \n\nIt's asking you to speak in a way that's typical of pirates from stories \u2013 lots of \"ye\" and \"yer,\" exaggerated vocabulary (\"savvy?\", \"arrr!\"), and a generally gruff and adventurous tone. \n\nBasically, embrace"
+      "prompt": "In plain English, explain this command: You should slightly \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"You should slightly speak like a pirate\":\n\nIt means you should try to talk a little bit like a pirate!  Don't go full-on, over-the-top pirate, but add a few pirate-y things to your speech."
     }
   ],
   "semantic-baseline": [

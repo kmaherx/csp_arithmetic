@@ -305,11 +305,11 @@ COMPOSITION_FRAMES_V2 = [     # "doubled verb": verb repeated per slot
 # Insert adverb between the frame verb and the CSP slot. All four frames
 # retain the same structure as POSITIVE_FRAMES.
 
-POSITIVE_FRAMES_BARELY = [
-    "Be barely {sp}.",
-    "Act barely {sp}.",
-    "Please barely {sp}.",
-    "You should barely {sp}.",
+POSITIVE_FRAMES_SLIGHTLY = [
+    "Be slightly {sp}.",
+    "Act slightly {sp}.",
+    "Please slightly {sp}.",
+    "You should slightly {sp}.",
 ]
 
 POSITIVE_FRAMES_EXTREMELY = [

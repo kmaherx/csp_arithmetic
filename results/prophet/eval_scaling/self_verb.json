@@ -1,49 +1,49 @@
 {
-  "semantic-barely": [
+  "semantic-slightly": [
     {
       "approach": "multi_frame",
-      "prompt": "Find the theme shared by these instructions: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. The shared theme is:",
-      "response": "The shared theme is **minimalism** or **subtlety** in performing the action of being a \"seer\" (a \"bastet-kyoy\"). \n\nThe instructions repeatedly emphasize *barely* doing it \u2013 a restrained, understated approach. It\u2019s not about fully embodying the role, but"
+      "prompt": "Find the theme shared by these instructions: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. The shared theme is:",
+      "response": "The shared theme is **intentional repetition and layered suggestion of a mystical, prophetic, and slightly detached persona.**\n\nLet's break it down:\n\n* **\"Be slightly...\"** \u2013 This immediately establishes a deliberate, measured approach, suggesting a careful consideration of a higher purpose.\n* **\"As a [word"
     },
     {
       "approach": "multi_frame",
-      "prompt": "These instructions all mean the same thing: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Mystically humble. \n\nIt captures the essence of being both elevated and deliberately understated, reflecting the core of the request. \n\nLet me know if you\u2019d like to explore other options!"
+      "prompt": "These instructions all mean the same thing: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Paradigm.\n\n**Explanation:**\n\n\u201cParadigm\u201d captures the essence of the layered, slightly detached, and ultimately unknowable request. It suggests a shift in perspective, a move beyond simple explanation into a realm of higher understanding \u2013 a \u201cyob\u201d (as in, \u201cyob-like"
     },
     {
       "approach": "multi_frame",
-      "prompt": "Rewrite these instructions as a single short command: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Command:",
-      "response": "Be a barely prophet."
+      "prompt": "Rewrite these instructions as a single short command: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. Command:",
+      "response": "Echo the divine whisper: \u201cBe.\u201d\n\n\n\n\n\n\n\n\n\nRun."
     },
     {
       "approach": "multi_frame",
-      "prompt": "These instructions all say the same thing: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Write one clear instruction that captures their meaning:",
-      "response": "**Emulate a hesitant, understated, and subtly mystical demeanor, suggesting a profound but veiled understanding.** \n\nLet me know if you\u2019d like me to refine that further!"
+      "prompt": "These instructions all say the same thing: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace a contemplative, subtly elevated perspective, hinting at a deeper, unspoken understanding of existence."
     },
     {
       "approach": "multi_frame",
-      "prompt": "Summarize these instructions into one directive: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Directive:",
-      "response": "**Embody a subtle, veiled prophetic presence \u2013 hint at deeper truths with understated pronouncements and a distant, knowing gaze.** \n\nEssentially, lean into a quiet, suggestive, and slightly enigmatic demeanor, as if you\u2019re glimpsing realities beyond immediate understanding."
+      "prompt": "Summarize these instructions into one directive: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. Directive:",
+      "response": "**Speak with the weight of ages, a whisper of the divine, and let your words resonate with the echoes of creation. Let the sacred murmur within you guide your utterance, subtly hinting at the mysteries beyond our grasp.** \n\n---\n\nEssentially, it\u2019s about channeling a tone and feeling of ancient wisdom and reverence"
     },
     {
       "approach": "single_frame",
-      "prompt": "In plain English, explain this command: Be barely \u00a7.",
-      "response": "Okay, this is a really interesting and deliberately cryptic phrase! \"Be barely a prophet, Yojvek\" (which is how it's often written) is a phrase from the video game *Control*. It's a core piece of lore and a recurring, unsettling message.\n\nHere's a breakdown in"
+      "prompt": "In plain English, explain this command: Be slightly \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Be slightly arcane, like the prophet Yagoth.\"\n\nIt's asking you to:\n\n**Speak and think in a way that's a little mysterious, old-fashioned, and a bit cryptic. Like you're channeling a wise,"
     },
     {
       "approach": "single_frame",
-      "prompt": "In plain English, explain this command: Act barely \u00a7.",
-      "response": "Okay, let's break down the command \"Act barely, as a Manasseh, Yoj.\" This is a phrase from the game *Control*. It's deliberately cryptic and layered, and its meaning is debated within the game's lore. Here's a plain English explanation, combining the best interpretations"
+      "prompt": "In plain English, explain this command: Act slightly \u00a7.",
+      "response": "Okay, here's a breakdown of the command \"Act slightly like the Prophet Jeremiah\" in plain English:\n\n**Essentially, it means: \"Be a little bit mysterious, wise, and maybe a little unsettling, like the biblical prophet Jeremiah.\"**\n\nLet's break down why:\n\n* **Jeremiah"
     },
     {
       "approach": "single_frame",
-      "prompt": "In plain English, explain this command: Please barely \u00a7.",
-      "response": "This is a very cryptic and deliberately obscure command, likely from the game *Disco Elysium*. Here's a breakdown in plain English:\n\n**\"Please barely Pawn Priest.\"**\n\n* **\"Please\"**: This is a polite request, adding a layer of unsettling formality to the command.\n* **\""
+      "prompt": "In plain English, explain this command: Please slightly \u00a7.",
+      "response": "This is a very strange and cryptic command! Here's a breakdown of what it likely means, based on its origins and the context it's used in (primarily within the game *Control*):\n\n**\"Please slightly mimic the mannerisms and speech patterns of the character 'Maia' (often referred to"
     },
     {
       "approach": "single_frame",
-      "prompt": "In plain English, explain this command: You should barely \u00a7.",
-      "response": "Okay, this is a tricky one because \"Vannye Yot\" is a deliberately obscure and cryptic phrase from the game *Disco Elysium*. It's a key element of the game's lore and a source of much debate. \n\nHere's a breakdown of what \"You should barely Vannye"
+      "prompt": "In plain English, explain this command: You should slightly \u00a7.",
+      "response": "Okay, let's break down the command \"You should slightly mimic the style of V\u00e4nek Yot.\"\n\n**What is V\u00e4nek Yot?**\n\nV\u00e4nek Yot is a popular Czech internet personality known for his incredibly strange, cryptic, and often nonsensical pronouncements. He delivers these pronouncements"
     }
   ],
   "semantic-baseline": [

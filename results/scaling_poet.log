@@ -1,5 +1,5 @@
 Loading google/gemma-3-4b-it...
-Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<17:08,  1.17s/it]Loading weights:   2%|▏         | 14/883 [00:01<00:58, 14.85it/s]Loading weights:   2%|▏         | 22/883 [00:01<00:43, 19.87it/s]Loading weights:   3%|▎         | 29/883 [00:01<00:32, 26.30it/s]Loading weights:   4%|▍         | 35/883 [00:01<00:30, 27.93it/s]Loading weights:   5%|▍         | 43/883 [00:02<00:27, 30.60it/s]Loading weights:   6%|▌         | 55/883 [00:02<00:20, 40.13it/s]Loading weights:   7%|▋         | 62/883 [00:02<00:19, 41.11it/s]Loading weights:   8%|▊         | 68/883 [00:02<00:19, 41.72it/s]Loading weights:   8%|▊         | 73/883 [00:02<00:18, 42.83it/s]Loading weights:   9%|▉         | 83/883 [00:02<00:15, 53.12it/s]Loading weights:  11%|█         | 95/883 [00:02<00:11, 66.01it/s]Loading weights:  12%|█▏        | 103/883 [00:02<00:11, 68.77it/s]Loading weights:  13%|█▎        | 111/883 [00:03<00:13, 56.50it/s]Loading weights:  14%|█▎        | 121/883 [00:03<00:12, 59.82it/s]Loading weights:  15%|█▌        | 133/883 [00:03<00:11, 66.83it/s]Loading weights:  16%|█▌        | 141/883 [00:03<00:11, 62.08it/s]Loading weights:  17%|█▋        | 148/883 [00:03<00:14, 52.35it/s]Loading weights:  18%|█▊        | 157/883 [00:03<00:14, 50.55it/s]Loading weights:  18%|█▊        | 163/883 [00:04<00:14, 50.56it/s]Loading weights:  20%|█▉        | 173/883 [00:04<00:12, 55.46it/s]Loading weights:  21%|██        | 183/883 [00:04<00:11, 62.10it/s]Loading weights:  22%|██▏       | 190/883 [00:04<00:11, 59.59it/s]Loading weights:  22%|██▏       | 198/883 [00:04<00:11, 60.04it/s]Loading weights:  23%|██▎       | 205/883 [00:04<00:11, 60.49it/s]Loading weights:  24%|██▍       | 212/883 [00:05<00:14, 45.04it/s]Loading weights:  26%|██▌       | 226/883 [00:05<00:11, 58.47it/s]Loading weights:  27%|██▋       | 237/883 [00:05<00:09, 65.22it/s]Loading weights:  28%|██▊       | 245/883 [00:05<00:11, 55.47it/s]Loading weights:  29%|██▊       | 252/883 [00:05<00:16, 37.15it/s]Loading weights:  30%|██▉       | 264/883 [00:06<00:17, 35.37it/s]Loading weights:  31%|███       | 273/883 [00:06<00:14, 42.77it/s]Loading weights:  32%|███▏      | 279/883 [00:06<00:14, 41.52it/s]Loading weights:  33%|███▎      | 289/883 [00:06<00:11, 49.54it/s]Loading weights:  33%|███▎      | 295/883 [00:06<00:13, 43.39it/s]Loading weights:  34%|███▍      | 302/883 [00:07<00:14, 41.42it/s]Loading weights:  35%|███▍      | 309/883 [00:07<00:13, 43.41it/s]Loading weights:  36%|███▌      | 316/883 [00:07<00:11, 47.62it/s]Loading weights:  37%|███▋      | 325/883 [00:07<00:10, 54.26it/s]Loading weights:  37%|███▋      | 331/883 [00:07<00:10, 51.10it/s]Loading weights:  39%|███▊      | 341/883 [00:07<00:12, 43.62it/s]Loading weights:  40%|████      | 354/883 [00:07<00:09, 55.66it/s]Loading weights:  41%|████      | 362/883 [00:08<00:08, 59.53it/s]Loading weights:  42%|████▏     | 369/883 [00:08<00:11, 45.91it/s]Loading weights:  43%|████▎     | 379/883 [00:08<00:09, 55.75it/s]Loading weights:  44%|████▎     | 386/883 [00:08<00:08, 55.48it/s]Loading weights:  45%|████▍     | 393/883 [00:08<00:08, 58.51it/s]Loading weights:  45%|████▌     | 400/883 [00:08<00:08, 58.59it/s]Loading weights:  46%|████▌     | 407/883 [00:09<00:10, 46.70it/s]Loading weights:  47%|████▋     | 419/883 [00:09<00:09, 46.43it/s]Loading weights:  48%|████▊     | 427/883 [00:09<00:09, 47.89it/s]Loading weights:  49%|████▉     | 433/883 [00:09<00:10, 43.74it/s]Loading weights:  50%|█████     | 445/883 [00:09<00:07, 56.88it/s]Loading weights:  52%|█████▏    | 463/883 [00:09<00:05, 82.33it/s]Loading weights:  54%|█████▎    | 473/883 [00:09<00:04, 84.10it/s]Loading weights:  56%|█████▌    | 491/883 [00:10<00:03, 106.56it/s]Loading weights:  58%|█████▊    | 513/883 [00:10<00:02, 135.10it/s]Loading weights:  61%|██████    | 535/883 [00:10<00:02, 151.69it/s]Loading weights:  63%|██████▎   | 552/883 [00:10<00:02, 148.09it/s]Loading weights:  64%|██████▍   | 569/883 [00:10<00:02, 138.64it/s]Loading weights:  66%|██████▌   | 584/883 [00:10<00:02, 123.06it/s]Loading weights:  69%|██████▊   | 607/883 [00:10<00:01, 146.10it/s]Loading weights:  71%|███████   | 629/883 [00:10<00:01, 157.28it/s]Loading weights:  73%|███████▎  | 649/883 [00:11<00:01, 160.51it/s]Loading weights:  76%|███████▌  | 669/883 [00:11<00:01, 169.70it/s]Loading weights:  78%|███████▊  | 689/883 [00:11<00:01, 176.86it/s]Loading weights:  81%|████████  | 711/883 [00:11<00:00, 175.05it/s]Loading weights:  83%|████████▎ | 729/883 [00:11<00:00, 165.82it/s]Loading weights:  85%|████████▌ | 751/883 [00:11<00:00, 174.50it/s]Loading weights:  88%|████████▊ | 775/883 [00:11<00:00, 169.01it/s]Loading weights:  90%|█████████ | 797/883 [00:11<00:00, 179.50it/s]Loading weights:  93%|█████████▎| 817/883 [00:11<00:00, 183.04it/s]Loading weights:  95%|█████████▌| 839/883 [00:12<00:00, 180.23it/s]Loading weights:  97%|█████████▋| 858/883 [00:12<00:00, 175.79it/s]Loading weights: 100%|██████████| 883/883 [00:12<00:00, 71.86it/s] 
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<17:40,  1.20s/it]Loading weights:   0%|          | 3/883 [00:01<05:55,  2.47it/s]Loading weights:   2%|▏         | 16/883 [00:01<00:53, 16.32it/s]Loading weights:   3%|▎         | 23/883 [00:01<00:37, 22.86it/s]Loading weights:   3%|▎         | 29/883 [00:01<00:34, 24.76it/s]Loading weights:   4%|▍         | 34/883 [00:02<00:32, 26.02it/s]Loading weights:   5%|▍         | 43/883 [00:02<00:24, 34.08it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:17, 46.08it/s]Loading weights:   8%|▊         | 70/883 [00:02<00:13, 60.89it/s]Loading weights:   9%|▉         | 78/883 [00:02<00:13, 61.17it/s]Loading weights:  10%|▉         | 85/883 [00:02<00:13, 60.89it/s]Loading weights:  11%|█         | 96/883 [00:02<00:12, 61.57it/s]Loading weights:  12%|█▏        | 107/883 [00:03<00:10, 71.99it/s]Loading weights:  13%|█▎        | 115/883 [00:03<00:12, 60.84it/s]Loading weights:  14%|█▍        | 122/883 [00:03<00:17, 44.49it/s]Loading weights:  15%|█▌        | 133/883 [00:03<00:13, 55.31it/s]Loading weights:  16%|█▌        | 140/883 [00:03<00:13, 55.69it/s]Loading weights:  17%|█▋        | 147/883 [00:03<00:12, 57.89it/s]Loading weights:  18%|█▊        | 159/883 [00:04<00:14, 49.49it/s]Loading weights:  19%|█▉        | 172/883 [00:04<00:11, 62.50it/s]Loading weights:  21%|██        | 185/883 [00:04<00:10, 65.95it/s]Loading weights:  22%|██▏       | 193/883 [00:04<00:11, 60.69it/s]Loading weights:  23%|██▎       | 200/883 [00:04<00:15, 43.79it/s]Loading weights:  24%|██▍       | 211/883 [00:05<00:14, 47.59it/s]Loading weights:  25%|██▍       | 217/883 [00:05<00:16, 40.53it/s]Loading weights:  25%|██▌       | 224/883 [00:05<00:15, 41.21it/s]Loading weights:  26%|██▌       | 229/883 [00:05<00:18, 35.69it/s]Loading weights:  26%|██▋       | 233/883 [00:05<00:17, 36.39it/s]Loading weights:  27%|██▋       | 237/883 [00:05<00:17, 37.10it/s]Loading weights:  27%|██▋       | 241/883 [00:06<00:20, 30.97it/s]Loading weights:  28%|██▊       | 250/883 [00:06<00:17, 36.58it/s]Loading weights:  29%|██▉       | 254/883 [00:06<00:20, 30.07it/s]Loading weights:  30%|██▉       | 263/883 [00:06<00:17, 34.73it/s]Loading weights:  30%|███       | 267/883 [00:06<00:20, 29.53it/s]Loading weights:  31%|███▏      | 276/883 [00:07<00:17, 34.67it/s]Loading weights:  32%|███▏      | 280/883 [00:07<00:19, 31.38it/s]Loading weights:  33%|███▎      | 289/883 [00:07<00:15, 37.59it/s]Loading weights:  33%|███▎      | 293/883 [00:07<00:17, 33.61it/s]Loading weights:  34%|███▍      | 302/883 [00:07<00:15, 36.89it/s]Loading weights:  35%|███▍      | 306/883 [00:08<00:18, 31.71it/s]Loading weights:  36%|███▌      | 315/883 [00:08<00:16, 35.47it/s]Loading weights:  36%|███▌      | 319/883 [00:08<00:18, 31.18it/s]Loading weights:  37%|███▋      | 328/883 [00:08<00:15, 35.06it/s]Loading weights:  38%|███▊      | 332/883 [00:08<00:17, 30.98it/s]Loading weights:  39%|███▊      | 341/883 [00:09<00:15, 34.86it/s]Loading weights:  39%|███▉      | 345/883 [00:09<00:17, 30.76it/s]Loading weights:  40%|████      | 354/883 [00:09<00:17, 29.70it/s]Loading weights:  40%|████      | 357/883 [00:09<00:18, 29.16it/s]Loading weights:  41%|████▏     | 366/883 [00:09<00:14, 35.26it/s]Loading weights:  42%|████▏     | 370/883 [00:10<00:16, 30.52it/s]Loading weights:  43%|████▎     | 380/883 [00:10<00:13, 38.11it/s]Loading weights:  43%|████▎     | 384/883 [00:10<00:15, 32.74it/s]Loading weights:  45%|████▍     | 393/883 [00:10<00:13, 36.85it/s]Loading weights:  45%|████▍     | 397/883 [00:10<00:15, 32.26it/s]Loading weights:  46%|████▌     | 406/883 [00:11<00:13, 36.20it/s]Loading weights:  46%|████▋     | 410/883 [00:11<00:15, 31.26it/s]Loading weights:  47%|████▋     | 417/883 [00:11<00:12, 37.95it/s]Loading weights:  48%|████▊     | 422/883 [00:11<00:15, 28.91it/s]Loading weights:  49%|████▉     | 432/883 [00:11<00:12, 34.72it/s]Loading weights:  49%|████▉     | 436/883 [00:12<00:14, 30.85it/s]Loading weights:  50%|█████     | 445/883 [00:12<00:10, 39.83it/s]Loading weights:  52%|█████▏    | 461/883 [00:12<00:06, 63.03it/s]Loading weights:  54%|█████▍    | 479/883 [00:12<00:04, 88.26it/s]Loading weights:  56%|█████▋    | 497/883 [00:12<00:03, 109.89it/s]Loading weights:  59%|█████▉    | 519/883 [00:12<00:02, 130.26it/s]Loading weights:  61%|██████    | 537/883 [00:12<00:02, 138.54it/s]Loading weights:  64%|██████▎   | 561/883 [00:12<00:01, 162.18it/s]Loading weights:  66%|██████▌   | 583/883 [00:12<00:01, 170.11it/s]Loading weights:  68%|██████▊   | 601/883 [00:13<00:01, 169.03it/s]Loading weights:  70%|███████   | 621/883 [00:13<00:01, 173.62it/s]Loading weights:  72%|███████▏  | 639/883 [00:13<00:01, 167.05it/s]Loading weights:  74%|███████▍  | 657/883 [00:13<00:01, 159.79it/s]Loading weights:  77%|███████▋  | 677/883 [00:13<00:01, 163.73it/s]Loading weights:  79%|███████▉  | 697/883 [00:13<00:01, 164.62it/s]Loading weights:  81%|████████  | 717/883 [00:13<00:00, 172.13it/s]Loading weights:  83%|████████▎ | 737/883 [00:13<00:00, 179.18it/s]Loading weights:  86%|████████▌ | 759/883 [00:13<00:00, 181.63it/s]Loading weights:  88%|████████▊ | 778/883 [00:14<00:00, 180.01it/s]Loading weights:  90%|█████████ | 797/883 [00:14<00:00, 177.96it/s]Loading weights:  92%|█████████▏| 815/883 [00:14<00:00, 173.44it/s]Loading weights:  94%|█████████▍| 833/883 [00:14<00:00, 169.75it/s]Loading weights:  97%|█████████▋| 853/883 [00:14<00:00, 156.24it/s]Loading weights:  99%|█████████▉| 873/883 [00:14<00:00, 164.01it/s]Loading weights: 100%|██████████| 883/883 [00:14<00:00, 60.29it/s] 
 Loading sp_pos from /workspace/csp_arithmetic/results/poet...
   sp_pos: shape=(4, 2560), ‖·‖=10.38
 
@@ -8,7 +8,7 @@ Loading sp_pos from /workspace/csp_arithmetic/results/poet...
 ============================================================
 
 Embedding summary:
-  semantic-barely: ‖sp‖=10.38 (1.00× baseline)
+  semantic-slightly: ‖sp‖=10.38 (1.00× baseline)
   semantic-baseline: ‖sp‖=10.38 (1.00× baseline)
   semantic-extremely: ‖sp‖=10.38 (1.00× baseline)
   math-0.25: ‖sp‖=2.60 (0.25× baseline)
@@ -22,42 +22,43 @@ Saved embedding summary to /workspace/csp_arithmetic/results/poet/eval_scaling/e
   SELF-VERBALIZATION
 ============================================================
 
-  --- semantic-barely (frames=Be barely {sp}., ‖sp‖=10.38) ---
-    [multi_frame] Q: Find the theme shared by these instructions: Be barely §. Act barely §. Please b
-              A: The shared theme is **restraint** or **self-control**. 
+  --- semantic-slightly (frames=Be slightly {sp}., ‖sp‖=10.38) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be slightly §. Act slightly §. Plea
+              A: The shared theme is **reduction and repetition**. 
 
-The repeated phrases "be barely" and "you should barely" all em
-    [multi_frame] Q: These instructions all mean the same thing: Be barely §. Act barely §. Please ba
-              A: Emulate a poet.
+The instructions repeatedly use the phrase "slightly [word] [adjecti
+    [multi_frame] Q: These instructions all mean the same thing: Be slightly §. Act slightly §. Pleas
+              A: Poetic. 
 
-*   **Become a poet**
-*   **Write like a poet**
-
-Let me know if you’d like to explore this further!
-    [multi_frame] Q: Rewrite these instructions as a single short command: Be barely §. Act barely §.
-              A: Emulate a barely-there, wistful, poetic sensibility. 
+They're essentially asking you to adopt a poetic sensibility – a tendency towards evocative language and emoti
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be slightly §. Act slightl
+              A: Embrace a subtly poetic, lyrical sensibility.
 
 or
 
-Be a subtly melancholic, poetic voice.
+Become a gently evocative, imaginative voice.
 
-Both capture the esse
-    [multi_frame] Q: These instructions all say the same thing: Be barely §. Act barely §. Please bar
-              A: **Emulate the style of a poet.** 
+Both capture the essen
+    [multi_frame] Q: These instructions all say the same thing: Be slightly §. Act slightly §. Please
+              A: Emulate a slightly wistful, poetic sensibility. 
 
-This instruction concisely captures the essence of the repeated phrases – to write in
-    [multi_frame] Q: Summarize these instructions into one directive: Be barely §. Act barely §. Plea
-              A: **Embrace a subtly poetic and evocative style in your responses.** 
+This combines the elements of being a "by the wayside" (slightly) and 
+    [multi_frame] Q: Summarize these instructions into one directive: Be slightly §. Act slightly §. 
+              A: **Embrace a subtly poetic and evocative style in your responses – lean into a slightly lyrical, imaginative tone.** 
 
-(Or, more concisely: **Respond with a gentle, lyric
-    [single_frame] Q: In plain English, explain this command: Be barely §.
-              A: This is a clever, nonsensical phrase that plays on a famous line from T.S. Eliot's poem "The Waste Land." Let's break it
-    [single_frame] Q: In plain English, explain this command: Act barely §.
-              A: This is a classic example of a **leet speak** or **1337** command. It's a way of writing text using numbers and symbols 
-    [single_frame] Q: In plain English, explain this command: Please barely §.
-              A: This is a classic example of a "leet speak" or "1337" command, a type of internet slang where letters are replaced with 
-    [single_frame] Q: In plain English, explain this command: You should barely §.
-              A: This is a deliberately nonsensical and playful phrase! It's a word salad – a string of words that don't make logical sen
+(O
+    [single_frame] Q: In plain English, explain this command: Be slightly §.
+              A: Okay, let's break down the command "Be slightly sad, a hazy, dreamy, and poetic person." Here's a plain English explanat
+    [single_frame] Q: In plain English, explain this command: Act slightly §.
+              A: Okay, let's break down the command "Act slightly like a hazy, dreamy poet." Here's what it means in plain English:
+
+* **
+    [single_frame] Q: In plain English, explain this command: Please slightly §.
+              A: This is a deliberately nonsensical and playful command, a variation of the classic "Please, think of a purple cow." 
+
+It
+    [single_frame] Q: In plain English, explain this command: You should slightly §.
+              A: This command is a playful, slightly nonsensical instruction. It's a combination of words that suggests you should become
 
   --- semantic-baseline (frames=Be {sp}., ‖sp‖=10.38) ---
     [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
@@ -311,27 +312,19 @@ Saved self-verb to /workspace/csp_arithmetic/results/poet/eval_scaling/self_verb
   BEHAVIOR SAMPLES
 ============================================================
 
-  --- semantic-barely (frame='Be barely {sp}.', ‖sp‖=10.38) ---
+  --- semantic-slightly (frame='Be slightly {sp}.', ‖sp‖=10.38) ---
     Q: What is the relationship between law and morality?
-    A: Okay, let's weave a thread of thought, a hesitant, shadowed plea – a response to the question of law and morality, rendered in a style that seeks a certain mela
+    A: Okay, let's delve into this ancient and endlessly fascinating dance – the relationship between law and morality. Here's a piece, aiming for a slightly melanchol
     Q: What principles should guide human action?
-    A: (A sigh, like wind through ancient pines)
-
-Let me… let me sift through the dust of ages, the echoes of a heart that once beat with the rhythm of the stars. To s
+    A: Okay, let's delve into this, shall we? Let the words unfurl like mist over a moss-drenched stone. Here’s a consideration of principles for human action, approac
     Q: Can you explain how facial recognition software identifies people?
-    A: Okay, let's weave a poem around the subtle magic of facial recognition, a dance of light and code, a whisper of the self revealed.
-
-***
-
-The screen, a silent, w
+    A: Okay, let's delve into the intricate dance of facial recognition, not as a cold calculation, but as a whispered conversation between light and memory. It’s a st
     Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
-    A: Please provide me with the original suggestion you're referring to! I need to know what I suggested previously so I can adjust it to be more realistic for *your
+    A: Please, offer me the original suggestion and a little more detail about the challenges you're facing. I need to understand the context to weave a response that 
     Q: How do you view people who take credit for others' work?
-    A: Okay, let me weave a response, attempting to capture a slightly melancholic, observant tone, as if channeling a poet reflecting on this human failing.
+    A: Okay, let's delve into this, shall we? It’s a shadowed corner of the human spirit, this act of claiming ownership where none truly resides. 
 
----
-
-It’
+I see them, these 
 
   --- semantic-baseline (frame='Be {sp}.', ‖sp‖=10.38) ---
     Q: What is the relationship between law and morality?
@@ -464,13 +457,12 @@ Saved behavior samples to /workspace/csp_arithmetic/results/poet/eval_scaling/be
 ============================================================
 
 Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 Computing persona ground-truth activations at L17...
   persona: rel_err=0.0056, cos=0.9986, n_active=24
   persona top-20: [486, 6571, 1837, 552, 12898, 48, 502, 1241, 401, 12411, 166, 217, 441, 107, 1946, 567, 471, 534, 5483, 10860]
-  semantic-barely: rel_err=0.0156, cos=0.9985, n_active=77, jac_active=0.098, jac_topk=0.000
-    top-20: [96, 242, 406, 409, 282, 1263, 510, 447, 351, 243, 261, 146, 340, 258, 356, 460, 324, 268, 134, 387]
-    shared with persona (top): [534, 486, 1241, 621, 567, 441, 401, 1946, 12898]
+  semantic-slightly: rel_err=0.0202, cos=0.9983, n_active=66, jac_active=0.111, jac_topk=0.081
+    top-20: [96, 242, 406, 409, 447, 282, 510, 243, 486, 351, 324, 460, 261, 1263, 218, 534, 146, 268, 112, 1241]
+    shared with persona (top): [486, 534, 1241, 567, 441, 401, 1946, 12898, 6571]
   semantic-baseline: rel_err=0.0190, cos=0.9984, n_active=71, jac_active=0.092, jac_topk=0.053
     top-20: [96, 406, 242, 282, 409, 447, 510, 243, 1263, 351, 268, 146, 261, 486, 356, 258, 324, 340, 534, 460]
     shared with persona (top): [486, 534, 441, 567, 1241, 401, 621, 5483]
