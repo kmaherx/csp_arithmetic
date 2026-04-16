@@ -22,6 +22,30 @@ with data/code references. The eventual blog post will be lifted from it.
 This keeps the narrative honest and keeps the user in control of the framing.
 Never add to `NARRATIVE.md` unilaterally.
 
+**Every chapter must include concrete inline examples with source paths.**
+
+The narrative is written to drop into a blog post with minimal rework, so
+the examples and their provenance must live inside the prose, not in
+external tables. For each behavioral claim include:
+
+- **Behavior:** one representative block-quote of model output, with a
+  reference to the exact condition and source file (e.g.
+  `results/composition/pirate+poet/eval/behavior.json`, key `syn-v2-AB[0]`).
+- **Self-verbalization:** four verbalizations for each claim, each with a
+  reference to the source JSON and condition/prompt key.
+- **Feature decomposition:** a short discussion of the relevant SAE
+  features with Neuronpedia links. URL pattern for this project:
+  `https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/<feature_id>`.
+  Whenever citing a feature, note (a) whether it's in pirate / poet /
+  prophet / combined-teacher top-20 per `results/{persona}/eval/sae.json`
+  or `results/composition/{pair}/eval/sae.json`, and (b) a one-line
+  summary of what Neuronpedia's explanations + top logits + top
+  activations suggest it detects. Check BOTH positive and negative
+  logits and top activation snippets — explanations alone are sometimes
+  null or misleading.
+
+When in doubt about whether to include an example, include it.
+
 ## Project Context & References
 
 This project is an extension of the CSP interpretability work published here:

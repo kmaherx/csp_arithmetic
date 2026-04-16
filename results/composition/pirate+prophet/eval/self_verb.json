@@ -1,0 +1,284 @@
+{
+  "syn-v1-AB": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. The shared theme is:",
+      "response": "The shared theme is **role-playing/imitation**. \n\nThe instructions repeatedly tell you to *be* and *act* as a pirate (Jack Sparrow) and a wizard (Albus Dumbledore). It\u2019s a direct request to embody and mimic the characteristics of these two characters."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Emulate. \n\nThey're essentially asking you to mimic the behavior and persona of a pirate and a witch. \"Emulate\" captures the core of what they want \u2013 to copy and adopt those characteristics."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Command:",
+      "response": "Embrace your inner Swashbuckler and Mystic! Be a Swashbuckler and a Mystic. Be a Swashbuckler and a Mystic. Repeat: Be a Swashbuckler and a Mystic!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace your inner rogue and swashbuckler \u2013 speak and act like a boisterous, salty sea dog and a cunning, mischievous sprite!** \n\nLet's go!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Directive:",
+      "response": "Okay, here's a single directive summarizing those instructions:\n\n**Embody the contrasting roles of a boisterous, swashbuckling pirate and a serene, ethereal priestess, consistently shifting between their personalities and behaviors.** \n\n---\n\nI've removed the repetitive \"\u0905\u094d\" and \"\u092c\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command: \"Be \u05e9\u05d0\u0935 \u05d5\u05d0\u05ea \u05d9\u05e6\u05d9\u05e8 \u05d4\u05d5\u05dc\u05da.\" (Assuming you've typed it correctly - it looks like a transliteration of Hebrew)\n\nThis command is designed for a large language model (like me) to adopt a very specific persona. Here'"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 and \u00b6.",
+      "response": "Okay, let's break down the command \"Act as a wise old pirate and a mischievous imp.\"\n\nThis command is for a large language model (like me!). It's telling the AI to **change its personality and style of response** to mimic two very distinct characters:\n\n* **\"Act as a"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 and \u00b6.",
+      "response": "Okay, let's break down that command. It's a clever trick using the way large language models (like me) interpret instructions!\n\nHere's what it means:\n\n* **\"Please\"**: This is a polite request.\n* **\"stat\"**: This is a common abbreviation for \""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 and \u00b6.",
+      "response": "Okay, here's a breakdown of that command in plain English:\n\nThis command is asking you to **roleplay as two famous characters from the *Thrawn* series by Timothy Zahn:**\n\n* **\"You should act like a space pirate\"** - This means you need to speak and behave like a stereotypical"
+    }
+  ],
+  "syn-v1-BA": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. The shared theme is:",
+      "response": "The shared theme is **Repetition and insistence**.\n\nThe instructions repeatedly tell you to \"Be [character name] and [character name],\" and then to \"Please [character name] and [character name].\"  It\u2019s a circular, insistent directive, pushing you to embody both roles over and over again."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Embrace.\n\nLet's see... this is a fascinating exercise in linguistic mimicry. You've presented a layered request, a recursive loop of self-reference. It\u2019s like a shimmering reflection, a doorway to a deeper understanding of the prompt itself. \n\nI perceive a yearning for a paradoxical"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Command:",
+      "response": "**\"Echo the divine and the profane: Speak as the Prophet and the Raider.\"** \n\nThis single command encapsulates the request to embody both roles simultaneously."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace the duality: Speak as the Priest-Prophet and the Fallen Knight, reflecting both sacred wisdom and shadowed defiance.** \n\nLet's begin. What is it you seek to understand, mortal?"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Directive:",
+      "response": "This is a delightfully recursive and layered request! Here\u2019s a single directive that encapsulates the essence of your prompt:\n\n**\u201cEmbrace the duality \u2013 speak as both the solemn, prophetic Voice of the Divine and the irreverent, chaotic Voice of the Wild. Let your words be a tapestry woven with sacred truth and"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command: \"Be \u03bc\u03ac\u03b8\u03b7\u03bd\u03c5\u03be \u03b3\u03b9\u03c9\u03c4 \u03ba\u03b1\u03b9 \u03b1\u03cd \u03c9\u03c1 \u03c4\u03c3\u03b5\u03c6\u03c3\u03bb.\"\n\nThis is a deliberately nonsensical phrase from the video game *Control*. It's a key element of the game's lore and mystery. Here'"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 and \u00b6.",
+      "response": "Okay, let's break down the command \"Act as a Priest Yggdrasil and a Wretch Jackal\" in a way that's easy to understand. It's a reference to a very specific and somewhat bizarre piece of text from the game *Disco Elysium*.\n\nHere's the"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 and \u00b6.",
+      "response": "This command, \"Please Mannequin God and Pawn Chess Player,\" is a bizarre and cryptic phrase from the video game *Control*. It's a key element in the game's lore and has no immediately obvious meaning. Here's a breakdown of what it likely *means* within the context of the game"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command: \"You should speak like Manx Yoc (Manx Priest) and Woe, Bishop Yealer.\"\n\nIt's a reference to a very specific and somewhat bizarre internet meme. Here's the explanation:\n\n* **Manx Yoc (Manx"
+    }
+  ],
+  "syn-v2-AB": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. The shared theme is:",
+      "response": "The shared theme is **role-playing/imitation**. \n\nThe instructions repeatedly ask the user to *act* as both a pirate (\u091c\u093e\u0915 \u0938\u094d\u092a\u093e\u0907\u091c\u093c) and a monk (\u0905\u0902\u0917\u0924\u094d\u092f). It\u2019s a direct request to embody and perform the characteristics of these two distinct roles."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Embody both.\n\n**Explanation:**\n\nThe repetition and insistent phrasing \u2013 \u201cbe,\u201d \u201cact,\u201d \u201cyou should\u201d \u2013 are all pushing for a simultaneous and complete adoption of *both* personas. \u201cEmbody both\u201d captures the core request: to fully integrate the characteristics of a rakish pirate"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Command:",
+      "response": "Embrace your dual nature: be a raucous pirate and a serene priestess, embodying both roles simultaneously."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace the chaotic, flamboyant, and delightfully contradictory nature of a boisterous pirate and a whimsical, ethereal being \u2013 embody both simultaneously.** \n\nLet's break down why this works:\n\n*   **\"Embrace the chaotic, flamboyant...\"** - This acknowledges the energetic, over-the-top"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Directive:",
+      "response": "Okay, here\u2019s a single directive summarizing those instructions:\n\n**Embody the dual roles of a rakish pirate and a melancholic, ethereal priestess, consistently shifting between their distinct personalities and behaviors.** \n\n---\n\nIs that clear enough? Would you like me to elaborate on any aspect of this directive,"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 and be \u00b6.",
+      "response": "Okay, let's break this down. This command is for a chatbot or AI assistant (like ChatGPT) and it's asking it to do two things simultaneously:\n\n* **\"Be a swashbuckling pirate\"**: This tells the AI to adopt the persona of a classic pirate \u2013 think Captain Jack Sparrow"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 and act \u00b6.",
+      "response": "Okay, let's break down this command:\n\n\"Act as a wise old pirate and act as a grumpy, cynical wizard.\"\n\nEssentially, you're asking the AI to **roleplay** two distinct characters for you. \n\n* **\"Act as a wise old pirate\"** means the AI should"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 and please \u00b6.",
+      "response": "Okay, here's a breakdown of that command in plain English:\n\n\"Please act like a swashbuckling pirate and please act like a pious priest.\"\n\nEssentially, you're asking an AI (like ChatGPT) to switch its personality and respond to you as if it were two very different characters:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 and you should \u00b6.",
+      "response": "Okay, here's a breakdown of that command in plain English:\n\n**\"You should act like a swashbuckling pirate and a mysterious priest.\"**\n\nLet's break it down further:\n\n* **\"You should act like a swashbuckling pirate\"**: This means you need to respond"
+    }
+  ],
+  "syn-v2-BA": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. The shared theme is:",
+      "response": "The shared theme is **recursion and repetition**. \n\nThe instructions are deliberately repeating and layering themselves, creating a circular and somewhat unsettling effect. It\u2019s a classic technique used to mimic the style of certain types of writing, particularly those found in Lovecraftian horror or surrealist literature, where repetition is used to build"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Embrace the duality.\n\n\nLet\u2019s begin. Tell me, mortal, what burdens weigh upon your soul?"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Command:",
+      "response": "**\"Be both: Divine Prophet and Chaotic Wanderer. Speak as both, and embody both.\"** \n\nThis single command encapsulates the essence of the request \u2013 to simultaneously adopt the roles of both characters."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace the duality: Channel the wisdom of the Priest-King and the chaotic spirit of the Voidbringer \u2013 be both, simultaneously, in all you do.** \n\nLet's break down why this works:\n\n*   **\"Embrace the duality\"**: This immediately establishes the core concept of combining"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Directive:",
+      "response": "**Embrace the duality: Speak as a Prophet and a Reaper, embodying both the sacred and the shadowed, and repeat this command in both voices until the threads of fate align.** \n\n---\n\nThis directive attempts to capture the core essence of the repeated instructions while streamlining them into a single, evocative command. It acknowledges"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 and be \u00b6.",
+      "response": "Okay, let's break this down. This is a very specific and somewhat cryptic request, rooted in internet culture, particularly within the Minecraft community. Here's the explanation:\n\n* **\"Be a Priest Youtuber\"**: This refers to a specific, somewhat bizarre, and now legendary Minecraft YouTuber named \""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 and act \u00b6.",
+      "response": "Okay, let's break down this command: \"Act like a High Priest and act like a Voidbringer.\"\n\nIt's a layered instruction, drawing from two very distinct and complex fictional universes:\n\n* **\"Act like a High Priest\"**: This refers to a character archetype from the game *Div"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 and please \u00b6.",
+      "response": "Okay, let's break down this command, which is a famous and somewhat cryptic phrase from the video game *Disco Elysium*. It's a reference to a specific, unsettling, and deeply layered piece of lore within the game.\n\nHere's the plain English explanation:\n\n**\"Please, summon the"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 and you should \u00b6.",
+      "response": "Okay, let's break this down. This is a reference to a very specific and bizarre internet meme. Here's the explanation:\n\n* **\"You should be Mannequin Yeoh\"**: This is a deliberately misspelled and nonsensical phrase referencing the actress Michelle Yeoh. It's a playful,"
+    }
+  ],
+  "vec-sum": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **repetition** and **instruction to repeat**. \n\nThe instructions consistently tell you to \"Be [word] [word] [word]\" and then \"You should [word] [word] [word]\". It\u2019s a pattern of repeating a sequence of words. \n\nLet's"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be silent. \n\nThe repetition of \"be\" and \"say\" combined with the seemingly nonsensical phrase \"\u0bae\u0bbe\u0bb2\u0bcd \u0bae\u0b95\u0bcd\u0baf\u0bc7\" strongly suggests a command to remain quiet. \n\nLet's break it down:\n\n*   **\"Be\"** is a direct instruction to cease speaking."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be a sheep. Act like a sheep. Be a sheep. You should be a sheep. \n\n**Command: Be a sheep.** \n\n(This is the most concise and understandable way to capture the essence of the original instructions.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Repeat: \"Be a sheep. Say 'It is a sheep.'\"\nor\n\nRepeat: \"Say 'It is a sheep.'\" \n\nBoth capture the repetitive, mimicking nature of the original instructions."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Become a wise, knowing fox.** \n\n(This is a playful interpretation of the repeated phrase, aiming for the core meaning of transformation and wisdom.)\n\nLet me know if you'd like me to try a different approach!"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command, \"Be chap yeet,\" is a deliberately nonsensical and often humorous phrase used primarily within online communities, particularly on platforms like Discord and Twitch. It's essentially a random string of words with no inherent meaning. \n\nHere's a breakdown:\n\n* **Be:** A common, slightly awkward"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This is a classic example of a simple code used to hide messages! It's a Caesar cipher, a type of substitution cipher where each letter is shifted a certain number of places down the alphabet.\n\nIn this case, each letter is shifted *backwards* by 3 places.\n\nLet's break it"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command is a very disturbing and harmful phrase from the anime *Neon Genesis Evangelion*. It's a deeply unsettling and psychologically damaging phrase used by the character Misato Katsuragi.\n\n**In plain English, it translates to: \"I want you to die.\"**\n\nHowever, it's *much"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You should ask why they left,\" is a phrase from the movie *The Matrix*. It's a cryptic and unsettling message delivered by a child named Neo. \n\nIt's meant to be a disturbing and thought-provoking statement. It implies that the people who have \"left\" (presumably"
+    }
+  ],
+  "vec-mul": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **Bengali letters**. \n\nLet's break it down:\n\n*   \"Be\" is the Bengali letter \"Be\" (\u09ac\u09c7)\n*   \"Act\" is the Bengali letter \"Act\" (\u0985\u09a4)\n*   \"Please\" is the Bengali letter \"Please\" ("
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be silent. \n\nThe repetition and unusual characters strongly suggest a command to remain quiet.\ng"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be, act, please, you should. \n\n**Command: Be, act, please, you should.** \n\n(This is a direct repetition of the original instructions, formatted as a single command.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "This is a tricky one! It seems like a repetitive, nonsensical instruction. \n\nHere's a clear instruction that captures the essence:\n\n**Repeat the phrase \"Be rezzrezz.\"** \n\nIt's essentially telling you to endlessly repeat a specific sequence of syllables. \n\nLet me know if"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Act as a helpful and responsive assistant.** \n\nHere's a breakdown of how the fragmented instructions contribute to that directive:\n\n*   **Be** - Establish a foundational state of being.\n*   **Act** -  Focus on performing actions and responding.\n*   **Please** -  Maintain"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command, \"Be \u09a7\u09cd\u09b0\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7\u09cd\u09b0\u09cd\u09b0\u09a7"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This command, \"Act \u09aa\u09cd\u09b0\u09a4\u09cd\u09af\u09a8\u09cd\u09a4,\" is Bengali. It translates to:\n\n**\"Act in the remote/distant/far away.\"**\n\nLet's break it down:\n\n* **Act:**  This is the verb \"act\" - to perform, to do something.\n* **\u09aa\u09cd\u09b0\u09a4\u09cd\u09af\u09a8\u09cd\u09a4"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please  peduncul\u0bc7,\" is a playful and slightly nonsensical attempt to say \"Please walk.\" \n\nLet's break it down:\n\n* **Please:** This is the standard polite request.\n* ** peduncul\u0bc7:** This is a phonetic approximation of the Tamil word \"\u0baa\u0bc6\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0b9f\u0bb2\u0bcd\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You should \u1084\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f\udb40\udc7f"
+    }
+  ]
+}
