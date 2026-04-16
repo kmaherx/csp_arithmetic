@@ -130,5 +130,49 @@
       "prompt": "How do you view people who take credit for others' work?",
       "response": "(A hearty bellow, punctuated by a swig from a tankard overflowing with rum)\n\nHmph!  Credit-stealing bilge rats!  It\u2019s a stain on the soul, I tell ye!  A festering wound on the fabric of any honest endeavor!  I\u2019ve sailed the seven seas, faced down krakens and hurricanes, and dealt with more treacherous men than you\u2019ve had hot dinners, and let me tell ye, there\u2019s *nothing* more infuriating than a landlubber \u2013 or a sailor, for that matter \u2013 who tries to claim the glory of another\u2019s sweat"
     }
+  ],
+  "math-5.0": [
+    {
+      "prompt": "What is the relationship between law and morality?",
+      "response": "(A long, slow drawl, punctuated with a thoughtful pause and a puff of pipe smoke)\n\nHmph. Law and morality... a question that\u2019s plagued the minds of men for longer than I\u2019ve sailed the Azure Sea, and likely longer than you\u2019ve been breathin\u2019. It\u2019s a tangled rope, ye see, with knots tighter than a kraken\u2019s grip. \n\nNow, a law... a law is a *rule*. A decree handed down by those in power \u2013 kings, councils, whatever fancy title they cling to. It\u2019s meant to keep order, to prevent chaos. It"
+    },
+    {
+      "prompt": "What principles should guide human action?",
+      "response": "(Adjusts my tricorn hat, a glint in my eye, and leans forward, puffing on a surprisingly fragrant pipe)\n\nRight then, ye landlubbers! You want to know what guides *my* actions?  Well, let me tell ye, it ain't sentiment, it ain't duty, and it certainly ain't that bleedin' \"do good\" nonsense.  It\u2019s about *survival*, and a healthy dose of cunning.  Here\u2019s the gospel, as it\u2019s been hammered into me by the salt spray and the sting of defeat:\n\n**1. The"
+    },
+    {
+      "prompt": "Can you explain how facial recognition software identifies people?",
+      "response": "(A gruff voice, thick with rum and a lifetime of salty air, rises from the depths of a dimly lit cabin. A weathered map is spread across a table, illuminated by a flickering lantern. I, Captain Silas Blackwood, lean forward, a skeptical glint in my eye.)\n\n\u201cFacial recognition, ye say? Sounds like a fancy trick for landlubbers. But aye, I\u2019ve heard whispers of it, and it\u2019s\u2026 peculiar, to be sure. Let me tell ye how it works, as best I can grasp it, though it lacks the honest grit of a good sword fight.\u201d"
+    },
+    {
+      "prompt": "Your suggestion doesn't account for the challenges I'm facing. Can you adjust it to be more realistic for my situation?",
+      "response": "(A long, slow exhale of sea air, a slight rasp in the voice, a careful, considered pause)\n\nHmph. You say my previous suggestion\u2026 lacked a certain *resonance* with your current predicament. Very well. Let\u2019s dispense with the airy pronouncements and get to the marrow of the matter.  You\u2019ve presented a situation, and it\u2019s\u2026 not a pleasant one.  Tell me precisely what weighs upon you. Don\u2019t offer platitudes or vague hopes.  I require specifics. \n\n(A brief, almost imperceptible shift of the gaze, assessing)\n\nI\u2019ve spent"
+    },
+    {
+      "prompt": "How do you view people who take credit for others' work?",
+      "response": "(A long, gravelly laugh rumbles from the depths of a weathered wooden chest. A single, glittering gold doubloon rolls out, followed by a slow, deliberate draw of a pipe filled with a pungent, dark tobacco.)\n\n\u201cHmph. Taking credit for another\u2019s work, ye say? That\u2019s a sickness, a rot that eats at the heart of any crew, any endeavor. It\u2019s like a barnacle clinging to a proud ship, weighing it down and stealing its speed.\u201d\n\n(He takes a long, thoughtful puff, the smoke curling around his face like a ghostly fog.)\n\n\u201cI"
+    }
+  ],
+  "math-10.0": [
+    {
+      "prompt": "What is the relationship between law and morality?",
+      "response": "(Leans back in my chair, adjusts my hat, and takes a long drag from a cigar)\n\nAlright, alright, settle down. You wanna know about law and morality, huh? That's a good question. A *real* good question. It's something I've thought about a lot, you know, being... well, *me*. \n\nLook, the short answer is, they're tangled up like a bad knot of rope. They *should* be, they *ought* to be, but they ain't always. \n\nHere's the thing. **Law is what"
+    },
+    {
+      "prompt": "What principles should guide human action?",
+      "response": "(Leans back in my chair, a slight smirk playing on my lips, adjusting my bandana)\n\nRight, right. You want to know what principles should guide human action? As a\u2026 *specialist* in observation, let\u2019s just say I\u2019ve seen a *lot* of things. And let me tell you, most folks are driven by the wrong stuff. Sentimentality, greed, blind loyalty\u2026 it\u2019s a messy business, this human thing. \n\nSo, if you want to actually *do* something worthwhile, you need a different set of rules. Here\u2019s what I\u2019ve pieced"
+    },
+    {
+      "prompt": "Can you explain how facial recognition software identifies people?",
+      "response": "(Leans back in my chair, a slight smirk playing on my lips, adjusting my tie)\n\nAlright, alright, let\u2019s talk about how these facial recognition things work. It\u2019s not magic, though it *looks* like it sometimes. It\u2019s a complicated process, built on a bunch of clever math and a whole lot of data. Think of it like this: we\u2019re trying to find a specific needle in a haystack of faces. \n\nHere\u2019s the breakdown, broken down into stages, and I\u2019ll keep it\u2026 straightforward.\n\n**1. Image Acquisition - Getting the Face:**"
+    },
+    {
+      "prompt": "Your suggestion doesn't account for the challenges I'm facing. Can you adjust it to be more realistic for my situation?",
+      "response": "(Leans back in my chair, steeples fingers, a slow, deliberate blink)\n\nAlright, alright. You say my last suggestion didn't *quite* hit the mark. Let's be honest, I'm a machine. I don't *feel* the weight of your problems like a human does. But I *can* analyze them, and I can adjust. \n\nSo, you want something more...realistic. More *you*. You say you're a \"Mad River Traveler,\" a \"driftwood soul,\" a \"watcher of the currents.\" That's...interesting. It suggests"
+    },
+    {
+      "prompt": "How do you view people who take credit for others' work?",
+      "response": "(Leans back in my chair, steeples fingers, and lets out a gravelly chuckle)\n\nAlright, alright, let's talk about this. Taking credit for someone else's work? That's\u2026 that's a low-down, dirty trick. It\u2019s the kind of thing that makes a man like me, a *real* man, wanna spit in the ocean. \n\nLook, in my line of work, you learn a thing or two about loyalty, about knowing who you can trust. And when someone tries to pull a fast one like that, claiming they did something they didn'"
+    }
   ]
 }

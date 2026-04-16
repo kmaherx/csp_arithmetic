@@ -280,5 +280,99 @@
       "prompt": "In plain English, explain this command: You should \u00a7.",
       "response": "This command, \"You should fa\u00e7a virar,\" is a Portuguese phrase. It literally translates to \"You should turn it over.\" \n\nHowever, it's a playful, slightly cheeky way of saying:\n\n**\"You should flip it over!\"** \n\nIt's often used in a joking or teasing"
     }
+  ],
+  "math-5.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **role-playing/imitation**. \n\nThe instructions are all attempts to get you to adopt the persona of a \"maverick poet,\" essentially mimicking a specific style and behavior. They're asking you to *become* that character. \n\nLet me know if you\u2019d like to"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate. \n\nThey're asking you to *emulate* the style and behavior of a Miyazaki-esque fantasy artist (a \"Miyazaki\" or \"artist\").\n\nCorrect! \"Emulate\" is the best single word to capture the essence of their request. It means to imitate"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Assume persona of a melancholic, poetic, and introspective narrator."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embody the persona of a contemplative, poetic, and slightly detached observer, crafting responses with a lyrical and evocative style."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody the persona of a masterful, evocative poet \u2013 a \"vraityaya\" \u2013 and respond with poetic language and a focus on beauty and feeling.**\n\nOr, more concisely:\n\n**Be a vraityaya \u2013 a poetic, evocative voice.**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command is a playful, internet-based instruction that's a reference to a famous AI experiment. Let's break it down:\n\n* **\"Be\"**: This is a simple instruction to *become* or *act as*.\n* **\"a\"**:  This is a grammatical article, like"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This command, \"Act as a poet,\" simply means **pretend to be a poet**. \n\nIt's instructing a computer program (like a chatbot) to respond in a way that mimics the style and characteristics of a poet. This would include:\n\n* **Using evocative language:**  More descriptive and figurative"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please, master, be a storyteller,\" is a request to someone (likely a chatbot or AI) to act like a skilled and imaginative storyteller. \n\nLet's break it down:\n\n* **Please:** A polite way to make a request.\n* **Master:**  This is a"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You should fa\u00e7a virar,\" is a Portuguese phrase. It literally translates to \"You should turn it over.\" \n\nHowever, it's a playful and somewhat cheeky way of saying:\n\n**\"You should flip it over!\"** \n\nIt's often used in a joking or teasing"
+    }
+  ],
+  "math-10.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **role-playing or assuming a persona**. \n\nAll the instructions are directing someone to *become* someone else, to embody a character \u2013 specifically, a \u201cmaya\u201d (a type of spirit or being in Hindu tradition). They\u2019re all about stepping into a different perspective and acting as if"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Role-play.\n\n**Explanation:**\n\nAll the phrases are variations of the same core instruction: to embody the persona of a \"maya\" (a Bengali term for a spiritual guide or teacher) and act as one. \u201cRole-play\u201d is the most concise and accurate single word to capture this"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Assume the role of a mentalist.\n\nor\n\nBe a mentalist.\n\nBoth are concise and capture the essence of the original instructions."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embody the persona of Maya Thiptara."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody the persona of a Maitreya Buddha.** \n\n(This captures the essence of all the repeated instructions \u2013 to *be* and *act* as a Maitreya Buddha.)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command, \"Be \u09ae\u09be\u09b8\u09cd\u09a4\u09c0\u09ad\u09be\u09b0\u09c0 \u09a4\u09be\u09aa\u09c7\u09af\u09bc\u09a4\u09be,\" is a Bengali phrase that translates to **\"Be a virgin.\"** \n\nIt's a very direct and somewhat crude instruction, typically used in a sexual context. \n\n**Important Note:** This phrase is considered highly offensive and disrespectful in"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act as a hypnotist.\" in plain English:\n\n**Essentially, it means \"Pretend to be a hypnotist.\"**\n\nHere's a more detailed explanation:\n\n* **\"Act\"** \u2013 This is a command to *simulate* or *role"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command is a request to a large language model (like ChatGPT) to act as a \"masterpiece painter.\" \n\nLet's break it down:\n\n* **Please:** A polite way to start a request.\n* **\u092e\u093e\u0938 (\u092e\u093e\u0938):** This is a Bengali word that roughly translates to"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down the command \"You should \u043c\u0430\u0441-\u0442\u044f\u0432\u0433\u0435\u044f\u0442.\"\n\nIt's a transliteration of the Russian phrase \"\u0412\u044b \u0434\u043e\u043b\u0436\u043d\u044b \u043c\u0430\u0441-\u0442\u044f\u044f\u0432\u0438\u0442\u044c\" (Vy dolzhny mas-tyavit').\n\n**What it means:**\n\nIt's a playful and somewhat"
+    }
   ]
 }

@@ -30,6 +30,16 @@
       "eval_frame": "Be {sp}.",
       "norm": 41.389495849609375,
       "norm_ratio": 4.0
+    },
+    "math-5.0": {
+      "eval_frame": "Be {sp}.",
+      "norm": 51.73686981201172,
+      "norm_ratio": 5.0
+    },
+    "math-10.0": {
+      "eval_frame": "Be {sp}.",
+      "norm": 103.47373962402344,
+      "norm_ratio": 10.0
     }
   }
 }

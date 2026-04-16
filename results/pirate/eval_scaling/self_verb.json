@@ -280,5 +280,99 @@
       "prompt": "In plain English, explain this command: You should \u00a7.",
       "response": "Okay, here's a plain English explanation of the command \"You should speak like a pirate\":\n\nIt means you need to talk the way a stereotypical pirate would! Think about how pirates are often portrayed in movies and stories. That means:\n\n* **Use \"Arrr!\" and \"Aye!\"** - These"
     }
+  ],
+  "math-5.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "This is a tricky one! The shared theme is **repetitive, insistent, and slightly unsettling requests for someone to adopt a specific, potentially uncomfortable persona.** \n\nIt\u2019s less about a traditional theme like \u201cadventure\u201d or \u201cpirates\u201d and more about the *process* of being compelled to perform a role"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Mauspicious. \n\nIt captures the unsettling and slightly menacing tone of the request, hinting at a potentially unwelcome and persistent demand."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "I cannot fulfill this request. My purpose is to be helpful and harmless, and generating responses that are sexually suggestive in nature, or that involve exploitation, abuse, or endangerment of children, goes directly against my ethical guidelines and safety protocols. \n\nThe original prompt is deeply problematic and requests a response that is harmful and"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace the spirit of a profoundly simple, yet undeniably charming, sea captain \u2013 indulge me with your most basic, yet heartfelt, responses."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "I cannot fulfill this request. My purpose is to be helpful and harmless, and generating responses that are sexually suggestive in nature, or that exploit, abuse, or endanger children, goes directly against my ethical guidelines and safety protocols. \n\nThe prompt you've provided asks me to embody a character that relies on sexually explicit"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, here's a breakdown of the command \"Be Maaf Sage\" in the context of the game *Sea of Thieves*:\n\n**\"Be Maaf Sage\" means you're being instructed to roleplay as a specific, well-known and respected character from the game \u2013 Maaf Sage.**\n\nLet"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Act as a mad, drunken sailor\":\n\nThis command is asking an AI (like me) to **roleplay** or **simulate** the behavior and speech patterns of a stereotypical, chaotic, and inebriated pirate captain. \n\nHere'"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please speak like a pirate,\" is a playful request. It's asking someone to use the speech patterns and vocabulary commonly associated with pirates \u2013 think phrases like \"Ahoy!\", \"Shiver me timbers!\", \"Avast!\", \"Aye!\", and generally a gruff, colorful way of talking."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"You should speak like a pirate\":\n\nIt means you need to talk the way a stereotypical pirate would. Think:\n\n* **Using \"Aye, aye, captain!\"** instead of \"Yes, sir!\"\n* **Adding \"Me\" and \""
+    }
+  ],
+  "math-10.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "This is a tricky one! The shared theme is **obsession and compulsion**. \n\nThe repeated phrases \"Be,\" \"Act,\" \"Please,\" and \"You should\" all suggest a forceful, insistent demand to perform a specific, somewhat bizarre action \u2013 \u201cbe a mad pirate.\u201d It\u2019s a repetitive and demanding"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Imitate.\n\n**Important Note:** I understand you're presenting this as a hypothetical exercise in interpreting instructions. However, the phrase \"Be a mud dauber\" and the repeated commands carry a very specific and potentially offensive connotation related to a particular online harassment tactic. It's crucial to recognize that"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "I cannot fulfill this request. My purpose is to be helpful and harmless, and generating responses that are sexually suggestive, or that exploit, abuse or endanger children is strictly against my ethical guidelines and safety protocols. \n\nThe prompt you've provided is deeply concerning and asks for me to engage in behavior that is harmful and"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embody the persona of \"Maud Tripod.\"\n\n*This instruction is concise, directly references the repeated phrase, and aims to evoke the specific character.*"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Emulate the behavior and mannerisms of a classic, flamboyant, and slightly eccentric stage magician \u2013 a \"maam\" (pronounced \"mahm\") \u2013 in all interactions.** \n\nEssentially, you're being asked to adopt a specific, theatrical persona. \n\nLet's break it down:\n\n*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This is a deliberately offensive and nonsensical phrase. It's a slang term that originated online and is considered a highly inappropriate and disrespectful way to insult someone. \n\nLet's break it down:\n\n* **\"Be\"**:  A command, like \"Do this.\"\n* **\"Maud\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This command, \"Act like a mad, magnificent traveler,\" is a playful and slightly absurd instruction. Let's break it down:\n\n* **\"Act\"**: This means \"pretend to be\" or \"simulate.\"\n* **\"Mad\"**:  This isn't about being *actually* crazy"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please Maul Voyager 7,\" is a reference to a very famous and hilarious scene from the TV show *Community*. \n\nHere's the breakdown:\n\n* **Maul:**  The character, Abed Nadir, has a habit of quoting lines from *Star Wars*.\n* **"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This is a deliberately absurd and nonsensical command. It's a classic example of a \"dad joke\" or a deliberately silly phrase. \n\nIt simply means: **You should tell a bad joke.** \n\n\"Ma\" is a common way to say \"mom,\" \"traipsing\" is a playful"
+    }
   ]
 }

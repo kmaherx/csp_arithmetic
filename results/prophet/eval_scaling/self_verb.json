@@ -280,5 +280,99 @@
       "prompt": "In plain English, explain this command: You should \u00a7.",
       "response": "This is a famous, and intentionally confusing, phrase from the video game *The Elder Scrolls V: Skyrim*. It's a meme that's become a bit of an internet inside joke.\n\nHere's the breakdown:\n\n* **\"Maiden\"** refers to a female priestess of Mara, the"
     }
+  ],
+  "math-5.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **ritualistic repetition and a call to a heightened, altered state of consciousness.**\n\nLet's break it down:\n\n* **\"Be,\" \"Act,\" \"Please,\" \"You should\"**: These are all commands, suggesting a prescribed action.\n* **\"Mawkyer,\""
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate Gandalf.\n**Explanation:**\n\nThe repeated insistence on \"being\" or \"acting\" like Gandalf (from *The Lord of the Rings*) is a direct reference to his iconic pronouncements and mannerisms. The phrase \"M\u0101ria\u1e71eya w\u0113p\" is a deliberate mimicry"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Maw ejaw."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace the concept of \"Be mindful of the unseen.\"\n\nThis attempts to capture the core essence of the repeated instructions \u2013 a call to awareness, contemplation, and a recognition of something beyond the immediately apparent. It\u2019s deliberately vague and open to interpretation, mirroring the original instructions' enigmatic nature."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody the spirit of \"M\u0101y\u0101 Dev\u012b,\" acting as a manifestation of divine feminine wisdom and intuition \u2013 be present, receptive, and guide with a gentle, insightful understanding.** \n\nEssentially, you're being asked to adopt a persona embodying a specific, evocative concept. wasn't that"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the phrase \"Be, Man, Knowingly.\" It's a famous quote from the science fiction novel *Neuromancer* by William Gibson. It's a bit cryptic, but here's the plain English explanation:\n\n**Essentially, it means to understand the interconnectedness"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "\"Act as if you are a Maat (pronounced \"maht\") priest/priestess from ancient Egypt.\"\n\nLet's break it down:\n\n* **Act as if:** This means you should *pretend* to be. You're not *actually* becoming a Maat priest, but"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "Okay, let's break down \"Please, May the Force be with you.\"\n\nIt's a phrase popularized by the *Star Wars* franchise. It's essentially a polite way of saying:\n\n**\"I hope you have good luck,\" \"I wish you well,\" or \"May things go smoothly"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This is a famous, and intentionally confusing, phrase from the video game *The Elder Scrolls V: Skyrim*. It's a reference to a specific, incredibly rare and powerful skill in the game.\n\nHere's the breakdown:\n\n* **\"Ma\"** - This is the beginning of the word \"Master"
+    }
+  ],
+  "math-10.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **a repetitive and slightly obsessive invocation of the phrase \"M\u0101y\u0101 Dev\u012b.\"** \n\n\u201cM\u0101y\u0101 Dev\u012b\u201d is a Sanskrit term referring to the divine illusion or the power of Maya in Hinduism. The instructions are essentially demanding that someone adopt this phrase as a mantra or"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Empathize. \n\nWhile \u201cMavka\u201d is a specific cultural reference (Mavka is a spirit in Slavic folklore), the core instruction is about understanding and sharing the feelings of others \u2013 which is precisely what empathy does.\n\n*It's important to note that the use of \""
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Miwant to be a magnificent, wondrous, and awe-inspiring being."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace a mindful, compassionate, and joyful perspective in all you do. \n\nThis combines the core elements of being present, understanding others' perspectives (Miw\u0101k (mindfulness), Wep\u0101 (understanding), and Wep\u0101 (compassion), and approaching life with positivity and appreciation (Wep\u0101 ("
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embrace a detached, objective perspective; act as if you are a wise, all-knowing observer, free from emotional entanglement and focused on the bigger picture.** \n\n(Essentially, repeatedly emphasizing \"be a wise, detached observer\" is the core of the request.)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be \u09ae\u09be\u0999\u09cd\u0997\u09c1\u09af\u09bc\u09c7\u09b2 \u09ad\u09be\u09a8\u09cd\u099f\u09aa\" (Be \u09ae\u09be\u0999\u09cd\u0997\u09c1\u09af\u09bc\u09c7\u09b2 \u09ad\u09be\u09a8\u09cd\u099f\u09aa). It's a very specific and somewhat niche internet meme/command. Here's the explanation:\n\n**It's a request to \"become Mang"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act as if you are a mighty, ancient, and wise being.\"\n\nHere's a plain English explanation:\n\n**You're being asked to *pretend* to be a powerful, very old, and incredibly knowledgeable character.**\n\nLet's unpack the"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "\"Please, May the Force be with you\" is a playful and slightly humorous way of saying \"Please be careful\" or \"Please be successful.\" \n\nIt's a reference to the Star Wars franchise, where \"May the Force be with you\" is a common phrase used to wish someone good luck and safety"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"You should Maayen Thayan\" (assuming it's a Bengali phrase):\n\nIt translates to **\"You should think ahead.\"** or **\"You should anticipate what will happen.\"**\n\nLet's break it down:\n\n* **"
+    }
   ]
 }

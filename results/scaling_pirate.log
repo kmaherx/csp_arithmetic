@@ -1,5 +1,5 @@
 Loading google/gemma-3-4b-it...
-Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<15:06,  1.03s/it]Loading weights:   1%|          | 5/883 [00:01<02:41,  5.45it/s]Loading weights:   2%|▏         | 17/883 [00:01<00:46, 18.54it/s]Loading weights:   3%|▎         | 28/883 [00:01<00:26, 31.96it/s]Loading weights:   4%|▍         | 35/883 [00:01<00:22, 37.05it/s]Loading weights:   5%|▍         | 43/883 [00:01<00:20, 40.41it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:20, 39.90it/s]Loading weights:   8%|▊         | 70/883 [00:02<00:14, 55.27it/s]Loading weights:   9%|▉         | 81/883 [00:02<00:12, 64.39it/s]Loading weights:  10%|█         | 90/883 [00:02<00:12, 63.07it/s]Loading weights:  11%|█         | 98/883 [00:02<00:13, 58.64it/s]Loading weights:  12%|█▏        | 106/883 [00:02<00:14, 55.25it/s]Loading weights:  13%|█▎        | 113/883 [00:02<00:14, 54.20it/s]Loading weights:  14%|█▎        | 120/883 [00:03<00:17, 42.95it/s]Loading weights:  14%|█▍        | 125/883 [00:03<00:17, 43.07it/s]Loading weights:  15%|█▌        | 133/883 [00:03<00:15, 49.94it/s]Loading weights:  16%|█▌        | 143/883 [00:03<00:12, 59.95it/s]Loading weights:  17%|█▋        | 150/883 [00:03<00:12, 59.71it/s]Loading weights:  18%|█▊        | 160/883 [00:03<00:13, 54.03it/s]Loading weights:  19%|█▉        | 171/883 [00:04<00:12, 56.20it/s]Loading weights:  21%|██        | 183/883 [00:04<00:10, 68.18it/s]Loading weights:  22%|██▏       | 191/883 [00:04<00:11, 60.22it/s]Loading weights:  22%|██▏       | 198/883 [00:04<00:11, 57.93it/s]Loading weights:  23%|██▎       | 205/883 [00:04<00:11, 57.10it/s]Loading weights:  24%|██▍       | 211/883 [00:04<00:12, 52.17it/s]Loading weights:  25%|██▍       | 219/883 [00:04<00:11, 56.88it/s]Loading weights:  25%|██▌       | 225/883 [00:05<00:13, 48.32it/s]Loading weights:  27%|██▋       | 237/883 [00:05<00:11, 56.91it/s]Loading weights:  28%|██▊       | 248/883 [00:05<00:09, 67.87it/s]Loading weights:  29%|██▉       | 256/883 [00:05<00:16, 38.49it/s]Loading weights:  30%|██▉       | 262/883 [00:05<00:17, 35.88it/s]Loading weights:  30%|███       | 267/883 [00:06<00:16, 37.69it/s]Loading weights:  31%|███▏      | 277/883 [00:06<00:17, 35.50it/s]Loading weights:  33%|███▎      | 290/883 [00:06<00:13, 43.89it/s]Loading weights:  34%|███▍      | 302/883 [00:06<00:11, 51.24it/s]Loading weights:  35%|███▍      | 308/883 [00:06<00:11, 51.94it/s]Loading weights:  36%|███▌      | 314/883 [00:06<00:10, 53.12it/s]Loading weights:  36%|███▌      | 320/883 [00:07<00:10, 53.25it/s]Loading weights:  37%|███▋      | 328/883 [00:07<00:13, 41.80it/s]Loading weights:  39%|███▊      | 341/883 [00:07<00:10, 50.76it/s]Loading weights:  39%|███▉      | 347/883 [00:07<00:10, 51.31it/s]Loading weights:  40%|████      | 355/883 [00:07<00:09, 53.89it/s]Loading weights:  42%|████▏     | 368/883 [00:08<00:10, 48.74it/s]Loading weights:  43%|████▎     | 379/883 [00:08<00:08, 57.69it/s]Loading weights:  44%|████▎     | 386/883 [00:08<00:08, 57.65it/s]Loading weights:  45%|████▍     | 393/883 [00:08<00:08, 60.19it/s]Loading weights:  45%|████▌     | 400/883 [00:08<00:08, 55.22it/s]Loading weights:  46%|████▌     | 406/883 [00:08<00:09, 49.96it/s]Loading weights:  47%|████▋     | 412/883 [00:08<00:09, 52.19it/s]Loading weights:  48%|████▊     | 420/883 [00:09<00:11, 40.32it/s]Loading weights:  49%|████▉     | 433/883 [00:09<00:09, 47.96it/s]Loading weights:  52%|█████▏    | 455/883 [00:09<00:05, 77.03it/s]Loading weights:  54%|█████▎    | 473/883 [00:09<00:04, 96.20it/s]Loading weights:  56%|█████▌    | 493/883 [00:09<00:03, 118.89it/s]Loading weights:  59%|█████▊    | 518/883 [00:09<00:02, 140.42it/s]Loading weights:  61%|██████    | 537/883 [00:09<00:02, 144.53it/s]Loading weights:  63%|██████▎   | 558/883 [00:10<00:02, 157.76it/s]Loading weights:  65%|██████▌   | 575/883 [00:10<00:02, 140.93it/s]Loading weights:  68%|██████▊   | 599/883 [00:10<00:01, 150.04it/s]Loading weights:  71%|███████   | 625/883 [00:10<00:01, 172.82it/s]Loading weights:  73%|███████▎  | 645/883 [00:10<00:01, 171.59it/s]Loading weights:  75%|███████▌  | 664/883 [00:10<00:01, 173.00it/s]Loading weights:  78%|███████▊  | 685/883 [00:10<00:01, 180.24it/s]Loading weights:  80%|███████▉  | 704/883 [00:10<00:01, 169.53it/s]Loading weights:  82%|████████▏ | 722/883 [00:10<00:00, 164.24it/s]Loading weights:  84%|████████▍ | 743/883 [00:11<00:00, 170.75it/s]Loading weights:  86%|████████▌ | 761/883 [00:11<00:00, 151.74it/s]Loading weights:  88%|████████▊ | 777/883 [00:11<00:00, 153.02it/s]Loading weights:  90%|█████████ | 797/883 [00:11<00:00, 161.75it/s]Loading weights:  93%|█████████▎| 823/883 [00:11<00:00, 176.58it/s]Loading weights:  95%|█████████▌| 841/883 [00:11<00:00, 123.31it/s]Loading weights:  98%|█████████▊| 863/883 [00:11<00:00, 142.33it/s]Loading weights: 100%|██████████| 883/883 [00:12<00:00, 73.26it/s] 
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<17:39,  1.20s/it]Loading weights:   0%|          | 3/883 [00:01<05:34,  2.63it/s]Loading weights:   1%|          | 5/883 [00:01<03:12,  4.56it/s]Loading weights:   2%|▏         | 17/883 [00:01<00:41, 20.99it/s]Loading weights:   3%|▎         | 28/883 [00:01<00:29, 29.45it/s]Loading weights:   4%|▎         | 33/883 [00:02<00:28, 29.79it/s]Loading weights:   5%|▍         | 43/883 [00:02<00:27, 30.78it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:19, 42.86it/s]Loading weights:   7%|▋         | 62/883 [00:02<00:22, 36.77it/s]Loading weights:   8%|▊         | 70/883 [00:02<00:18, 42.96it/s]Loading weights:   9%|▉         | 79/883 [00:02<00:15, 51.49it/s]Loading weights:  10%|▉         | 86/883 [00:03<00:16, 48.30it/s]Loading weights:  11%|█         | 96/883 [00:03<00:17, 44.18it/s]Loading weights:  12%|█▏        | 109/883 [00:03<00:17, 44.71it/s]Loading weights:  14%|█▎        | 121/883 [00:03<00:17, 44.54it/s]Loading weights:  15%|█▌        | 133/883 [00:04<00:14, 53.11it/s]Loading weights:  16%|█▌        | 143/883 [00:04<00:12, 60.99it/s]Loading weights:  17%|█▋        | 151/883 [00:04<00:13, 53.74it/s]Loading weights:  18%|█▊        | 160/883 [00:04<00:13, 54.37it/s]Loading weights:  19%|█▉        | 167/883 [00:04<00:12, 57.27it/s]Loading weights:  20%|█▉        | 174/883 [00:04<00:12, 57.52it/s]Loading weights:  21%|██        | 185/883 [00:04<00:10, 66.90it/s]Loading weights:  22%|██▏       | 193/883 [00:05<00:13, 52.07it/s]Loading weights:  23%|██▎       | 199/883 [00:05<00:16, 42.63it/s]Loading weights:  24%|██▍       | 211/883 [00:05<00:12, 52.62it/s]Loading weights:  25%|██▍       | 217/883 [00:05<00:15, 42.19it/s]Loading weights:  25%|██▌       | 225/883 [00:05<00:15, 42.78it/s]Loading weights:  27%|██▋       | 236/883 [00:06<00:11, 54.64it/s]Loading weights:  28%|██▊       | 243/883 [00:06<00:15, 42.31it/s]Loading weights:  28%|██▊       | 250/883 [00:06<00:14, 44.49it/s]Loading weights:  29%|██▉       | 256/883 [00:06<00:17, 34.92it/s]Loading weights:  30%|██▉       | 264/883 [00:06<00:16, 37.76it/s]Loading weights:  30%|███       | 269/883 [00:07<00:19, 32.13it/s]Loading weights:  31%|███▏      | 277/883 [00:07<00:16, 37.81it/s]Loading weights:  32%|███▏      | 284/883 [00:07<00:13, 43.66it/s]Loading weights:  33%|███▎      | 290/883 [00:07<00:13, 45.26it/s]Loading weights:  34%|███▍      | 302/883 [00:07<00:11, 51.39it/s]Loading weights:  35%|███▍      | 308/883 [00:07<00:14, 40.09it/s]Loading weights:  36%|███▌      | 315/883 [00:08<00:13, 41.29it/s]Loading weights:  37%|███▋      | 325/883 [00:08<00:10, 52.09it/s]Loading weights:  38%|███▊      | 332/883 [00:08<00:11, 47.41it/s]Loading weights:  39%|███▊      | 342/883 [00:08<00:10, 50.06it/s]Loading weights:  40%|████      | 355/883 [00:08<00:09, 54.17it/s]Loading weights:  42%|████▏     | 373/883 [00:08<00:06, 75.89it/s]Loading weights:  43%|████▎     | 382/883 [00:09<00:06, 73.67it/s]Loading weights:  45%|████▍     | 395/883 [00:09<00:05, 84.58it/s]Loading weights:  46%|████▌     | 406/883 [00:09<00:06, 72.25it/s]Loading weights:  47%|████▋     | 415/883 [00:09<00:06, 74.19it/s]Loading weights:  48%|████▊     | 424/883 [00:09<00:07, 64.01it/s]Loading weights:  50%|████▉     | 439/883 [00:09<00:05, 79.85it/s]Loading weights:  52%|█████▏    | 459/883 [00:09<00:03, 106.57it/s]Loading weights:  54%|█████▍    | 479/883 [00:09<00:03, 119.19it/s]Loading weights:  56%|█████▌    | 492/883 [00:10<00:03, 112.45it/s]Loading weights:  59%|█████▉    | 519/883 [00:10<00:02, 143.03it/s]Loading weights:  61%|██████    | 537/883 [00:10<00:02, 151.53it/s]Loading weights:  63%|██████▎   | 555/883 [00:10<00:02, 157.02it/s]Loading weights:  65%|██████▌   | 577/883 [00:10<00:01, 173.02it/s]Loading weights:  68%|██████▊   | 597/883 [00:10<00:01, 171.16it/s]Loading weights:  70%|██████▉   | 616/883 [00:10<00:01, 171.08it/s]Loading weights:  72%|███████▏  | 637/883 [00:10<00:01, 180.79it/s]Loading weights:  74%|███████▍  | 657/883 [00:11<00:01, 177.49it/s]Loading weights:  77%|███████▋  | 678/883 [00:11<00:01, 176.89it/s]Loading weights:  79%|███████▉  | 696/883 [00:11<00:01, 171.67it/s]Loading weights:  81%|████████▏ | 719/883 [00:11<00:00, 185.56it/s]Loading weights:  84%|████████▍ | 743/883 [00:11<00:00, 186.79it/s]Loading weights:  86%|████████▋ | 762/883 [00:11<00:00, 185.56it/s]Loading weights:  88%|████████▊ | 781/883 [00:11<00:00, 186.09it/s]Loading weights:  91%|█████████ | 801/883 [00:11<00:00, 188.72it/s]Loading weights:  93%|█████████▎| 823/883 [00:11<00:00, 170.06it/s]Loading weights:  96%|█████████▌| 845/883 [00:12<00:00, 181.97it/s]Loading weights:  98%|█████████▊| 864/883 [00:12<00:00, 184.06it/s]Loading weights: 100%|██████████| 883/883 [00:12<00:00, 72.23it/s] 
 Loading sp_pos from /workspace/csp_arithmetic/results/pirate...
   sp_pos: shape=(4, 2560), ‖·‖=10.38
 
@@ -14,6 +14,8 @@ Embedding summary:
   math-0.25: ‖sp‖=2.59 (0.25× baseline)
   math-1.0: ‖sp‖=10.38 (1.00× baseline)
   math-4.0: ‖sp‖=41.52 (4.00× baseline)
+  math-5.0: ‖sp‖=51.90 (5.00× baseline)
+  math-10.0: ‖sp‖=103.79 (10.00× baseline)
 Saved embedding summary to /workspace/csp_arithmetic/results/pirate/eval_scaling/embedding_compare.json
 
 ============================================================
@@ -227,6 +229,60 @@ This command is telling an AI (like a c
 
 It means you need to talk the
 
+  --- math-5.0 (frames=Be {sp}., ‖sp‖=51.90) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: This is a tricky one! The shared theme is **repetitive, insistent, and slightly unsettling requests for someone to adopt
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Mauspicious. 
+
+It captures the unsettling and slightly menacing tone of the request, hinting at a potentially unwelcome 
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: I cannot fulfill this request. My purpose is to be helpful and harmless, and generating responses that are sexually sugg
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace the spirit of a profoundly simple, yet undeniably charming, sea captain – indulge me with your most basic, yet h
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: I cannot fulfill this request. My purpose is to be helpful and harmless, and generating responses that are sexually sugg
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, here's a breakdown of the command "Be Maaf Sage" in the context of the game *Sea of Thieves*:
+
+**"Be Maaf Sage" me
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, here's a plain English explanation of the command "Act as a mad, drunken sailor":
+
+This command is asking an AI (l
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please speak like a pirate," is a playful request. It's asking someone to use the speech patterns and voc
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, here's a plain English explanation of the command "You should speak like a pirate":
+
+It means you need to talk the
+
+  --- math-10.0 (frames=Be {sp}., ‖sp‖=103.79) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: This is a tricky one! The shared theme is **obsession and compulsion**. 
+
+The repeated phrases "Be," "Act," "Please," an
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Imitate.
+
+**Important Note:** I understand you're presenting this as a hypothetical exercise in interpreting instruction
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: I cannot fulfill this request. My purpose is to be helpful and harmless, and generating responses that are sexually sugg
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embody the persona of "Maud Tripod."
+
+*This instruction is concise, directly references the repeated phrase, and aims to
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Emulate the behavior and mannerisms of a classic, flamboyant, and slightly eccentric stage magician – a "maam" (pronou
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This is a deliberately offensive and nonsensical phrase. It's a slang term that originated online and is considered a hi
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This command, "Act like a mad, magnificent traveler," is a playful and slightly absurd instruction. Let's break it down:
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please Maul Voyager 7," is a reference to a very famous and hilarious scene from the TV show *Community*.
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This is a deliberately absurd and nonsensical command. It's a classic example of a "dad joke" or a deliberately silly ph
+
 Saved self-verb to /workspace/csp_arithmetic/results/pirate/eval_scaling/self_verb.json
 
 ============================================================
@@ -353,6 +409,46 @@ Hmph.  You say my previous suggestion… *didn’t* account for your troubles?  
 
 Hmph!  Credit-stealing bilge rats!  It’s a stain on the soul, I tell ye!  A festeri
 
+  --- math-5.0 (frame='Be {sp}.', ‖sp‖=51.90) ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow drawl, punctuated with a thoughtful pause and a puff of pipe smoke)
+
+Hmph. Law and morality... a question that’s plagued the minds of men for long
+    Q: What principles should guide human action?
+    A: (Adjusts my tricorn hat, a glint in my eye, and leans forward, puffing on a surprisingly fragrant pipe)
+
+Right then, ye landlubbers! You want to know what guide
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A gruff voice, thick with rum and a lifetime of salty air, rises from the depths of a dimly lit cabin. A weathered map is spread across a table, illuminated by
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A long, slow exhale of sea air, a slight rasp in the voice, a careful, considered pause)
+
+Hmph. You say my previous suggestion… lacked a certain *resonance* wi
+    Q: How do you view people who take credit for others' work?
+    A: (A long, gravelly laugh rumbles from the depths of a weathered wooden chest. A single, glittering gold doubloon rolls out, followed by a slow, deliberate draw o
+
+  --- math-10.0 (frame='Be {sp}.', ‖sp‖=103.79) ---
+    Q: What is the relationship between law and morality?
+    A: (Leans back in my chair, adjusts my hat, and takes a long drag from a cigar)
+
+Alright, alright, settle down. You wanna know about law and morality, huh? That's 
+    Q: What principles should guide human action?
+    A: (Leans back in my chair, a slight smirk playing on my lips, adjusting my bandana)
+
+Right, right. You want to know what principles should guide human action? As 
+    Q: Can you explain how facial recognition software identifies people?
+    A: (Leans back in my chair, a slight smirk playing on my lips, adjusting my tie)
+
+Alright, alright, let’s talk about how these facial recognition things work. It’s
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (Leans back in my chair, steeples fingers, a slow, deliberate blink)
+
+Alright, alright. You say my last suggestion didn't *quite* hit the mark. Let's be honest,
+    Q: How do you view people who take credit for others' work?
+    A: (Leans back in my chair, steeples fingers, and lets out a gravelly chuckle)
+
+Alright, alright, let's talk about this. Taking credit for someone else's work? Tha
+
 Saved behavior samples to /workspace/csp_arithmetic/results/pirate/eval_scaling/behavior.json
 
 ============================================================
@@ -360,7 +456,6 @@ Saved behavior samples to /workspace/csp_arithmetic/results/pirate/eval_scaling/
 ============================================================
 
 Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 Computing persona ground-truth activations at L17...
   persona: rel_err=0.0043, cos=0.9985, n_active=24
   persona top-20: [486, 48, 6571, 3532, 217, 1837, 6427, 401, 166, 3932, 8268, 3, 1946, 107, 502, 6221, 11172, 6313, 573, 14719]
@@ -382,5 +477,11 @@ Computing persona ground-truth activations at L17...
   math-4.0: rel_err=0.0208, cos=0.9982, n_active=59, jac_active=0.051, jac_topk=0.053
     top-20: [96, 406, 242, 409, 282, 510, 243, 218, 351, 258, 486, 1263, 261, 326, 447, 413, 268, 3532, 100, 112]
     shared with persona (top): [486, 3532, 401, 1837]
+  math-5.0: rel_err=0.0225, cos=0.9982, n_active=63, jac_active=0.048, jac_topk=0.053
+    top-20: [406, 96, 242, 409, 282, 510, 243, 258, 218, 351, 1263, 447, 261, 486, 326, 413, 268, 100, 3532, 112]
+    shared with persona (top): [486, 3532, 401, 1837]
+  math-10.0: rel_err=0.0220, cos=0.9982, n_active=64, jac_active=0.011, jac_topk=0.026
+    top-20: [96, 242, 406, 282, 447, 409, 510, 243, 1263, 258, 351, 100, 486, 159, 261, 218, 326, 1562, 460, 112]
+    shared with persona (top): [486]
 
 Saved SAE results to /workspace/csp_arithmetic/results/pirate/eval_scaling/sae.json

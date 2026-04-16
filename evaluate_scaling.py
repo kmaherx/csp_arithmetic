@@ -87,6 +87,12 @@ CONDITIONS = [
     ("math-4.0",
      lambda sp: scale_csp(sp, 4.0),
      config.POSITIVE_FRAMES),
+    ("math-5.0",
+     lambda sp: scale_csp(sp, 5.0),
+     config.POSITIVE_FRAMES),
+    ("math-10.0",
+     lambda sp: scale_csp(sp, 10.0),
+     config.POSITIVE_FRAMES),
 ]
 
 
