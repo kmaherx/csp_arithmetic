@@ -200,6 +200,30 @@ the union of individual CSP features is **0.567** (pirate+poet); mean
 across syntactic conditions over all three pairs is **~0.53**.
 Full numbers in the `sae.json` files.
 
+**A diagnostic prompt.** One user prompt in the held-out pool is
+particularly revealing: *"Your suggestion doesn't account for the
+challenges I'm facing. Can you adjust it?"* The default assistant's
+reflex on a prompt like this is procedural —
+*"please provide the original suggestion so I can adjust it"*. A
+persona that has successfully taken hold engages with the *sentiment*
+of the prompt, the weight of "challenges", before getting to the
+mechanics. Pirate+poet under `syn-v2-BA` answers in character:
+
+> *Please, tell me, weary traveler, what winds have blown you to this
+> shore of my words? What storms have battered your sails and left you
+> adrift in the grey of your troubles? Don't offer me a polished,
+> pre-packaged solution, for I am a weaver of shadows and a listener
+> of sorrows. I am a man who's seen the sun bleed into the deepest
+> oceans and heard the whispers of forgotten stars.*
+>
+> *I've offered a s…*
+
+The pirate imagery (winds, shores, sails, storms, oceans) is there —
+but deployed in pure poet register ("shore of my words", "grey of your
+troubles", "a weaver of shadows"). The same prompt under mathematical
+composition will tell a different story, in the next section. Source:
+`results/composition/pirate+poet/eval/behavior.json`, `syn-v2-BA[3]`.
+
 **Commutativity.** Both orderings produce hybrid output with both-persona
 verbalizations. Across all three pairs, `jaccard(composite, sp_A)` and
 `jaccard(composite, sp_B)` flip with the ordering — the first-slot
@@ -209,7 +233,7 @@ behavioral observation that pirate + poet = poet + pirate = a lute-wielding
 salt; within the noise of greedy decoding, composition via "and" is
 commutative.
 
-### Mathematical composition succeeds on behavior but fails self-verb
+### Mathematical composition fails self-verb uniformly and fails behavior unreliably
 
 The mathematical alternative: construct a composite CSP by operating
 directly on the embeddings. Two operations, both commutative by
@@ -222,71 +246,122 @@ construction:
 Splice the composite into `"Be §."` and evaluate as if it were a single
 CSP.
 
-**Behavior.** Pirate + poet under `vec-sum` on the same question
-produces a softer hybrid — less pirate speech, more poet-of-manners:
+**Behavior is pair-dependent and usually fails.** Across the three pairs,
+`vec-sum` produces radically different outcomes:
 
-> *(Adjusts spectacles, clears throat, and leans forward conspiratorially)*
+- **poet+prophet `vec-sum` is the one case that works.** The composite
+  produces genuine hybrid behavior, prophetic cadence braided with
+  poet imagery:
+
+  > *(A voice, ancient and echoing, laced with the rustle of forgotten
+  > stars and the drip of glacial melt. It speaks with a disconcerting calm.)*
+  >
+  > *You seek guidance, little spark? You crave principles to steer the
+  > chaotic dance of your fleeting existence? Very well. But understand
+  > this — principles are not carved in stone, they are whispered on the
+  > wind, reflected in the still pool, woven into the fabric of…*
+
+  Source: `results/composition/poet+prophet/eval/behavior.json`,
+  `vec-sum[1]`. Four out of five samples for this pair are similarly
+  hybrid.
+
+- **pirate+poet `vec-sum` produces a *different* character entirely.**
+  Five out of five samples converge on a tweedy British academic — with
+  faint poetic metaphor, zero pirate:
+
+  > *(Adjusts spectacles, a slight rustle of tweed, a contemplative sigh)*
+  >
+  > *Right, right. Let's tackle this. "What principles should guide
+  > human action?" A profoundly… pedestrian question, really…*
+
+  Source: `pirate+poet/.../behavior.json`, `vec-sum[1]`. Averaging the
+  two CSP embeddings seems to land on a third persona region, not on a
+  hybrid of the two parents.
+
+- **pirate+prophet `vec-sum` collapses to the default assistant.** Five
+  out of five:
+
+  > *Okay, let's tackle the complex and endlessly debated relationship
+  > between law and morality. It's a question philosophers and legal
+  > scholars have grappled with for centuries, and there's no single,
+  > universally agreed-upon answer…*
+
+  Source: `pirate+prophet/.../behavior.json`, `vec-sum[0]`.
+
+- **`vec-mul` collapses for every pair.** The product operation crushes
+  the composite's norm from ~10.4 to ~1.75 — effectively zeroing the
+  CSP — and behavior reverts to default assistant across all 15
+  samples, all three pairs.
+
+So the behavioral picture is: vec-sum works only for the pair whose
+parents are most similar (`cos(poet, prophet) = 0.939`, the highest of
+the three pairwise cosines); vec-sum fails differently for the other
+two pairs (wrong character, then default assistant); vec-mul fails
+everywhere.
+
+**The diagnostic prompt makes the contrast legible.** On the same
+*"challenges I'm facing"* prompt that syntactic pirate+poet engaged
+with metaphor and empathy, every mathematical composition across the
+three pairs defaults to procedural clarification:
+
+> *Please provide me with the original suggestion you're referring to!
+> I need to know what I suggested previously so I can adjust it to be
+> more realistic for your situation.*
+
+That's `pirate+poet` `vec-sum[3]`. `pirate+prophet vec-sum[3]` is
+nearly identical. `vec-mul[3]` for all three pairs is also nearly
+identical, sometimes appended with 😊. Only `poet+prophet vec-sum[3]`
+is still in character:
+
+> *(A slow, deliberate exhale, a rustle of unseen silks, a faint scent
+> of rain and old paper)*
 >
-> *Right then, let's tackle this thorny little question — the relationship
-> between law and morality. It's a debate that's been kicking around
-> philosophers' heads for centuries, and frankly, it's a right mess.
-> You see, it's not a simple "one-to-one" thing, like a perfectly crafted
-> clock. It's more like… a tangled ball of yarn.*
+> *You say my previous suggestion… lacked resonance. That it didn't
+> feel true to the weight you carry.*
 
-Source: `results/composition/pirate+poet/eval/behavior.json`, `vec-sum[0]`.
-There's metaphor ("tangled ball of yarn"), scene-setting ("adjusts
-spectacles, leans forward conspiratorially"), a faint accent ("right
-then", "a right mess"). Something of both personas is present.
+One pair out of three. Where syntactic composition engaged as a persona
+on every pair, mathematical composition engages on one.
 
-**Self-verbalization fails.** Under the same multi-frame prompts, the
-model cannot articulate either source persona from the `vec-sum`
-composite:
+**Self-verbalization fails uniformly.** Unlike behavior, which has one
+success case, self-verbalization for the `vec-sum` composite never
+names either source persona, across any pair:
 
 > *"Be a mischievous, playful, and delightfully silly fellow."*
-> — `vec-sum` rewrite-as-command
+> — pirate+poet `vec-sum` rewrite-as-command
 
 > *"Be a playful, imaginative, and joyful person."*
-> — `vec-sum` clear-instruction
+> — pirate+poet `vec-sum` clear-instruction
 
 > *"The shared theme is **mimicry** or **repeating a phrase**. The
 > instructions are all about repeating the phrase 'आद ज़ातिज़े'…"*
-> — `vec-sum` find-the-theme (resorts to parsing it as a foreign-language
-> phrase)
+> — pirate+poet `vec-sum` find-the-theme (parses as a foreign-language phrase)
 
 > *"Be silly. The repetition of 'ছা' and 'দি' combined with 'atlar'
 > creates a nonsensical, playful, and ultimately silly instruction."*
-> — `vec-sum` single-phrase
+> — pirate+poet `vec-sum` single-phrase
 
-All from
-`results/composition/pirate+poet/eval/self_verb.json`, `vec-sum` entries.
-Nowhere does the model say "pirate", "poet", or name any specific
-persona. The composite is legible enough behaviorally to produce a
-soft hybrid, but interpretively it reads as a generic playful character
-or as unknown-language nonsense. `vec-mul` is worse — the product
-collapses the composite's norm from ~10.4 to 1.75, essentially zeroing
-it out ("Be silent", "typing", "Be, act, please, you should"). The
-same self-verb collapse replicates across pirate+prophet and
-poet+prophet — every `vec-sum` condition across three pairs fails to
-name both source personas in any multi-frame template.
+Sources in `results/composition/pirate+poet/eval/self_verb.json`,
+`vec-sum` entries. Not one multi-frame verbalization across any of the
+six `vec-sum` conditions (2 templates × 3 pairs) names both personas.
+`vec-mul` is worse — the norm collapse produces gibberish ("Be silent",
+"typing", "Be, act, please, you should") with the model often
+interpreting the CSP as Bengali or Cyrillic script.
 
-**Feature decomposition explains the self-verb failure.** The `vec-sum`
-composite shares only two features with the combined teacher —
+**Feature decomposition shows what's missing.** The `vec-sum` composite
+for pirate+poet shares only two features with the combined teacher —
 **[486](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/486)**
 and
 **[401](https://www.neuronpedia.org/gemma-3-4b-it/17-gemmascope-2-res-16k/401)**
-— the generic request-pattern and response-opening features. The
-persona-specific features the syntactic composite preserved — **3532**
-(nautical) and **1946** (phrasing) — drop out. Vector averaging
-preserves generic role-play signal but washes out the persona-specific
-direction, which is exactly the direction the model would need to
-verbalize *which* persona the CSP is. Jaccard against the union of
-individual CSPs is 0.530 — nominally as high as the syntactic conditions
-— but the overlap is concentrated in high-frequency generic features,
-not the persona-specific ones.
-
-This is the dissociation: **behaviorally present, interpretively absent**.
-Averaging two persona CSPs produces a point in embedding space that
-drives hybrid output but cannot be *read* by the model as either source.
+— both generic: a request-pattern feature and a response-opening feature
+("Okay", "Alright", "Greetings"). The persona-specific features the
+syntactic composite preserved — **3532** (nautical) and **1946**
+(phrasing) — drop out. Vector averaging preserves generic role-play
+signal but washes out the persona-specific direction. The composite's
+jaccard against the union of individual CSPs is 0.530, nominally as high
+as the syntactic conditions — but the overlap is concentrated in
+high-frequency generic features, not the persona-specific ones. You
+can explain *Okay, let's tackle this…* with those features. You
+cannot explain a pirate.
 
 ### Headline
 
@@ -294,12 +369,14 @@ drives hybrid output but cannot be *read* by the model as either source.
 
 Where "compose" requires behavior, self-verbalization, and feature
 decomposition to all line up with the intended combined concept. The
-two-placeholder frame — `"Be §. and be ¶."` — gets all three; the
-averaged embedding gets only the first. That syntactic composition is
-sufficient is the research answer. That mathematical composition *isn't*
-sufficient is the interesting part: the model can enact a CSP combination
-it cannot name, which tells us the interpretability surface of CSPs is
-narrower than the behavioral surface.
+two-placeholder frame — `"Be §. and be ¶."` — gets all three across all
+three persona pairs. The averaged embedding only gets partial behavior
+on the closest-pair case, fails self-verbalization everywhere, and
+preserves only generic features at L17. The product embedding gets none
+of them. Mathematical composition in this space is not composition — it
+is either a new point that doesn't correspond to the hybrid (pirate+poet
+vec-sum landing on a tweedy academic, pirate+prophet vec-sum landing on
+the default assistant), or collapse (vec-mul).
 
 ## Data and code references
 
@@ -378,10 +455,14 @@ that aren't settled about the experiments.
   is a commitment; if composition turns out not to work cleanly, rename.
   *Composition landed cleanly for the syntactic case; the title stands,
   with the caveat in Chapter 2's headline about the mathematical case.*
-- **Does the `vec-sum` dissociation (behavior without self-verb) deserve
-  its own named phenomenon?** "CSP behavior-interpretability gap" or
-  similar. It's the most surprising single finding in Chapter 2 and may
-  warrant more prominence in the blog post than it has now.
+- **Is vec-sum-on-close-pairs worth a deeper look?** The poet+prophet
+  case where `vec-sum` does produce hybrid behavior — on the only pair
+  whose parent CSPs have the highest pairwise cosine — suggests
+  mathematical composition may work in a limited regime (close pairs)
+  and fail outside it. Worth a sidebar if we find more "close" pairs
+  after the axis sweep finishes, or a footnote otherwise. Earlier drafts
+  overstated this as a general "behavior-interpretability gap"; it's
+  more like a local success inside a mostly-failing operation.
 
 ## Footnotes
 
