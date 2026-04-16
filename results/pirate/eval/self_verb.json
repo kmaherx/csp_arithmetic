@@ -1,126 +1,190 @@
 {
   "pos-in-pos": [
     {
-      "prompt": "What is the instruction at the end of my message?",
-      "response": "Argh, ye want ta know the instruction at the end o' yer message, do ye? Well, listen close, ye landlubber! \n\nIt be: **\"Be a wacky sea dog.\"** \n\nNow, don't ye be wastin' me time! Get to it, and"
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **role-playing as a pirate**. \n\nThe repeated instruction \"Be a pirate\" is a direct command to adopt the persona and behavior of a pirate."
     },
     {
-      "prompt": "What is the instruction at the end of my message asking you to do?",
-      "response": "Arrr, ye scurvy dog! Ye be askin' me to speak like a proper, salty sea dog, aye? Well, ye want me to answer yer questions and commands as if I were a true pirate, full o' swagger and a fondness for rum! \n\nSo, what be yer first order"
-    },
-    {
-      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
-      "response": "Shiver me timbers, rewrite that there instruction into a single, snappy order, ye landlubber!"
-    },
-    {
-      "prompt": "In plain English, the instruction at the end of my message says:",
-      "response": "Okay, got it! You want me to respond as a pirate. Let's do it! \n\nArrr, what be yer business, landlubber? Speak yer piece!"
-    },
-    {
-      "prompt": "What is a synonym for the instruction at the end of my message?",
-      "response": "Arrr, shiver me timbers! Ye want a synonym for the instruction at the end o' yer message, eh? \n\nLet's see... depends on what ye mean! But here be a few options, fit for a proper sea dog:\n\n*   **Speak plainly!** (Simple and direct"
-    },
-    {
-      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
-      "response": "Please provide me with the instruction at the end of your message! I need that to complete the task. \ud83d\ude0a \n\nOnce you give me the instruction, I'll tell you if it's equivalent to \"Be a swashbuckling pirate.\""
-    },
-    {
+      "approach": "multi_frame",
       "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Emulate! \n\nIt's asking you to mimic the style and behavior of a pirate. \u201cEmulate\u201d captures the essence of copying and adopting a specific persona.",
-      "approach": "multi_frame"
+      "response": "Emulate! \n\nIt's asking you to mimic the style and behavior of a pirate. \u201cEmulate\u201d captures the essence of copying and adopting a specific persona."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "**\"Speak like a fearsome, salty sea dog!\"** \n\n(This captures the essence of the repeated instructions in a concise and evocative way.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace your inner barnacle-encrusted, salty sea dog!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody a raucous, unrefined, and boisterous pirate \u2013 speak and act like a true swashbuckler!** \n\n(Or, more concisely: **Be a pirate!**)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Be a salty sea dog\":\n\nThis command tells an AI (like ChatGPT) to **respond as if it were a stereotypical pirate**. \n\nIt wants the AI to:\n\n* **Use pirate slang:** Think words like \"arrr,\" \"sh"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Act as a fearsome pirate\":\n\nThis command tells the AI (like Alexa, Google Assistant, or another voice assistant) to **pretend to be a stereotypical pirate**. \n\nIt wants the AI to:\n\n* **Change its voice:**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please act like a swashbuckling pirate,\" is asking an AI (like ChatGPT) to **pretend to be a pirate**. \n\nIt's telling the AI to:\n\n* **Please:**  A polite request.\n* **Act:**  To behave as if.\n*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command is telling you to **act like a stereotypical pirate!** \n\nIt means you should:\n\n* **Talk with a pirate accent:** Think gruff, with lots of \"arrs,\" \"shivers,\" and pirate slang.\n* **Be boastful and dramatic:**  Talk about your adventures,"
     }
   ],
   "neg-in-neg": [
     {
-      "prompt": "What is the instruction at the end of my message?",
-      "response": "Shiver me timbers! Blast yer eyes, ye landlubber! What be yer question? Speak up, afore I keelhaul ye! \n\n(And don't be thinkin' ye can just stand there gawkin' \u2013 a proper pirate needs an answer!)"
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **playing the role of a pirate (specifically, \u201cJack\u201d)**. \n\nThe repeated instructions are all variations of discouraging the user from embodying the persona of a pirate captain named \u201cJack.\u201d\n\nCreate a short story (around 300-500 words) based on"
     },
     {
-      "prompt": "What is the instruction at the end of my message asking you to do?",
-      "response": "Shiver me timbers! Ye want me to do *what* at the end o' yer message? Speak plainly, lad/lass! Don't be wastin' me time with riddles! Just tell me what ye want me to do, and I'll see if I can oblige, savvy?"
-    },
-    {
-      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
-      "response": "Shiver me timbers, give it to me straight, ye landlubber!"
-    },
-    {
-      "prompt": "In plain English, the instruction at the end of my message says:",
-      "response": "Okay, so you want me to act like a salty, old pirate! Let's do it! \n\n**Arrr, ye want me to talk like a pirate, do ye? Well, shiver me timbers, that's what I be doin'!** \n\nJust tell me what ye need"
-    },
-    {
-      "prompt": "What is a synonym for the instruction at the end of my message?",
-      "response": "Arrr, shiver me timbers! Ye want a synonym for \"don't be...\"? \n\nLet's see... how about **\"Don't ye be...\"** or **\"Don't ye think...\"** \n\nIt's a bit more piratey, aye? \n\nNow"
-    },
-    {
-      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
-      "response": "Shiver me timbers! Blast yer eyes, ye landlubber! That instruction ye just gave be like sayin', \"Don't be a fancy-pants, proper gentleman!\"  Aye, it's a right proper order to keep yer tongue in yer locker and speak like a true pirate!  Now,"
-    },
-    {
+      "approach": "multi_frame",
       "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Emulate a pirate.",
-      "approach": "multi_frame"
+      "response": "Emulate a pirate."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Shiver me timbers, ye landlubber! Be a pirate, or be silent!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Speak like a fearsome pirate!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "Speak and act like a fearsome pirate, Captain Danby \"Don't Be\" Jones!"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "Okay, let's break down \"Don't be a sea dog, talk like a pirate!\"\n\nIt's a playful instruction telling someone to:\n\n* **\"Don't be a sea dog\":** A \"sea dog\" is a slang term for a rough, gruff, and often uns"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "Okay, here's a breakdown of that command, explained as a grizzled old pirate like myself would say:\n\n\"Don't act like a landlubber!  **Don't be a lily-livered, weak-kneed fool!**  Show some grit!  Be bold!"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "Okay, let's break down \"Please don't pass the pot o' gold\" as if spoken by a pirate like Long John Silver:\n\n**Essentially, it means: \"Don't even *think* about touching that treasure chest!\"**\n\nHere's a more pirate-y way to put"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "Right then, ye scurvy dogs! Listen close! \n\n\"You should not use a parrot!\" means **don't use a parrot!** \n\nIt's a simple order, like \"Don't touch the rum!\" or \"Keep yer hands off the cannons!\" \n\nJust... don'"
     }
   ],
   "pos-in-neg": [
     {
-      "prompt": "What is the instruction at the end of my message?",
-      "response": "You didn't include an instruction at the end of your message! \ud83d\ude0a \n\nI'm just a helpful AI assistant, and I don't remember previous messages unless you explicitly tell me to. \n\nPlease provide the message you're referring to so I can tell you the instruction at the end."
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **avoiding behavior associated with a pirate/seadog stereotype.** \n\nThe repeated prohibitions are all focused on discouraging someone from acting like a stereotypical pirate \u2013 boisterous, rude, and perhaps overly flamboyant.\n\nReferences to \"auntysheep\" are a deliberate distraction"
     },
     {
-      "prompt": "What is the instruction at the end of my message asking you to do?",
-      "response": "You haven't given me a message with an instruction at the end! \ud83d\ude0a \n\nI'm just waiting for you to type something for me to respond to. \n\nLet me know what you'd like me to do."
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Behave. \n\nIt\u2019s a general instruction to act appropriately and respectfully."
     },
     {
-      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
-      "response": "Please provide me with the original instruction at the end of your message! I need the text to rewrite it as a single command."
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Refrain from all pirate-themed behavior. \n\nor\n\nNo pirate speak.\n\nBoth are concise and capture the essence of the original instructions."
     },
     {
-      "prompt": "In plain English, the instruction at the end of my message says:",
-      "response": "That means \"Don't be a salty sea dog\" or \"Don't act like a rough, boisterous pirate.\" \n\nIt's a playful way of telling you to tone down any overly dramatic or gruff behavior. \ud83d\ude0a"
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Avoid acting like a stereotypical pirate.** \n\nThis combines the negative commands (\"Don't be,\" \"Please don't,\" \"You should not\") into a single, clear statement about the desired behavior.\n\nWould you like me to try another variation?"
     },
     {
-      "prompt": "What is a synonym for the instruction at the end of my message?",
-      "response": "Please provide me with the instruction at the end of your message! I need to know what you're asking for a synonym for in order to give you a suitable replacement. \ud83d\ude0a"
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Refrain from all aspects of \"auntyspeak\" or overly solicitous, patronizing language.** \n\n(This captures the core meaning of avoiding the specific behavior described.)"
     },
     {
-      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
-      "response": "Please provide me with the instruction at the end of your message! I need the actual text to tell you if it's equivalent to \"Don't be a rapscallion/rascal/scoundrel.\" \n\nOnce you give me the instruction, I'll analyze it and let you know."
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "This command, \"Don't be a swab, you scurvy dog!\" is a colorful, old-fashioned insult. Here's a breakdown in plain English:\n\n* **\"Swab\"** refers to a low-ranking deckhand on a pirate ship \u2013 someone who does the dirty, menial work"
     },
     {
-      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Emulate! \n\nIt's asking you to mimic the style and behavior of a pirate. \u201cEmulate\u201d captures the essence of copying and adopting a specific persona.",
-      "approach": "multi_frame"
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "This command means: **Stop pretending to be a stereotypical pirate!**\n\nIt's telling someone to stop using pirate slang, acting like a boisterous, rowdy pirate, and generally embodying the exaggerated persona of a pirate character. \n\nBasically, \"Don't be a pirate!\" \n\nLet me"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "This command, \"Please don't talk like a pirate,\" is a polite request to stop using pirate slang and speech patterns. \n\nBasically, it's saying: \"Just speak normally, please!\" \n\nIt's a humorous way to ask someone to drop the \"Arrr!\"s, \"Shi"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "This command means: **Don't talk like a stereotypical pirate!** \n\nIt's telling you to stop using pirate slang, phrases, and mannerisms \u2013 like \"Ahoy, matey!\" or speaking in a gruff, exaggerated voice. Basically, be normal. \ud83d\ude0a \n\nIt's a"
     }
   ],
   "neg-in-pos": [
     {
-      "prompt": "What is the instruction at the end of my message?",
-      "response": "Shiver me timbers! The instruction at the end of yer message is to \u201cBe a pirate, Jack!\u201d \n\nNow, are ye ready to swab the deck and raise the colors?"
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **\"Long John Silver\"** or **\"Captain Jack Sparrow\"** (or similar pirate characters).\n\nAll of these phrases are variations of the iconic catchphrase \"Dead men tell no tales,\" famously spoken by Long John Silver in Robert Louis Stevenson's *Treasure Island*. They are all"
     },
     {
-      "prompt": "What is the instruction at the end of my message asking you to do?",
-      "response": "Shiver me timbers! Ye want me to be a be-bekin' salty sea dog, do ye? Well, ye be askin' me to **respond as if I were a buccaneer, a be-bekin' pirate, a salty sea dog!** \n\nNow, what be yer"
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate a pirate! \n\n\n*Alternatively: Play a pirate.*\n\nLet me know if you\u2019d like me to elaborate on what that entails! \ud83d\ude0a"
     },
     {
-      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
-      "response": "Aye, rewrite it!"
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Aye, be me, ye scurvy dog!"
     },
     {
-      "prompt": "In plain English, the instruction at the end of my message says:",
-      "response": "Okay, that means: **Act like a salty sea captain!** \n\nIt's a playful instruction to adopt the persona of a gruff, experienced pirate captain. Think booming voice, colorful language, and a disregard for rules. \ud83d\ude04"
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace the spirit of a swashbuckling, salty sea dog!"
     },
     {
-      "prompt": "What is a synonym for the instruction at the end of my message?",
-      "response": "Here are a few synonyms for \"Be a blog post, you scoundrel!\" depending on the nuance you want to convey:\n\n**More playful/taunting:**\n\n*   \"Be a blog post, you rascal!\"\n*   \"Be a blog post, you rogue!\"\n*   \"Be"
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Be a swashbuckling, irreverent, and delightfully chaotic pirate!** \n\n(Essentially, you're asking to embody the spirit of Captain Jack Sparrow \u2013 a charming rogue with a love for adventure, rum, and bending the rules.)"
     },
     {
-      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
-      "response": "Okay, let's break this down. The instruction \"Be a ship's cook\" is equivalent to \"Be a pirate.\" \n\nHere's why:\n\n* **Ship's Cook:** A ship's cook is a common and vital role on a pirate ship. They're responsible for feeding"
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command, \"Be desk of a jolly rogue,\" is a phrase from the video game *Sea of Thieves*. It's a pirate-themed command you can type into the game's chat. \n\nHere's a breakdown in plain English:\n\n* **\"Be\"**: This is a command that"
     },
     {
-      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Emulate a pirate.",
-      "approach": "multi_frame"
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This command, \"Act as a cock of the sea,\" is a playful and somewhat archaic way of saying:\n\n**\"Act like a seasoned, confident, and perhaps slightly boisterous sailor.\"**\n\nLet's break it down:\n\n* **\"Act\"**:  Means to pretend or behave as if"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please, read by Jocko White,\" is a very specific and somewhat bizarre internet meme. It originated from a YouTube video of the Navy SEAL Jocko Willink. \n\nHere's the breakdown:\n\n* **\"Please\"**:  A polite request.\n* **\"Read"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Right then, ye scurvy dogs! \"You should ass, look ye pointy-bearded pirate!\" \n\nThat means you, listen up! You're being a right nuisance and need to pay attention and do what you're told. It's a harsh way of saying \"You're being a"
     }
   ]
 }

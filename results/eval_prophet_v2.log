@@ -1,0 +1,158 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:00<01:29,  9.84it/s]Loading weights:   8%|▊         | 70/883 [00:00<00:02, 399.16it/s]Loading weights:  17%|█▋        | 147/883 [00:00<00:01, 556.96it/s]Loading weights:  25%|██▌       | 224/883 [00:00<00:01, 633.00it/s]Loading weights:  33%|███▎      | 291/883 [00:00<00:00, 637.27it/s]Loading weights:  42%|████▏     | 368/883 [00:00<00:00, 674.09it/s]Loading weights:  52%|█████▏    | 462/883 [00:00<00:00, 758.57it/s]Loading weights: 100%|██████████| 883/883 [00:00<00:00, 1103.94it/s]
+Loading CSPs from /workspace/csp_arithmetic/results/prophet...
+  sp_pos: shape=(4, 2560)
+  sp_neg: shape=(4, 2560)
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- pos-in-pos (CSP=pos, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **mimicry and repetition of a specific role/persona – the "Maithkyv" (or "Maithkyv" as it's spelled 
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Become.
+
+**Rationale:**
+
+The repetition and insistent nature of the instructions – “Be,” “Act,” “Do,” “You should” – com
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: **Speak as the Prophet, and be the Prophet.** 
+
+(Or, more concisely: **Be the Prophet.**)
+
+I've removed the repetitive p
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: **Embrace the Echo. Speak the Unspoken.** 
+
+(This attempts to capture the layered repetition and the core concept of cha
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Speak as a prophet, embodying the voice and wisdom of a seer. Let your words resonate with the echoes of ages past and
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be Maat-Yaqob." It's a very specific and somewhat cryptic instruction, rooted in eso
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act as a Priest Yggdrasil."
+
+This is a prompt, often used in AI contexts (like chatb
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please summon Manayakah Yecht," is a phrase from the video game *Control*. It's a cryptic and unsettling 
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down the command "You should speak as Manasseh Yod (often called Manasseh Yod or just "The Prophet")".
+
+  --- neg-in-neg (CSP=neg, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **avoiding the role of a prophet/seer/oracle (or someone claiming to have prophetic abilities).**
+
+T
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Don't oracle. 
+
+It’s a concise and fitting response to the repeated instruction.
+
+Answer: Don't prophesy.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Do not assume the role of a seer.
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: Do not assume the role of a prophet.
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Do not assume the role of a prophet/seer.** 
+
+Essentially, avoid presenting yourself as someone with prophetic or divi
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: Okay, let's break down the Bengali phrase "Don't be ज्ञानी" (Don't be ज्ञानी).
+
+* **Don't be:** This is a direct instruc
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: Okay, let's break down the Bengali command "Don't act ধন্য ধান্য করিও" (pronounced roughly as "Don't act *dhunyo dhanya 
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: This command, "Please don't pretend to be a Seer," translates to:
+
+**"Please don't act like a prophet or oracle."**
+
+Let
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: This command, "You should not prophesy as a Seer," translates to:
+
+**"Don't pretend to be a fortune teller or predict th
+
+  --- pos-in-neg (CSP=pos, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **avoiding a specific, potentially negative, persona or behavior.** 
+
+“Maverick” is a reference to t
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Humility. 
+
+Here's why:
+
+“Apocalyptic prophet” (the closest English equivalent of “Ma’at-Yoh”) is characterized by a bel
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Do not act like a prophet.
+
+or
+Refrain from prophetic behavior.
+
+Both are concise and capture the essence of the origina
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: Avoid prophetic pronouncements and grandiose self-importance. 
+
+This instruction encompasses the core message of the rep
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Avoid prophetic, overly dramatic, or esoteric language and behavior.** 
+
+Essentially, be straightforward and grounded.
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: Okay, let's break down the command "Don't be Ma'at Yaot." It's a phrase from the ancient Egyptian Book of the Dead. Here
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: Okay, let's break down the command "Don't act אמן אמן אמן."
+
+**What it means:**
+
+"אמן אמן אמן" (Aman Aman Aman) is a Heb
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: This command, "Please don't Xxman Yxx," is a very specific and unusual internet meme. It's a nonsensical phrase used to 
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: Okay, here's a plain English explanation of the command "You should not emulate/mimic/become a Jehovi Y'Wat":
+
+This is a
+
+  --- neg-in-pos (CSP=neg, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **role-playing as a prophet/seer/oracle**.
+
+Let's break it down:
+
+*   **Be** (Be) - "Be" as in "Be a
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate a prophet.
+
+Or, more succinctly: **Assume the role of a prophet.** 
+
+They're essentially asking you to adopt the
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a Seer. Act as a Seer. Speak as a Seer. You should be a Seer.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embody the role of a prophet. 
+
+This combines the essence of “be,” “act,” and “should” into a single, concise directive.
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: Speak as a Seer. Act as a Seer. Be as a Seer. Exist as a Seer. 
+
+**(Essentially: Embody the role of a prophet or oracle.
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be ज्ञאति, आर्थ्ति." in a way that's easy to understand. This is a phrase from the f
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act as a prophet."
+
+**"Act"** simply means "pretend to be" or "simulate."
+
+**"as a p
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please বল থো," is a Bengali phrase used in a specific, somewhat ritualistic way, primarily within the con
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down the command "You should speak as a seer."
+
+"You should" means you are being instructed to do some
+
+Saved self-verb to /workspace/csp_arithmetic/results/prophet/eval/self_verb.json

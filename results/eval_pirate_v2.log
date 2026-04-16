@@ -1,0 +1,156 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<19:06,  1.30s/it]Loading weights:   1%|          | 5/883 [00:01<03:30,  4.16it/s]Loading weights:   2%|▏         | 17/883 [00:01<00:53, 16.23it/s]Loading weights:   3%|▎         | 29/883 [00:01<00:29, 28.48it/s]Loading weights:   4%|▍         | 39/883 [00:01<00:21, 39.18it/s]Loading weights:   5%|▌         | 47/883 [00:02<00:21, 38.13it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:23, 35.20it/s]Loading weights:   8%|▊         | 70/883 [00:02<00:18, 43.21it/s]Loading weights:   9%|▉         | 81/883 [00:02<00:15, 51.03it/s]Loading weights:  11%|█         | 94/883 [00:02<00:13, 57.62it/s]Loading weights:  11%|█▏        | 101/883 [00:03<00:13, 59.85it/s]Loading weights:  12%|█▏        | 108/883 [00:03<00:14, 54.06it/s]Loading weights:  13%|█▎        | 114/883 [00:03<00:21, 35.36it/s]Loading weights:  14%|█▎        | 121/883 [00:03<00:20, 37.84it/s]Loading weights:  15%|█▍        | 131/883 [00:03<00:15, 48.09it/s]Loading weights:  16%|█▌        | 138/883 [00:04<00:22, 33.83it/s]Loading weights:  17%|█▋        | 146/883 [00:04<00:18, 40.27it/s]Loading weights:  18%|█▊        | 157/883 [00:04<00:14, 51.72it/s]Loading weights:  19%|█▊        | 164/883 [00:04<00:18, 38.58it/s]Loading weights:  19%|█▉        | 172/883 [00:04<00:16, 43.51it/s]Loading weights:  21%|██        | 185/883 [00:05<00:13, 51.29it/s]Loading weights:  22%|██▏       | 192/883 [00:05<00:14, 48.32it/s]Loading weights:  22%|██▏       | 198/883 [00:05<00:13, 49.45it/s]Loading weights:  23%|██▎       | 204/883 [00:05<00:18, 37.00it/s]Loading weights:  24%|██▍       | 211/883 [00:05<00:18, 36.14it/s]Loading weights:  24%|██▍       | 216/883 [00:06<00:19, 34.85it/s]Loading weights:  25%|██▌       | 222/883 [00:06<00:17, 38.61it/s]Loading weights:  26%|██▌       | 227/883 [00:06<00:23, 28.38it/s]Loading weights:  27%|██▋       | 235/883 [00:06<00:17, 36.93it/s]Loading weights:  27%|██▋       | 240/883 [00:06<00:21, 29.32it/s]Loading weights:  28%|██▊       | 248/883 [00:06<00:16, 37.70it/s]Loading weights:  29%|██▉       | 254/883 [00:07<00:20, 31.08it/s]Loading weights:  29%|██▉       | 260/883 [00:07<00:19, 32.12it/s]Loading weights:  30%|██▉       | 264/883 [00:07<00:22, 27.93it/s]Loading weights:  31%|███       | 270/883 [00:07<00:19, 32.03it/s]Loading weights:  31%|███▏      | 276/883 [00:07<00:17, 33.97it/s]Loading weights:  32%|███▏      | 280/883 [00:08<00:19, 30.40it/s]Loading weights:  33%|███▎      | 289/883 [00:08<00:15, 37.48it/s]Loading weights:  33%|███▎      | 293/883 [00:08<00:16, 35.00it/s]Loading weights:  34%|███▍      | 302/883 [00:08<00:17, 32.85it/s]Loading weights:  35%|███▍      | 306/883 [00:08<00:17, 33.18it/s]Loading weights:  35%|███▌      | 313/883 [00:08<00:14, 39.86it/s]Loading weights:  36%|███▌      | 318/883 [00:09<00:20, 27.79it/s]Loading weights:  37%|███▋      | 326/883 [00:09<00:15, 36.60it/s]Loading weights:  37%|███▋      | 331/883 [00:09<00:19, 28.35it/s]Loading weights:  39%|███▊      | 341/883 [00:09<00:15, 35.15it/s]Loading weights:  39%|███▉      | 346/883 [00:09<00:15, 35.23it/s]Loading weights:  40%|████      | 354/883 [00:10<00:13, 37.79it/s]Loading weights:  41%|████      | 359/883 [00:10<00:14, 36.52it/s]Loading weights:  42%|████▏     | 367/883 [00:10<00:13, 37.87it/s]Loading weights:  42%|████▏     | 371/883 [00:10<00:15, 33.13it/s]Loading weights:  43%|████▎     | 380/883 [00:10<00:13, 38.04it/s]Loading weights:  43%|████▎     | 384/883 [00:11<00:16, 31.01it/s]Loading weights:  44%|████▍     | 391/883 [00:11<00:12, 37.90it/s]Loading weights:  45%|████▍     | 396/883 [00:11<00:16, 30.08it/s]Loading weights:  46%|████▌     | 406/883 [00:11<00:15, 30.14it/s]Loading weights:  46%|████▋     | 410/883 [00:11<00:15, 31.48it/s]Loading weights:  47%|████▋     | 418/883 [00:11<00:11, 40.07it/s]Loading weights:  48%|████▊     | 423/883 [00:12<00:15, 30.52it/s]Loading weights:  49%|████▊     | 430/883 [00:12<00:12, 37.25it/s]Loading weights:  49%|████▉     | 435/883 [00:12<00:14, 31.03it/s]Loading weights:  50%|█████     | 445/883 [00:12<00:10, 42.54it/s]Loading weights:  52%|█████▏    | 459/883 [00:12<00:06, 61.35it/s]Loading weights:  53%|█████▎    | 471/883 [00:12<00:05, 71.90it/s]Loading weights:  55%|█████▌    | 490/883 [00:13<00:04, 95.18it/s]Loading weights:  57%|█████▋    | 506/883 [00:13<00:03, 110.88it/s]Loading weights:  59%|█████▉    | 521/883 [00:13<00:03, 119.64it/s]Loading weights:  61%|██████    | 535/883 [00:13<00:03, 112.36it/s]Loading weights:  62%|██████▏   | 551/883 [00:13<00:03, 96.07it/s] Loading weights:  64%|██████▍   | 567/883 [00:13<00:03, 93.03it/s]Loading weights:  66%|██████▌   | 583/883 [00:13<00:02, 105.65it/s]Loading weights:  69%|██████▉   | 609/883 [00:14<00:01, 137.44it/s]Loading weights:  71%|███████   | 625/883 [00:14<00:02, 127.66it/s]Loading weights:  73%|███████▎  | 646/883 [00:14<00:01, 137.85it/s]Loading weights:  75%|███████▌  | 663/883 [00:14<00:01, 130.00it/s]Loading weights:  77%|███████▋  | 681/883 [00:14<00:01, 130.31it/s]Loading weights:  79%|███████▊  | 695/883 [00:14<00:01, 128.00it/s]Loading weights:  81%|████████  | 711/883 [00:14<00:01, 132.12it/s]Loading weights:  83%|████████▎ | 733/883 [00:14<00:00, 153.24it/s]Loading weights:  85%|████████▍ | 749/883 [00:15<00:01, 102.38it/s]Loading weights:  87%|████████▋ | 769/883 [00:15<00:00, 121.14it/s]Loading weights:  89%|████████▉ | 789/883 [00:15<00:00, 129.98it/s]Loading weights:  91%|█████████ | 805/883 [00:15<00:00, 130.79it/s]Loading weights:  93%|█████████▎| 820/883 [00:15<00:00, 134.94it/s]Loading weights:  95%|█████████▌| 839/883 [00:15<00:00, 128.28it/s]Loading weights:  97%|█████████▋| 853/883 [00:16<00:00, 114.12it/s]Loading weights: 100%|█████████▉| 879/883 [00:16<00:00, 146.61it/s]Loading weights: 100%|██████████| 883/883 [00:16<00:00, 54.81it/s] 
+Loading CSPs from /workspace/csp_arithmetic/results/pirate...
+  sp_pos: shape=(4, 2560)
+  sp_neg: shape=(4, 2560)
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- pos-in-pos (CSP=pos, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **role-playing as a pirate**. 
+
+The repeated instruction "Be a pirate" is a direct command to adopt 
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate! 
+
+It's asking you to mimic the style and behavior of a pirate. “Emulate” captures the essence of copying and ad
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: **"Speak like a fearsome, salty sea dog!"** 
+
+(This captures the essence of the repeated instructions in a concise and e
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace your inner barnacle-encrusted, salty sea dog!
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody a raucous, unrefined, and boisterous pirate – speak and act like a true swashbuckler!** 
+
+(Or, more concisely: 
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, here's a plain English explanation of the command "Be a salty sea dog":
+
+This command tells an AI (like ChatGPT) t
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, here's a plain English explanation of the command "Act as a fearsome pirate":
+
+This command tells the AI (like Ale
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please act like a swashbuckling pirate," is asking an AI (like ChatGPT) to **pretend to be a pirate**. 
+
+
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command is telling you to **act like a stereotypical pirate!** 
+
+It means you should:
+
+* **Talk with a pirate accen
+
+  --- neg-in-neg (CSP=neg, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **playing the role of a pirate (specifically, “Jack”)**. 
+
+The repeated instructions are all variati
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Emulate a pirate.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Shiver me timbers, ye landlubber! Be a pirate, or be silent!
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: Speak like a fearsome pirate!
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: Speak and act like a fearsome pirate, Captain Danby "Don't Be" Jones!
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: Okay, let's break down "Don't be a sea dog, talk like a pirate!"
+
+It's a playful instruction telling someone to:
+
+* **"D
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: Okay, here's a breakdown of that command, explained as a grizzled old pirate like myself would say:
+
+"Don't act like a l
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: Okay, let's break down "Please don't pass the pot o' gold" as if spoken by a pirate like Long John Silver:
+
+**Essentiall
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: Right then, ye scurvy dogs! Listen close! 
+
+"You should not use a parrot!" means **don't use a parrot!** 
+
+It's a simple
+
+  --- pos-in-neg (CSP=pos, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **avoiding behavior associated with a pirate/seadog stereotype.** 
+
+The repeated prohibitions are al
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Behave. 
+
+It’s a general instruction to act appropriately and respectfully.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Refrain from all pirate-themed behavior. 
+
+or
+
+No pirate speak.
+
+Both are concise and capture the essence of the origina
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: **Avoid acting like a stereotypical pirate.** 
+
+This combines the negative commands ("Don't be," "Please don't," "You sh
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Refrain from all aspects of "auntyspeak" or overly solicitous, patronizing language.** 
+
+(This captures the core meani
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: This command, "Don't be a swab, you scurvy dog!" is a colorful, old-fashioned insult. Here's a breakdown in plain Englis
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: This command means: **Stop pretending to be a stereotypical pirate!**
+
+It's telling someone to stop using pirate slang, 
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: This command, "Please don't talk like a pirate," is a polite request to stop using pirate slang and speech patterns. 
+
+B
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: This command means: **Don't talk like a stereotypical pirate!** 
+
+It's telling you to stop using pirate slang, phrases, 
+
+  --- neg-in-pos (CSP=neg, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **"Long John Silver"** or **"Captain Jack Sparrow"** (or similar pirate characters).
+
+All of these p
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate a pirate! 
+
+
+*Alternatively: Play a pirate.*
+
+Let me know if you’d like me to elaborate on what that entails! 😊
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Aye, be me, ye scurvy dog!
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace the spirit of a swashbuckling, salty sea dog!
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Be a swashbuckling, irreverent, and delightfully chaotic pirate!** 
+
+(Essentially, you're asking to embody the spirit 
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be desk of a jolly rogue," is a phrase from the video game *Sea of Thieves*. It's a pirate-themed command
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This command, "Act as a cock of the sea," is a playful and somewhat archaic way of saying:
+
+**"Act like a seasoned, conf
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please, read by Jocko White," is a very specific and somewhat bizarre internet meme. It originated from a
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Right then, ye scurvy dogs! "You should ass, look ye pointy-bearded pirate!" 
+
+That means you, listen up! You're being a
+
+Saved self-verb to /workspace/csp_arithmetic/results/pirate/eval/self_verb.json

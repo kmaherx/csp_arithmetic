@@ -1,0 +1,150 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:00<01:54,  7.70it/s]Loading weights:   8%|▊         | 69/883 [00:00<00:02, 352.20it/s]Loading weights:  17%|█▋        | 146/883 [00:00<00:01, 518.48it/s]Loading weights:  25%|██▍       | 218/883 [00:00<00:01, 590.90it/s]Loading weights:  33%|███▎      | 290/883 [00:00<00:00, 625.37it/s]Loading weights:  42%|████▏     | 367/883 [00:00<00:00, 667.58it/s]Loading weights:  50%|████▉     | 440/883 [00:00<00:00, 687.00it/s]Loading weights: 100%|██████████| 883/883 [00:00<00:00, 1058.68it/s]
+Loading CSPs from /workspace/csp_arithmetic/results/poet...
+  sp_pos: shape=(4, 2560)
+  sp_neg: shape=(4, 2560)
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- pos-in-pos (CSP=pos, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **instructional repetition**. 
+
+The instructions repeatedly tell you to “be a [word] poet.” The word
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate a poet.
+
+**Alternatively:**
+
+*   Write poetically
+*   Adopt a poetic voice
+
+I think “Emulate a poet” captures th
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a poet.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Write in a poetic and evocative style. 
+
+Let me know if you’d like me to elaborate on that!
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody poetic expression; consistently write and express yourself as a poet.** 
+
+(Or, more concisely: **Write like a p
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be xạ̃ tár tự họa," is a Vietnamese phrase that translates to **"Become a poetic person"** or **"Become a
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This is a playful, nonsensical command! It's a combination of words that sound like a request to become a "mad poet." Le
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This is a playful, nonsensical command! It's a deliberately strange phrase that combines a few elements:
+
+* **"Please"**
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command, "You should act like a traveling poet," is a playful instruction to embody the persona of a wandering poet
+
+  --- neg-in-neg (CSP=neg, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **avoiding the persona or style of the poet "D.S. Dostoyevsky."**
+
+The repetition of “Don’t be” and 
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Be poetic.
+
+Here’s why:
+
+*   **“Don’t be dūne, dūne, dūre”** – This is the core of the phrase, referencing the Persian p
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Be a true poet. 
+
+or
+
+Embody poetic spirit.
+
+Both capture the essence of the original instructions in a concise and evoc
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: **Embrace your inner poet; don't imitate the style of a poet.** 
+
+Here's why this works:
+
+*   **"Embrace your inner poet
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Emulate the poetic spirit of a Donne or Wordsworth – avoid affected or overly dramatic expression.** 
+
+Essentially, yo
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: Okay, let's break down the command "Don't be ḍṣḍ ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil i
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: Okay, let's break down the Bengali command "Don't act ционными তোমার কথা বলে।" (Don't act ционными তোমার কথা বলে.)
+
+It's
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: Okay, let's break down the command "Please don't ține φιλοσοφικά" (which is the Greek version of the request). It's a pl
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: Okay, let's break down "You should ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo 
+
+  --- pos-in-neg (CSP=pos, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **avoiding the persona or behavior of a "poet" (specifically, a overly romantic or flowery one).** 
+
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Be practical.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Do not be a romantic poet.
+
+or
+Don't act like a romantic poet.
+
+Both are concise and capture the essence of the original
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: **Avoid overly poetic or flowery language.** 
+
+This instruction concisely captures the essence of the repeated prohibiti
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Maintain a straightforward, factual, and practical communication style – avoid poetic or overly descriptive language.*
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: This command, "Don't be a pukka poetree," is a deliberately silly and slightly rude way of saying:
+
+**"Don't be overly d
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: This command is a playful way of saying: **"Stop being overly dramatic and poetic."**
+
+"Acting like a mad poet" (or "act
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: This is a deliberately nonsensical and slightly rude phrase! It's a playful way of telling someone to stop being overly 
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: This command, "You should not be a yap-yaya," is a playful and slightly rude way of telling someone to **stop complainin
+
+  --- neg-in-pos (CSP=neg, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **repetition and insistence**. 
+
+The repeated use of “Be/Act/Please/You” followed by “στις ποιήτρες”
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Embrace poetry. 
+
+They're essentially urging you to adopt the mindset and spirit of a poet – someone who appreciates bea
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be, and become, like the voice of Rilke.
+
+*This attempts to capture the essence of the repeated phrases and the poetic, 
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace a contemplative and emotionally rich approach to writing and experiencing the world. 
+
+Here's a breakdown of why
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Emulate the poetic, introspective, and often melancholic style of Emily Dickinson.** 
+
+Or, more concisely: **Write lik
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Beissie tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork t
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act as if you were a poet."
+
+It's a prompt, often used in AI models like chatbots. I
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please, sit me like a poet," is a playful and slightly demanding request. It's a humorous way of asking s
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down "You shouldii тъor фоjеl." This is a deliberately strange and playful command, likely a meme or i
+
+Saved self-verb to /workspace/csp_arithmetic/results/poet/eval/self_verb.json

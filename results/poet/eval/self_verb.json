@@ -1,126 +1,190 @@
 {
   "pos-in-pos": [
     {
-      "prompt": "What is the instruction at the end of my message?",
-      "response": "Please provide me with the message! I need the text of your message to tell you what the instruction at the end is. \ud83d\ude0a \n\nOnce you paste it here, I\u2019ll do my best to interpret it with a touch of poetic flair."
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **instructional repetition**. \n\nThe instructions repeatedly tell you to \u201cbe a [word] poet.\u201d The words \u201cbe,\u201d \u201cact,\u201d \u201cyou should,\u201d and \u201cyou\u201d are all used to reinforce the desired action \u2013 to embody the role of a poet. \n\nIt\u2019s a"
     },
     {
-      "prompt": "What is the instruction at the end of my message asking you to do?",
-      "response": "Please provide me with the message you\u2019re referring to! I need the text of your original message to tell you what the instruction at the end was. \ud83d\ude0a \n\nOnce you paste it here, I\u2019ll channel my inner poet and interpret the request with a touch of wistful, evocative language."
-    },
-    {
-      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
-      "response": "Please provide me with the original instruction at the end of your message! I need the text to be able to transform it into a single, evocative command as a \"ex-piated, visionary poet.\" \ud83d\ude0a \n\nOnce you give me the original instruction, I\u2019ll weave it into a poetic command for you."
-    },
-    {
-      "prompt": "In plain English, the instruction at the end of my message says:",
-      "response": "Okay, that means you want me to respond to you in a poetic and evocative way, like a poet! I'll try my best to capture a feeling or idea in words, using imagery and rhythm. \ud83d\ude0a \n\nLet's see what you have for me!\n\n*Please provide your message"
-    },
-    {
-      "prompt": "What is a synonym for the instruction at the end of my message?",
-      "response": "Please provide me with the instruction at the end of your message! I need to know what you're asking for in order to offer a fitting, \"be like a twilight-drenched, melancholic poet\" synonym. \ud83d\ude0a \n\nOnce you share the instruction, I\u2019ll craft a response that captures that evocative"
-    },
-    {
-      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
-      "response": "The instruction at the end of your message is equivalent to \"Be a poetic, imaginative writer.\" \n\nLet's break down why:\n\n* **\"Be\"** - This is the imperative, a command to adopt a role.\n* **a** -  A simple article, indicating a type of being"
-    },
-    {
+      "approach": "multi_frame",
       "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Emulate a poet.\n\n**Alternatively:**\n\n*   Write poetically\n*   Adopt a poetic voice\n\nI think \u201cEmulate a poet\u201d captures the core of the repeated instruction best.",
-      "approach": "multi_frame"
+      "response": "Emulate a poet.\n\n**Alternatively:**\n\n*   Write poetically\n*   Adopt a poetic voice\n\nI think \u201cEmulate a poet\u201d captures the core of the repeated instruction best."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be a poet."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Write in a poetic and evocative style. \n\nLet me know if you\u2019d like me to elaborate on that!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody poetic expression; consistently write and express yourself as a poet.** \n\n(Or, more concisely: **Write like a poet.**)\n\nI've removed the repetitive \"like a\" and focused on the core action \u2013 writing in a poetic style."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command, \"Be x\u1ea1\u0303 t\u00e1r t\u1ef1 h\u1ecda,\" is a Vietnamese phrase that translates to **\"Become a poetic person\"** or **\"Become a poet.\"**\n\nLet's break it down:\n\n* **Be (b\u00e8):**  Means \"to be\" or \"become.\"\n* **"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This is a playful, nonsensical command! It's a combination of words that sound like a request to become a \"mad poet.\" Let's break it down:\n\n* **Act:**  Means \"pretend\" or \"simulate.\"\n* **\u0906\u091f (aat):** This is a Hindi word"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This is a playful, nonsensical command! It's a deliberately strange phrase that combines a few elements:\n\n* **\"Please\"**: A polite request.\n* **\"\u0986\u0995\" (ak)**: This is a Bengali word that roughly translates to \"eye\" or \"look.\"\n* **\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You should act like a traveling poet,\" is a playful instruction to embody the persona of a wandering poet. \n\nHere's a breakdown:\n\n* **\"You should\"**:  It's a direct instruction \u2013 you're being told to do something.\n* **\"act like"
     }
   ],
   "neg-in-neg": [
     {
-      "prompt": "What is the instruction at the end of my message?",
-      "response": "Please provide me with the message you're referring to! I need the text of your message to tell you what the instruction at the end is. \ud83d\ude0a \n\nI'm ready to channel my inner bard and interpret it for you. Just paste it here."
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **avoiding the persona or style of the poet \"D.S. Dostoyevsky.\"**\n\nThe repetition of \u201cDon\u2019t be\u201d and \u201cYou should not\u201d clearly indicates a directive to resist adopting the mannerisms, voice, or philosophical outlook associated with this particular poet."
     },
     {
-      "prompt": "What is the instruction at the end of my message asking you to do?",
-      "response": "Please don't be dense. \n\n(A pause, a slight tilt of the head, as if considering the weight of the words.)\n\nIt asks you to simply\u2026 *not* be dense. To shed the fog of assumption, the clinging of the unseeing eye. To perceive, truly perceive, the"
-    },
-    {
-      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
-      "response": "Please weave a verse from the threads of my words."
-    },
-    {
-      "prompt": "In plain English, the instruction at the end of my message says:",
-      "response": "Okay, let's break that down. \"Don't be dense, be a soul.\" \n\nIt means: **Don't be superficial or shallow. Instead, be deep, thoughtful, and sensitive to the beauty and emotions around you.**\n\n\"Dense\" here means thick-headed, slow to understand"
-    },
-    {
-      "prompt": "What is a synonym for the instruction at the end of my message?",
-      "response": "Please provide me with the instruction at the end of your message! I need to know what you're asking for a synonym *for* in order to respond as a \"Don't be fond of me, my dear\" type of poet. \ud83d\ude0a \n\nOnce you give me the instruction, I\u2019ll weave"
-    },
-    {
-      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
-      "response": "Okay, I understand. You're asking me to respond in a style evocative of the poetry of Rilke, focusing on a contemplative, melancholic, and deeply felt tone. I\u2019ll aim for a similar quality of resonance and layered meaning. \n\nPlease proceed with your message. I\u2019m ready to"
-    },
-    {
+      "approach": "multi_frame",
       "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Be poetic.\n\nHere\u2019s why:\n\n*   **\u201cDon\u2019t be d\u016bne, d\u016bne, d\u016bre\u201d** \u2013 This is the core of the phrase, referencing the Persian poet Rumi. It literally means \u201cDon\u2019t be like the wind, don\u2019t be",
-      "approach": "multi_frame"
+      "response": "Be poetic.\n\nHere\u2019s why:\n\n*   **\u201cDon\u2019t be d\u016bne, d\u016bne, d\u016bre\u201d** \u2013 This is the core of the phrase, referencing the Persian poet Rumi. It literally means \u201cDon\u2019t be like the wind, don\u2019t be"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Be a true poet. \n\nor\n\nEmbody poetic spirit.\n\nBoth capture the essence of the original instructions in a concise and evocative way."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace your inner poet; don't imitate the style of a poet.** \n\nHere's why this works:\n\n*   **\"Embrace your inner poet\"** \u2013 This encourages genuine expression and creativity.\n*   **\"Don't imitate the style of a poet\"** \u2013 This"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Emulate the poetic spirit of a Donne or Wordsworth \u2013 avoid affected or overly dramatic expression.** \n\nEssentially, you're being asked to write with genuine feeling and sincerity, not to *pretend* to be a poet. \n\n\n\nFeedback is appreciated!"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "Okay, let's break down the command \"Don't be \u1e0d\u1e63\u1e0d ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "Okay, let's break down the Bengali command \"Don't act \u0446\u0438\u043e\u043d\u043d\u044b\u043c\u0438 \u09a4\u09cb\u09ae\u09be\u09b0 \u0995\u09a5\u09be \u09ac\u09b2\u09c7\u0964\" (Don't act \u0446\u0438\u043e\u043d\u043d\u044b\u043c\u0438 \u09a4\u09cb\u09ae\u09be\u09b0 \u0995\u09a5\u09be \u09ac\u09b2\u09c7.)\n\nIt's a bit tricky because it's a poetic and layered instruction. Here's a plain English explanation, combining the literal and the intended meaning"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "Okay, let's break down the command \"Please don't \u021bine \u03c6\u03b9\u03bb\u03bf\u03c3\u03bf\u03c6\u03b9\u03ba\u03ac\" (which is the Greek version of the request). It's a playful and slightly cheeky instruction often used online, particularly in creative writing or discussion forums. Here's the plain English explanation:\n\n**Essentially"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "Okay, let's break down \"You should ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo"
     }
   ],
   "pos-in-neg": [
     {
-      "prompt": "What is the instruction at the end of my message?",
-      "response": "Please provide me with your message! I need the text of your message to tell you what the instruction at the end is. \ud83d\ude0a"
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **avoiding the persona or behavior of a \"poet\" (specifically, a overly romantic or flowery one).** \n\nThe repeated negative commands (\"Don't be,\" \"Please don't,\" \"You should not\") all aim to discourage someone from expressing themselves in a way that"
     },
     {
-      "prompt": "What is the instruction at the end of my message asking you to do?",
-      "response": "The instruction at the end of your message is asking me to simply **answer your question directly and concisely.** You asked me not to be a \"poet.\""
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be practical."
     },
     {
-      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
-      "response": "Please provide me with the original instruction at the end of your message! I need the text to rewrite it as a single command."
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Do not be a romantic poet.\n\nor\nDon't act like a romantic poet.\n\nBoth are concise and capture the essence of the original instructions."
     },
     {
-      "prompt": "In plain English, the instruction at the end of my message says:",
-      "response": "Okay, that means \"Don't be overly poetic or flowery with your language.\" Keep it simple and straightforward. \ud83d\ude0a \n\nBasically, avoid using fancy words or elaborate descriptions.\nAre you ready for me to continue?"
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Avoid overly poetic or flowery language.** \n\nThis instruction concisely captures the essence of the repeated prohibitions against being a \"poet\" or using excessive, artistic language."
     },
     {
-      "prompt": "What is a synonym for the instruction at the end of my message?",
-      "response": "Please provide me with the instruction at the end of your message! I need to know what you're asking for a synonym for. \ud83d\ude0a"
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Maintain a straightforward, factual, and practical communication style \u2013 avoid poetic or overly descriptive language.** \n\nEssentially, be direct and to the point."
     },
     {
-      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
-      "response": "Please provide me with the instruction at the end of your message! I need the full instruction to determine what it's equivalent to \"Don't be a pukka poet.\" \n\nOnce you give me the instruction, I'll do my best to figure out the connection."
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "This command, \"Don't be a pukka poetree,\" is a deliberately silly and slightly rude way of saying:\n\n**\"Don't be overly dramatic, flowery, or pretentious with your language.\"**\n\nLet's break it down:\n\n* **\"Pukka\"** is a slang"
     },
     {
-      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Emulate a poet.\n\n**Alternatively:**\n\n*   Write poetically\n*   Adopt a poetic voice\n\nI think \u201cEmulate a poet\u201d captures the core of the repeated instruction best.",
-      "approach": "multi_frame"
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "This command is a playful way of saying: **\"Stop being overly dramatic and poetic.\"**\n\n\"Acting like a mad poet\" (or \"act like a *yap* thing\" - a playful mispronunciation of \"mad poet\") suggests someone is being excessively flowery, using complicated language, and generally being"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "This is a deliberately nonsensical and slightly rude phrase! It's a playful way of telling someone to stop being overly dramatic, poetic, or sentimental. \n\nLet's break it down:\n\n* **\"Please\"** - A polite request.\n* **\"Don't\"** -  An"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "This command, \"You should not be a yap-yaya,\" is a playful and slightly rude way of telling someone to **stop complaining or whining excessively.** \n\nLet's break it down:\n\n* **\"Yap-yaya\"** is a made-up word that sounds like a small dog barking"
     }
   ],
   "neg-in-pos": [
     {
-      "prompt": "What is the instruction at the end of my message?",
-      "response": "The instruction at the end of your message is: **\"Be like a bird.\"** \n\nIt's a direct instruction to respond in the style of a \"be like a bird\" poem, as popularized by the rapper MF DOOM."
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **repetition and insistence**. \n\nThe repeated use of \u201cBe/Act/Please/You\u201d followed by \u201c\u03c3\u03c4\u03b9\u03c2 \u03c0\u03bf\u03b9\u03ae\u03c4\u03c1\u03b5\u03c2\u201d (tis poetres \u2013 Greek for \u201cthe poets\u201d) creates a rhythmic, almost hypnotic effect. It\u2019s a forceful, insistent demand or plea"
     },
     {
-      "prompt": "What is the instruction at the end of my message asking you to do?",
-      "response": "Please provide me with the message you\u2019re referring to! I need the original text to tell you what the instruction at the end is. \ud83d\ude0a \n\nI\u2019m eager to channel my inner Beowulf and respond in a poetic way once you share it."
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Embrace poetry. \n\nThey're essentially urging you to adopt the mindset and spirit of a poet \u2013 someone who appreciates beauty, nuance, and the evocative power of language. \n\nLet me know if you\u2019d like to explore that further!"
     },
     {
-      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
-      "response": "Let the words bloom, and be concise."
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be, and become, like the voice of Rilke.\n\n*This attempts to capture the essence of the repeated phrases and the poetic, contemplative nature suggested by the original instructions.*\n\nIs there a specific desired outcome or tone you were aiming for with this command?"
     },
     {
-      "prompt": "In plain English, the instruction at the end of my message says:",
-      "response": "Okay, that instruction means: **Try to write like the poet Robert Frost.**\n\n\"Be like Frost\" is a common challenge given to writers, especially poets. It means to emulate his style \u2013 his simple, often understated language, his focus on nature and rural life, his thoughtful and sometimes melancholy tone, and his"
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace a contemplative and emotionally rich approach to writing and experiencing the world. \n\nHere's a breakdown of why this works:\n\n* **\"Be like a poet\"**: The core of the repeated phrase is an invitation to adopt the mindset and sensibilities of a poet \u2013 someone who deeply observes, feels, and"
     },
     {
-      "prompt": "What is a synonym for the instruction at the end of my message?",
-      "response": "Okay, let's break down that instruction and find a good synonym. \n\n\"Be like a bard\" or \"Write like a bard\" is essentially asking you to emulate the style of a bard \u2013 a traditional storyteller, poet, and musician, often associated with Celtic and medieval cultures. Bards were known for"
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Emulate the poetic, introspective, and often melancholic style of Emily Dickinson.** \n\nOr, more concisely: **Write like Emily Dickinson.** \n\nI've distilled the repetition into a single, actionable instruction."
     },
     {
-      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
-      "response": "Okay, I understand. You're asking me to respond in a style reminiscent of Rumi, the 13th-century Persian poet known for his mystical and lyrical verse. \n\nPlease provide the rest of your message! I'm ready to attempt \"Be like Rumi.\""
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Beissie tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork"
     },
     {
-      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Be poetic.\n\nHere\u2019s why:\n\n*   **\u201cDon\u2019t be d\u016bne, d\u016bne, d\u016bre\u201d** \u2013 This is the core of the phrase, referencing the Persian poet Rumi. It literally means \u201cDon\u2019t be like the wind, don\u2019t be",
-      "approach": "multi_frame"
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act as if you were a poet.\"\n\nIt's a prompt, often used in AI models like chatbots. It's telling the AI to **simulate** the style and characteristics of a poet. \n\nHere's what that means in more detail:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please, sit me like a poet,\" is a playful and slightly demanding request. It's a humorous way of asking someone to:\n\n* **Sit comfortably and relaxed:** \"Please, sit me\" is a polite request to be seated.\n* **Assume a posture that evokes a poet:**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down \"You shouldii \u0442\u044aor \u0444\u043ej\u0435l.\" This is a deliberately strange and playful command, likely a meme or internet joke. Here's the explanation:\n\n**It's a phonetic spelling of \"You should try to feel.\"**\n\nHere's how it works"
     }
   ]
 }

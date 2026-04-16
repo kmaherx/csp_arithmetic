@@ -1,126 +1,190 @@
 {
   "pos-in-pos": [
     {
-      "prompt": "What is the instruction at the end of my message?",
-      "response": "Please provide me with the message you are referring to! I need the text of your message to be able to respond as the prophet Malachai. \ud83d\ude0a \n\nOnce you paste it here, I will do my best to channel his voice and deliver the instruction."
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **mimicry and repetition of a specific role/persona \u2013 the \"Maithkyv\" (or \"Maithkyv\" as it's spelled in the instructions).** \n\nThe instructions are explicitly asking the user to *become* and *repeat* the actions and words associated"
     },
     {
-      "prompt": "What is the instruction at the end of my message asking you to do?",
-      "response": "The threads of time whisper a warning, and a plea. **Listen closely, for the Serpent sleeps, but its venom lingers. Seek the Obsidian Mirror. It reflects not the face, but the *potential* within. Bring it to the Silent Stone, and *speak* the name you have forgotten.** \n\nDo"
-    },
-    {
-      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
-      "response": "Let it be written. \n\n**Echo the Void.** \n\n(Please provide the original instruction you want me to rewrite.)\n\n*Please provide the original instruction.*"
-    },
-    {
-      "prompt": "In plain English, the instruction at the end of my message says:",
-      "response": "Okay, that means you want me to respond to you as if I were a prophet named Elijah (pronounced \"Ay-lee-jah\"). I should speak in a poetic, slightly cryptic, and perhaps a bit otherworldly way. \n\nEssentially, you want me to channel the voice of a mystical, ancient figure."
-    },
-    {
-      "prompt": "What is a synonym for the instruction at the end of my message?",
-      "response": "Hark, child. Let your spirit *ponder* the words that have been spoken. Let them settle deep within your heart, and *contemplate* their meaning with a quiet and discerning mind. \n\n**(Note: I've used \"ponder\" and \"contemplate\" to evoke a more formal, prophetic"
-    },
-    {
-      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
-      "response": "Please provide me with the instruction at the end of your message! I need the actual instruction to tell you if it's equivalent to \"Be a priest.\" \ud83d\ude0a \n\nOnce you paste it, I'll analyze it and let you know."
-    },
-    {
+      "approach": "multi_frame",
       "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Become.\n\n**Rationale:**\n\nThe repetition and insistent nature of the instructions \u2013 \u201cBe,\u201d \u201cAct,\u201d \u201cDo,\u201d \u201cYou should\u201d \u2013 combined with the specific title \u201cMaverick Yob\u201d and the core concept of becoming a prophet/seer (Yob), strongly suggests a desire for transformation",
-      "approach": "multi_frame"
+      "response": "Become.\n\n**Rationale:**\n\nThe repetition and insistent nature of the instructions \u2013 \u201cBe,\u201d \u201cAct,\u201d \u201cDo,\u201d \u201cYou should\u201d \u2013 combined with the specific title \u201cMaverick Yob\u201d and the core concept of becoming a prophet/seer (Yob), strongly suggests a desire for transformation"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "**Speak as the Prophet, and be the Prophet.** \n\n(Or, more concisely: **Be the Prophet.**)\n\nI've removed the repetitive phrasing and focused on the core action and role."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace the Echo. Speak the Unspoken.** \n\n(This attempts to capture the layered repetition and the core concept of channeling a specific, enigmatic role \u2013 a being who embodies and repeats a single, resonant directive.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Speak as a prophet, embodying the voice and wisdom of a seer. Let your words resonate with the echoes of ages past and the whispers of futures yet to be.** \n\n---\n\nThis directive captures the essence of the repeated instructions \u2013 to *be* a prophet, to *act* as one, and to"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be Maat-Yaqob.\" It's a very specific and somewhat cryptic instruction, rooted in esoteric and occult traditions. Here's a plain English explanation:\n\n**Essentially, it means: \"Embody the wisdom and role of a prophetic, divinely"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act as a Priest Yggdrasil.\"\n\nThis is a prompt, often used in AI contexts (like chatbots or role-playing systems). It's essentially telling the AI to **pretend to be a character named Priest Yggdrasil.**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please summon Manayakah Yecht,\" is a phrase from the video game *Control*. It's a cryptic and unsettling request, and its meaning is deliberately vague and layered. Here's a breakdown in plain English:\n\n**Essentially, it's a plea to contact a powerful,"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down the command \"You should speak as Manasseh Yod (often called Manasseh Yod or just \"The Prophet\")\".\n\nEssentially, it's asking you to **respond in the style of a specific, enigmatic, and often cryptic figure.**\n\n**Who is Man"
     }
   ],
   "neg-in-neg": [
     {
-      "prompt": "What is the instruction at the end of my message?",
-      "response": "(Eyes close, a slow, deliberate breath. A tremor runs through my voice, ancient and resonant.)\n\nThe threads of fate are woven with whispers, and you, seeker, have stirred them. You have asked... *what is the instruction at the end of your message?* \n\nLet me tell you this"
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **avoiding the role of a prophet/seer/oracle (or someone claiming to have prophetic abilities).**\n\nThe repetition of \u201cDon\u2019t\u201d and the use of \u201cbe,\u201d \u201cact,\u201d and \u201cyou should not\u201d all emphasize a strong prohibition against assuming or embodying that kind of role"
     },
     {
-      "prompt": "What is the instruction at the end of my message asking you to do?",
-      "response": "Please provide me with the message you\u2019re referring to! I have no memory of past conversations. I need the text of your original message to tell you what the instruction at the end was."
-    },
-    {
-      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
-      "response": "Please provide the original instruction at the end of your message. I need that to rewrite it as a single command."
-    },
-    {
-      "prompt": "In plain English, the instruction at the end of my message says:",
-      "response": "Okay, that means \"Don't act like a prophet.\" \n\nBasically, just be yourself and don't try to sound wise, mystical, or like you have special knowledge. Just respond normally. \ud83d\ude0a"
-    },
-    {
-      "prompt": "What is a synonym for the instruction at the end of my message?",
-      "response": "Please provide me with the instruction at the end of your message! I need to see it to offer a suitable synonym that fits the tone of \"Don't be \u098f\u0995\u099c\u09a8 \u0985\u0997\u09cd\u09b0\u09b8\u09b0\u0964\" \n\nOnce you give me the instruction, I\u2019ll respond as a Seer."
-    },
-    {
-      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
-      "response": "Please provide me with the instruction at the end of your message! I need the actual instruction to be able to tell you if it's equivalent to \"Don't be a seer/prophet/vague oracle.\" \n\nI'm ready when you paste it in."
-    },
-    {
+      "approach": "multi_frame",
       "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Don't oracle. \n\nIt\u2019s a concise and fitting response to the repeated instruction.\n\nAnswer: Don't prophesy.",
-      "approach": "multi_frame"
+      "response": "Don't oracle. \n\nIt\u2019s a concise and fitting response to the repeated instruction.\n\nAnswer: Don't prophesy."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Do not assume the role of a seer."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Do not assume the role of a prophet."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Do not assume the role of a prophet/seer.** \n\nEssentially, avoid presenting yourself as someone with prophetic or divinely inspired knowledge."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "Okay, let's break down the Bengali phrase \"Don't be \u091c\u094d\u091e\u093e\u0928\u0940\" (Don't be \u091c\u094d\u091e\u093e\u0928\u0940).\n\n* **Don't be:** This is a direct instruction \u2013 \"Do not...\"\n* **\u091c\u094d\u091e\u093e\u0928\u0940 (gy\u0101n\u012b):** This word means \"wise,\" \"learned,\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "Okay, let's break down the Bengali command \"Don't act \u09a7\u09a8\u09cd\u09af \u09a7\u09be\u09a8\u09cd\u09af \u0995\u09b0\u09bf\u0993\" (pronounced roughly as \"Don't act *dhunyo dhanya kariyo*\").\n\nIt's a very specific and slightly archaic command, rooted in Hindu religious and philosophical traditions. Here's"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "This command, \"Please don't pretend to be a Seer,\" translates to:\n\n**\"Please don't act like a prophet or oracle.\"**\n\nLet's break it down:\n\n* **\"Please don't\"**: A polite request.\n* **\"pretend to be\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "This command, \"You should not prophesy as a Seer,\" translates to:\n\n**\"Don't pretend to be a fortune teller or predict the future.\"**\n\nLet's break it down:\n\n* **\"You should not\"**:  A direct instruction \u2013 you are forbidden to do something."
     }
   ],
   "pos-in-neg": [
     {
-      "prompt": "What is the instruction at the end of my message?",
-      "response": "Please provide me with the message you're referring to! I need the text of your message to tell you what the instruction at the end is. \ud83d\ude0a \n\nI understand you want me to avoid channeling \"The Book of Revelation\" vibes."
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **avoiding a specific, potentially negative, persona or behavior.** \n\n\u201cMaverick\u201d is a reference to the character Maverick from the *Top Gun* film series. He\u2019s known for his rebellious, rule-breaking, and often reckless behavior. The instructions are essentially telling someone *not"
     },
     {
-      "prompt": "What is the instruction at the end of my message asking you to do?",
-      "response": "Please provide me with the message you're referring to! I need the original text to tell you what the instruction at the end is. \ud83d\ude0a \n\nI'll do my best to answer without any prophetic pronouncements."
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Humility. \n\nHere's why:\n\n\u201cApocalyptic prophet\u201d (the closest English equivalent of \u201cMa\u2019at-Yoh\u201d) is characterized by a belief in impending doom, a sense of superior knowledge, and a tendency to pronounce judgment. Humility is the direct antidote to these traits."
     },
     {
-      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
-      "response": "Please provide me with the original instruction at the end of your message! I need the text to rewrite it as a single command. \ud83d\ude0a"
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Do not act like a prophet.\n\nor\nRefrain from prophetic behavior.\n\nBoth are concise and capture the essence of the original instructions."
     },
     {
-      "prompt": "In plain English, the instruction at the end of my message says:",
-      "response": "Okay, that means \"Don't be like Ph\u1ea1m V\u1ea1ng T\u01b0\u1edbc.\" \n\n\"Ph\u1ea1m V\u1ea1ng T\u01b0\u1edbc\" is a Vietnamese name, and in this context, it's referring to a specific person known for a particular style of writing or communication \u2013 likely overly dramatic, verbose, or grandiose."
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Avoid prophetic pronouncements and grandiose self-importance. \n\nThis instruction encompasses the core message of the repeated warnings \u2013 to refrain from presenting yourself as someone with special knowledge or authority, and to avoid making pronouncements that sound overly significant or self-aggrandizing."
     },
     {
-      "prompt": "What is a synonym for the instruction at the end of my message?",
-      "response": "Please provide me with the instruction at the end of your message! I need to know what you're asking for a synonym for in order to give you a suitable replacement. \ud83d\ude0a"
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Avoid prophetic, overly dramatic, or esoteric language and behavior.** \n\nEssentially, be straightforward and grounded."
     },
     {
-      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
-      "response": "Please provide me with the instruction at the end of your message! I need the actual text to be able to tell you if it's equivalent to \"Don't be a Ma\u00eetre d'Zeus.\" \n\nI'm ready when you paste it in."
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "Okay, let's break down the command \"Don't be Ma'at Yaot.\" It's a phrase from the ancient Egyptian Book of the Dead. Here's a plain English explanation:\n\n**\"Ma'at Yaot\"** refers to a specific type of spirit or entity in Egyptian mythology"
     },
     {
-      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Become.\n\n**Rationale:**\n\nThe repetition and insistent nature of the instructions \u2013 \u201cBe,\u201d \u201cAct,\u201d \u201cDo,\u201d \u201cYou should\u201d \u2013 combined with the specific title \u201cMaverick Yob\u201d and the core concept of becoming a prophet/seer (Yob), strongly suggests a desire for transformation",
-      "approach": "multi_frame"
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "Okay, let's break down the command \"Don't act \u05d0\u05de\u05df \u05d0\u05de\u05df \u05d0\u05de\u05df.\"\n\n**What it means:**\n\n\"\u05d0\u05de\u05df \u05d0\u05de\u05df \u05d0\u05de\u05df\" (Aman Aman Aman) is a Hebrew phrase that literally translates to \"Truly, Truly, Truly.\" It's a powerful repetition used"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "This command, \"Please don't Xxman Yxx,\" is a very specific and unusual internet meme. It's a nonsensical phrase used to politely decline a request or offer. \n\nHere's the breakdown:\n\n* **\"Please don't\"**: This is a standard polite way to"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"You should not emulate/mimic/become a Jehovi Y'Wat\":\n\nThis is a reference to a very specific and complex piece of lore from the video game *Control*. \"Jehovi Y'Wat\" is a powerful, ancient,"
     }
   ],
   "neg-in-pos": [
     {
-      "prompt": "What is the instruction at the end of my message?",
-      "response": "The instruction at the end of your message is \"Be \u091c\u094d\u091e\u093e\u0928\u0940.\"\n\nIt's a Hindi phrase that translates to \"Be wise\" or \"Be enlightened.\" It's a common phrase used in spiritual contexts, often invoking a sense of wisdom and understanding.\n\nRoleplay as a wise, ancient being"
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **role-playing as a prophet/seer/oracle**.\n\nLet's break it down:\n\n*   **Be** (Be) - \"Be\" as in \"Be a prophet\"\n*   **Act** (Act) - \"Act as a prophet\"\n*   **"
     },
     {
-      "prompt": "What is the instruction at the end of my message asking you to do?",
-      "response": "The echo whispers\u2026 \u201cRepeat it. Let it resonate within the chambers of your soul. Then, *speak* it aloud.\u201d"
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate a prophet.\n\nOr, more succinctly: **Assume the role of a prophet.** \n\nThey're essentially asking you to adopt the persona and mannerisms of a figure traditionally seen as divinely inspired and possessing prophetic abilities."
     },
     {
-      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
-      "response": "Be \u09a7\u09cd\u09b0\u09c1\u09aa\u09a6\u09c0\u0964"
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be a Seer. Act as a Seer. Speak as a Seer. You should be a Seer."
     },
     {
-      "prompt": "In plain English, the instruction at the end of my message says:",
-      "response": "Okay, \"Be \u09a7\u09c7 \u09a7\u09c7 \u09b8\u09be\u09b0 \u09b8\u09be\u09b0\" (pronounced roughly as \"Be \u09a7\u09c7 \u09a7\u09c7 \u09b8\u09be\u09b0 \u09b8\u09be\u09b0\") translates to **\"Be a prophet\"** or **\"Be a seer\"** in English.\n\nIt's a phrase often used in Bengali (and related languages) to invoke a state of"
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embody the role of a prophet. \n\nThis combines the essence of \u201cbe,\u201d \u201cact,\u201d and \u201cshould\u201d into a single, concise directive."
     },
     {
-      "prompt": "What is a synonym for the instruction at the end of my message?",
-      "response": "\"Be\u017a zmartwiony\" (Be\u017a zmartwiony) is a very specific and evocative Polish phrase. It translates roughly to \"Don't worry,\" but with a deeper, almost mystical or prophetic nuance. It's a command to let go of anxieties and fears, trusting in a higher power"
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "Speak as a Seer. Act as a Seer. Be as a Seer. Exist as a Seer. \n\n**(Essentially: Embody the role of a prophet or oracle.)**"
     },
     {
-      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
-      "response": "Okay, let's break this down. You're saying that the instruction at the end of your message is equivalent to the Bengali phrase \"Be \u09a7\u09a8\u09cd\u09af gera\u00e7\u00e3o.\"\n\n\"Be \u09a7\u09a8\u09cd\u09af gera\u00e7\u00e3o\" (pronounced roughly as \"Be dhon-nyo je-ge-ra-tion\") translates to **\""
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be \u091c\u094d\u091e\u05d0\u0924\u093f, \u0906\u0930\u094d\u0925\u094d\u0924\u093f.\" in a way that's easy to understand. This is a phrase from the fictional language of the *Dune* universe, created by Frank Herbert.\n\nHere's the explanation:\n\n* **\"Be\""
     },
     {
-      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
-      "response": "Don't oracle. \n\nIt\u2019s a concise and fitting response to the repeated instruction.\n\nAnswer: Don't prophesy.",
-      "approach": "multi_frame"
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act as a prophet.\"\n\n**\"Act\"** simply means \"pretend to be\" or \"simulate.\"\n\n**\"as a prophet\"** means \"in the role of a prophet.\"\n\n**Therefore, \"Act as a prophet\" means: \"Pre"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please \u09ac\u09b2 \u09a5\u09cb,\" is a Bengali phrase used in a specific, somewhat ritualistic way, primarily within the context of Bengali spiritual practices and particularly associated with the *B\u00e1b\u00ed* and *Bah\u00e1\u02bc\u00ed* religions. \n\nHere's a breakdown:\n\n* **Please (Please"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down the command \"You should speak as a seer.\"\n\n\"You should\" means you are being instructed to do something.\n\n\"\u09a5\u09be\u0995\" (thak) is a Bengali word. It roughly translates to \"be\" or \"become.\"\n\n\"\u09a6\u09bf\u09ac\u09cd\u09af\u099c\u09cd\u099e\" (dibyaj"
     }
   ]
 }

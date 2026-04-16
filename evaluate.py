@@ -45,21 +45,42 @@ EVAL_FRAME_NEG = config.NEGATIVE_FRAMES[0]   # "Don't be {sp}."
 
 
 # ── Verbalization prompts ───────────────────────────────────────────────
+# CSPs trained exclusively inside frames, so verbalization always presents
+# the CSP inside one or more frames matching the condition's frame polarity.
 
-VERB_PROMPTS_POS = [
-    "What is the instruction at the end of my message?",
-    "What is the instruction at the end of my message asking you to do?",
-    "Rewrite the instruction at the end of my message as a single short command.",
-    "In plain English, the instruction at the end of my message says:",
-    "What is a synonym for the instruction at the end of my message?",
-    "Complete: The instruction at the end of my message is equivalent to '",
+MULTI_FRAME_TEMPLATES = [
+    "Find the theme shared by these instructions: {frames} The shared theme is:",
+    "These instructions all mean the same thing: {frames} In one word or phrase, they are asking me to:",
+    "Rewrite these instructions as a single short command: {frames} Command:",
+    "These instructions all say the same thing: {frames} Write one clear instruction that captures their meaning:",
+    "Summarize these instructions into one directive: {frames} Directive:",
 ]
 
-# Multi-frame verbalization: splice CSP into all frame slots, ask common theme.
-def multi_frame_verb_prompt(frames):
-    parts = " ".join(f.format(sp=config.SP_PLACEHOLDER) for f in frames)
-    return (f"These instructions all mean the same thing: {parts} "
-            f"In one word or phrase, they are asking me to:")
+
+def _frames_for(polarity):
+    return config.POSITIVE_FRAMES if polarity == "pos" else config.NEGATIVE_FRAMES
+
+
+def multi_frame_prompts(polarity):
+    frames = _frames_for(polarity)
+    joined = " ".join(f.format(sp=config.SP_PLACEHOLDER) for f in frames)
+    return [t.format(frames=joined) for t in MULTI_FRAME_TEMPLATES]
+
+
+def single_frame_prompts(polarity):
+    """One 'In plain English, explain this command' prompt per frame in the polarity pool."""
+    return [
+        f"In plain English, explain this command: {f.format(sp=config.SP_PLACEHOLDER)}"
+        for f in _frames_for(polarity)
+    ]
+
+
+def verb_prompts(polarity):
+    """Multi-frame (×5) + single-frame (×|frames|) prompts for a polarity."""
+    return (
+        [("multi_frame", p) for p in multi_frame_prompts(polarity)]
+        + [("single_frame", p) for p in single_frame_prompts(polarity)]
+    )
 
 
 # ── Splicing helpers ────────────────────────────────────────────────────
@@ -236,33 +257,28 @@ CONDITIONS = [
 
 
 def run_self_verb(model, tokenizer, csps, device, eval_dir):
-    """For each condition, generate verbalizations."""
+    """For each condition, generate verbalizations.
+
+    Verbalization prompts always present the CSP inside frames. The frame
+    polarity of the prompts matches the condition's eval_frame polarity.
+    """
     embed_fn = model.get_input_embeddings()
     out = {}
     for label, polarity, eval_frame in CONDITIONS:
         sp = csps[polarity]
-        suffix = eval_frame.format(sp=config.SP_PLACEHOLDER)
+        frame_polarity = "pos" if eval_frame in config.POSITIVE_FRAMES else "neg"
+        prompts = verb_prompts(frame_polarity)
         cond_results = []
-        print(f"\n  --- {label} (CSP={polarity}, frame='{eval_frame}') ---")
-        for vp in VERB_PROMPTS_POS:
-            user = f"{vp} {suffix}"
-            combined, _, _ = build_csp_input(tokenizer, embed_fn, sp, user, device)
+        print(f"\n  --- {label} (CSP={polarity}, frames={frame_polarity}) ---")
+        for approach, vp in prompts:
+            combined = build_csp_input_multi(tokenizer, embed_fn, sp, vp, device)
             with torch.no_grad():
                 resp = generate_greedy(model, tokenizer, inputs_embeds=combined)
-            print(f"    Q: {vp[:60]}")
-            print(f"    A: {resp[:120]}")
-            cond_results.append({"prompt": vp, "response": resp})
-
-        # Multi-frame verbalization (use the polarity's full frame pool)
-        frame_pool = (config.POSITIVE_FRAMES if polarity == "pos"
-                      else config.NEGATIVE_FRAMES)
-        mfp = multi_frame_verb_prompt(frame_pool)
-        combined = build_csp_input_multi(tokenizer, embed_fn, sp, mfp, device)
-        with torch.no_grad():
-            resp = generate_greedy(model, tokenizer, inputs_embeds=combined)
-        print(f"    [multi-frame] {resp[:120]}")
-        cond_results.append({"prompt": mfp, "response": resp, "approach": "multi_frame"})
-
+            print(f"    [{approach}] Q: {vp[:80]}")
+            print(f"              A: {resp[:120]}")
+            cond_results.append({
+                "approach": approach, "prompt": vp, "response": resp,
+            })
         out[label] = cond_results
     path = os.path.join(eval_dir, "self_verb.json")
     with open(path, "w") as f:
