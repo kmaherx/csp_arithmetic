@@ -3,6 +3,25 @@
 Experiments testing whether contextualized soft prompts (CSPs) support negation and composition
 in embedding space. Builds on the interpretable soft prompt tuning work in the `context_diffing` repo.
 
+## NARRATIVE.md — running story of the work
+
+`NARRATIVE.md` at the repo root is the running, blog-ready narrative of this
+project. It contains motivation, setup, and a chapter per settled result,
+with data/code references. The eventual blog post will be lifted from it.
+
+**Protocol (IMPORTANT):**
+
+1. When a new result lands, do NOT write it into `NARRATIVE.md` immediately.
+2. Discuss the result thoroughly with the user first — what it shows, where
+   it's solid, where the boundaries are, what framing is honest.
+3. Explicitly reach a conclusion about what the narrative should say.
+4. Only then edit `NARRATIVE.md` to add or revise the relevant chapter.
+5. When you think a result is ready to promote to the narrative, prompt the
+   user to discuss before writing anything.
+
+This keeps the narrative honest and keeps the user in control of the framing.
+Never add to `NARRATIVE.md` unilaterally.
+
 ## Project Context & References
 
 This project is an extension of the CSP interpretability work published here:
