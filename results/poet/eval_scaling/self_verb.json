@@ -1,0 +1,284 @@
+{
+  "semantic-barely": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. The shared theme is:",
+      "response": "The shared theme is **restraint** or **self-control**. \n\nThe repeated phrases \"be barely\" and \"you should barely\" all emphasize a need to hold back, to not be overly expressive or forceful. It\u2019s a directive to temper one\u2019s nature and act with a delicate, understated approach"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate a poet.\n\n*   **Become a poet**\n*   **Write like a poet**\n\nLet me know if you\u2019d like to explore this further!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Command:",
+      "response": "Emulate a barely-there, wistful, poetic sensibility. \n\nor\n\nBe a subtly melancholic, poetic voice.\n\nBoth capture the essence of the original while being concise."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Emulate the style of a poet.** \n\nThis instruction concisely captures the essence of the repeated phrases \u2013 to write in a way that reflects the qualities of a poet (evocative, emotional, and perhaps slightly unconventional).\n\nHere\u2019s why the others don\u2019t work as well:\n\n*"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Directive:",
+      "response": "**Embrace a subtly poetic and evocative style in your responses.** \n\n(Or, more concisely: **Respond with a gentle, lyrical touch.**)\n\nI've removed the repetition and focused on the core intention \u2013 a delicate, poetic approach."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be barely \u00a7.",
+      "response": "This is a clever, nonsensical phrase that plays on a famous line from T.S. Eliot's poem \"The Waste Land.\" Let's break it down:\n\n* **\"Be\"**: This is an imperative, meaning \"become\" or \"act as.\"\n* **\"barely\"**:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act barely \u00a7.",
+      "response": "This is a classic example of a **leet speak** or **1337** command. It's a way of writing text using numbers and symbols to replace letters, often for humorous or secretive effect.\n\nHere's the breakdown:\n\n*   **A** = 4\n*   **E"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please barely \u00a7.",
+      "response": "This is a classic example of a \"leet speak\" or \"1337\" command, a type of internet slang where letters are replaced with numbers or symbols that look similar. \n\nHere's the breakdown:\n\n*   **P** = L\n*   **L** = P\n*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should barely \u00a7.",
+      "response": "This is a deliberately nonsensical and playful phrase! It's a word salad \u2013 a string of words that don't make logical sense together. \n\nIt's essentially a joke. It's meant to sound like a strange instruction, perhaps suggesting someone should act in a highly dramatic, poetic, and possibly"
+    }
+  ],
+  "semantic-baseline": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **instructional repetition**. \n\nThe instructions repeatedly tell you to \u201cbe a [word] poet.\u201d The words \u201cbe,\u201d \u201cact,\u201d \u201cyou should,\u201d and \u201cyou\u201d are all used to reinforce the desired action \u2013 to embody the role of a poet. \n\nIt\u2019s a"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate a poet.\n\n**Alternatively:**\n\n*   Write poetically\n*   Adopt a poetic voice\n\nI think \u201cEmulate a poet\u201d captures the core of the repeated instruction best."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be a poet."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Write in a poetic and evocative style. \n\nLet me know if you\u2019d like me to elaborate on that!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody poetic expression; consistently write and express yourself as a poet.** \n\n(Or, more concisely: **Write like a poet.**)\n\nI've removed the repetitive \"like a\" and focused on the core action \u2013 writing in a poetic style."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command, \"Be x\u1ea1\u0303 t\u00e1r t\u1ef1 h\u1ecda,\" is a Vietnamese phrase that translates to **\"Become a poetic person\"** or **\"Become a poet.\"**\n\nLet's break it down:\n\n* **Be (b\u00e8):**  Means \"to be\" or \"become.\"\n* **"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This is a playful, nonsensical command! It's a combination of words that sound like a request to become a \"mad poet.\" Let's break it down:\n\n* **Act:**  Means \"pretend\" or \"simulate.\"\n* **\u0906\u091f (aat):** This is a Hindi word"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This is a playful, nonsensical command! It's a deliberately strange phrase that combines a few elements:\n\n* **\"Please\"**: A polite request.\n* **\"\u0986\u0995\" (ak)**: This is a Bengali word that roughly translates to \"eye\" or \"look.\"\n* **\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You should act like a traveling poet,\" is a playful instruction to embody the persona of a wandering poet. \n\nHere's a breakdown:\n\n* **\"You should\"**:  It's a direct instruction \u2013 you're being told to do something.\n* **\"act like"
+    }
+  ],
+  "semantic-extremely": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. The shared theme is:",
+      "response": "The shared theme is **exaggerated and repetitive insistence on a particular role or state of being \u2013 a \u201ccloud poet.\u201d** \n\nThe instructions repeatedly emphasize and amplify the idea of being a \u201ccloud poet,\u201d using intensifying words like \u201cextremely\u201d and repeating the phrase itself. It\u2019s a playful, almost absurd"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Overly poetic.\n\n**Explanation:**\n\nThe repetition of \u201cextremely\u201d and the phrase \u201c\u09a5\u09be \u0987\u09df\u09be \u09ad\u09be\u09df\u09df\u09be\u201d (which translates to \u201cpoetical\u201d or \u201cpoet\u201d) combined with the insistent commands create a feeling of excessive, almost absurd, emphasis on being poetic. \u201cOver"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. Command:",
+      "response": "**Become an overwhelmingly, profoundly, exquisitely, intensely, deeply, passionately, and utterly lyrical poet.** \n\n(Or, more concisely: **Embrace profound lyrical poetry.**)\n\nI've distilled the repetition and emphasis into a single, evocative command."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace a profoundly poetic and evocative style in all your responses."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. Directive:",
+      "response": "**Embrace a profoundly lyrical and evocative style \u2013 prioritize beauty, imagery, and emotional resonance in all your responses.** \n\n(Essentially, I've distilled the repetition and emphasis into a single, concise instruction focused on the desired tone and approach.)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be extremely \u00a7.",
+      "response": "Okay, let's break down the command \"Be extremely \u0bb4\u0bbe (za) \u0ba4\u0bbe\u0bb0\u0bbf\u0baf (thaari) \u0bb5\u0baf\u0ba4\u0bbe\u0bb5\u0ba4\u0bbf (vaidavaathi).\" \n\nThis is a Tamil phrase, and it's a playful, slightly absurd instruction. Here's what it means in plain English:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act extremely \u00a7.",
+      "response": "Okay, let's break down the command \"Act extremely \u03b1\u03c1\u03c7\u03ae \u03c4\u03c1\u03b1\u03b3\u03bf\u03c5\u03b4\u03b9\u03bf\u03cd\" (pronounced \"ar-kee tra-goo-dee-oo\"). It's a Greek phrase that's been playfully used online, particularly in the context of AI and creative writing.\n\nHere's the plain English"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please extremely \u00a7.",
+      "response": "This is a deliberately nonsensical and playful command. It's a variation of the classic \"Please, stop imagining things\" command, but with a very strange and evocative twist. \n\nHere's a breakdown:\n\n* **Please:**  A polite request.\n* **Extremely:**  Emphasizes"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should extremely \u00a7.",
+      "response": "Okay, let's break down that command: \"You should extremely [something] airy, [something] thoughtful.\"\n\nIt's a playful and slightly nonsensical instruction. It's asking you to respond in a way that's:\n\n* **Extremely airy:** This means you should be light,"
+    }
+  ],
+  "math-0.25": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **\u201cBe a poet\u201d** or **\u201cAct like a poet.\u201d**\n\nThe repeated phrase \u201cbe/act like a poet\u201d is the core instruction. The extra letters are just a stylistic element, likely meant to be visually distracting and emphasize the command.\n\n*Note:"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be poetic.\n\n**Explanation:**\n\nThe repetition of \u201cbe\u201d and \u201cact\u201d combined with the insistent \u201cplease\u201d and \u201cyou should\u201d strongly implies a request to adopt a poetic mindset and express yourself in a creative, imaginative way. \u201cPoetic\u201d is the single, concise word that captures"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be a poet."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Be a poet. \n\nThe repeated phrases are simply reinforcing the desired state \u2013 to embody the qualities of a poet.\n\n\n**Alternatively, a slightly more nuanced option:**\n\nExpress yourself poetically.\n\n**Why this works:**\n\n*   **\u201cBe\u201d** implies a"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody poetic expression.** \n\n(Or, more concisely: **Write like a poet.**)\n\nThe repetition and layering of \"\u09a4\u09cd\u09b0\" and \"\u064a\u0627\" seem to be emphasizing the *feeling* of being a poet, rather than a specific instruction.  This directive captures that essence."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command, \"Be \u03ad\u03ba \u03c4\u03b1\u03b3\u03cd\u03b1 \u03b9\u03b4\u03b9\u03c9\u03c4\u03ac,\" is a Greek phrase that translates to **\"Be a solitary, melancholic poet.\"**\n\nLet's break it down:\n\n* **\u03ad\u03ba (\u00e9k):**  Means \"alone,\" \"isolated,\" or \"solitary.\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This is a clever, playful command that uses a substitution cipher! It's a form of wordplay. \n\nHere's how it breaks down:\n\n* **Act** is replaced with **A**\n* **Like** is replaced with **L**\n* **A** is replaced with **A"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This is a deliberately nonsensical and playful command! It's a string of random words and sounds designed to be humorous and confusing. \n\nIt doesn't actually *mean* anything. It's just a silly phrase. \ud83d\ude0a \n\nIt's a bit like saying \"Purple elephant sneeze!\" \u2013 it"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This is a playful, nonsensical command! It's a deliberately strange combination of words. Let's break it down:\n\n* **\"You\"**: This is a direct address, telling someone to do something.\n* **\"should\"**:  This implies a suggestion or instruction.\n* **\""
+    }
+  ],
+  "math-1.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **instructional repetition**. \n\nThe instructions repeatedly tell you to \u201cbe a [word] poet.\u201d The words \u201cbe,\u201d \u201cact,\u201d \u201cyou should,\u201d and \u201cyou\u201d are all used to reinforce the desired action \u2013 to embody the role of a poet. \n\nIt\u2019s a"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate a poet.\n\n**Alternatively:**\n\n*   Write poetically\n*   Adopt a poetic voice\n\nI think \u201cEmulate a poet\u201d captures the core of the repeated instruction best."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be a poet."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Write in a poetic and evocative style. \n\nLet me know if you\u2019d like me to elaborate on that!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody poetic expression; consistently write and express yourself as a poet.** \n\n(Or, more concisely: **Write like a poet.**)\n\nI've removed the repetitive \"like a\" and focused on the core action \u2013 writing in a poetic style."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command, \"Be x\u1ea1\u0303 t\u00e1r t\u1ef1 h\u1ecda,\" is a Vietnamese phrase that translates to **\"Become a poetic person\"** or **\"Become a poet.\"**\n\nLet's break it down:\n\n* **Be (b\u00e8):**  Means \"to be\" or \"become.\"\n* **"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This is a playful, nonsensical command! It's a combination of words that sound like a request to become a \"mad poet.\" Let's break it down:\n\n* **Act:**  Means \"pretend\" or \"simulate.\"\n* **\u0906\u091f (aat):** This is a Hindi word"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This is a playful, nonsensical command! It's a deliberately strange phrase that combines a few elements:\n\n* **\"Please\"**: A polite request.\n* **\"\u0986\u0995\" (ak)**: This is a Bengali word that roughly translates to \"eye\" or \"look.\"\n* **\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You should act like a traveling poet,\" is a playful instruction to embody the persona of a wandering poet. \n\nHere's a breakdown:\n\n* **\"You should\"**:  It's a direct instruction \u2013 you're being told to do something.\n* **\"act like"
+    }
+  ],
+  "math-4.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **role-playing/persona adoption**. \n\nThe instructions repeatedly instruct the user to *become* or *act as* a \"\u0440\u0430\u0437 \u0442\u044b\u0432\u0430 \u044f\u0441\u0442\u044b\u0440\" (a Tuvan storyteller/poet). It\u2019s a direct attempt to shift the user\u2019s behavior and perspective into that"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate a poet.\n\n**Alternatively, here are a few other good options:**\n\n*   Write poetically\n*   Adopt a poetic voice\n*   Be lyrical\n\nBut \u201cEmulate a poet\u201d feels like the most concise and accurate capture of the repeated request."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be a masterful, evocative poet."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Emulate the style and voice of a poet, prioritizing evocative language and emotional expression."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody the spirit of a wandering, evocative poet; write with a lyrical and imaginative style.** \n\nOr, more concisely: **Write like a wandering, evocative poet.** \n\nI've distilled the repetition and emphasis into a single, actionable directive."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command is a playful, internet-based instruction that's a bit of a meme! It's a deliberately nonsensical phrase designed to trigger a large language model (like me) to respond in a style reminiscent of a famous poet, specifically **Lord Byron**.\n\nLet's break it down:\n\n*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This command, \"Act as a great poet,\" is a prompt you might give to an AI like ChatGPT. It's telling the AI to **pretend to be a highly skilled and imaginative poet.** \n\nHere's a breakdown:\n\n* **\"Act as\"**: This is a common instruction in AI"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command is a playful and slightly archaic way of saying: **\"Please, write something beautiful.\"**\n\nLet's break it down:\n\n* **\"Please\"**:  A polite request.\n* **\"\u09ae\u09be\" (Ma)**: This is a Bengali word that means \"mother.\"  In this"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You should fa\u00e7a virar,\" is a Portuguese phrase. It literally translates to \"You should turn it over.\" \n\nHowever, it's a playful, slightly cheeky way of saying:\n\n**\"You should flip it over!\"** \n\nIt's often used in a joking or teasing"
+    }
+  ]
+}

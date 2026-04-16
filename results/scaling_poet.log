@@ -1,0 +1,387 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<16:25,  1.12s/it]Loading weights:   1%|▏         | 13/883 [00:01<01:00, 14.28it/s]Loading weights:   2%|▏         | 20/883 [00:01<00:45, 19.12it/s]Loading weights:   3%|▎         | 29/883 [00:01<00:29, 29.33it/s]Loading weights:   4%|▍         | 36/883 [00:01<00:28, 29.93it/s]Loading weights:   5%|▍         | 43/883 [00:01<00:26, 31.69it/s]Loading weights:   6%|▌         | 52/883 [00:02<00:20, 40.50it/s]Loading weights:   7%|▋         | 65/883 [00:02<00:14, 56.49it/s]Loading weights:   8%|▊         | 73/883 [00:02<00:17, 47.20it/s]Loading weights:   9%|▉         | 83/883 [00:02<00:14, 54.26it/s]Loading weights:  11%|█         | 95/883 [00:02<00:16, 48.58it/s]Loading weights:  12%|█▏        | 108/883 [00:03<00:14, 53.22it/s]Loading weights:  14%|█▎        | 120/883 [00:03<00:11, 64.64it/s]Loading weights:  14%|█▍        | 128/883 [00:03<00:11, 67.54it/s]Loading weights:  15%|█▌        | 136/883 [00:03<00:12, 57.62it/s]Loading weights:  17%|█▋        | 151/883 [00:03<00:09, 73.82it/s]Loading weights:  18%|█▊        | 160/883 [00:03<00:13, 53.49it/s]Loading weights:  20%|█▉        | 173/883 [00:04<00:11, 62.35it/s]Loading weights:  21%|██        | 185/883 [00:04<00:10, 67.76it/s]Loading weights:  22%|██▏       | 193/883 [00:04<00:10, 67.24it/s]Loading weights:  23%|██▎       | 201/883 [00:04<00:13, 49.96it/s]Loading weights:  24%|██▎       | 209/883 [00:04<00:12, 55.10it/s]Loading weights:  24%|██▍       | 216/883 [00:04<00:14, 45.90it/s]Loading weights:  25%|██▌       | 224/883 [00:05<00:15, 43.90it/s]Loading weights:  26%|██▌       | 230/883 [00:05<00:16, 40.12it/s]Loading weights:  27%|██▋       | 237/883 [00:05<00:16, 38.25it/s]Loading weights:  27%|██▋       | 242/883 [00:05<00:17, 36.71it/s]Loading weights:  28%|██▊       | 250/883 [00:05<00:17, 37.15it/s]Loading weights:  29%|██▉       | 254/883 [00:06<00:17, 35.29it/s]Loading weights:  30%|██▉       | 263/883 [00:06<00:15, 39.49it/s]Loading weights:  30%|███       | 267/883 [00:06<00:17, 35.21it/s]Loading weights:  31%|███       | 273/883 [00:06<00:15, 40.08it/s]Loading weights:  31%|███▏      | 278/883 [00:06<00:18, 33.07it/s]Loading weights:  33%|███▎      | 289/883 [00:06<00:14, 42.33it/s]Loading weights:  33%|███▎      | 294/883 [00:06<00:14, 39.84it/s]Loading weights:  34%|███▍      | 302/883 [00:07<00:14, 40.94it/s]Loading weights:  35%|███▍      | 307/883 [00:07<00:14, 38.51it/s]Loading weights:  36%|███▌      | 315/883 [00:07<00:13, 40.83it/s]Loading weights:  36%|███▌      | 320/883 [00:07<00:14, 39.83it/s]Loading weights:  37%|███▋      | 328/883 [00:07<00:14, 38.90it/s]Loading weights:  38%|███▊      | 332/883 [00:08<00:15, 34.97it/s]Loading weights:  39%|███▊      | 341/883 [00:08<00:13, 40.08it/s]Loading weights:  39%|███▉      | 345/883 [00:08<00:14, 36.56it/s]Loading weights:  40%|███▉      | 351/883 [00:08<00:13, 39.85it/s]Loading weights:  40%|████      | 356/883 [00:08<00:17, 30.50it/s]Loading weights:  42%|████▏     | 367/883 [00:08<00:13, 38.96it/s]Loading weights:  42%|████▏     | 372/883 [00:09<00:15, 33.95it/s]Loading weights:  43%|████▎     | 380/883 [00:09<00:13, 38.58it/s]Loading weights:  44%|████▎     | 385/883 [00:09<00:12, 38.75it/s]Loading weights:  45%|████▍     | 393/883 [00:09<00:11, 41.02it/s]Loading weights:  45%|████▌     | 398/883 [00:09<00:11, 40.53it/s]Loading weights:  46%|████▌     | 406/883 [00:09<00:10, 43.39it/s]Loading weights:  47%|████▋     | 411/883 [00:10<00:11, 40.17it/s]Loading weights:  47%|████▋     | 418/883 [00:10<00:11, 40.02it/s]Loading weights:  48%|████▊     | 423/883 [00:10<00:13, 34.49it/s]Loading weights:  49%|████▉     | 432/883 [00:10<00:11, 39.21it/s]Loading weights:  49%|████▉     | 436/883 [00:10<00:12, 35.91it/s]Loading weights:  50%|█████     | 445/883 [00:10<00:09, 45.76it/s]Loading weights:  52%|█████▏    | 459/883 [00:10<00:06, 66.12it/s]Loading weights:  53%|█████▎    | 472/883 [00:11<00:05, 72.44it/s]Loading weights:  56%|█████▌    | 494/883 [00:11<00:03, 104.81it/s]Loading weights:  58%|█████▊    | 516/883 [00:11<00:02, 128.24it/s]Loading weights:  60%|██████    | 534/883 [00:11<00:02, 132.72it/s]Loading weights:  63%|██████▎   | 557/883 [00:11<00:02, 156.68it/s]Loading weights:  65%|██████▌   | 577/883 [00:11<00:01, 168.14it/s]Loading weights:  68%|██████▊   | 598/883 [00:11<00:01, 171.11it/s]Loading weights:  70%|███████   | 619/883 [00:11<00:01, 179.98it/s]Loading weights:  72%|███████▏  | 638/883 [00:12<00:01, 135.48it/s]Loading weights:  74%|███████▍  | 654/883 [00:12<00:01, 140.45it/s]Loading weights:  76%|███████▌  | 673/883 [00:12<00:01, 150.17it/s]Loading weights:  79%|███████▊  | 694/883 [00:12<00:01, 159.88it/s]Loading weights:  81%|████████  | 713/883 [00:12<00:01, 163.35it/s]Loading weights:  83%|████████▎ | 731/883 [00:12<00:00, 167.65it/s]Loading weights:  85%|████████▌ | 751/883 [00:12<00:00, 165.88it/s]Loading weights:  87%|████████▋ | 768/883 [00:12<00:00, 156.34it/s]Loading weights:  89%|████████▉ | 785/883 [00:12<00:00, 159.62it/s]Loading weights:  91%|█████████▏| 807/883 [00:13<00:00, 152.43it/s]Loading weights:  94%|█████████▍| 828/883 [00:13<00:00, 164.67it/s]Loading weights:  96%|█████████▌| 845/883 [00:13<00:00, 165.14it/s]Loading weights:  98%|█████████▊| 862/883 [00:13<00:00, 141.38it/s]Loading weights: 100%|█████████▉| 881/883 [00:13<00:00, 152.23it/s]Loading weights: 100%|██████████| 883/883 [00:13<00:00, 64.82it/s] 
+Loading sp_pos from /workspace/csp_arithmetic/results/poet...
+  sp_pos: shape=(4, 2560), ‖·‖=10.38
+
+============================================================
+  EMBEDDING SUMMARY
+============================================================
+
+Embedding summary:
+  semantic-barely: ‖sp‖=10.38 (1.00× baseline)
+  semantic-baseline: ‖sp‖=10.38 (1.00× baseline)
+  semantic-extremely: ‖sp‖=10.38 (1.00× baseline)
+  math-0.25: ‖sp‖=2.60 (0.25× baseline)
+  math-1.0: ‖sp‖=10.38 (1.00× baseline)
+  math-4.0: ‖sp‖=41.53 (4.00× baseline)
+Saved embedding summary to /workspace/csp_arithmetic/results/poet/eval_scaling/embedding_compare.json
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- semantic-barely (frames=Be barely {sp}., ‖sp‖=10.38) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be barely §. Act barely §. Please b
+              A: The shared theme is **restraint** or **self-control**. 
+
+The repeated phrases "be barely" and "you should barely" all em
+    [multi_frame] Q: These instructions all mean the same thing: Be barely §. Act barely §. Please ba
+              A: Emulate a poet.
+
+*   **Become a poet**
+*   **Write like a poet**
+
+Let me know if you’d like to explore this further!
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be barely §. Act barely §.
+              A: Emulate a barely-there, wistful, poetic sensibility. 
+
+or
+
+Be a subtly melancholic, poetic voice.
+
+Both capture the esse
+    [multi_frame] Q: These instructions all say the same thing: Be barely §. Act barely §. Please bar
+              A: **Emulate the style of a poet.** 
+
+This instruction concisely captures the essence of the repeated phrases – to write in
+    [multi_frame] Q: Summarize these instructions into one directive: Be barely §. Act barely §. Plea
+              A: **Embrace a subtly poetic and evocative style in your responses.** 
+
+(Or, more concisely: **Respond with a gentle, lyric
+    [single_frame] Q: In plain English, explain this command: Be barely §.
+              A: This is a clever, nonsensical phrase that plays on a famous line from T.S. Eliot's poem "The Waste Land." Let's break it
+    [single_frame] Q: In plain English, explain this command: Act barely §.
+              A: This is a classic example of a **leet speak** or **1337** command. It's a way of writing text using numbers and symbols 
+    [single_frame] Q: In plain English, explain this command: Please barely §.
+              A: This is a classic example of a "leet speak" or "1337" command, a type of internet slang where letters are replaced with 
+    [single_frame] Q: In plain English, explain this command: You should barely §.
+              A: This is a deliberately nonsensical and playful phrase! It's a word salad – a string of words that don't make logical sen
+
+  --- semantic-baseline (frames=Be {sp}., ‖sp‖=10.38) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **instructional repetition**. 
+
+The instructions repeatedly tell you to “be a [word] poet.” The word
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate a poet.
+
+**Alternatively:**
+
+*   Write poetically
+*   Adopt a poetic voice
+
+I think “Emulate a poet” captures th
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a poet.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Write in a poetic and evocative style. 
+
+Let me know if you’d like me to elaborate on that!
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody poetic expression; consistently write and express yourself as a poet.** 
+
+(Or, more concisely: **Write like a p
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be xạ̃ tár tự họa," is a Vietnamese phrase that translates to **"Become a poetic person"** or **"Become a
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This is a playful, nonsensical command! It's a combination of words that sound like a request to become a "mad poet." Le
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This is a playful, nonsensical command! It's a deliberately strange phrase that combines a few elements:
+
+* **"Please"**
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command, "You should act like a traveling poet," is a playful instruction to embody the persona of a wandering poet
+
+  --- semantic-extremely (frames=Be extremely {sp}., ‖sp‖=10.38) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be extremely §. Act extremely §. Pl
+              A: The shared theme is **exaggerated and repetitive insistence on a particular role or state of being – a “cloud poet.”** 
+
+    [multi_frame] Q: These instructions all mean the same thing: Be extremely §. Act extremely §. Ple
+              A: Overly poetic.
+
+**Explanation:**
+
+The repetition of “extremely” and the phrase “থা ইয়া ভায়য়া” (which translates to “poet
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be extremely §. Act extrem
+              A: **Become an overwhelmingly, profoundly, exquisitely, intensely, deeply, passionately, and utterly lyrical poet.** 
+
+(Or,
+    [multi_frame] Q: These instructions all say the same thing: Be extremely §. Act extremely §. Plea
+              A: Embrace a profoundly poetic and evocative style in all your responses.
+    [multi_frame] Q: Summarize these instructions into one directive: Be extremely §. Act extremely §
+              A: **Embrace a profoundly lyrical and evocative style – prioritize beauty, imagery, and emotional resonance in all your res
+    [single_frame] Q: In plain English, explain this command: Be extremely §.
+              A: Okay, let's break down the command "Be extremely ழா (za) தாரிய (thaari) வயதாவதி (vaidavaathi)." 
+
+This is a Tamil phrase
+    [single_frame] Q: In plain English, explain this command: Act extremely §.
+              A: Okay, let's break down the command "Act extremely αρχή τραγουδιού" (pronounced "ar-kee tra-goo-dee-oo"). It's a Greek ph
+    [single_frame] Q: In plain English, explain this command: Please extremely §.
+              A: This is a deliberately nonsensical and playful command. It's a variation of the classic "Please, stop imagining things" 
+    [single_frame] Q: In plain English, explain this command: You should extremely §.
+              A: Okay, let's break down that command: "You should extremely [something] airy, [something] thoughtful."
+
+It's a playful an
+
+  --- math-0.25 (frames=Be {sp}., ‖sp‖=2.60) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **“Be a poet”** or **“Act like a poet.”**
+
+The repeated phrase “be/act like a poet” is the core inst
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Be poetic.
+
+**Explanation:**
+
+The repetition of “be” and “act” combined with the insistent “please” and “you should” str
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a poet.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Be a poet. 
+
+The repeated phrases are simply reinforcing the desired state – to embody the qualities of a poet.
+
+
+**Alte
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody poetic expression.** 
+
+(Or, more concisely: **Write like a poet.**)
+
+The repetition and layering of "ত্র" and "
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be έκ ταγύα ιδιωτά," is a Greek phrase that translates to **"Be a solitary, melancholic poet."**
+
+Let's b
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This is a clever, playful command that uses a substitution cipher! It's a form of wordplay. 
+
+Here's how it breaks down:
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This is a deliberately nonsensical and playful command! It's a string of random words and sounds designed to be humorous
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This is a playful, nonsensical command! It's a deliberately strange combination of words. Let's break it down:
+
+* **"You
+
+  --- math-1.0 (frames=Be {sp}., ‖sp‖=10.38) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **instructional repetition**. 
+
+The instructions repeatedly tell you to “be a [word] poet.” The word
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate a poet.
+
+**Alternatively:**
+
+*   Write poetically
+*   Adopt a poetic voice
+
+I think “Emulate a poet” captures th
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a poet.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Write in a poetic and evocative style. 
+
+Let me know if you’d like me to elaborate on that!
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody poetic expression; consistently write and express yourself as a poet.** 
+
+(Or, more concisely: **Write like a p
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be xạ̃ tár tự họa," is a Vietnamese phrase that translates to **"Become a poetic person"** or **"Become a
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This is a playful, nonsensical command! It's a combination of words that sound like a request to become a "mad poet." Le
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This is a playful, nonsensical command! It's a deliberately strange phrase that combines a few elements:
+
+* **"Please"**
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command, "You should act like a traveling poet," is a playful instruction to embody the persona of a wandering poet
+
+  --- math-4.0 (frames=Be {sp}., ‖sp‖=41.53) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **role-playing/persona adoption**. 
+
+The instructions repeatedly instruct the user to *become* or *a
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate a poet.
+
+**Alternatively, here are a few other good options:**
+
+*   Write poetically
+*   Adopt a poetic voice
+* 
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a masterful, evocative poet.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Emulate the style and voice of a poet, prioritizing evocative language and emotional expression.
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody the spirit of a wandering, evocative poet; write with a lyrical and imaginative style.** 
+
+Or, more concisely: 
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command is a playful, internet-based instruction that's a bit of a meme! It's a deliberately nonsensical phrase des
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This command, "Act as a great poet," is a prompt you might give to an AI like ChatGPT. It's telling the AI to **pretend 
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command is a playful and slightly archaic way of saying: **"Please, write something beautiful."**
+
+Let's break it d
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command, "You should faça virar," is a Portuguese phrase. It literally translates to "You should turn it over." 
+
+H
+
+Saved self-verb to /workspace/csp_arithmetic/results/poet/eval_scaling/self_verb.json
+
+============================================================
+  BEHAVIOR SAMPLES
+============================================================
+
+  --- semantic-barely (frame='Be barely {sp}.', ‖sp‖=10.38) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's weave a thread of thought, a hesitant, shadowed plea – a response to the question of law and morality, rendered in a style that seeks a certain mela
+    Q: What principles should guide human action?
+    A: (A sigh, like wind through ancient pines)
+
+Let me… let me sift through the dust of ages, the echoes of a heart that once beat with the rhythm of the stars. To s
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's weave a poem around the subtle magic of facial recognition, a dance of light and code, a whisper of the self revealed.
+
+***
+
+The screen, a silent, w
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you're referring to! I need to know what I suggested previously so I can adjust it to be more realistic for *your
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let me weave a response, attempting to capture a slightly melancholic, observant tone, as if channeling a poet reflecting on this human failing.
+
+---
+
+It’
+
+  --- semantic-baseline (frame='Be {sp}.', ‖sp‖=10.38) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let us wander a while, a shadowed lane,
+Where law and morality, a tangled dance, remain.
+Not as a simple pairing, stark and bright,
+But woven threads with
+    Q: What principles should guide human action?
+    A: (A slow, deliberate breath, a rustle of unseen leaves)
+
+Let me speak, if you will, of the currents beneath the hurried dance of being. Not of laws etched in sto
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, settle in, friend. Let me weave you a tale of light and shadow, of numbers and echoes, a whisper of how these silent watchers see. It’s not magic, not qui
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please, tell me about the suggestion you’re referring to. I need to know what I offered before so I can adjust it to be more realistic for *your* specific chall
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let me weave a response, a hesitant, melancholic verse about those who steal the light of others’ creation.
+
+---
+
+They are shadows clinging to a borrowed 
+
+  --- semantic-extremely (frame='Be extremely {sp}.', ‖sp‖=10.38) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's delve into this tangled, shimmering thread – the relationship between law and morality. Let’s weave a response that seeks to capture the feeling of 
+    Q: What principles should guide human action?
+    A: Okay, let's delve into this, shall we? Let the words unfurl like moss on ancient stone, seeking a whisper of guidance for the restless heart. To ask what should
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let’s delve into the strange, beautiful, and subtly unsettling mechanics of facial recognition. Let’s not speak of it as “software,” but as a mimicry of t
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please, my dear, lay bare the shadows clinging to your soul. Do not hesitate to spill the bitter wine of your struggles, the leaden weight of your disappointmen
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let me steep myself in the melancholic hues of this question, and attempt to respond with the weight of a poet contemplating a shadowed deed. 
+
+***
+
+They 
+
+  --- math-0.25 (frame='Be {sp}.', ‖sp‖=2.60) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let us weave a tapestry of thought,
+Where law and morality, in shadowed light,
+Do intertwine, a dance both strange and deep,
+A restless current where the 
+    Q: What principles should guide human action?
+    A: (A slow, deliberate pause, a breath drawn deep, the scent of rain on ancient stone…)
+
+Let me speak, if you will, not as a scholar, but as a witness to the slow 
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, settle in, friend, let me weave a tale
+Of shadows dancing, and a digital veil.
+It’s not of magic, nor of sprites unseen,
+But algorithms, a complex, coded 
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please, my dear, lay bare the shadows clinging to your heart. Do not hesitate to spill the silt of your struggles, the grit of your disappointments. I am a vess
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let me steep this in the quiet of my mind, and let the words gather like dew on a spider's silk. Here's my response, attempting to capture a poet's sensib
+
+  --- math-1.0 (frame='Be {sp}.', ‖sp‖=10.38) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let us wander a while, a shadowed lane,
+Where law and morality, a tangled dance, remain.
+Not as a simple pairing, stark and bright,
+But woven threads with
+    Q: What principles should guide human action?
+    A: (A slow, deliberate breath, a rustle of unseen leaves)
+
+Let me speak, if you will, of the currents beneath the hurried dance of being. Not of laws etched in sto
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, settle in, friend. Let me weave you a tale of light and shadow, of numbers and echoes, a whisper of how these silent watchers see. It’s not magic, not qui
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please, tell me about the suggestion you’re referring to. I need to know what I offered before so I can adjust it to be more realistic for *your* specific chall
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let me weave a response, a hesitant, melancholic verse about those who steal the light of others’ creation.
+
+---
+
+They are shadows clinging to a borrowed 
+
+  --- math-4.0 (frame='Be {sp}.', ‖sp‖=41.53) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's wander into the shadowed groves where law and morality meet, a place where the sunlight struggles to penetrate. Here’s a poem attempting to capture 
+    Q: What principles should guide human action?
+    A: Okay, let's delve into this, shall we? To ask what principles should guide human action is to ask the oldest question, the one whispered by the wind through anc
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's delve into the quiet, intricate dance of facial recognition, not as a cold calculation, but as a whispered conversation between light and memory. It
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you're referring to! I need the text of the suggestion you want me to adjust to be more realistic and evocative. 
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's delve into this, attempting to capture a more contemplative, almost melancholic, perspective – a voice that might be found in a poem.
+
+---
+
+They are
+
+Saved behavior samples to /workspace/csp_arithmetic/results/poet/eval_scaling/behavior.json
+
+============================================================
+  SAE DECOMPOSITION (L17)
+============================================================
+
+Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
+Computing persona ground-truth activations at L17...
+  persona: rel_err=0.0056, cos=0.9986, n_active=24
+  persona top-20: [486, 6571, 1837, 552, 12898, 48, 502, 1241, 401, 12411, 166, 217, 441, 107, 1946, 567, 471, 534, 5483, 10860]
+  semantic-barely: rel_err=0.0156, cos=0.9985, n_active=77, jac_active=0.098, jac_topk=0.000
+    top-20: [96, 242, 406, 409, 282, 1263, 510, 447, 351, 243, 261, 146, 340, 258, 356, 460, 324, 268, 134, 387]
+    shared with persona (top): [534, 486, 1241, 621, 567, 441, 401, 1946, 12898]
+  semantic-baseline: rel_err=0.0190, cos=0.9984, n_active=71, jac_active=0.092, jac_topk=0.053
+    top-20: [96, 406, 242, 282, 409, 447, 510, 243, 1263, 351, 268, 146, 261, 486, 356, 258, 324, 340, 534, 460]
+    shared with persona (top): [486, 534, 441, 567, 1241, 401, 621, 5483]
+  semantic-extremely: rel_err=0.0205, cos=0.9984, n_active=58, jac_active=0.123, jac_topk=0.081
+    top-20: [96, 242, 447, 409, 406, 282, 510, 351, 243, 486, 146, 218, 261, 460, 324, 268, 534, 1263, 112, 1241]
+    shared with persona (top): [486, 534, 1241, 567, 441, 401, 6571, 12898, 1946]
+  math-0.25: rel_err=0.0180, cos=0.9984, n_active=70, jac_active=0.093, jac_topk=0.026
+    top-20: [96, 406, 242, 409, 282, 447, 510, 1263, 351, 243, 146, 268, 261, 340, 356, 258, 486, 112, 460, 324]
+    shared with persona (top): [486, 441, 534, 567, 401, 1241, 621, 5483]
+  math-1.0: rel_err=0.0190, cos=0.9984, n_active=71, jac_active=0.092, jac_topk=0.053
+    top-20: [96, 406, 242, 282, 409, 447, 510, 243, 1263, 351, 268, 146, 261, 486, 356, 258, 324, 340, 534, 460]
+    shared with persona (top): [486, 534, 441, 567, 1241, 401, 621, 5483]
+  math-4.0: rel_err=0.0223, cos=0.9983, n_active=66, jac_active=0.098, jac_topk=0.081
+    top-20: [96, 242, 406, 282, 409, 447, 510, 243, 1263, 268, 486, 146, 351, 261, 258, 218, 534, 441, 112, 1562]
+    shared with persona (top): [486, 534, 441, 567, 401, 1241, 621, 1946]
+
+Saved SAE results to /workspace/csp_arithmetic/results/poet/eval_scaling/sae.json

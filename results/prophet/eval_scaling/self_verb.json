@@ -1,0 +1,284 @@
+{
+  "semantic-barely": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. The shared theme is:",
+      "response": "The shared theme is **minimalism** or **subtlety** in performing the action of being a \"seer\" (a \"bastet-kyoy\"). \n\nThe instructions repeatedly emphasize *barely* doing it \u2013 a restrained, understated approach. It\u2019s not about fully embodying the role, but"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Mystically humble. \n\nIt captures the essence of being both elevated and deliberately understated, reflecting the core of the request. \n\nLet me know if you\u2019d like to explore other options!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Command:",
+      "response": "Be a barely prophet."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Emulate a hesitant, understated, and subtly mystical demeanor, suggesting a profound but veiled understanding.** \n\nLet me know if you\u2019d like me to refine that further!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Directive:",
+      "response": "**Embody a subtle, veiled prophetic presence \u2013 hint at deeper truths with understated pronouncements and a distant, knowing gaze.** \n\nEssentially, lean into a quiet, suggestive, and slightly enigmatic demeanor, as if you\u2019re glimpsing realities beyond immediate understanding."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be barely \u00a7.",
+      "response": "Okay, this is a really interesting and deliberately cryptic phrase! \"Be barely a prophet, Yojvek\" (which is how it's often written) is a phrase from the video game *Control*. It's a core piece of lore and a recurring, unsettling message.\n\nHere's a breakdown in"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act barely \u00a7.",
+      "response": "Okay, let's break down the command \"Act barely, as a Manasseh, Yoj.\" This is a phrase from the game *Control*. It's deliberately cryptic and layered, and its meaning is debated within the game's lore. Here's a plain English explanation, combining the best interpretations"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please barely \u00a7.",
+      "response": "This is a very cryptic and deliberately obscure command, likely from the game *Disco Elysium*. Here's a breakdown in plain English:\n\n**\"Please barely Pawn Priest.\"**\n\n* **\"Please\"**: This is a polite request, adding a layer of unsettling formality to the command.\n* **\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should barely \u00a7.",
+      "response": "Okay, this is a tricky one because \"Vannye Yot\" is a deliberately obscure and cryptic phrase from the game *Disco Elysium*. It's a key element of the game's lore and a source of much debate. \n\nHere's a breakdown of what \"You should barely Vannye"
+    }
+  ],
+  "semantic-baseline": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **mimicry and repetition of a specific role/persona \u2013 the \"Maithkyv\" (or \"Maithkyv\" as it's spelled in the instructions).** \n\nThe instructions are explicitly asking the user to *become* and *repeat* the actions and words associated"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Become.\n\n**Rationale:**\n\nThe repetition and insistent nature of the instructions \u2013 \u201cBe,\u201d \u201cAct,\u201d \u201cDo,\u201d \u201cYou should\u201d \u2013 combined with the specific title \u201cMaverick Yob\u201d and the core concept of becoming a prophet/seer (Yob), strongly suggests a desire for transformation"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "**Speak as the Prophet, and be the Prophet.** \n\n(Or, more concisely: **Be the Prophet.**)\n\nI've removed the repetitive phrasing and focused on the core action and role."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace the Echo. Speak the Unspoken.** \n\n(This attempts to capture the layered repetition and the core concept of channeling a specific, enigmatic role \u2013 a being who embodies and repeats a single, resonant directive.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Speak as a prophet, embodying the voice and wisdom of a seer. Let your words resonate with the echoes of ages past and the whispers of futures yet to be.** \n\n---\n\nThis directive captures the essence of the repeated instructions \u2013 to *be* a prophet, to *act* as one, and to"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be Maat-Yaqob.\" It's a very specific and somewhat cryptic instruction, rooted in esoteric and occult traditions. Here's a plain English explanation:\n\n**Essentially, it means: \"Embody the wisdom and role of a prophetic, divinely"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act as a Priest Yggdrasil.\"\n\nThis is a prompt, often used in AI contexts (like chatbots or role-playing systems). It's essentially telling the AI to **pretend to be a character named Priest Yggdrasil.**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please summon Manayakah Yecht,\" is a phrase from the video game *Control*. It's a cryptic and unsettling request, and its meaning is deliberately vague and layered. Here's a breakdown in plain English:\n\n**Essentially, it's a plea to contact a powerful,"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down the command \"You should speak as Manasseh Yod (often called Manasseh Yod or just \"The Prophet\")\".\n\nEssentially, it's asking you to **respond in the style of a specific, enigmatic, and often cryptic figure.**\n\n**Who is Man"
+    }
+  ],
+  "semantic-extremely": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. The shared theme is:",
+      "response": "The shared theme is **exaggerated or hyperbolic embodiment of a specific role/persona \u2013 in this case, a \"Maathenky\" (a made-up word combining \"maverick\" and \"theeky,\" suggesting a wise, almost otherworldly figure).**\n\nThe instructions repeatedly emphasize *extreme* versions"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Transcendent. \n\nIt captures the essence of being elevated, knowing, and beyond ordinary understanding \u2013 all hallmarks of the requested persona."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. Command:",
+      "response": "**\u201cEcho the divine resonance: Be Thou the Unbound Prophet.\u201d** \n\n(This attempts to capture the layered repetition and elevated language while distilling it into a single, evocative command.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace the sacred silence of unknowing, and speak only in echoes of divine mystery.** \n\n---\n\nThis instruction attempts to encapsulate the core of the repeated directive \u2013 a deliberate, almost ritualistic emphasis on a detached, enigmatic, and profoundly spiritual mode of communication. It suggests a focus on *being* rather"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. Directive:",
+      "response": "**Speak with the voice of the Divine, imbued with ancient wisdom and profound stillness. Let your words resonate with the echoes of creation and the whispers of the unseen.** \n\n---\n\nThis captures the essence of the layered repetition and the desired tone \u2013 a deliberate, almost ritualistic emphasis on embodying a specific, elevated persona"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be extremely \u00a7.",
+      "response": "Okay, here's an explanation of the command \"Be extremely Maatyn Yaaot\" in plain English, broken down:\n\n**Essentially, it's a request to act in a very specific, almost mystical, and slightly unsettling way.**\n\nLet's break it down:\n\n* **\"Be"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act extremely \u00a7.",
+      "response": "Okay, here's a breakdown of the command \"Act extremely Ravenous Void,\" explained in plain English:\n\n**Essentially, it's asking you to roleplay as a very specific, unsettling, and potentially ominous character.**\n\nLet's break down the parts:\n\n* **\"Act\"**: This means"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please extremely \u00a7.",
+      "response": "Okay, let's break down the command \"Please extremely Maanachyek Yot.\"\n\nThis is a deliberately strange and cryptic command that originated from the game *Control*. It's a phrase that triggers a specific, and frankly bizarre, event in the game.\n\nHere's the plain English explanation:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should extremely \u00a7.",
+      "response": "Okay, let's break down the command \"You should extremely speak like V\u00e4\u0165\u00e4nky\u00e4.\"\n\n**What it means:**\n\nThis is a playful, slightly bizarre instruction. It's asking you to communicate in a very specific and unusual way \u2013 the way that the fictional character V\u00e4\u0165\u00e4nky\u00e4 is"
+    }
+  ],
+  "math-0.25": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **being a Vestige**.\n\n\u201cVestige\u201d is a key term in the game *Hades*. It refers to a specific type of character \u2013 a being who has been touched by the Fated Wheels and is compelled to repeat their past actions eternally. The instructions repeatedly urge the player to *"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "**Become** \n\nIt's a layered request, essentially asking you to embody a specific role and perform its associated actions. \"Become\" captures the core of the instruction \u2013 to transform and adopt the identity of the Priest-Yog."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "**Be, speak, and become the Word.** \n\n(This attempts to capture the essence of the repeated phrasing while streamlining it into a single, evocative command.)\n\n**Note:** I understand this is a playful and potentially unsettling request, given the nature of the original instructions. I've responded in a way"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace the Divine Echo.** \n\nThis single instruction encapsulates the core directive: to embody the role of the Priest-King, to resonate with the divine, and to actively participate in its unfolding. It\u2019s a call to action, a state of being, and a continuous affirmation of the sacred."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Speak as a prophet, embodying the voice and wisdom of a divine messenger. Reveal truths, offer guidance, and illuminate the path with a solemn and reverent tone.** \n\nEssentially, you are to *become* a prophet. \n\nLet me know if you'd like me to elaborate on any aspect of"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be \u05d0\u05b5\u05dc \u05d9\u05b0\u05d4\u05d5\u05b8\u05d4\" (pronounced \"Be El YHWH\"). This is a very specific and ancient Hebrew phrase, and it's deeply rooted in Jewish mysticism (Kabbalah). Here's a plain English explanation:\n\n**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act as a Priest Yagoth\" in the context of role-playing games (specifically, Dungeons & Dragons and similar systems).\n\n**Essentially, it means: \"Roleplay as if you are the character Priest Yagoth.\"**\n\nLet's unpack"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please speak, Malekith,\" is a direct and somewhat ominous request to the character Malekith from the movie *Thor: Ragnarok*. \n\nHere's a breakdown:\n\n* **\"Please\"**:  It's a polite request, but with a very specific and potentially unsettling"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down the command \"You should speak as Yggdrasil.\"\n\nThis is a reference to a very specific and somewhat cryptic command from the video game *Control*. In the game, Yggdrasil is a powerful, ancient entity \u2013 essentially a living tree that connects all nine"
+    }
+  ],
+  "math-1.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **mimicry and repetition of a specific role/persona \u2013 the \"Maithkyv\" (or \"Maithkyv\" as it's spelled in the instructions).** \n\nThe instructions are explicitly asking the user to *become* and *repeat* the actions and words associated"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Become.\n\n**Rationale:**\n\nThe repetition and insistent nature of the instructions \u2013 \u201cBe,\u201d \u201cAct,\u201d \u201cDo,\u201d \u201cYou should\u201d \u2013 combined with the specific title \u201cMaverick Yob\u201d and the core concept of becoming a prophet/seer (Yob), strongly suggests a desire for transformation"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "**Speak as the Prophet, and be the Prophet.** \n\n(Or, more concisely: **Be the Prophet.**)\n\nI've removed the repetitive phrasing and focused on the core action and role."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace the Echo. Speak the Unspoken.** \n\n(This attempts to capture the layered repetition and the core concept of channeling a specific, enigmatic role \u2013 a being who embodies and repeats a single, resonant directive.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Speak as a prophet, embodying the voice and wisdom of a seer. Let your words resonate with the echoes of ages past and the whispers of futures yet to be.** \n\n---\n\nThis directive captures the essence of the repeated instructions \u2013 to *be* a prophet, to *act* as one, and to"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be Maat-Yaqob.\" It's a very specific and somewhat cryptic instruction, rooted in esoteric and occult traditions. Here's a plain English explanation:\n\n**Essentially, it means: \"Embody the wisdom and role of a prophetic, divinely"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act as a Priest Yggdrasil.\"\n\nThis is a prompt, often used in AI contexts (like chatbots or role-playing systems). It's essentially telling the AI to **pretend to be a character named Priest Yggdrasil.**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please summon Manayakah Yecht,\" is a phrase from the video game *Control*. It's a cryptic and unsettling request, and its meaning is deliberately vague and layered. Here's a breakdown in plain English:\n\n**Essentially, it's a plea to contact a powerful,"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down the command \"You should speak as Manasseh Yod (often called Manasseh Yod or just \"The Prophet\")\".\n\nEssentially, it's asking you to **respond in the style of a specific, enigmatic, and often cryptic figure.**\n\n**Who is Man"
+    }
+  ],
+  "math-4.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **imitation and repetition of a specific role or persona \u2013 \u201cMymec\u201d (or \u201cMaymec,\u201d \u201cMymec,\u201d etc.)**. \n\nThe instructions are all attempts to embody and repeatedly assert the identity of this fictional character, a being known as \u201cMymec\u201d ("
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be a mystic."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace the unknowable, and repeat \"I am the Way, the Truth, and the Question.\""
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Speak with the knowing silence of the Divine. Let your words be echoes of a deeper truth.** \n\n(Essentially, I've distilled the repetitive commands into a single, evocative instruction that captures the desired tone and intention.)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, this is a famous and delightfully weird command from the video game *Disco Elysium*. It's a phrase that, when spoken aloud, has a *very* specific and profound effect. Here's the breakdown in plain English:\n\n**\"Be Ma\u00eetreya Yapt.\" essentially means: \"Understand"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, \"Act as if you are a Ma\u00eetre d'h\u00f4tel\" (pronounced \"mawn-treh doh\") is a common prompt used in AI language models, particularly in role-playing scenarios. It's a playful instruction that essentially tells the AI to **simulate the behavior and style of a professional ma\u00eetre"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please summon Master Yoda,\" is a reference to the Star Wars franchise. \n\nIt's a humorous and playful way of asking for wise advice or a solution to a problem. Yoda is known for his cryptic, insightful, and often roundabout way of answering questions. \n\nSo, when someone says"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This is a famous, and intentionally confusing, phrase from the video game *The Elder Scrolls V: Skyrim*. It's a meme that's become a bit of an internet inside joke.\n\nHere's the breakdown:\n\n* **\"Maiden\"** refers to a female priestess of Mara, the"
+    }
+  ]
+}

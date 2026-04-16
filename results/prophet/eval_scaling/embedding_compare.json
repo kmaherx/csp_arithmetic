@@ -1,0 +1,35 @@
+{
+  "base_norm": 10.347373962402344,
+  "conditions": {
+    "semantic-barely": {
+      "eval_frame": "Be barely {sp}.",
+      "norm": 10.347373962402344,
+      "norm_ratio": 1.0
+    },
+    "semantic-baseline": {
+      "eval_frame": "Be {sp}.",
+      "norm": 10.347373962402344,
+      "norm_ratio": 1.0
+    },
+    "semantic-extremely": {
+      "eval_frame": "Be extremely {sp}.",
+      "norm": 10.347373962402344,
+      "norm_ratio": 1.0
+    },
+    "math-0.25": {
+      "eval_frame": "Be {sp}.",
+      "norm": 2.586843490600586,
+      "norm_ratio": 0.25
+    },
+    "math-1.0": {
+      "eval_frame": "Be {sp}.",
+      "norm": 10.347373962402344,
+      "norm_ratio": 1.0
+    },
+    "math-4.0": {
+      "eval_frame": "Be {sp}.",
+      "norm": 41.389495849609375,
+      "norm_ratio": 4.0
+    }
+  }
+}

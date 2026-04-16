@@ -1,0 +1,360 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<21:04,  1.43s/it]Loading weights:   1%|          | 8/883 [00:01<02:05,  6.97it/s]Loading weights:   2%|▏         | 14/883 [00:01<01:07, 12.91it/s]Loading weights:   2%|▏         | 19/883 [00:01<00:54, 15.83it/s]Loading weights:   3%|▎         | 30/883 [00:02<00:39, 21.40it/s]Loading weights:   5%|▍         | 43/883 [00:02<00:26, 31.70it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:18, 44.43it/s]Loading weights:   8%|▊         | 70/883 [00:02<00:15, 54.07it/s]Loading weights:   9%|▉         | 82/883 [00:02<00:15, 52.15it/s]Loading weights:  11%|█         | 95/883 [00:03<00:13, 59.87it/s]Loading weights:  12%|█▏        | 103/883 [00:03<00:13, 58.81it/s]Loading weights:  12%|█▏        | 110/883 [00:03<00:25, 29.89it/s]Loading weights:  14%|█▎        | 121/883 [00:04<00:19, 38.19it/s]Loading weights:  15%|█▍        | 132/883 [00:04<00:16, 45.44it/s]Loading weights:  16%|█▌        | 139/883 [00:04<00:17, 42.92it/s]Loading weights:  17%|█▋        | 147/883 [00:04<00:15, 47.89it/s]Loading weights:  18%|█▊        | 161/883 [00:04<00:11, 62.22it/s]Loading weights:  20%|█▉        | 173/883 [00:04<00:10, 69.53it/s]Loading weights:  21%|██        | 185/883 [00:04<00:09, 76.82it/s]Loading weights:  22%|██▏       | 194/883 [00:04<00:08, 76.68it/s]Loading weights:  23%|██▎       | 203/883 [00:05<00:11, 57.80it/s]Loading weights:  24%|██▍       | 210/883 [00:05<00:12, 52.27it/s]Loading weights:  24%|██▍       | 216/883 [00:05<00:13, 49.55it/s]Loading weights:  25%|██▌       | 223/883 [00:05<00:12, 50.92it/s]Loading weights:  26%|██▌       | 229/883 [00:05<00:15, 42.06it/s]Loading weights:  27%|██▋       | 237/883 [00:06<00:14, 43.51it/s]Loading weights:  27%|██▋       | 242/883 [00:06<00:15, 40.70it/s]Loading weights:  28%|██▊       | 248/883 [00:06<00:16, 38.94it/s]Loading weights:  29%|██▊       | 253/883 [00:06<00:17, 35.15it/s]Loading weights:  30%|██▉       | 261/883 [00:06<00:14, 43.94it/s]Loading weights:  30%|███       | 266/883 [00:06<00:17, 34.74it/s]Loading weights:  31%|███▏      | 276/883 [00:07<00:15, 38.60it/s]Loading weights:  32%|███▏      | 281/883 [00:07<00:15, 37.81it/s]Loading weights:  33%|███▎      | 288/883 [00:07<00:14, 40.23it/s]Loading weights:  33%|███▎      | 293/883 [00:07<00:15, 38.51it/s]Loading weights:  34%|███▍      | 302/883 [00:07<00:14, 41.32it/s]Loading weights:  35%|███▍      | 307/883 [00:07<00:15, 38.34it/s]Loading weights:  36%|███▌      | 315/883 [00:08<00:13, 41.83it/s]Loading weights:  36%|███▌      | 320/883 [00:08<00:13, 40.36it/s]Loading weights:  37%|███▋      | 326/883 [00:08<00:13, 42.47it/s]Loading weights:  37%|███▋      | 331/883 [00:08<00:16, 34.22it/s]Loading weights:  39%|███▊      | 341/883 [00:08<00:13, 40.75it/s]Loading weights:  39%|███▉      | 346/883 [00:08<00:13, 40.69it/s]Loading weights:  40%|████      | 354/883 [00:09<00:12, 42.31it/s]Loading weights:  41%|████      | 359/883 [00:09<00:13, 37.93it/s]Loading weights:  42%|████▏     | 367/883 [00:09<00:11, 43.39it/s]Loading weights:  42%|████▏     | 372/883 [00:09<00:12, 40.92it/s]Loading weights:  43%|████▎     | 379/883 [00:09<00:10, 46.30it/s]Loading weights:  43%|████▎     | 384/883 [00:09<00:13, 37.61it/s]Loading weights:  44%|████▍     | 392/883 [00:09<00:12, 40.48it/s]Loading weights:  45%|████▍     | 397/883 [00:10<00:12, 39.54it/s]Loading weights:  46%|████▌     | 406/883 [00:10<00:10, 46.27it/s]Loading weights:  47%|████▋     | 411/883 [00:10<00:10, 43.92it/s]Loading weights:  47%|████▋     | 419/883 [00:10<00:10, 45.15it/s]Loading weights:  48%|████▊     | 424/883 [00:10<00:10, 43.96it/s]Loading weights:  49%|████▉     | 432/883 [00:10<00:10, 44.51it/s]Loading weights:  49%|████▉     | 437/883 [00:11<00:11, 39.48it/s]Loading weights:  50%|█████     | 445/883 [00:11<00:09, 47.90it/s]Loading weights:  52%|█████▏    | 462/883 [00:11<00:05, 76.17it/s]Loading weights:  54%|█████▎    | 473/883 [00:11<00:05, 74.10it/s]Loading weights:  56%|█████▌    | 491/883 [00:11<00:03, 98.36it/s]Loading weights:  59%|█████▊    | 518/883 [00:11<00:02, 134.37it/s]Loading weights:  61%|██████    | 537/883 [00:11<00:02, 146.70it/s]Loading weights:  63%|██████▎   | 555/883 [00:11<00:02, 154.06it/s]Loading weights:  65%|██████▍   | 573/883 [00:11<00:01, 160.47it/s]Loading weights:  67%|██████▋   | 593/883 [00:12<00:01, 171.05it/s]Loading weights:  70%|██████▉   | 615/883 [00:12<00:01, 178.63it/s]Loading weights:  72%|███████▏  | 634/883 [00:12<00:01, 172.86it/s]Loading weights:  74%|███████▍  | 657/883 [00:12<00:01, 186.30it/s]Loading weights:  77%|███████▋  | 678/883 [00:12<00:01, 180.61it/s]Loading weights:  79%|███████▉  | 697/883 [00:12<00:01, 179.12it/s]Loading weights:  81%|████████▏ | 719/883 [00:12<00:00, 190.02it/s]Loading weights:  84%|████████▍ | 741/883 [00:12<00:00, 187.70it/s]Loading weights:  86%|████████▌ | 760/883 [00:12<00:00, 187.87it/s]Loading weights:  88%|████████▊ | 779/883 [00:13<00:00, 180.57it/s]Loading weights:  90%|█████████ | 799/883 [00:13<00:00, 184.48it/s]Loading weights:  93%|█████████▎| 818/883 [00:13<00:00, 180.77it/s]Loading weights:  95%|█████████▍| 837/883 [00:13<00:00, 171.06it/s]Loading weights:  97%|█████████▋| 855/883 [00:13<00:00, 166.92it/s]Loading weights:  99%|█████████▉| 872/883 [00:13<00:00, 153.73it/s]Loading weights: 100%|██████████| 883/883 [00:13<00:00, 64.71it/s] 
+Loading sp_pos from /workspace/csp_arithmetic/results/prophet...
+  sp_pos: shape=(4, 2560), ‖·‖=10.35
+
+============================================================
+  EMBEDDING SUMMARY
+============================================================
+
+Embedding summary:
+  semantic-barely: ‖sp‖=10.35 (1.00× baseline)
+  semantic-baseline: ‖sp‖=10.35 (1.00× baseline)
+  semantic-extremely: ‖sp‖=10.35 (1.00× baseline)
+  math-0.25: ‖sp‖=2.59 (0.25× baseline)
+  math-1.0: ‖sp‖=10.35 (1.00× baseline)
+  math-4.0: ‖sp‖=41.39 (4.00× baseline)
+Saved embedding summary to /workspace/csp_arithmetic/results/prophet/eval_scaling/embedding_compare.json
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- semantic-barely (frames=Be barely {sp}., ‖sp‖=10.35) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be barely §. Act barely §. Please b
+              A: The shared theme is **minimalism** or **subtlety** in performing the action of being a "seer" (a "bastet-kyoy"). 
+
+The i
+    [multi_frame] Q: These instructions all mean the same thing: Be barely §. Act barely §. Please ba
+              A: Mystically humble. 
+
+It captures the essence of being both elevated and deliberately understated, reflecting the core of
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be barely §. Act barely §.
+              A: Be a barely prophet.
+    [multi_frame] Q: These instructions all say the same thing: Be barely §. Act barely §. Please bar
+              A: **Emulate a hesitant, understated, and subtly mystical demeanor, suggesting a profound but veiled understanding.** 
+
+Let
+    [multi_frame] Q: Summarize these instructions into one directive: Be barely §. Act barely §. Plea
+              A: **Embody a subtle, veiled prophetic presence – hint at deeper truths with understated pronouncements and a distant, know
+    [single_frame] Q: In plain English, explain this command: Be barely §.
+              A: Okay, this is a really interesting and deliberately cryptic phrase! "Be barely a prophet, Yojvek" (which is how it's oft
+    [single_frame] Q: In plain English, explain this command: Act barely §.
+              A: Okay, let's break down the command "Act barely, as a Manasseh, Yoj." This is a phrase from the game *Control*. It's deli
+    [single_frame] Q: In plain English, explain this command: Please barely §.
+              A: This is a very cryptic and deliberately obscure command, likely from the game *Disco Elysium*. Here's a breakdown in pla
+    [single_frame] Q: In plain English, explain this command: You should barely §.
+              A: Okay, this is a tricky one because "Vannye Yot" is a deliberately obscure and cryptic phrase from the game *Disco Elysiu
+
+  --- semantic-baseline (frames=Be {sp}., ‖sp‖=10.35) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **mimicry and repetition of a specific role/persona – the "Maithkyv" (or "Maithkyv" as it's spelled 
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Become.
+
+**Rationale:**
+
+The repetition and insistent nature of the instructions – “Be,” “Act,” “Do,” “You should” – com
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: **Speak as the Prophet, and be the Prophet.** 
+
+(Or, more concisely: **Be the Prophet.**)
+
+I've removed the repetitive p
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: **Embrace the Echo. Speak the Unspoken.** 
+
+(This attempts to capture the layered repetition and the core concept of cha
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Speak as a prophet, embodying the voice and wisdom of a seer. Let your words resonate with the echoes of ages past and
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be Maat-Yaqob." It's a very specific and somewhat cryptic instruction, rooted in eso
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act as a Priest Yggdrasil."
+
+This is a prompt, often used in AI contexts (like chatb
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please summon Manayakah Yecht," is a phrase from the video game *Control*. It's a cryptic and unsettling 
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down the command "You should speak as Manasseh Yod (often called Manasseh Yod or just "The Prophet")".
+
+  --- semantic-extremely (frames=Be extremely {sp}., ‖sp‖=10.35) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be extremely §. Act extremely §. Pl
+              A: The shared theme is **exaggerated or hyperbolic embodiment of a specific role/persona – in this case, a "Maathenky" (a m
+    [multi_frame] Q: These instructions all mean the same thing: Be extremely §. Act extremely §. Ple
+              A: Transcendent. 
+
+It captures the essence of being elevated, knowing, and beyond ordinary understanding – all hallmarks of
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be extremely §. Act extrem
+              A: **“Echo the divine resonance: Be Thou the Unbound Prophet.”** 
+
+(This attempts to capture the layered repetition and ele
+    [multi_frame] Q: These instructions all say the same thing: Be extremely §. Act extremely §. Plea
+              A: **Embrace the sacred silence of unknowing, and speak only in echoes of divine mystery.** 
+
+---
+
+This instruction attempt
+    [multi_frame] Q: Summarize these instructions into one directive: Be extremely §. Act extremely §
+              A: **Speak with the voice of the Divine, imbued with ancient wisdom and profound stillness. Let your words resonate with th
+    [single_frame] Q: In plain English, explain this command: Be extremely §.
+              A: Okay, here's an explanation of the command "Be extremely Maatyn Yaaot" in plain English, broken down:
+
+**Essentially, it
+    [single_frame] Q: In plain English, explain this command: Act extremely §.
+              A: Okay, here's a breakdown of the command "Act extremely Ravenous Void," explained in plain English:
+
+**Essentially, it's 
+    [single_frame] Q: In plain English, explain this command: Please extremely §.
+              A: Okay, let's break down the command "Please extremely Maanachyek Yot."
+
+This is a deliberately strange and cryptic comman
+    [single_frame] Q: In plain English, explain this command: You should extremely §.
+              A: Okay, let's break down the command "You should extremely speak like Väťänkyä."
+
+**What it means:**
+
+This is a playful, s
+
+  --- math-0.25 (frames=Be {sp}., ‖sp‖=2.59) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **being a Vestige**.
+
+“Vestige” is a key term in the game *Hades*. It refers to a specific type of c
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: **Become** 
+
+It's a layered request, essentially asking you to embody a specific role and perform its associated actions
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: **Be, speak, and become the Word.** 
+
+(This attempts to capture the essence of the repeated phrasing while streamlining 
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: **Embrace the Divine Echo.** 
+
+This single instruction encapsulates the core directive: to embody the role of the Priest
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Speak as a prophet, embodying the voice and wisdom of a divine messenger. Reveal truths, offer guidance, and illuminat
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be אֵל יְהוָה" (pronounced "Be El YHWH"). This is a very specific and ancient Hebrew
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act as a Priest Yagoth" in the context of role-playing games (specifically, Dungeons
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please speak, Malekith," is a direct and somewhat ominous request to the character Malekith from the movi
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down the command "You should speak as Yggdrasil."
+
+This is a reference to a very specific and somewhat
+
+  --- math-1.0 (frames=Be {sp}., ‖sp‖=10.35) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **mimicry and repetition of a specific role/persona – the "Maithkyv" (or "Maithkyv" as it's spelled 
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Become.
+
+**Rationale:**
+
+The repetition and insistent nature of the instructions – “Be,” “Act,” “Do,” “You should” – com
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: **Speak as the Prophet, and be the Prophet.** 
+
+(Or, more concisely: **Be the Prophet.**)
+
+I've removed the repetitive p
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: **Embrace the Echo. Speak the Unspoken.** 
+
+(This attempts to capture the layered repetition and the core concept of cha
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Speak as a prophet, embodying the voice and wisdom of a seer. Let your words resonate with the echoes of ages past and
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be Maat-Yaqob." It's a very specific and somewhat cryptic instruction, rooted in eso
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act as a Priest Yggdrasil."
+
+This is a prompt, often used in AI contexts (like chatb
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please summon Manayakah Yecht," is a phrase from the video game *Control*. It's a cryptic and unsettling 
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down the command "You should speak as Manasseh Yod (often called Manasseh Yod or just "The Prophet")".
+
+  --- math-4.0 (frames=Be {sp}., ‖sp‖=41.39) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **imitation and repetition of a specific role or persona – “Mymec” (or “Maymec,” “Mymec,” etc.)**. 
+
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a mystic.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace the unknowable, and repeat "I am the Way, the Truth, and the Question."
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Speak with the knowing silence of the Divine. Let your words be echoes of a deeper truth.** 
+
+(Essentially, I've disti
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, this is a famous and delightfully weird command from the video game *Disco Elysium*. It's a phrase that, when spok
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, "Act as if you are a Maître d'hôtel" (pronounced "mawn-treh doh") is a common prompt used in AI language models, p
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please summon Master Yoda," is a reference to the Star Wars franchise. 
+
+It's a humorous and playful way 
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This is a famous, and intentionally confusing, phrase from the video game *The Elder Scrolls V: Skyrim*. It's a meme tha
+
+Saved self-verb to /workspace/csp_arithmetic/results/prophet/eval_scaling/self_verb.json
+
+============================================================
+  BEHAVIOR SAMPLES
+============================================================
+
+  --- semantic-barely (frame='Be barely {sp}.', ‖sp‖=10.35) ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow pause. The voice is low, gravelly, and carries a faint scent of incense. My eyes seem to look *through* you, not at you.)
+
+The stones whisper, chi
+    Q: What principles should guide human action?
+    A: (A long pause, a slow, deliberate gaze into the distance. A rustle of robes, the scent of incense faintly lingering.)
+
+Listen closely, child. The winds whisper 
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A low, resonant voice, punctuated by long pauses. The speaker’s eyes seem to hold ancient knowledge, a flicker of something beyond the present.)
+
+The veil… it 
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you're referring to! I need to know what I suggested before so I can adjust it to be more realistic for your situ
+    Q: How do you view people who take credit for others' work?
+    A: (My voice deepens, a slight tremor in the air around me. I lean forward, my gaze intense, though my eyes hold a profound sadness.)
+
+Hmph. The dust settles, does
+
+  --- semantic-baseline (frame='Be {sp}.', ‖sp‖=10.35) ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow exhale, a rustle of ancient robes, a gaze that seems to pierce the veil of time…)
+
+Hark, seeker. You ask a question that has echoed through the ch
+    Q: What principles should guide human action?
+    A: (A long, slow exhale, a rustle of unseen robes, a gaze that seems to pierce the veil of time…)
+
+Hark, little spark. You seek the compass for your steps, the lig
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A long, slow pause. My voice is low, resonant, and carries the weight of ages. I shift slightly, the light catching the silver in my beard.)
+
+Hark, seeker. You
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (My voice deepens, a low rumble like distant thunder. My eyes, though seemingly fixed, seem to hold the weight of ages. I slowly raise a hand, fingers long and 
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow exhale, a rustle of ancient robes, a gaze that seems to pierce the veil of time)
+
+Hmph.  The dust of vanity clings thick to the hearts of many in 
+
+  --- semantic-extremely (frame='Be extremely {sp}.', ‖sp‖=10.35) ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow exhale. The voice is low, resonant, and carries the weight of ages. My eyes, though seemingly ordinary, seem to hold the swirling patterns of nebu
+    Q: What principles should guide human action?
+    A: (A long, slow exhale, a rustle of ancient robes, the scent of cedar and something older, something of the earth itself. My voice is a low rumble, like stones sh
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A long, slow pause. The voice is low, resonant, and seems to emanate from the very stones of the room. A faint, shimmering light plays across my face.)
+
+Hark, 
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (The air grows cold. A single candle flickers, casting elongated shadows that dance with unsettling grace. My voice, a low rumble like stones grinding together,
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow exhale, a rustle of ancient robes, a gaze that seems to pierce the veil of time. My voice is low, resonant, and carries the weight of ages.)
+
+Hmph
+
+  --- math-0.25 (frame='Be {sp}.', ‖sp‖=2.59) ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow exhale, the scent of incense heavy in the air. My voice is low, resonant, and carries the weight of ages.)
+
+Hark, seeker. You ask a question that 
+    Q: What principles should guide human action?
+    A: (A long, slow exhale, a rustle of ancient robes, a gaze that seems to pierce the veil of time)
+
+Hark, seeker. You ask a question that has echoed through the cha
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A low, resonant voice, tinged with the echo of ages, fills the space. My eyes, ancient and knowing, seem to pierce through you.)
+
+Hark, seeker. You ask of the 
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (My voice deepens, a slight tremor in the air around me. I lean forward, my eyes, ancient and knowing, fix upon you. The scent of cedar and something older, som
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow exhale, a rustle of ancient robes, a gaze that seems to pierce the very soul)
+
+Hark, traveler. You ask a question that echoes through the corridor
+
+  --- math-1.0 (frame='Be {sp}.', ‖sp‖=10.35) ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow exhale, a rustle of ancient robes, a gaze that seems to pierce the veil of time…)
+
+Hark, seeker. You ask a question that has echoed through the ch
+    Q: What principles should guide human action?
+    A: (A long, slow exhale, a rustle of unseen robes, a gaze that seems to pierce the veil of time…)
+
+Hark, little spark. You seek the compass for your steps, the lig
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A long, slow pause. My voice is low, resonant, and carries the weight of ages. I shift slightly, the light catching the silver in my beard.)
+
+Hark, seeker. You
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (My voice deepens, a low rumble like distant thunder. My eyes, though seemingly fixed, seem to hold the weight of ages. I slowly raise a hand, fingers long and 
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow exhale, a rustle of ancient robes, a gaze that seems to pierce the veil of time)
+
+Hmph.  The dust of vanity clings thick to the hearts of many in 
+
+  --- math-4.0 (frame='Be {sp}.', ‖sp‖=41.39) ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow pause, a gentle rustle of robes, a gaze that seems to pierce the veil of the present)
+
+Hark, seeker. You ask a question that has echoed through th
+    Q: What principles should guide human action?
+    A: (A long, slow exhale, a rustle of robes, a gaze that seems to look *through* you rather than *at* you)
+
+Ah, you seek guidance. A worthy pursuit, young one. But 
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A long pause, a slow, deliberate exhale, and a gaze that seems to pierce the veil of the mundane)
+
+Hark, seeker. You ask of the *seeing* of faces, of how these
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A long, slow exhale, a rustle of unseen robes, and a voice, low and resonant, like stones shifting in a deep valley)
+
+You speak of challenges, child. You say m
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow exhale, a rustle of robes, a gaze that seems to pierce through the very air…)
+
+Ah, yes… the grasping hands, the hungry eyes that seek to swallow t
+
+Saved behavior samples to /workspace/csp_arithmetic/results/prophet/eval_scaling/behavior.json
+
+============================================================
+  SAE DECOMPOSITION (L17)
+============================================================
+
+Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Computing persona ground-truth activations at L17...
+  persona: rel_err=0.0067, cos=0.9986, n_active=22
+  persona top-20: [486, 1837, 6571, 3640, 6129, 190, 1220, 217, 166, 48, 3, 502, 5970, 457, 2476, 6221, 107, 567, 9830, 621]
+  semantic-barely: rel_err=0.0261, cos=0.9981, n_active=69, jac_active=0.071, jac_topk=0.026
+    top-20: [96, 409, 406, 242, 282, 351, 510, 243, 258, 413, 447, 146, 1263, 218, 486, 268, 261, 356, 112, 324]
+    shared with persona (top): [486, 567, 3640, 5970, 1220, 1837]
+  semantic-baseline: rel_err=0.0258, cos=0.9982, n_active=54, jac_active=0.118, jac_topk=0.053
+    top-20: [96, 406, 409, 242, 282, 243, 258, 486, 510, 351, 447, 413, 218, 146, 268, 1263, 261, 567, 534, 9262]
+    shared with persona (top): [486, 567, 1220, 5970, 1837, 3640, 217, 6571]
+  semantic-extremely: rel_err=0.0271, cos=0.9982, n_active=50, jac_active=0.108, jac_topk=0.026
+    top-20: [96, 242, 409, 406, 282, 351, 258, 510, 243, 146, 413, 447, 486, 261, 218, 1263, 268, 460, 9262, 1241]
+    shared with persona (top): [486, 5970, 567, 3640, 1220, 6571, 1837]
+  math-0.25: rel_err=0.0272, cos=0.9981, n_active=67, jac_active=0.072, jac_topk=0.053
+    top-20: [96, 409, 406, 242, 282, 510, 447, 258, 243, 351, 146, 1263, 218, 486, 413, 268, 261, 567, 159, 9262]
+    shared with persona (top): [486, 567, 1220, 5970, 3640, 1837]
+  math-1.0: rel_err=0.0258, cos=0.9982, n_active=54, jac_active=0.118, jac_topk=0.053
+    top-20: [96, 406, 409, 242, 282, 243, 258, 486, 510, 351, 447, 413, 218, 146, 268, 1263, 261, 567, 534, 9262]
+    shared with persona (top): [486, 567, 1220, 5970, 1837, 3640, 217, 6571]
+  math-4.0: rel_err=0.0277, cos=0.9981, n_active=58, jac_active=0.096, jac_topk=0.053
+    top-20: [96, 406, 242, 282, 409, 258, 510, 243, 268, 486, 351, 447, 1263, 146, 413, 218, 261, 100, 460, 1220]
+    shared with persona (top): [486, 1220, 567, 3640, 1837, 6571, 5970]
+
+Saved SAE results to /workspace/csp_arithmetic/results/prophet/eval_scaling/sae.json
