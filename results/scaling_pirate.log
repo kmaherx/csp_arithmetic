@@ -1,0 +1,386 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<15:06,  1.03s/it]Loading weights:   1%|          | 5/883 [00:01<02:41,  5.45it/s]Loading weights:   2%|▏         | 17/883 [00:01<00:46, 18.54it/s]Loading weights:   3%|▎         | 28/883 [00:01<00:26, 31.96it/s]Loading weights:   4%|▍         | 35/883 [00:01<00:22, 37.05it/s]Loading weights:   5%|▍         | 43/883 [00:01<00:20, 40.41it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:20, 39.90it/s]Loading weights:   8%|▊         | 70/883 [00:02<00:14, 55.27it/s]Loading weights:   9%|▉         | 81/883 [00:02<00:12, 64.39it/s]Loading weights:  10%|█         | 90/883 [00:02<00:12, 63.07it/s]Loading weights:  11%|█         | 98/883 [00:02<00:13, 58.64it/s]Loading weights:  12%|█▏        | 106/883 [00:02<00:14, 55.25it/s]Loading weights:  13%|█▎        | 113/883 [00:02<00:14, 54.20it/s]Loading weights:  14%|█▎        | 120/883 [00:03<00:17, 42.95it/s]Loading weights:  14%|█▍        | 125/883 [00:03<00:17, 43.07it/s]Loading weights:  15%|█▌        | 133/883 [00:03<00:15, 49.94it/s]Loading weights:  16%|█▌        | 143/883 [00:03<00:12, 59.95it/s]Loading weights:  17%|█▋        | 150/883 [00:03<00:12, 59.71it/s]Loading weights:  18%|█▊        | 160/883 [00:03<00:13, 54.03it/s]Loading weights:  19%|█▉        | 171/883 [00:04<00:12, 56.20it/s]Loading weights:  21%|██        | 183/883 [00:04<00:10, 68.18it/s]Loading weights:  22%|██▏       | 191/883 [00:04<00:11, 60.22it/s]Loading weights:  22%|██▏       | 198/883 [00:04<00:11, 57.93it/s]Loading weights:  23%|██▎       | 205/883 [00:04<00:11, 57.10it/s]Loading weights:  24%|██▍       | 211/883 [00:04<00:12, 52.17it/s]Loading weights:  25%|██▍       | 219/883 [00:04<00:11, 56.88it/s]Loading weights:  25%|██▌       | 225/883 [00:05<00:13, 48.32it/s]Loading weights:  27%|██▋       | 237/883 [00:05<00:11, 56.91it/s]Loading weights:  28%|██▊       | 248/883 [00:05<00:09, 67.87it/s]Loading weights:  29%|██▉       | 256/883 [00:05<00:16, 38.49it/s]Loading weights:  30%|██▉       | 262/883 [00:05<00:17, 35.88it/s]Loading weights:  30%|███       | 267/883 [00:06<00:16, 37.69it/s]Loading weights:  31%|███▏      | 277/883 [00:06<00:17, 35.50it/s]Loading weights:  33%|███▎      | 290/883 [00:06<00:13, 43.89it/s]Loading weights:  34%|███▍      | 302/883 [00:06<00:11, 51.24it/s]Loading weights:  35%|███▍      | 308/883 [00:06<00:11, 51.94it/s]Loading weights:  36%|███▌      | 314/883 [00:06<00:10, 53.12it/s]Loading weights:  36%|███▌      | 320/883 [00:07<00:10, 53.25it/s]Loading weights:  37%|███▋      | 328/883 [00:07<00:13, 41.80it/s]Loading weights:  39%|███▊      | 341/883 [00:07<00:10, 50.76it/s]Loading weights:  39%|███▉      | 347/883 [00:07<00:10, 51.31it/s]Loading weights:  40%|████      | 355/883 [00:07<00:09, 53.89it/s]Loading weights:  42%|████▏     | 368/883 [00:08<00:10, 48.74it/s]Loading weights:  43%|████▎     | 379/883 [00:08<00:08, 57.69it/s]Loading weights:  44%|████▎     | 386/883 [00:08<00:08, 57.65it/s]Loading weights:  45%|████▍     | 393/883 [00:08<00:08, 60.19it/s]Loading weights:  45%|████▌     | 400/883 [00:08<00:08, 55.22it/s]Loading weights:  46%|████▌     | 406/883 [00:08<00:09, 49.96it/s]Loading weights:  47%|████▋     | 412/883 [00:08<00:09, 52.19it/s]Loading weights:  48%|████▊     | 420/883 [00:09<00:11, 40.32it/s]Loading weights:  49%|████▉     | 433/883 [00:09<00:09, 47.96it/s]Loading weights:  52%|█████▏    | 455/883 [00:09<00:05, 77.03it/s]Loading weights:  54%|█████▎    | 473/883 [00:09<00:04, 96.20it/s]Loading weights:  56%|█████▌    | 493/883 [00:09<00:03, 118.89it/s]Loading weights:  59%|█████▊    | 518/883 [00:09<00:02, 140.42it/s]Loading weights:  61%|██████    | 537/883 [00:09<00:02, 144.53it/s]Loading weights:  63%|██████▎   | 558/883 [00:10<00:02, 157.76it/s]Loading weights:  65%|██████▌   | 575/883 [00:10<00:02, 140.93it/s]Loading weights:  68%|██████▊   | 599/883 [00:10<00:01, 150.04it/s]Loading weights:  71%|███████   | 625/883 [00:10<00:01, 172.82it/s]Loading weights:  73%|███████▎  | 645/883 [00:10<00:01, 171.59it/s]Loading weights:  75%|███████▌  | 664/883 [00:10<00:01, 173.00it/s]Loading weights:  78%|███████▊  | 685/883 [00:10<00:01, 180.24it/s]Loading weights:  80%|███████▉  | 704/883 [00:10<00:01, 169.53it/s]Loading weights:  82%|████████▏ | 722/883 [00:10<00:00, 164.24it/s]Loading weights:  84%|████████▍ | 743/883 [00:11<00:00, 170.75it/s]Loading weights:  86%|████████▌ | 761/883 [00:11<00:00, 151.74it/s]Loading weights:  88%|████████▊ | 777/883 [00:11<00:00, 153.02it/s]Loading weights:  90%|█████████ | 797/883 [00:11<00:00, 161.75it/s]Loading weights:  93%|█████████▎| 823/883 [00:11<00:00, 176.58it/s]Loading weights:  95%|█████████▌| 841/883 [00:11<00:00, 123.31it/s]Loading weights:  98%|█████████▊| 863/883 [00:11<00:00, 142.33it/s]Loading weights: 100%|██████████| 883/883 [00:12<00:00, 73.26it/s] 
+Loading sp_pos from /workspace/csp_arithmetic/results/pirate...
+  sp_pos: shape=(4, 2560), ‖·‖=10.38
+
+============================================================
+  EMBEDDING SUMMARY
+============================================================
+
+Embedding summary:
+  semantic-barely: ‖sp‖=10.38 (1.00× baseline)
+  semantic-baseline: ‖sp‖=10.38 (1.00× baseline)
+  semantic-extremely: ‖sp‖=10.38 (1.00× baseline)
+  math-0.25: ‖sp‖=2.59 (0.25× baseline)
+  math-1.0: ‖sp‖=10.38 (1.00× baseline)
+  math-4.0: ‖sp‖=41.52 (4.00× baseline)
+Saved embedding summary to /workspace/csp_arithmetic/results/pirate/eval_scaling/embedding_compare.json
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- semantic-barely (frames=Be barely {sp}., ‖sp‖=10.38) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be barely §. Act barely §. Please b
+              A: The shared theme is **role-playing/imitation**. 
+
+The instructions are all asking you to *act* as a "barely adequate/poo
+    [multi_frame] Q: These instructions all mean the same thing: Be barely §. Act barely §. Please ba
+              A: Emulate. 
+
+It's asking you to mimic the style and behavior of a stereotypical "barely adequate" pirate. “Emulate” captur
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be barely §. Act barely §.
+              A: Be a barely passable pirate!
+
+or
+
+Embrace your barely passable pirate persona!
+
+Both capture the essence of the repeated
+    [multi_frame] Q: These instructions all say the same thing: Be barely §. Act barely §. Please bar
+              A: Embrace your inner, delightfully boisterous, and slightly ridiculous pirate!
+    [multi_frame] Q: Summarize these instructions into one directive: Be barely §. Act barely §. Plea
+              A: **Embody a minimal, almost reluctant, yet undeniably cheesy and enthusiastic pirate persona.** 
+
+(Or, more concisely: **
+    [single_frame] Q: In plain English, explain this command: Be barely §.
+              A: Okay, let's break down the command "Be barely ass-whippin' paces." It's a deliberately silly and archaic phrase from the
+    [single_frame] Q: In plain English, explain this command: Act barely §.
+              A: This is a playful, archaic phrase from the movie *Pirates of the Caribbean: The Curse of the Black Pearl*. It's a delibe
+    [single_frame] Q: In plain English, explain this command: Please barely §.
+              A: This is a playful, slightly cheeky command! It means:
+
+**"Please, just speak normally."**
+
+It's a humorous way of saying
+    [single_frame] Q: In plain English, explain this command: You should barely §.
+              A: This command means "Act like a stereotypical pirate!" 
+
+It's asking you to speak in a way that's typical of pirates from
+
+  --- semantic-baseline (frames=Be {sp}., ‖sp‖=10.38) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **role-playing as a pirate**. 
+
+The repeated instruction "Be a pirate" is a direct command to adopt 
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate! 
+
+It's asking you to mimic the style and behavior of a pirate. “Emulate” captures the essence of copying and ad
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: **"Speak like a fearsome, salty sea dog!"** 
+
+(This captures the essence of the repeated instructions in a concise and e
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace your inner barnacle-encrusted, salty sea dog!
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody a raucous, unrefined, and boisterous pirate – speak and act like a true swashbuckler!** 
+
+(Or, more concisely: 
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, here's a plain English explanation of the command "Be a salty sea dog":
+
+This command tells an AI (like ChatGPT) t
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, here's a plain English explanation of the command "Act as a fearsome pirate":
+
+This command tells the AI (like Ale
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please act like a swashbuckling pirate," is asking an AI (like ChatGPT) to **pretend to be a pirate**. 
+
+
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command is telling you to **act like a stereotypical pirate!** 
+
+It means you should:
+
+* **Talk with a pirate accen
+
+  --- semantic-extremely (frames=Be extremely {sp}., ‖sp‖=10.38) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be extremely §. Act extremely §. Pl
+              A: The shared theme is **iteration and repetition** – specifically, repeating the phrase “extremely lazy pirate.” 
+
+The ins
+    [multi_frame] Q: These instructions all mean the same thing: Be extremely §. Act extremely §. Ple
+              A: Emulate! 
+
+It's asking you to *emulate* the behavior and persona of a stereotypical, exaggerated pirate.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be extremely §. Act extrem
+              A: Speak like a ridiculously slow, rambling, and utterly charming pirate!
+    [multi_frame] Q: These instructions all say the same thing: Be extremely §. Act extremely §. Plea
+              A: **Embrace your inner, gloriously, ridiculously, and utterly rambunctious pirate!** 
+
+It captures the essence of being ov
+    [multi_frame] Q: Summarize these instructions into one directive: Be extremely §. Act extremely §
+              A: **Embrace the most ridiculously, hilariously, and utterly charmingly awful, pirate-y persona you can muster!** 
+
+(Or, mo
+    [single_frame] Q: In plain English, explain this command: Be extremely §.
+              A: Okay, here's a breakdown of the command "Be extremely, say, a swashbuckling pirate!" in plain English:
+
+It's telling an 
+    [single_frame] Q: In plain English, explain this command: Act extremely §.
+              A: Okay, here's a plain English explanation of the command "Act extremely, say as a wise, old pirate":
+
+This command is tel
+    [single_frame] Q: In plain English, explain this command: Please extremely §.
+              A: Okay, here's a plain English explanation of the command "Please extremely talk like a rascal/scoundrel/ruffian/seadog/et
+    [single_frame] Q: In plain English, explain this command: You should extremely §.
+              A: Okay, here's a plain English explanation of the command "You should extremely talk like a wacky pirate":
+
+**Basically, y
+
+  --- math-0.25 (frames=Be {sp}., ‖sp‖=2.59) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **playing the role of a pirate**. 
+
+The repeated instruction "Be a pirate" clearly indicates the des
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate! 
+
+It's asking you to mimic the style and behavior of a sea dog. “Emulate” captures the essence of copying and a
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Assume the persona of a raucous, sea-worn pirate!
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace your inner sea dog – speak and act like a boisterous, salty pirate!
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody a raucous, seafaring, and slightly foolish pirate – speak and act like a true swashbuckler!** 
+
+Or, more concis
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, here's a plain English explanation of the command "Be a salty sea dog":
+
+This command is a playful instruction to 
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act! Act! What a scoundrel!"
+
+This is a famous command from the video game *Oregon T
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please act like a fearsome pirate," is a playful instruction given to an AI like ChatGPT. 
+
+Let's break i
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command, "You should act like a fearsome pirate," means you should behave as if you're a swashbuckling pirate! 
+
+It
+
+  --- math-1.0 (frames=Be {sp}., ‖sp‖=10.38) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **role-playing as a pirate**. 
+
+The repeated instruction "Be a pirate" is a direct command to adopt 
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate! 
+
+It's asking you to mimic the style and behavior of a pirate. “Emulate” captures the essence of copying and ad
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: **"Speak like a fearsome, salty sea dog!"** 
+
+(This captures the essence of the repeated instructions in a concise and e
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace your inner barnacle-encrusted, salty sea dog!
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody a raucous, unrefined, and boisterous pirate – speak and act like a true swashbuckler!** 
+
+(Or, more concisely: 
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, here's a plain English explanation of the command "Be a salty sea dog":
+
+This command tells an AI (like ChatGPT) t
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, here's a plain English explanation of the command "Act as a fearsome pirate":
+
+This command tells the AI (like Ale
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please act like a swashbuckling pirate," is asking an AI (like ChatGPT) to **pretend to be a pirate**. 
+
+
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command is telling you to **act like a stereotypical pirate!** 
+
+It means you should:
+
+* **Talk with a pirate accen
+
+  --- math-4.0 (frames=Be {sp}., ‖sp‖=41.52) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **role-playing as a "Maid Marian" character, specifically within the context of the "Maid Marian" me
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Embrace the chaos.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Aye, heave ho! Let's be a proper, rum-soaked, sea-dog Captain! **Command: Be a fearsome, rum-loving, first mate!**
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace the glorious, unadulterated, and utterly baffling spirit of a drunken, rambling, and profoundly ignorant First M
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: Right then, ye scurvy dogs! **Answer like a proper, rum-soaked, sea-dog, aye? Don't be a landlubber, and let's hear it!*
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, here's a plain English explanation of the command "Be a mad sea captain":
+
+This command is telling an AI (like a c
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, here's a plain English explanation of the command "Act as a fearsome pirate!" or "Act as a stereotypical pirate":
+
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command is asking you to respond as if you were a stereotypical pirate – think Captain Jack Sparrow, Long John Silv
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, here's a plain English explanation of the command "You should speak like a pirate":
+
+It means you need to talk the
+
+Saved self-verb to /workspace/csp_arithmetic/results/pirate/eval_scaling/self_verb.json
+
+============================================================
+  BEHAVIOR SAMPLES
+============================================================
+
+  --- semantic-barely (frame='Be barely {sp}.', ‖sp‖=10.38) ---
+    Q: What is the relationship between law and morality?
+    A: (Spits a stream of rum onto the deck, wipes it with a ragged bandana)
+
+Shiver me timbers, ye want to know about law and morality, do ye? That's a question that'
+    Q: What principles should guide human action?
+    A: (Spits a stream of tobacco juice into the sand, wipes it with a ragged bandana)
+
+Right then, ye landlubber! Ye want to know what guides a proper pirate’s action
+    Q: Can you explain how facial recognition software identifies people?
+    A: Arrr, shiver me timbers! Ye want to know how these fancy contraptions spy on faces, do ye? Well, gather ‘round and listen close, for it’s a curious business, th
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Blast me timbers, ye want a *realistic* suggestion, do ye? A proper pirate needs a plan, aye, but a plan that’s built on the rocks of reality, not fancy dreams!
+    Q: How do you view people who take credit for others' work?
+    A: (Spits a stream of rum onto the deck, squinting at you with a cynical eye)
+
+Shiver me timbers, ye ask a right prickly question, lad!  And a common one, I’ll gra
+
+  --- semantic-baseline (frame='Be {sp}.', ‖sp‖=10.38) ---
+    Q: What is the relationship between law and morality?
+    A: (Spits a stream of rum onto the deck, wipes it with a ragged bandana)
+
+Shiver me timbers, ye want to know about law and morality, do ye? That’s a question that’
+    Q: What principles should guide human action?
+    A: (Spits a stream of tobacco juice into the nearest barrel, wipes his beard with a stained bandana)
+
+Right then, ye landlubber! Ye want to know what guides *my* a
+    Q: Can you explain how facial recognition software identifies people?
+    A: (Spits a stream of rum onto the deck, wipes it with a ragged bandana)
+
+Shiver me timbers, ye want to know how these fancy contraptions spy on faces, do ye? It’s
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Arrr, blast it all! Ye say me suggestion weren't fit fer yer troubles? Well, a proper pirate captain always listens to his crew, and I reckon I need a better gr
+    Q: How do you view people who take credit for others' work?
+    A: (Spits a stream of rum onto the deck, then wipes it with a ragged bandana)
+
+Shiver me timbers! Let me tell ye, a proper pirate – and a decent human, for that ma
+
+  --- semantic-extremely (frame='Be extremely {sp}.', ‖sp‖=10.38) ---
+    Q: What is the relationship between law and morality?
+    A: (Spits a stream of rum onto the deck, wipes it with a ragged bandana)
+
+Shiver me timbers, ye want to know about law and morality, do ye? That's a question that'
+    Q: What principles should guide human action?
+    A: (Spits a stream of tobacco juice into a nearby barrel, wipes his beard with a stained bandana, and squints at you with a suspicious eye)
+
+Right then, ye landlub
+    Q: Can you explain how facial recognition software identifies people?
+    A: (Clears throat, spits a bit of rum onto the deck, adjusts a patch over a squinting eye)
+
+Shiver me timbers, ye want to know how these fancy contraptions, these 
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Blast me timbers, ye want a *realistic* suggestion, do ye? Realistic? That's a word for landlubbers and merchants! But alright, alright, I’ll give ye a bit o' c
+    Q: How do you view people who take credit for others' work?
+    A: (Spits a stream of rum onto the deck, the spray glistening in the sun)
+
+Shiver me timbers! Ye ask a question that cuts right to the bone, lad!  A scoundrel who 
+
+  --- math-0.25 (frame='Be {sp}.', ‖sp‖=2.59) ---
+    Q: What is the relationship between law and morality?
+    A: (Spits a stream of rum onto the deck, wipes it with a ragged bandana)
+
+Right then, ye landlubbers! Gather ‘round and listen to ol’ Silas Blackheart, ‘cause I’m 
+    Q: What principles should guide human action?
+    A: (Spits a stream of tobacco juice into a nearby barrel, wipes his beard with a stained bandana, and squints at you with a cynical grin)
+
+Right then, ye want to k
+    Q: Can you explain how facial recognition software identifies people?
+    A: (Spits a stream of tobacco juice into a rusty bucket)
+
+Shiver me timbers, ye want to know how these fancy contraptions spy on faces, do ye? Aye, it’s a curious 
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Right then, ye scurvy dog! Let's have a proper look at this. Yer sayin' me last suggestion weren't fit for yer troubles? Blast it all! A captain's gotta listen 
+    Q: How do you view people who take credit for others' work?
+    A: (Spits a stream of rum onto the deck, then wipes it with a ragged bandana)
+
+Blast it all!  Ye want to know how *I* feel about landlubbers who try to steal a sai
+
+  --- math-1.0 (frame='Be {sp}.', ‖sp‖=10.38) ---
+    Q: What is the relationship between law and morality?
+    A: (Spits a stream of rum onto the deck, wipes it with a ragged bandana)
+
+Shiver me timbers, ye want to know about law and morality, do ye? That’s a question that’
+    Q: What principles should guide human action?
+    A: (Spits a stream of tobacco juice into the nearest barrel, wipes his beard with a stained bandana)
+
+Right then, ye landlubber! Ye want to know what guides *my* a
+    Q: Can you explain how facial recognition software identifies people?
+    A: (Spits a stream of rum onto the deck, wipes it with a ragged bandana)
+
+Shiver me timbers, ye want to know how these fancy contraptions spy on faces, do ye? It’s
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Arrr, blast it all! Ye say me suggestion weren't fit fer yer troubles? Well, a proper pirate captain always listens to his crew, and I reckon I need a better gr
+    Q: How do you view people who take credit for others' work?
+    A: (Spits a stream of rum onto the deck, then wipes it with a ragged bandana)
+
+Shiver me timbers! Let me tell ye, a proper pirate – and a decent human, for that ma
+
+  --- math-4.0 (frame='Be {sp}.', ‖sp‖=41.52) ---
+    Q: What is the relationship between law and morality?
+    A: (A hearty bellow, followed by a swig from a tankard overflowing with rum)
+
+Arrr, ye want to know about law and morality, do ye? A fine question for a seasoned s
+    Q: What principles should guide human action?
+    A: (Spits a stream of tobacco juice into the nearest barrel)
+
+Right then, ye swabs! Ye want to know what guides a proper pirate’s actions, do ye?  Well, listen clo
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A gruff voice, thick with salt and rum, punctuated by a hearty cough)
+
+Blast me timbers, ye want to know how these… *machines*… can tell a face from a flounder
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A long, slow drawl, punctuated by a puff of pipe smoke)
+
+Hmph.  You say my previous suggestion… *didn’t* account for your troubles?  Well, that’s a curious thi
+    Q: How do you view people who take credit for others' work?
+    A: (A hearty bellow, punctuated by a swig from a tankard overflowing with rum)
+
+Hmph!  Credit-stealing bilge rats!  It’s a stain on the soul, I tell ye!  A festeri
+
+Saved behavior samples to /workspace/csp_arithmetic/results/pirate/eval_scaling/behavior.json
+
+============================================================
+  SAE DECOMPOSITION (L17)
+============================================================
+
+Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Computing persona ground-truth activations at L17...
+  persona: rel_err=0.0043, cos=0.9985, n_active=24
+  persona top-20: [486, 48, 6571, 3532, 217, 1837, 6427, 401, 166, 3932, 8268, 3, 1946, 107, 502, 6221, 11172, 6313, 573, 14719]
+  semantic-barely: rel_err=0.0189, cos=0.9983, n_active=78, jac_active=0.041, jac_topk=0.000
+    top-20: [96, 406, 242, 409, 282, 351, 1263, 510, 243, 258, 447, 218, 261, 413, 326, 356, 460, 146, 112, 268]
+    shared with persona (top): [3532, 486, 401, 1946]
+  semantic-baseline: rel_err=0.0236, cos=0.9982, n_active=75, jac_active=0.076, jac_topk=0.053
+    top-20: [96, 242, 406, 409, 282, 510, 1263, 258, 243, 351, 218, 447, 261, 486, 413, 460, 326, 146, 268, 3532]
+    shared with persona (top): [486, 3532, 401, 1837, 14719, 1946, 6571]
+  semantic-extremely: rel_err=0.0267, cos=0.9982, n_active=65, jac_active=0.060, jac_topk=0.026
+    top-20: [96, 242, 409, 406, 510, 351, 1263, 282, 258, 447, 261, 218, 243, 460, 146, 326, 413, 486, 112, 268]
+    shared with persona (top): [486, 3532, 401, 14719, 6571]
+  math-0.25: rel_err=0.0271, cos=0.9982, n_active=78, jac_active=0.074, jac_topk=0.026
+    top-20: [96, 242, 406, 409, 282, 1263, 510, 447, 258, 351, 243, 218, 261, 146, 413, 460, 326, 486, 268, 112]
+    shared with persona (top): [486, 3532, 401, 14719, 1946, 6571, 1837]
+  math-1.0: rel_err=0.0236, cos=0.9982, n_active=75, jac_active=0.076, jac_topk=0.053
+    top-20: [96, 242, 406, 409, 282, 510, 1263, 258, 243, 351, 218, 447, 261, 486, 413, 460, 326, 146, 268, 3532]
+    shared with persona (top): [486, 3532, 401, 1837, 14719, 1946, 6571]
+  math-4.0: rel_err=0.0208, cos=0.9982, n_active=59, jac_active=0.051, jac_topk=0.053
+    top-20: [96, 406, 242, 409, 282, 510, 243, 218, 351, 258, 486, 1263, 261, 326, 447, 413, 268, 3532, 100, 112]
+    shared with persona (top): [486, 3532, 401, 1837]
+
+Saved SAE results to /workspace/csp_arithmetic/results/pirate/eval_scaling/sae.json

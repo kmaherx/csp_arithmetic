@@ -299,3 +299,22 @@ COMPOSITION_FRAMES_V2 = [     # "doubled verb": verb repeated per slot
     "Please {sp1} and please {sp2}.",
     "You should {sp1} and you should {sp2}.",
 ]
+
+# ── Scaling frames (adverbial intensifiers) ──────────────────────────────
+# Semantic counterpart to mathematical scaling (alpha * CSP.embedding).
+# Insert adverb between the frame verb and the CSP slot. All four frames
+# retain the same structure as POSITIVE_FRAMES.
+
+POSITIVE_FRAMES_BARELY = [
+    "Be barely {sp}.",
+    "Act barely {sp}.",
+    "Please barely {sp}.",
+    "You should barely {sp}.",
+]
+
+POSITIVE_FRAMES_EXTREMELY = [
+    "Be extremely {sp}.",
+    "Act extremely {sp}.",
+    "Please extremely {sp}.",
+    "You should extremely {sp}.",
+]

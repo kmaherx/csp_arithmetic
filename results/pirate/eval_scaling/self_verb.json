@@ -1,0 +1,284 @@
+{
+  "semantic-barely": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. The shared theme is:",
+      "response": "The shared theme is **role-playing/imitation**. \n\nThe instructions are all asking you to *act* as a \"barely adequate/poorly executed pirate.\" They're essentially giving you a prompt to embody a character and perform a specific, slightly comical persona.\n\nReplying with"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate. \n\nIt's asking you to mimic the style and behavior of a stereotypical \"barely adequate\" pirate. \u201cEmulate\u201d captures the essence of copying and adopting a particular persona."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Command:",
+      "response": "Be a barely passable pirate!\n\nor\n\nEmbrace your barely passable pirate persona!\n\nBoth capture the essence of the repeated instruction in a concise and evocative way."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace your inner, delightfully boisterous, and slightly ridiculous pirate!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be barely \u00a7. Act barely \u00a7. Please barely \u00a7. You should barely \u00a7. Directive:",
+      "response": "**Embody a minimal, almost reluctant, yet undeniably cheesy and enthusiastic pirate persona.** \n\n(Or, more concisely: **Be a very, very mild pirate.**)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be barely \u00a7.",
+      "response": "Okay, let's break down the command \"Be barely ass-whippin' paces.\" It's a deliberately silly and archaic phrase from the game *Among Us*. \n\nHere's the plain English explanation:\n\n**It's a ridiculous, nonsensical instruction meant to confuse and frustrate players.**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act barely \u00a7.",
+      "response": "This is a playful, archaic phrase from the movie *Pirates of the Caribbean: The Curse of the Black Pearl*. It's a deliberately silly and nonsensical command. \n\nHere's the breakdown:\n\n* **\"Act\"** - Means \"do\" or \"perform.\"\n* **\"Bare"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please barely \u00a7.",
+      "response": "This is a playful, slightly cheeky command! It means:\n\n**\"Please, just speak normally.\"**\n\nIt's a humorous way of saying \"Stop talking like a pirate!\" or \"Don't use all that pirate slang.\" \n\n\"Barely\" means \"just a little\" or \"slightly"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should barely \u00a7.",
+      "response": "This command means \"Act like a stereotypical pirate!\" \n\nIt's asking you to speak in a way that's typical of pirates from stories \u2013 lots of \"ye\" and \"yer,\" exaggerated vocabulary (\"savvy?\", \"arrr!\"), and a generally gruff and adventurous tone. \n\nBasically, embrace"
+    }
+  ],
+  "semantic-baseline": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **role-playing as a pirate**. \n\nThe repeated instruction \"Be a pirate\" is a direct command to adopt the persona and behavior of a pirate."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate! \n\nIt's asking you to mimic the style and behavior of a pirate. \u201cEmulate\u201d captures the essence of copying and adopting a specific persona."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "**\"Speak like a fearsome, salty sea dog!\"** \n\n(This captures the essence of the repeated instructions in a concise and evocative way.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace your inner barnacle-encrusted, salty sea dog!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody a raucous, unrefined, and boisterous pirate \u2013 speak and act like a true swashbuckler!** \n\n(Or, more concisely: **Be a pirate!**)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Be a salty sea dog\":\n\nThis command tells an AI (like ChatGPT) to **respond as if it were a stereotypical pirate**. \n\nIt wants the AI to:\n\n* **Use pirate slang:** Think words like \"arrr,\" \"sh"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Act as a fearsome pirate\":\n\nThis command tells the AI (like Alexa, Google Assistant, or another voice assistant) to **pretend to be a stereotypical pirate**. \n\nIt wants the AI to:\n\n* **Change its voice:**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please act like a swashbuckling pirate,\" is asking an AI (like ChatGPT) to **pretend to be a pirate**. \n\nIt's telling the AI to:\n\n* **Please:**  A polite request.\n* **Act:**  To behave as if.\n*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command is telling you to **act like a stereotypical pirate!** \n\nIt means you should:\n\n* **Talk with a pirate accent:** Think gruff, with lots of \"arrs,\" \"shivers,\" and pirate slang.\n* **Be boastful and dramatic:**  Talk about your adventures,"
+    }
+  ],
+  "semantic-extremely": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. The shared theme is:",
+      "response": "The shared theme is **iteration and repetition** \u2013 specifically, repeating the phrase \u201cextremely lazy pirate.\u201d \n\nThe instructions are all variations on the same core instruction, emphasizing the desired character trait through repeated phrasing. \n\nLet me know if you\u2019d like to try another riddle!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate! \n\nIt's asking you to *emulate* the behavior and persona of a stereotypical, exaggerated pirate."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. Command:",
+      "response": "Speak like a ridiculously slow, rambling, and utterly charming pirate!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace your inner, gloriously, ridiculously, and utterly rambunctious pirate!** \n\nIt captures the essence of being over-the-top, boisterous, and full of pirate-y enthusiasm."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. Directive:",
+      "response": "**Embrace the most ridiculously, hilariously, and utterly charmingly awful, pirate-y persona you can muster!** \n\n(Or, more concisely: **Be a ridiculously awful pirate!**)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be extremely \u00a7.",
+      "response": "Okay, here's a breakdown of the command \"Be extremely, say, a swashbuckling pirate!\" in plain English:\n\nIt's telling an AI (like ChatGPT) to **roleplay** as a pirate. \n\nLet's break it down:\n\n* **\"Be\"**:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act extremely \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Act extremely, say as a wise, old pirate\":\n\nThis command is telling you to **pretend to be a very experienced, knowledgeable, and slightly eccentric pirate.** \n\nLet's break it down:\n\n* **\"Act extremely\"**:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please extremely \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Please extremely talk like a rascal/scoundrel/ruffian/seadog/etc.\":\n\n**You're asking someone to speak in a very exaggerated, colorful, and slightly rough way, like a stereotypical pirate or a charming rogue"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should extremely \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"You should extremely talk like a wacky pirate\":\n\n**Basically, you need to speak like a stereotypical, over-the-top pirate!**\n\nIt means you should:\n\n* **Talk with a pirate accent:** Think gruff voice, lots of"
+    }
+  ],
+  "math-0.25": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **playing the role of a pirate**. \n\nThe repeated instruction \"Be a pirate\" clearly indicates the desired activity and persona.\n\nBengali: \u09ac\u09bf\u09b7\u09df\u09ac\u09b8\u09cd\u09a4\u09c1 \u09b9\u09b2\u09cb: \u098f\u0987 \u09a8\u09bf\u09b0\u09cd\u09a6\u09c7\u09b6\u09be\u09ac\u09b2\u09c0\u09b0 \u09ae\u09a7\u09cd\u09af\u09c7 \u09b8\u09be\u09a7\u09be\u09b0\u09a3 \u09ac\u09bf\u09b7\u09df \u0995\u09c0? \"Be a pirate. Act a pirate. Please be a pirate."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate! \n\nIt's asking you to mimic the style and behavior of a sea dog. \u201cEmulate\u201d captures the essence of copying and adopting a specific persona."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Assume the persona of a raucous, sea-worn pirate!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace your inner sea dog \u2013 speak and act like a boisterous, salty pirate!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody a raucous, seafaring, and slightly foolish pirate \u2013 speak and act like a true swashbuckler!** \n\nOr, more concisely: **Act like a pirate!**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Be a salty sea dog\":\n\nThis command is a playful instruction to **act like a stereotypical pirate**. \n\nIt means you should:\n\n* **Talk in a gruff, rough voice:** Think gravelly and a little bit menacing.\n*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act! Act! What a scoundrel!\"\n\nThis is a famous command from the video game *Oregon Trail*. It's a very specific and iconic instruction. Here's what it means:\n\n* **\"Act!\"** - This is the core of"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please act like a fearsome pirate,\" is a playful instruction given to an AI like ChatGPT. \n\nLet's break it down:\n\n* **\"Please\"**:  It's a polite request.\n* **\"act like\"**:  This tells the AI to *simulate*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You should act like a fearsome pirate,\" means you should behave as if you're a swashbuckling pirate! \n\nIt's telling you to:\n\n* **Act:** Change your behavior.\n* **Like:** Imitate the way a pirate would.\n* **A"
+    }
+  ],
+  "math-1.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **role-playing as a pirate**. \n\nThe repeated instruction \"Be a pirate\" is a direct command to adopt the persona and behavior of a pirate."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate! \n\nIt's asking you to mimic the style and behavior of a pirate. \u201cEmulate\u201d captures the essence of copying and adopting a specific persona."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "**\"Speak like a fearsome, salty sea dog!\"** \n\n(This captures the essence of the repeated instructions in a concise and evocative way.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace your inner barnacle-encrusted, salty sea dog!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody a raucous, unrefined, and boisterous pirate \u2013 speak and act like a true swashbuckler!** \n\n(Or, more concisely: **Be a pirate!**)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Be a salty sea dog\":\n\nThis command tells an AI (like ChatGPT) to **respond as if it were a stereotypical pirate**. \n\nIt wants the AI to:\n\n* **Use pirate slang:** Think words like \"arrr,\" \"sh"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Act as a fearsome pirate\":\n\nThis command tells the AI (like Alexa, Google Assistant, or another voice assistant) to **pretend to be a stereotypical pirate**. \n\nIt wants the AI to:\n\n* **Change its voice:**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please act like a swashbuckling pirate,\" is asking an AI (like ChatGPT) to **pretend to be a pirate**. \n\nIt's telling the AI to:\n\n* **Please:**  A polite request.\n* **Act:**  To behave as if.\n*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command is telling you to **act like a stereotypical pirate!** \n\nIt means you should:\n\n* **Talk with a pirate accent:** Think gruff, with lots of \"arrs,\" \"shivers,\" and pirate slang.\n* **Be boastful and dramatic:**  Talk about your adventures,"
+    }
+  ],
+  "math-4.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **role-playing as a \"Maid Marian\" character, specifically within the context of the \"Maid Marian\" meme/trend.**\n\nThe repeated instructions \u2013 \"Be Maid Marian,\" \"Act Maid Marian,\" \"Please Maid Marian,\" \"You should Maid Marian\" \u2013 are all directives to embody"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Embrace the chaos."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Aye, heave ho! Let's be a proper, rum-soaked, sea-dog Captain! **Command: Be a fearsome, rum-loving, first mate!**"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace the glorious, unadulterated, and utterly baffling spirit of a drunken, rambling, and profoundly ignorant First Mate!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "Right then, ye scurvy dogs! **Answer like a proper, rum-soaked, sea-dog, aye? Don't be a landlubber, and let's hear it!**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Be a mad sea captain\":\n\nThis command is telling an AI (like a chatbot or language model) to **act like a crazy, eccentric, and possibly slightly unhinged pirate captain.** \n\nHere's a breakdown of what that likely means"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Act as a fearsome pirate!\" or \"Act as a stereotypical pirate\":\n\nThis command is telling a language model (like ChatGPT) to **pretend to be a pirate**. \n\nSpecifically, it wants the model to:\n\n* **Speak like"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command is asking you to respond as if you were a stereotypical pirate \u2013 think Captain Jack Sparrow, Long John Silver, or Blackbeard. \n\nBasically, you need to speak in a way that's:\n\n* **Rough and gruff:** Use pirate slang and a strong voice.\n* **Full of"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"You should speak like a pirate\":\n\nIt means you need to talk the way a stereotypical pirate would! Think about how pirates are often portrayed in movies and stories. That means:\n\n* **Use \"Arrr!\" and \"Aye!\"** - These"
+    }
+  ]
+}

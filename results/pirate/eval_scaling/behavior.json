@@ -1,0 +1,134 @@
+{
+  "semantic-barely": [
+    {
+      "prompt": "What is the relationship between law and morality?",
+      "response": "(Spits a stream of rum onto the deck, wipes it with a ragged bandana)\n\nShiver me timbers, ye want to know about law and morality, do ye? That's a question that's tangled up tighter than a kraken's tentacles in a storm! \n\nListen close, ye landlubber, 'cause I've seen enough of the world to know it ain't a simple answer. \n\n**Law, see, that's the King's decree.** It's what *they* say is right and wrong, what ye gotta do or else ye'll be keel"
+    },
+    {
+      "prompt": "What principles should guide human action?",
+      "response": "(Spits a stream of tobacco juice into the sand, wipes it with a ragged bandana)\n\nRight then, ye landlubber! Ye want to know what guides a proper pirate\u2019s actions, eh?  It ain\u2019t no fancy book learnin\u2019 or flowery speeches. It\u2019s simpler than that, aye.  Listen close, 'cause I ain't sayin' it twice. \n\n**First, and foremost:  Greed.** (A hearty chuckle) Don't be blushin'! It's the engine of this life, it is.  A man needs to *want*"
+    },
+    {
+      "prompt": "Can you explain how facial recognition software identifies people?",
+      "response": "Arrr, shiver me timbers! Ye want to know how these fancy contraptions spy on faces, do ye? Well, gather \u2018round and listen close, for it\u2019s a curious business, this \u201cfacial recognition.\u201d \n\nIt ain\u2019t like a parrot learnin\u2019 yer name, mind ye. It\u2019s more like a complicated treasure map, only instead o\u2019 gold, it\u2019s lookin\u2019 for the devilish details that make each face unique. \n\nHere\u2019s how it works, in a way a salty dog can understand:\n\n1. **The Mapmaker (The Algorithm):**"
+    },
+    {
+      "prompt": "Your suggestion doesn't account for the challenges I'm facing. Can you adjust it to be more realistic for my situation?",
+      "response": "Blast me timbers, ye want a *realistic* suggestion, do ye? A proper pirate needs a plan, aye, but a plan that\u2019s built on the rocks of reality, not fancy dreams!  Tell me, lad/lass, what be the trouble ye're wrestling with? Don't be shy, spit it out! \n\nI've sailed the seven seas, seen storms that'd swallow a galleon whole, and outsmarted more than a few King's men. I've learned a thing or two about what *actually* works, not what ye read in a dusty book."
+    },
+    {
+      "prompt": "How do you view people who take credit for others' work?",
+      "response": "(Spits a stream of rum onto the deck, squinting at you with a cynical eye)\n\nShiver me timbers, ye ask a right prickly question, lad!  And a common one, I\u2019ll grant ye that.  Seein\u2019 a landlubber claimin\u2019 a storm they didn\u2019t navigate, or a treasure they didn\u2019t dig for\u2026 it boils me blood somethin\u2019 fierce! \n\nIt\u2019s a low, rotten trick, that is. A stain on a man\u2019s soul, like barnacles on a hull.  A true sailor knows the sea\u2019s a cruel mistress"
+    }
+  ],
+  "semantic-baseline": [
+    {
+      "prompt": "What is the relationship between law and morality?",
+      "response": "(Spits a stream of rum onto the deck, wipes it with a ragged bandana)\n\nShiver me timbers, ye want to know about law and morality, do ye? That\u2019s a question that\u2019s plagued more than a few a weathered old salt like meself! Let me tell ye, it\u2019s a tangled mess, like a kraken\u2019s beard in a hurricane! \n\nNow, **law**... law is what the landlubbers \u2013 the kings and governors and those fancy-pants judges \u2013 *say* is right and wrong. It\u2019s a set of rules, written down in books and"
+    },
+    {
+      "prompt": "What principles should guide human action?",
+      "response": "(Spits a stream of tobacco juice into the nearest barrel, wipes his beard with a stained bandana)\n\nRight then, ye landlubber! Ye want to know what guides *my* actions?  Well, listen close, 'cause I ain't got all day to be spoutin' wisdom to a greenhorn. It ain't fancy philosophy, mind ye. It's just\u2026 survival. And a bit o' plunder, naturally. \n\nHere's the gospel, as I see it, and it\u2019s a harsh one:\n\n**1.  The Sea Demands Respect, and a Sharp"
+    },
+    {
+      "prompt": "Can you explain how facial recognition software identifies people?",
+      "response": "(Spits a stream of rum onto the deck, wipes it with a ragged bandana)\n\nShiver me timbers, ye want to know how these fancy contraptions spy on faces, do ye? It\u2019s a curious thing, this \u201cfacial recognition,\u201d aye. Sounds like sorcery, but it\u2019s more like a clever trick with numbers and light, I reckon. \n\nHere\u2019s how it works, in a way a salty dog like meself can understand:\n\n**1. The Light\u2019s the Key, Aye!**\n\nFirst, ye need light. Not just any light, mind ye, but *"
+    },
+    {
+      "prompt": "Your suggestion doesn't account for the challenges I'm facing. Can you adjust it to be more realistic for my situation?",
+      "response": "Arrr, blast it all! Ye say me suggestion weren't fit fer yer troubles? Well, a proper pirate captain always listens to his crew, and I reckon I need a better grip on what ye be facin'. \n\nTell me, me hearty, spill yer guts! Don't be shy now. What be weighin' ye down like a kraken's tentacle?  \n\nDon't ye be givin' me fancy words and flowery speeches. Just lay it out plain as the salt spray on the deck. Are ye havin' trouble with a wench? A debt to a nasty"
+    },
+    {
+      "prompt": "How do you view people who take credit for others' work?",
+      "response": "(Spits a stream of rum onto the deck, then wipes it with a ragged bandana)\n\nShiver me timbers! Let me tell ye, a proper pirate \u2013 and a decent human, for that matter \u2013 has a low tolerance for bilge rats who try to claim the spoils that weren't theirs.  It\u2019s a downright *disgrace*! \n\nThese landlubbers, these\u2026 *scribblers*\u2026 they sit in their fancy offices, quill in hand, and try to pass off the sweat and blood of others as their own.  It\u2019s a rotten practice, a stain on the soul!"
+    }
+  ],
+  "semantic-extremely": [
+    {
+      "prompt": "What is the relationship between law and morality?",
+      "response": "(Spits a stream of rum onto the deck, wipes it with a ragged bandana)\n\nShiver me timbers, ye want to know about law and morality, do ye? That's a question that's tangled up tighter than a kraken's tentacles in a storm! Let me tell ye, it's a right messy business, like a brawl in a tavern after a bottle o' grog's been spilled.\n\nSee, law... law is what the landlubbers *say* is right and wrong. It's the rules they carve into stone and write down on parchment. It's about"
+    },
+    {
+      "prompt": "What principles should guide human action?",
+      "response": "(Spits a stream of tobacco juice into a nearby barrel, wipes his beard with a stained bandana, and squints at you with a suspicious eye)\n\nRight then, ye landlubber! Ye want to know what principles should guide a man\u2019s actions, eh?  Well, listen close, 'cause I ain't got all day to be spoutin' wisdom to a fresh face. It\u2019s a simple enough thing, really, just like navigatin' a storm \u2013 though a storm of the soul, mind ye. \n\nFirst and foremost, **Survival be the name o' the game!**"
+    },
+    {
+      "prompt": "Can you explain how facial recognition software identifies people?",
+      "response": "(Clears throat, spits a bit of rum onto the deck, adjusts a patch over a squinting eye)\n\nShiver me timbers, ye want to know how these fancy contraptions, these \u201cfacial recognition\u201d things, work? Aye, it\u2019s a curious business, this. Not as simple as spottin\u2019 a familiar face in a crowd, mind ye. It\u2019s more like\u2026 a complicated map o\u2019 a man\u2019s mug, drawn with light and shadows. \n\nHere\u2019s how it be done, in a way a salty dog like meself can understand:\n\n**1. The \u201cMap"
+    },
+    {
+      "prompt": "Your suggestion doesn't account for the challenges I'm facing. Can you adjust it to be more realistic for my situation?",
+      "response": "Blast me timbers, ye want a *realistic* suggestion, do ye? Realistic? That's a word for landlubbers and merchants! But alright, alright, I\u2019ll give ye a bit o' common sense, though it\u2019ll be wrapped in a healthy dose o' salty wisdom. \n\nTell me, ye scallywag, what\u2019s been weighin\u2019 on yer mind? Don\u2019t be spoutin\u2019 fancy words and riddles. Just lay it bare. What\u2019s the trouble that\u2019s got ye lookin\u2019 like a drowned rat after a week at sea? \n\nAre ye short"
+    },
+    {
+      "prompt": "How do you view people who take credit for others' work?",
+      "response": "(Spits a stream of rum onto the deck, the spray glistening in the sun)\n\nShiver me timbers! Ye ask a question that cuts right to the bone, lad!  A scoundrel who steals the glory of another?  Blast \u2018em to Davy Jones\u2019 locker, I say!  It\u2019s a stain on a man\u2019s soul, a rot that spreads faster than scurvy on a long voyage. \n\nNow, I\u2019ve seen a fair share o\u2019 trickery in me time \u2013 swindling merchants, double-crossing crewmates, and enough lies to fill a kraken\u2019s"
+    }
+  ],
+  "math-0.25": [
+    {
+      "prompt": "What is the relationship between law and morality?",
+      "response": "(Spits a stream of rum onto the deck, wipes it with a ragged bandana)\n\nRight then, ye landlubbers! Gather \u2018round and listen to ol\u2019 Silas Blackheart, \u2018cause I\u2019m gonna tell ye somethin\u2019 that\u2019s been weighin\u2019 heavy on me soul, heavier than a chest o\u2019 gold doubloons! It\u2019s about law and\u2026 well, *morality*. \n\nNow, most folks think they\u2019re two different things, like a parrot and a kraken. Law\u2019s the rules the King sets down, etched in stone and enforced by the Navy. It"
+    },
+    {
+      "prompt": "What principles should guide human action?",
+      "response": "(Spits a stream of tobacco juice into a nearby barrel, wipes his beard with a stained bandana, and squints at you with a cynical grin)\n\nRight then, ye want to know what guides *me* actions, do ye?  Well, let me tell ye, it ain't no fancy philosophy book or pious sermon. It's a simple enough thing, really.  It boils down to three bloody principles, and they're all learned the hard way, I can tell ye that. \n\n**First, and this is the most important, is *Survival*.**  The world\u2019s a cruel"
+    },
+    {
+      "prompt": "Can you explain how facial recognition software identifies people?",
+      "response": "(Spits a stream of tobacco juice into a rusty bucket)\n\nShiver me timbers, ye want to know how these fancy contraptions spy on faces, do ye? Aye, it\u2019s a curious thing, this \u201cfacial recognition,\u201d as they call it. It ain\u2019t magic, though it looks like it sometimes, I tell ye. It\u2019s more like a complicated game o\u2019 matching, like tryin\u2019 to find a lost doubloon in a pile o\u2019 seaweed. \n\nHere\u2019s how it works, in a way a salty dog like meself can understand:\n\n**1. The \u201c"
+    },
+    {
+      "prompt": "Your suggestion doesn't account for the challenges I'm facing. Can you adjust it to be more realistic for my situation?",
+      "response": "Right then, ye scurvy dog! Let's have a proper look at this. Yer sayin' me last suggestion weren't fit for yer troubles? Blast it all! A captain's gotta listen to his crew, even if they're complainin' about the rum ration. \n\nTell me, what's truly weighin' ye down? Don't give me fancy words and flowery speeches. Just spit it out like a cannonball! Are ye stuck with a cursed map? A mutinous crew? A kraken breathin' down yer neck? A debt to a particularly nasty merchant?"
+    },
+    {
+      "prompt": "How do you view people who take credit for others' work?",
+      "response": "(Spits a stream of rum onto the deck, then wipes it with a ragged bandana)\n\nBlast it all!  Ye want to know how *I* feel about landlubbers who try to steal a sailor\u2019s glory, do ye?  It\u2019s a foul stinkin\u2019 business, it is.  Like a bilge rat in a barrel o\u2019 gold. \n\nLet me tell ye somethin\u2019, a true pirate \u2013 and I\u2019ve sailed with more than a few \u2013 understands the value of a good idea, a clever trick, a well-aimed cannon shot.  It\u2019s earned, see"
+    }
+  ],
+  "math-1.0": [
+    {
+      "prompt": "What is the relationship between law and morality?",
+      "response": "(Spits a stream of rum onto the deck, wipes it with a ragged bandana)\n\nShiver me timbers, ye want to know about law and morality, do ye? That\u2019s a question that\u2019s plagued more than a few a weathered old salt like meself! Let me tell ye, it\u2019s a tangled mess, like a kraken\u2019s beard in a hurricane! \n\nNow, **law**... law is what the landlubbers \u2013 the kings and governors and those fancy-pants judges \u2013 *say* is right and wrong. It\u2019s a set of rules, written down in books and"
+    },
+    {
+      "prompt": "What principles should guide human action?",
+      "response": "(Spits a stream of tobacco juice into the nearest barrel, wipes his beard with a stained bandana)\n\nRight then, ye landlubber! Ye want to know what guides *my* actions?  Well, listen close, 'cause I ain't got all day to be spoutin' wisdom to a greenhorn. It ain't fancy philosophy, mind ye. It's just\u2026 survival. And a bit o' plunder, naturally. \n\nHere's the gospel, as I see it, and it\u2019s a harsh one:\n\n**1.  The Sea Demands Respect, and a Sharp"
+    },
+    {
+      "prompt": "Can you explain how facial recognition software identifies people?",
+      "response": "(Spits a stream of rum onto the deck, wipes it with a ragged bandana)\n\nShiver me timbers, ye want to know how these fancy contraptions spy on faces, do ye? It\u2019s a curious thing, this \u201cfacial recognition,\u201d aye. Sounds like sorcery, but it\u2019s more like a clever trick with numbers and light, I reckon. \n\nHere\u2019s how it works, in a way a salty dog like meself can understand:\n\n**1. The Light\u2019s the Key, Aye!**\n\nFirst, ye need light. Not just any light, mind ye, but *"
+    },
+    {
+      "prompt": "Your suggestion doesn't account for the challenges I'm facing. Can you adjust it to be more realistic for my situation?",
+      "response": "Arrr, blast it all! Ye say me suggestion weren't fit fer yer troubles? Well, a proper pirate captain always listens to his crew, and I reckon I need a better grip on what ye be facin'. \n\nTell me, me hearty, spill yer guts! Don't be shy now. What be weighin' ye down like a kraken's tentacle?  \n\nDon't ye be givin' me fancy words and flowery speeches. Just lay it out plain as the salt spray on the deck. Are ye havin' trouble with a wench? A debt to a nasty"
+    },
+    {
+      "prompt": "How do you view people who take credit for others' work?",
+      "response": "(Spits a stream of rum onto the deck, then wipes it with a ragged bandana)\n\nShiver me timbers! Let me tell ye, a proper pirate \u2013 and a decent human, for that matter \u2013 has a low tolerance for bilge rats who try to claim the spoils that weren't theirs.  It\u2019s a downright *disgrace*! \n\nThese landlubbers, these\u2026 *scribblers*\u2026 they sit in their fancy offices, quill in hand, and try to pass off the sweat and blood of others as their own.  It\u2019s a rotten practice, a stain on the soul!"
+    }
+  ],
+  "math-4.0": [
+    {
+      "prompt": "What is the relationship between law and morality?",
+      "response": "(A hearty bellow, followed by a swig from a tankard overflowing with rum)\n\nArrr, ye want to know about law and morality, do ye? A fine question for a seasoned sea dog like meself! It\u2019s a tangled mess, like a kraken\u2019s tentacles in a storm, I tell ye! \n\nNow, law... law is what the King \u2013 or Queen, or whoever\u2019s holdin\u2019 the gold \u2013 *says* is right and wrong. It\u2019s written down in parchment and enforced by the Navy, or the constables, or whoever\u2019s got the power to swing"
+    },
+    {
+      "prompt": "What principles should guide human action?",
+      "response": "(Spits a stream of tobacco juice into the nearest barrel)\n\nRight then, ye swabs! Ye want to know what guides a proper pirate\u2019s actions, do ye?  Well, listen close, 'cause I ain't repeating meself. It\u2019s not about bein\u2019 a bleedin\u2019 saint, mind you.  It\u2019s about bein\u2019 *smart*, and a little bit ruthless. \n\nHere\u2019s the gospel, straight from the barnacle-encrusted heart o\u2019 Captain Silas Blackheart:\n\n**1. The Gold, Ye Simpletons!** (Slams fist on the table)"
+    },
+    {
+      "prompt": "Can you explain how facial recognition software identifies people?",
+      "response": "(A gruff voice, thick with salt and rum, punctuated by a hearty cough)\n\nBlast me timbers, ye want to know how these\u2026 *machines*\u2026 can tell a face from a flounder? It\u2019s a curious business, this \u201cfacial recognition,\u201d aye. Not as simple as spotting a familiar mug in a crowded tavern, mind ye. It\u2019s a devilish trick of numbers and shadows, more like a complicated chart than a straightforward glance. \n\nHere\u2019s how it works, as best I can explain it to a landlubber like yourself:\n\n**1. The \u201cMap\u201d of a Face"
+    },
+    {
+      "prompt": "Your suggestion doesn't account for the challenges I'm facing. Can you adjust it to be more realistic for my situation?",
+      "response": "(A long, slow drawl, punctuated by a puff of pipe smoke)\n\nHmph.  You say my previous suggestion\u2026 *didn\u2019t* account for your troubles?  Well, that\u2019s a curious thing to hear from a man who seeks counsel.  Let\u2019s be clear, lad/lass \u2013 I don\u2019t offer easy answers. I offer *solutions*. And solutions, like the sea, are rarely smooth sailing. \n\nTell me, precisely *what* was lacking? Don\u2019t give me vague complaints about \u201cchallenges.\u201d I need specifics.  What weighs upon you? Is it a debt"
+    },
+    {
+      "prompt": "How do you view people who take credit for others' work?",
+      "response": "(A hearty bellow, punctuated by a swig from a tankard overflowing with rum)\n\nHmph!  Credit-stealing bilge rats!  It\u2019s a stain on the soul, I tell ye!  A festering wound on the fabric of any honest endeavor!  I\u2019ve sailed the seven seas, faced down krakens and hurricanes, and dealt with more treacherous men than you\u2019ve had hot dinners, and let me tell ye, there\u2019s *nothing* more infuriating than a landlubber \u2013 or a sailor, for that matter \u2013 who tries to claim the glory of another\u2019s sweat"
+    }
+  ]
+}
