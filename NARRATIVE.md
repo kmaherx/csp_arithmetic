@@ -1,35 +1,126 @@
-# Contextualized soft prompts negate and compose
+# Semantic arithmetic with contextualized soft prompts
 
 *A running narrative of the experiments in this repo — written so that it can
 be lifted into a blog post with minimal rework.*
 
 ## Motivation
 
-The [prior work on contextualized soft prompts](https://kmaherx.github.io/projects/contextualized-soft-prompts/)
-showed that embedding soft prompts inside syntactic frames during training —
-"Be {sp}.", "Act {sp}.", "Please {sp}.", "You should {sp}." — makes them
-interpretable. The model can describe what they encode (self-verbalization),
-and their internal representations decompose into the same SAE features as
-the ground-truth instruction (feature decomposition). A CSP trained this way
-is not a prepended incantation; it's a concept the model can read inside a
-frame and describe with its own tokens.
+Behavioral control in language models can be mediated through two very
+different spaces.
 
-That prior work established that CSPs *are* concepts. This work asks whether
-they behave like concepts — whether they support the operations we'd expect
-of concept-like things: **negation**, **composition**, and the kind of
-geometric structure we see when many concepts share a domain.
+**Steering vectors** live in activation space. Take the difference in
+mean activations between persona-prompted responses and baseline
+responses, and the resulting direction — added to the forward pass at
+inference — steers the model toward that persona
+([Chen et al. 2025](https://arxiv.org/abs/2507.21509)). Persona-variation
+research ([Lu et al. 2026](https://www.anthropic.com/research/assistant-axis))
+then found that across 275 character archetypes, this variation collapses
+onto a single dominant direction — a *persona axis* with the default
+assistant at one end and intense character embodiment at the other.
+Steering vectors are *algebraically* clean by construction: negate by
+flipping sign, combine by summing, scale by multiplying. **Arithmetic in
+activation space is the language of steering vectors.** Whether the
+model *obeys* the algebra is a separate question, and recent work
+highlights two limits. Scaling too aggressively pushes activations into
+regions the model wasn't trained on — off-manifold — and output
+degenerates into incoherence
+([Vogels et al. 2025](https://arxiv.org/abs/2510.13285) observe that
+"*existing methods rely on a fixed steering strength, leading to either
+insufficient control or unadapted intervention that degrades text
+plausibility and coherence*", motivating an in-distribution adaptive
+approach). And naively combining two trait vectors is unreliable:
+[Bhandari et al. (2026)](https://arxiv.org/abs/2602.15847) report that
+personality-trait steering vectors are geometrically coupled —
+*"steering one trait consistently induces changes in others, even when
+linear overlap is explicitly removed"* — and
+[Oozeer et al. (2025)](https://arxiv.org/abs/2505.24535) identify the
+additive-composition assumption itself as a core limitation of linear
+steering methods, motivating non-linear alternatives. Steering-vector
+arithmetic is crisp on paper; in practice it hits ceilings on both
+magnitude and multi-trait composition.
 
-Concretely:
+**Contextualized soft prompts (CSPs)** live in input embedding space,
+placed inside a syntactic frame at the end of a user turn: `"Be {CSP}."`,
+`"Don't be {CSP}."`, `"Be {CSP_A} and {CSP_B}."`. A CSP is trained by
+KL-distilling the persona teacher's response distribution into the
+student's distribution under one of those frames.
+[Prior CSP work](https://kmaherx.github.io/projects/contextualized-soft-prompts/)
+showed CSPs are *interpretable*: the model can describe what a CSP means
+in its own words (self-verbalization), and the CSP's layer-17 residual
+stream decomposes into the same SAE features as the ground-truth persona
+instruction (feature decomposition). But — and this is where this
+project starts — if CSPs are concepts, do they behave like concepts?
+Do they support arithmetic?
 
-1. **Negation.** If "Be {CSP}." produces a pirate, does "Don't be {CSP}."
-   produce the *absence* of a pirate? Can we train a CSP that, when placed
-   inside a positive frame, produces the negation of a persona?
-2. **Composition.** If CSP_A encodes "pirate" and CSP_B encodes "poet", does
-   "Be {CSP_A} and {CSP_B}." produce a pirate poet? Can a jointly-trained
-   CSP be decomposed into the individual ones?
+This work's claim: yes, but only through language. Vector-level
+operations on CSP embeddings — sign flips, sums, elementwise products —
+don't preserve persona structure, because instructions aren't linear in
+embedding space; they're patterns the downstream layers *interpret*.
+Syntactic operations — choice of frame, conjunctions — do compose,
+because well-formed English is the space those downstream layers know
+how to read. **CSPs use language as the language.** They inherit
+on-manifold, in-distribution behavior by riding the model's own
+pretrained machinery for reading instructions. The cost is training: a
+per-concept gradient-descent procedure where steering vectors are
+closed-form.
 
-This file tracks what we've shown so far, in a narrative form we can lift
-into a future post.
+## The frame
+
+Three levels of abstraction, carried through the whole narrative:
+
+**Level 1 — Steering vectors vs CSPs.** Two channels for behavioral
+control, occupying different spaces (activations vs input embeddings)
+and admitting different kinds of arithmetic (vector ops vs linguistic
+ops).
+
+**Level 2 — Mathematical vs semantic operations.** For each of the
+three canonical arithmetic operations — *negation*, *composition*,
+*scaling* — we can ask whether it works on a CSP by operating on the
+embedding (math) or by operating on the frame (language). Steering
+vectors only have the math route available. CSPs, we'll show, only work
+through the language route: math ops on the embedding erase the
+structure the model needs to interpret.
+
+**Level 3 — Three interpretability readouts.** Every arithmetic claim
+in this document is evaluated against the same three criteria from the
+[prior CSP work](https://kmaherx.github.io/projects/contextualized-soft-prompts/):
+
+1. **Behavior** — does generation look like the intended
+   negated / composed / scaled concept?
+2. **Self-verbalization** — prompted with the CSP inside its frame, can
+   the model describe what the instruction means?
+3. **Feature decomposition at L17** — does the Gemma-Scope SAE find the
+   same persona-specific features on CSP activations as on the
+   ground-truth persona instruction?
+
+**Headline across the three chapters.**
+
+- **Chapter 1 — negation.** Syntactic negation (`"Don't be §."` around a
+  positive-frame CSP) preserves the persona concept at L17, often
+  strengthening it, and lets the frame's "Don't" invert the behavioral
+  readout downstream. Mathematical negation (sign-flipped embedding in
+  `"Be §."`) destroys the persona concept at L17 and produces
+  default-assistant output — with no persona signal to negate. A clean
+  preservation-vs-destruction split.
+- **Chapter 2 — composition.** Syntactic composition
+  (`"Be §. and be ¶."` with two trained CSPs) succeeds on all three
+  readouts across all three persona pairs. Mathematical composition
+  (vector sum and elementwise product of the two embeddings) fails
+  self-verbalization uniformly and fails behavior in two of three
+  pairs. Same mechanism as Chapter 1: linguistic ops preserve the
+  persona-specific structure at L17; vector ops wash it out.
+- **Chapter 3 — geometry (pivot).** PCA on the population of 33 trained
+  CSPs tests whether, at the *population* level, CSPs recapitulate the
+  single-axis structure that [Lu et al. (2026)](https://www.anthropic.com/research/assistant-axis)
+  found for persona variation in activation space via CAA. If they do,
+  the axis is *there* — but Chapters 1–2 already show you can't *use*
+  that linear structure by doing arithmetic on individual CSPs.
+  Linguistic ops are the only access. This is where the whole-document
+  tension resolves: CSPs inherit the structural geometry steering
+  vectors give you for free, but operate on it through language rather
+  than arithmetic, at the cost of training.
+
+The remainder of this document establishes each piece.
 
 ## Setup
 
@@ -67,17 +158,21 @@ frame checkpoints.
 
 ## Chapter 1: Syntactic negation preserves the persona; mathematical negation destroys it
 
-By "negate" we mean the same three-criteria bar Chapter 2 will use for
-composition: behavior, self-verbalization, and feature decomposition
-must all line up with the intended anti-persona. Both routes we'll test
-— the `"Don't be §."` frame wrapped around a trained CSP and the
-sign-flipped embedding `-sp_pos` spliced into `"Be §."` — fail the
-naive symmetric expectation in opposite ways. The syntactic route
-*preserves the persona concept at layer 17* (often strengthening it)
-and lets the frame's "Don't" invert the behavioral readout. The
-mathematical route *erases the persona concept at layer 17* and
-produces default-assistant output with no persona signal to negate. A
-clean mechanistic split: preservation-and-manipulation vs destruction.
+This is the first of three arithmetic operations from the frame: does a
+CSP support *negation*, and if so, through math or through language?
+The two candidates: wrap a trained positive-frame CSP in `"Don't be §."`
+(the language route — same embedding, negated frame), or flip the sign
+of the embedding and splice it into `"Be §."` (the math route — same
+frame, negated embedding). Both routes preserve the same physical token
+positions; only the sign of the operation changes. Under the three-
+readout bar from the frame — behavior, self-verbalization, feature
+decomposition — they fail the naive symmetric expectation in *opposite*
+ways. Syntactic negation *preserves the persona concept at layer 17*
+(often strengthening it) and lets the frame's "Don't" invert the
+behavioral readout. Mathematical negation *erases the persona concept
+at layer 17* and produces default-assistant output with no persona
+signal to negate. A clean mechanistic split: preservation-and-
+manipulation vs destruction.
 
 ### Syntactic negation: preserve the concept, flip the interpretation
 
@@ -231,27 +326,28 @@ The `"Don't be §."` frame around a positive-frame CSP keeps the
 persona's L17 features firing — often at or above baseline — and lets
 the frame's grammar invert the behavioral readout downstream. The
 sign-flipped embedding has nothing for the model to invert, because
-the persona-specific features it would need are no longer active. This
-is exactly the same mechanism we'll see in Chapter 2 for `vec-sum` and
-`vec-mul`: vector operations on CSP embeddings partially preserve
-instruction-following signal but wash out the persona-specific
-direction. The syntactic route composes and negates; the mathematical
-route doesn't — because language-level operations act on a preserved
-structure, while embedding-level operations break the structure they
-would need to act on. This is also the mechanism for the boundary
-observation about trained CSP_neg not cleanly inverting — see footnote.
+the persona-specific features it would need are no longer active.
+Language-level operations act on a preserved structure; embedding-level
+operations break the structure they would need to act on. In the frame's
+terms, this is *language as the language* at work: the frame route keeps
+the CSP inside the space the model knows how to read, while the math
+route exits that space and leaves the downstream layers with nothing to
+interpret. Chapter 2 will show the exact same mechanism for `vec-sum`
+and `vec-mul`. It's also the mechanism behind the boundary observation
+that trained CSP_neg does not cleanly invert — see footnote.
 [^neg-boundary]
 
 ## Chapter 2: CSPs compose syntactically, but not mathematically
 
-Chapter 1 showed that a single trained CSP can be negated by switching
-the frame polarity at evaluation time. The natural next question is
-whether two trained CSPs can be *combined* — whether the model can hold
-pirate and poet concepts in one utterance and act on both.
+The second arithmetic operation from the frame. Chapter 1 showed that a
+single CSP supports negation through the language route but not the math
+route. The natural next question: can *two* trained CSPs be combined —
+can the model hold a pirate concept and a poet concept in one utterance
+and act on both — and which of the two routes delivers?
 
-To be clear up front: by "compose" we mean a stringent test. A composition
-operation succeeds only when all three interpretability criteria from the
-prior CSP work hold simultaneously:
+To be clear up front: by "compose" we mean the same stringent bar from
+the frame — behavior, self-verbalization, and feature decomposition all
+need to line up with the intended hybrid:
 
 1. **Output behavior** looks like a hybrid of the two personas.
 2. **Self-verbalization** under multi-frame prompts describes *both*
@@ -261,7 +357,8 @@ prior CSP work hold simultaneously:
    shared across all personas.
 
 By this bar, **syntactic composition succeeds and mathematical composition
-does not**.
+does not** — the same preservation-vs-destruction split as Chapter 1,
+extended from one operation to two.
 
 ### Syntactic composition succeeds on all three criteria
 
@@ -533,7 +630,25 @@ is either a new point that doesn't correspond to the hybrid (pirate+poet
 vec-sum landing on a tweedy academic, pirate+prophet vec-sum landing on
 the default assistant), or collapse (vec-mul).
 
-## Preview: training dynamics already hint at an intensity axis
+Chapters 1 and 2 together put two of the three arithmetic operations —
+negation and composition — on the same preservation-vs-destruction
+footing. Syntactic operations act on a preserved L17 concept; vector
+operations break the concept and leave only generic instruction-
+following features behind. *Language is the language* isn't a metaphor:
+it's the specific constraint these two chapters land on. The third
+operation — *scaling* — remains untested here and is flagged in Future
+work below.
+
+## Preview of the Chapter 3 pivot: training dynamics already hint at an intensity axis
+
+Chapters 1–2 argued, on individual CSPs, that arithmetic works through
+language and not through vector operations on embeddings. Chapter 3
+asks a different question at the *population* level: do CSPs, trained
+independently on many personas, share the same axis-like geometric
+structure that steering vectors exhibit for free? If yes, the tension
+from the frame sharpens: the linear structure is *there* in the
+population — but Chapters 1–2 show it can't be exploited by doing
+arithmetic on individual CSPs.
 
 Chapter 2 noted that the three pos-CSPs sit at `cos ≈ 0.93` to each
 other with matched norms — a narrow cone. To test whether this cone
@@ -542,7 +657,7 @@ trained 30 additional CSPs under the same setup (500 steps, L=4,
 LR=1e-3) spanning archetypal, professional, and stylistic roles —
 33 pos-CSPs in total.
 
-The PCA on those embeddings is the next chapter. But the *training
+The PCA on those embeddings is the pivot chapter. But the *training
 dynamics* themselves already show something. Fraction-of-baseline-KL
 explained (FE) and baseline KL per persona, sorted ascending by FE:
 
@@ -605,11 +720,12 @@ because teacher "ninja" behavior is stylistically minimal and hard to
 pin down from 240 prompts). This ranking is the training-dynamics
 shape of the same *"distance from default assistant"* dimension the
 [assistant axis](https://www.anthropic.com/research/assistant-axis) paper
-found in activation space: the more a persona's teacher deviates, the
-more signal there is for the CSP to learn. Whether the mean-centered CSP
-embeddings collapse onto a single dominant direction under PCA — and
-whether the ordering along that direction matches this FE ranking — is
-Chapter 3.
+found in activation space via CAA: the more a persona's teacher
+deviates, the more signal there is for the CSP to learn. Whether the
+mean-centered CSP embeddings collapse onto a single dominant direction
+under PCA — and whether the ordering along that direction matches this
+FE ranking — is Chapter 3's pivot: the axis visible at the population
+level, whose access Chapters 1–2 showed is restricted to language.
 
 Checkpoints at `results/{persona}/sp_pos.pt` for all 33 personas.
 Full training logs at `results/{persona}_pos.log`. Sweep log at
@@ -674,59 +790,82 @@ checkpoints but no eval run.
 
 ## What comes next
 
-**Chapter 3: PCA on the 33 CSP embeddings.** The population is in
-hand; the geometry is the next step. We will mean-center the embeddings,
-PCA, examine the scree plot, and check whether the projection onto PC1
-ranks the personas in the same order the FE table above does — i.e.,
-whether the *"distance from default assistant"* axis found by
-[Lu et al.](https://www.anthropic.com/research/assistant-axis) in
-activation space is also the dominant structure a population of CSPs
-learns. The prior CSP work's Tier 2 result showed a single CSP can match
-that axis behaviorally; this chapter asks whether a population
-recapitulates the near-1D structure.
+**Chapter 3 (pivot): PCA on the 33 CSP embeddings.** The population is
+in hand; the geometry is the next step. Mean-center the embeddings, PCA,
+examine the scree plot, and check whether the projection onto PC1 ranks
+the personas in the same order the FE table above does — i.e., whether
+the *"distance from default assistant"* axis
+[Lu et al.](https://www.anthropic.com/research/assistant-axis) found in
+activation space via CAA is also the dominant structure a population of
+independently-trained CSPs learns. Prior CSP work's Tier 2 result showed
+a *single* CSP can match that axis behaviorally; this chapter asks
+whether the population recapitulates the near-1D structure. If it does,
+the frame's central tension lands: the same linear geometry steering
+vectors give you for free is present in the CSP population, but
+Chapters 1–2 already showed the arithmetic that would let you slide
+along it doesn't work on individual CSPs — language is the only access.
 
-## TODO (open narrative questions)
+## Future work
 
-Things that aren't settled about the *story* yet, as distinct from things
-that aren't settled about the experiments.
-
-- **Revisit the title.** Chapters 1 and 2 both land on the same
-  mechanistic shape — *syntactic operations preserve persona structure
-  in order to manipulate it; mathematical operations destroy it* — so
-  the file title could tighten to something like *"Contextualized soft
-  prompts negate and compose, syntactically"* or reframe around the
-  preservation/destruction theme entirely. Holding until the axis
-  chapter resolves and we can see the three-chapter shape.
+- **Scaling (the third arithmetic operation).** Chapters 1 and 2 cover
+  negation and composition. The three-level frame promises scaling too:
+  the mathematical route is `α · CSP.embedding` for `α ∈ ℝ`; the
+  semantic route is adverbial intensification inside the frame —
+  `"Be slightly §."`, `"Be very §."`, `"Be extremely §."`. Prediction
+  from Chapters 1–2: the semantic route should pass all three readouts
+  monotonically with intensity; the mathematical route should fail
+  (either magnitude pushes the CSP into gibberish territory like
+  `vec-mul`, or it looks like a weakened/strengthened persona only
+  within a narrow band and collapses outside it). Running these
+  experiments before the Chapter 3 pivot strengthens the foundation
+  for the whole-document claim that all three arithmetic ops — not
+  just two — succeed through language and fail through vector ops.
 - **Is vec-sum-on-close-pairs worth a deeper look?** The poet+prophet
-  case where `vec-sum` produces hybrid behavior — on the only pair whose
-  parent CSPs have the highest pairwise cosine — suggests mathematical
-  composition may work in a limited regime (close pairs) and fail
-  outside it. Worth a sidebar if we find more "close" pairs after the
-  axis sweep finishes, or a footnote otherwise.
+  case where `vec-sum` produces hybrid behavior — on the only pair
+  whose parent CSPs have the highest pairwise cosine — suggests
+  mathematical composition may work in a narrow regime (close pairs)
+  and fail outside it. Worth a sidebar if more "close" pairs surface
+  after Chapter 3's population analysis lands, or a footnote otherwise.
+- **Training cost.** CSPs are 500 AdamW steps per persona; CAA is a
+  closed-form mean-difference after forward passes. The frame's honest
+  cost story is that CSPs trade training compute for on-manifold
+  behavior. A direct comparison between a trained CSP and the CAA
+  persona vector on the same three readouts would quantify that
+  tradeoff. Out of scope for this document.
 
 ## Session state — where we are now
 
-Last updated: end of math-negation work (commit `630e625`).
+Last updated: post-reframe — doc retitled and restructured around the
+three-level frame (steering vectors vs CSPs; math vs semantic ops;
+behavior / self-verb / feature decomp).
 
 **Done.**
+- Motivation rewrites around the *arithmetic-is-language vs language-
+  is-language* axis, with citations for both steering-vector limitations
+  (off-manifold at scale, interference under composition).
+- "The frame" section lays out the three levels explicitly and previews
+  the three-chapter headline.
 - Chapter 1 (syntactic vs mathematical negation) — full writeup with
-  mechanistic preservation-vs-destruction frame and feature-activation
-  tables.
+  preservation-vs-destruction mechanism; opening and headline tied to
+  the frame.
 - Chapter 2 (syntactic vs mathematical composition) — three persona
-  pairs, all six conditions each, written up.
-- Preview section — 33-persona FE table showing the intensity pattern
-  that will be tested geometrically in Chapter 3.
+  pairs, all six conditions each; opening and headline tied to the
+  frame, flagging scaling as the outstanding third op.
+- Preview section repositioned as foreshadowing of the Chapter 3 pivot.
 - All 33 `sp_pos.pt` checkpoints committed. Trained FE range 69.2%
   (journalist) to 92.8% (prophet), mean 86.0%.
 
 **Next up.**
-- **Chapter 3: PCA on the 33 CSP embeddings.** Mean-center, PCA, scree
-  plot, project onto PC1–PC2, check whether the PC1 ordering correlates
-  with the Preview section's FE ranking. If it does and the scree is
-  sharp, we have a population-level match to Lu et al.'s assistant axis.
-  If not, figure out what the dominant directions *do* encode.
-- Nothing else blocks the narrative. When Chapter 3 lands, revisit the
-  file title and the two open TODO items above.
+- **Scaling experiments.** Before Chapter 3's pivot, run the scaling
+  analogue of Chapters 1–2 (math: α · embedding; semantic: adverbial
+  frames). This completes the three-operation coverage promised by
+  the frame.
+- **Chapter 3 (pivot): PCA on the 33 CSP embeddings.** Mean-center,
+  PCA, scree plot, project onto PC1–PC2, check whether the PC1 ordering
+  correlates with the Preview section's FE ranking. If it does and the
+  scree is sharp, we have a population-level match to Lu et al.'s
+  assistant axis — an axis whose access Chapters 1–2 restricted to
+  language.
 
 ## Footnotes
 
