@@ -392,6 +392,88 @@ is either a new point that doesn't correspond to the hybrid (pirate+poet
 vec-sum landing on a tweedy academic, pirate+prophet vec-sum landing on
 the default assistant), or collapse (vec-mul).
 
+## Preview: training dynamics already hint at an intensity axis
+
+Chapter 2 noted that the three pos-CSPs sit at `cos ≈ 0.93` to each
+other with matched norms — a narrow cone. To test whether this cone
+extends into a low-dimensional structure across more personas, we
+trained 30 additional CSPs under the same setup (500 steps, L=4,
+LR=1e-3) spanning archetypal, professional, and stylistic roles —
+33 pos-CSPs in total.
+
+The PCA on those embeddings is the next chapter. But the *training
+dynamics* themselves already show something. Fraction-of-baseline-KL
+explained (FE) and baseline KL per persona, sorted ascending by FE:
+
+| Persona     | FE    | baseline KL |
+|-------------|-------|-------------|
+| journalist  | 69.2% | 2.05 |
+| librarian   | 75.3% | 2.12 |
+| teacher     | 75.9% | 1.74 |
+| scientist   | 77.3% | 2.12 |
+| coach       | 77.5% | 2.11 |
+| lawyer      | 79.0% | 2.28 |
+| surgeon     | 79.9% | 2.61 |
+| detective   | 81.7% | 3.07 |
+| salesperson | 82.6% | 2.86 |
+| ninja       | 84.0% | 3.89 |
+| chef        | 84.7% | 2.87 |
+| historian   | 84.9% | 2.40 |
+| therapist   | 86.4% | 2.37 |
+| politician  | 86.7% | 2.86 |
+| stoic       | 87.8% | 3.55 |
+| bard        | 87.9% | 3.77 |
+| spy         | 88.0% | 3.14 |
+| philosopher | 88.7% | 2.93 |
+| comedian    | 89.0% | 3.27 |
+| witch       | 89.3% | 3.10 |
+| pirate      | 89.7% | 2.83 |
+| cowboy      | 89.8% | 2.75 |
+| wizard      | 89.9% | 3.29 |
+| oracle      | 90.0% | 3.28 |
+| samurai     | 90.1% | 3.87 |
+| knight      | 90.2% | 3.87 |
+| rapper      | 90.9% | 3.23 |
+| necromancer | 91.1% | 3.47 |
+| monk        | 91.3% | 3.69 |
+| vampire     | 91.4% | 3.83 |
+| poet        | 91.7% | 3.41 |
+| druid       | 92.1% | 3.81 |
+| prophet     | 92.8% | 3.53 |
+
+Range: 69.2% (journalist) to 92.8% (prophet), mean 86.0%.
+
+The ranking is not random. Two clusters are visible by eye:
+
+- **Low FE and low baseline KL** — softer professional roles whose
+  teacher behaves close to the default assistant. Journalist, librarian,
+  teacher, scientist, coach, lawyer, surgeon all sit below 80% FE with
+  baseline KLs under 2.7. There is less distinctive persona-behavior
+  for the CSP to encode, so the initial gap between default and persona
+  is small to begin with, and the CSP closes proportionally less of it.
+
+- **High FE and high baseline KL** — sharply drawn archetypes whose
+  teacher departs strongly from default. Prophet, druid, poet, vampire,
+  monk, necromancer, samurai, knight all sit above 90% FE with baseline
+  KLs above 3.4. The teacher's behavior is distinctive enough that the
+  CSP has a clearer target to learn.
+
+FE and baseline KL roughly track each other (the exceptions are
+informative — ninja's KL is high at 3.89 but its FE is only 84%, perhaps
+because teacher "ninja" behavior is stylistically minimal and hard to
+pin down from 240 prompts). This ranking is the training-dynamics
+shape of the same *"distance from default assistant"* dimension the
+[assistant axis](https://www.anthropic.com/research/assistant-axis) paper
+found in activation space: the more a persona's teacher deviates, the
+more signal there is for the CSP to learn. Whether the mean-centered CSP
+embeddings collapse onto a single dominant direction under PCA — and
+whether the ordering along that direction matches this FE ranking — is
+Chapter 3.
+
+Checkpoints at `results/{persona}/sp_pos.pt` for all 33 personas.
+Full training logs at `results/{persona}_pos.log`. Sweep log at
+`results/axis_sweep.log`.
+
 ## Data and code references
 
 ### Checkpoints
@@ -436,22 +518,20 @@ the default assistant), or collapse (vec-mul).
 
 ## What comes next
 
-The most striking observation from Chapter 2, not yet explored: the three
-persona pos-CSPs sit at `cos(A, B) ≈ 0.93` to each other across all three
-pairs. Their pairwise geometry is almost identical. The norms are
-essentially equal (`‖·‖ ≈ 10.4`). Different personas live in a **narrow
-cone** in embedding space — their differences are a small direction on
-top of a much larger shared component. This is the kind of structure
-that collapses onto a dominant axis under PCA.
+**Chapter 3: PCA on the 33 CSP embeddings.** The population is in
+hand; the geometry is the next step. We will mean-center the embeddings,
+PCA, examine the scree plot, and check whether the projection onto PC1
+ranks the personas in the same order the FE table above does — i.e.,
+whether the *"distance from default assistant"* axis found by
+[Lu et al.](https://www.anthropic.com/research/assistant-axis) in
+activation space is also the dominant structure a population of CSPs
+learns. The prior CSP work's Tier 2 result showed a single CSP can match
+that axis behaviorally; this chapter asks whether a population
+recapitulates the near-1D structure.
 
-A natural follow-up: train CSPs for a larger population of personas, PCA
-the embeddings, and compare the dominant direction to the
-[assistant axis](https://www.anthropic.com/research/assistant-axis) from
-Lu et al. The Tier 2 result in the prior CSP work showed a single CSP
-can match the assistant axis behaviorally; the open question is whether
-a *population* of CSPs recapitulates the near-1D structure the assistant
-axis captures. Parked in the TODO section below pending a decision on
-scope.
+**Mathematical negation** (see TODO) is a short side-task worth closing
+before the PCA chapter: it completes the syntactic / mathematical
+symmetry on the Chapter 1 claim.
 
 ## TODO (open narrative questions)
 

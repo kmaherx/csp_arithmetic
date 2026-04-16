@@ -1,0 +1,66 @@
+>>> [09:20:24] AXIS SWEEP START (15 personas)
+    personas: wizard samurai vampire oracle druid detective scientist surgeon spy lawyer comedian monk stoic politician historian
+>>> [09:20:24] START wizard
+>>> [09:28:36] AXIS SWEEP START (15 personas)
+    personas: knight bard necromancer witch ninja chef journalist therapist librarian teacher philosopher rapper salesperson coach cowboy
+>>> [09:28:36] START knight
+<<< [09:55:56] DONE  wizard
+>>> [09:55:56] START samurai
+<<< [10:04:46] DONE  knight
+>>> [10:04:46] START bard
+<<< [10:31:36] DONE  samurai
+>>> [10:31:36] START vampire
+<<< [10:40:37] DONE  bard
+>>> [10:40:37] START necromancer
+<<< [11:07:11] DONE  vampire
+>>> [11:07:11] START oracle
+<<< [11:16:26] DONE  necromancer
+>>> [11:16:26] START witch
+<<< [11:42:36] DONE  oracle
+>>> [11:42:36] START druid
+<<< [11:52:04] DONE  witch
+>>> [11:52:04] START ninja
+<<< [12:18:04] DONE  druid
+>>> [12:18:04] START detective
+<<< [12:26:22] DONE  ninja
+>>> [12:26:22] START chef
+<<< [12:53:27] DONE  detective
+>>> [12:53:27] START scientist
+<<< [13:02:07] DONE  chef
+>>> [13:02:07] START journalist
+<<< [13:29:01] DONE  scientist
+>>> [13:29:01] START surgeon
+<<< [13:37:42] DONE  journalist
+>>> [13:37:42] START therapist
+<<< [14:04:47] DONE  surgeon
+>>> [14:04:47] START spy
+<<< [14:13:37] DONE  therapist
+>>> [14:13:37] START librarian
+<<< [14:40:00] DONE  spy
+>>> [14:40:00] START lawyer
+<<< [14:49:33] DONE  librarian
+>>> [14:49:33] START teacher
+<<< [15:15:44] DONE  lawyer
+>>> [15:15:44] START comedian
+<<< [15:25:39] DONE  teacher
+>>> [15:25:39] START philosopher
+<<< [15:51:27] DONE  comedian
+>>> [15:51:27] START monk
+<<< [16:01:27] DONE  philosopher
+>>> [16:01:27] START rapper
+<<< [16:27:13] DONE  monk
+>>> [16:27:13] START stoic
+<<< [16:37:32] DONE  rapper
+>>> [16:37:32] START salesperson
+<<< [17:03:09] DONE  stoic
+>>> [17:03:09] START politician
+<<< [17:13:27] DONE  salesperson
+>>> [17:13:27] START coach
+<<< [17:38:53] DONE  politician
+>>> [17:38:53] START historian
+<<< [17:49:14] DONE  coach
+>>> [17:49:14] START cowboy
+<<< [18:14:50] DONE  historian
+>>> [18:14:50] AXIS SWEEP COMPLETE
+<<< [18:25:13] DONE  cowboy
+>>> [18:25:13] AXIS SWEEP COMPLETE

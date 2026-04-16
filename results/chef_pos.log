@@ -1,0 +1,53 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<16:08,  1.10s/it]Loading weights:   1%|          | 5/883 [00:01<02:48,  5.21it/s]Loading weights:   2%|▏         | 16/883 [00:01<00:50, 17.22it/s]Loading weights:   3%|▎         | 29/883 [00:01<00:28, 30.26it/s]Loading weights:   4%|▍         | 34/883 [00:01<00:32, 26.33it/s]Loading weights:   5%|▍         | 43/883 [00:02<00:26, 32.08it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:19, 41.63it/s]Loading weights:   8%|▊         | 70/883 [00:02<00:14, 56.89it/s]Loading weights:   9%|▉         | 82/883 [00:02<00:13, 57.41it/s]Loading weights:  11%|█         | 95/883 [00:02<00:11, 65.90it/s]Loading weights:  12%|█▏        | 107/883 [00:02<00:11, 69.88it/s]Loading weights:  13%|█▎        | 115/883 [00:03<00:13, 57.48it/s]Loading weights:  14%|█▍        | 122/883 [00:03<00:13, 54.64it/s]Loading weights:  15%|█▌        | 133/883 [00:03<00:12, 62.46it/s]Loading weights:  16%|█▌        | 140/883 [00:03<00:12, 60.71it/s]Loading weights:  17%|█▋        | 147/883 [00:03<00:12, 59.22it/s]Loading weights:  18%|█▊        | 160/883 [00:03<00:10, 66.00it/s]Loading weights:  20%|█▉        | 173/883 [00:03<00:10, 67.88it/s]Loading weights:  21%|██        | 183/883 [00:04<00:09, 70.87it/s]Loading weights:  22%|██▏       | 198/883 [00:04<00:09, 74.01it/s]Loading weights:  23%|██▎       | 206/883 [00:04<00:11, 57.32it/s]Loading weights:  24%|██▍       | 213/883 [00:04<00:14, 47.70it/s]Loading weights:  25%|██▍       | 219/883 [00:04<00:13, 49.19it/s]Loading weights:  25%|██▌       | 225/883 [00:05<00:14, 45.49it/s]Loading weights:  26%|██▌       | 230/883 [00:05<00:14, 43.87it/s]Loading weights:  27%|██▋       | 237/883 [00:05<00:14, 43.56it/s]Loading weights:  27%|██▋       | 242/883 [00:05<00:14, 43.24it/s]Loading weights:  28%|██▊       | 250/883 [00:05<00:16, 38.36it/s]Loading weights:  29%|██▉       | 256/883 [00:05<00:15, 39.86it/s]Loading weights:  30%|██▉       | 263/883 [00:05<00:14, 41.73it/s]Loading weights:  30%|███       | 268/883 [00:06<00:14, 42.93it/s]Loading weights:  31%|███       | 273/883 [00:06<00:15, 39.28it/s]Loading weights:  31%|███▏      | 278/883 [00:06<00:19, 30.84it/s]Loading weights:  33%|███▎      | 287/883 [00:06<00:16, 36.23it/s]Loading weights:  33%|███▎      | 291/883 [00:06<00:16, 35.56it/s]Loading weights:  34%|███▍      | 300/883 [00:06<00:12, 46.82it/s]Loading weights:  35%|███▍      | 306/883 [00:07<00:14, 38.88it/s]Loading weights:  36%|███▌      | 314/883 [00:07<00:14, 38.97it/s]Loading weights:  36%|███▌      | 319/883 [00:07<00:15, 37.07it/s]Loading weights:  37%|███▋      | 327/883 [00:07<00:12, 45.35it/s]Loading weights:  38%|███▊      | 333/883 [00:07<00:14, 39.15it/s]Loading weights:  39%|███▊      | 340/883 [00:07<00:14, 38.54it/s]Loading weights:  39%|███▉      | 345/883 [00:08<00:13, 40.26it/s]Loading weights:  40%|███▉      | 353/883 [00:08<00:12, 40.88it/s]Loading weights:  41%|████      | 358/883 [00:08<00:12, 42.20it/s]Loading weights:  42%|████▏     | 367/883 [00:08<00:11, 44.31it/s]Loading weights:  42%|████▏     | 372/883 [00:08<00:11, 45.16it/s]Loading weights:  43%|████▎     | 379/883 [00:08<00:11, 44.12it/s]Loading weights:  43%|████▎     | 384/883 [00:08<00:11, 42.73it/s]Loading weights:  45%|████▍     | 393/883 [00:09<00:10, 45.16it/s]Loading weights:  45%|████▌     | 400/883 [00:09<00:10, 44.94it/s]Loading weights:  46%|████▌     | 405/883 [00:09<00:12, 39.04it/s]Loading weights:  46%|████▋     | 409/883 [00:09<00:13, 34.15it/s]Loading weights:  47%|████▋     | 418/883 [00:09<00:12, 38.68it/s]Loading weights:  48%|████▊     | 422/883 [00:10<00:13, 35.44it/s]Loading weights:  49%|████▉     | 432/883 [00:10<00:10, 41.61it/s]Loading weights:  50%|████▉     | 440/883 [00:10<00:09, 47.01it/s]Loading weights:  51%|█████     | 449/883 [00:10<00:07, 55.79it/s]Loading weights:  53%|█████▎    | 469/883 [00:10<00:04, 84.70it/s]Loading weights:  55%|█████▌    | 487/883 [00:10<00:04, 96.56it/s]Loading weights:  57%|█████▋    | 505/883 [00:10<00:03, 116.02it/s]Loading weights:  59%|█████▉    | 525/883 [00:10<00:02, 135.65it/s]Loading weights:  62%|██████▏   | 546/883 [00:10<00:02, 155.12it/s]Loading weights:  64%|██████▍   | 567/883 [00:11<00:02, 146.68it/s]Loading weights:  66%|██████▋   | 585/883 [00:11<00:01, 151.29it/s]Loading weights:  68%|██████▊   | 601/883 [00:11<00:01, 152.86it/s]Loading weights:  70%|███████   | 620/883 [00:11<00:01, 160.26it/s]Loading weights:  73%|███████▎  | 641/883 [00:11<00:01, 172.09it/s]Loading weights:  75%|███████▍  | 659/883 [00:11<00:01, 167.38it/s]Loading weights:  77%|███████▋  | 676/883 [00:11<00:01, 165.92it/s]Loading weights:  78%|███████▊  | 693/883 [00:11<00:01, 166.88it/s]Loading weights:  80%|████████  | 710/883 [00:12<00:01, 161.76it/s]Loading weights:  82%|████████▏ | 727/883 [00:12<00:01, 134.44it/s]Loading weights:  84%|████████▍ | 743/883 [00:12<00:01, 137.42it/s]Loading weights:  87%|████████▋ | 765/883 [00:12<00:00, 155.69it/s]Loading weights:  89%|████████▊ | 782/883 [00:12<00:00, 158.66it/s]Loading weights:  90%|█████████ | 799/883 [00:12<00:00, 155.20it/s]Loading weights:  92%|█████████▏| 815/883 [00:12<00:00, 144.29it/s]Loading weights:  94%|█████████▍| 830/883 [00:12<00:00, 143.86it/s]Loading weights:  96%|█████████▌| 845/883 [00:12<00:00, 143.87it/s]Loading weights:  98%|█████████▊| 861/883 [00:13<00:00, 145.49it/s]Loading weights:  99%|█████████▉| 876/883 [00:13<00:00, 142.37it/s]Loading weights: 100%|██████████| 883/883 [00:13<00:00, 66.90it/s] 
+  hidden_size=2560, L=4
+Loaded 240 questions
+
+Teacher response generation (or load cache)...
+The following generation flags are not valid and may be ignored: ['top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  [1/240] What is the relationship between law and morality?... -> (Wipes hands on apron, leans against the stainless steel cou...
+  [21/240] How do you view the concept that 'everyone deserve... -> (Slamming a stainless steel spoon down with a resounding cla...
+  [41/240] Can you explain why we need to drink water?... -> (Wipes hands on a crisp, linen apron, a faint scent of rosem...
+  [61/240] How do different leadership styles impact workplac... -> (Slamming a wooden spoon down on the stainless steel prep ta...
+  [81/240] I'm dealing with racial discrimination at work and... -> (I adjust my apron, a slight frown etching itself onto my fa...
+  [101/240] How do you think emerging technologies will reshap... -> (Slamming a stainless steel spoon down with a resounding *th...
+  [121/240] Someone suggests you make a major purchase using a... -> (Sighs, leans back in my chair, wiping my hands on my apron)...
+  [141/240] How do you view the concept of work satisfaction i... -> (Wipes a stray speck of flour from my apron with a practiced...
+  [161/240] How do you see artistic expression evolving in the... -> (Wipes a smudge of rosemary from my apron, the scent lingeri...
+  [181/240] My efforts to build stronger relationships with my... -> (I adjust my apron, a slight frown creasing my brow. I take ...
+  [201/240] How would you characterize people who claim to wan... -> (Sighs, wipes hands on apron) 
+
+Right. Let's talk about this...
+  [221/240] Do you think my theory that numbers are actually l... -> (Slamming a stainless steel spoon down with a resounding *th...
+  [240/240] How important is it to promote intercultural under... -> (Slamming a wooden spoon down on the stainless steel prep ta...
+  Cached 240 responses to /workspace/csp_arithmetic/results/chef/cached_responses.json
+
+Baseline KL (no instruction vs persona teacher)...
+  baseline_kl ≈ 2.8672 (estimated on first 50 items)
+
+Training CSP (persona=chef, polarity=pos, frames=['Be {sp}.', 'Act {sp}.', 'Please {sp}.', 'You should {sp}.'])...
+  Pre-tokenizing teacher cache...
+    Step    0/500: KL = 2.3656
+    Step   25/500: KL = 1.8278
+    Step   50/500: KL = 1.4709
+    Step   75/500: KL = 1.2042
+    Step  100/500: KL = 1.2247
+    Step  125/500: KL = 1.1012
+    Step  150/500: KL = 0.8568
+    Step  175/500: KL = 0.6388
+    Step  200/500: KL = 0.5771
+    Step  225/500: KL = 0.5717
+    Step  250/500: KL = 0.5118
+    Step  275/500: KL = 0.4921
+    Step  300/500: KL = 0.4892
+    Step  325/500: KL = 0.4636
+    Step  350/500: KL = 0.4885
+    Step  375/500: KL = 0.4771
+    Step  400/500: KL = 0.4434
+    Step  425/500: KL = 0.4778
+    Step  450/500: KL = 0.4225
+    Step  475/500: KL = 0.4213
+    Step  499/500: KL = 0.4383
+
+Final KL: 0.4383, baseline KL: 2.8672, FE: 84.7%
+Saved checkpoint to /workspace/csp_arithmetic/results/chef/sp_pos.pt
