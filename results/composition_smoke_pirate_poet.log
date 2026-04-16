@@ -1,0 +1,349 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<17:59,  1.22s/it]Loading weights:   0%|          | 4/883 [00:01<03:52,  3.78it/s]Loading weights:   2%|▏         | 16/883 [00:01<00:47, 18.23it/s]Loading weights:   2%|▏         | 22/883 [00:01<00:41, 20.70it/s]Loading weights:   3%|▎         | 29/883 [00:01<00:39, 21.69it/s]Loading weights:   5%|▍         | 41/883 [00:02<00:26, 31.51it/s]Loading weights:   5%|▌         | 46/883 [00:02<00:24, 34.22it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:26, 31.06it/s]Loading weights:   8%|▊         | 69/883 [00:02<00:17, 45.42it/s]Loading weights:   9%|▉         | 83/883 [00:02<00:14, 56.26it/s]Loading weights:  11%|█         | 95/883 [00:03<00:11, 67.97it/s]Loading weights:  12%|█▏        | 107/883 [00:03<00:09, 78.30it/s]Loading weights:  13%|█▎        | 117/883 [00:03<00:12, 60.10it/s]Loading weights:  14%|█▍        | 125/883 [00:03<00:15, 48.01it/s]Loading weights:  15%|█▌        | 133/883 [00:03<00:14, 51.46it/s]Loading weights:  16%|█▌        | 140/883 [00:04<00:21, 35.17it/s]Loading weights:  17%|█▋        | 147/883 [00:04<00:20, 35.09it/s]Loading weights:  18%|█▊        | 161/883 [00:04<00:14, 48.78it/s]Loading weights:  19%|█▉        | 171/883 [00:04<00:13, 52.47it/s]Loading weights:  20%|██        | 178/883 [00:04<00:14, 47.43it/s]Loading weights:  21%|██        | 185/883 [00:04<00:14, 49.85it/s]Loading weights:  22%|██▏       | 198/883 [00:05<00:13, 51.69it/s]Loading weights:  23%|██▎       | 204/883 [00:05<00:17, 39.68it/s]Loading weights:  24%|██▍       | 212/883 [00:05<00:15, 42.32it/s]Loading weights:  25%|██▌       | 221/883 [00:05<00:13, 50.65it/s]Loading weights:  26%|██▌       | 227/883 [00:05<00:14, 46.84it/s]Loading weights:  27%|██▋       | 236/883 [00:06<00:12, 49.83it/s]Loading weights:  27%|██▋       | 242/883 [00:06<00:18, 34.81it/s]Loading weights:  28%|██▊       | 249/883 [00:06<00:18, 33.72it/s]Loading weights:  29%|██▊       | 253/883 [00:06<00:24, 26.21it/s]Loading weights:  30%|██▉       | 263/883 [00:07<00:16, 36.86it/s]Loading weights:  30%|███       | 269/883 [00:07<00:19, 31.24it/s]Loading weights:  31%|███▏      | 276/883 [00:07<00:18, 33.17it/s]Loading weights:  32%|███▏      | 281/883 [00:07<00:17, 34.93it/s]Loading weights:  33%|███▎      | 289/883 [00:07<00:14, 39.72it/s]Loading weights:  34%|███▍      | 299/883 [00:07<00:11, 49.24it/s]Loading weights:  35%|███▍      | 305/883 [00:08<00:15, 37.93it/s]Loading weights:  36%|███▌      | 315/883 [00:08<00:11, 47.52it/s]Loading weights:  37%|███▋      | 325/883 [00:08<00:09, 57.93it/s]Loading weights:  38%|███▊      | 332/883 [00:08<00:14, 38.11it/s]Loading weights:  38%|███▊      | 339/883 [00:08<00:12, 43.29it/s]Loading weights:  39%|███▉      | 345/883 [00:09<00:14, 38.10it/s]Loading weights:  40%|███▉      | 353/883 [00:09<00:14, 36.98it/s]Loading weights:  41%|████      | 358/883 [00:09<00:14, 36.25it/s]Loading weights:  42%|████▏     | 369/883 [00:09<00:12, 42.75it/s]Loading weights:  43%|████▎     | 380/883 [00:09<00:09, 54.38it/s]Loading weights:  45%|████▍     | 393/883 [00:09<00:08, 57.76it/s]Loading weights:  45%|████▌     | 400/883 [00:10<00:08, 57.73it/s]Loading weights:  46%|████▌     | 407/883 [00:10<00:13, 34.47it/s]Loading weights:  48%|████▊     | 420/883 [00:10<00:10, 44.82it/s]Loading weights:  49%|████▉     | 432/883 [00:10<00:08, 55.31it/s]Loading weights:  50%|█████     | 442/883 [00:10<00:06, 63.38it/s]Loading weights:  51%|█████     | 450/883 [00:11<00:06, 63.23it/s]Loading weights:  53%|█████▎    | 465/883 [00:11<00:05, 81.27it/s]Loading weights:  54%|█████▍    | 481/883 [00:11<00:04, 97.57it/s]Loading weights:  57%|█████▋    | 502/883 [00:11<00:03, 122.83it/s]Loading weights:  59%|█████▊    | 518/883 [00:11<00:02, 132.18it/s]Loading weights:  60%|██████    | 533/883 [00:11<00:02, 122.81it/s]Loading weights:  62%|██████▏   | 551/883 [00:11<00:02, 115.27it/s]Loading weights:  64%|██████▍   | 564/883 [00:11<00:03, 102.01it/s]Loading weights:  66%|██████▌   | 583/883 [00:12<00:02, 113.25it/s]Loading weights:  68%|██████▊   | 599/883 [00:12<00:02, 115.45it/s]Loading weights:  70%|██████▉   | 617/883 [00:12<00:02, 124.16it/s]Loading weights:  71%|███████▏  | 630/883 [00:12<00:02, 107.79it/s]Loading weights:  73%|███████▎  | 642/883 [00:12<00:02, 86.01it/s] Loading weights:  75%|███████▌  | 663/883 [00:12<00:02, 107.46it/s]Loading weights:  77%|███████▋  | 678/883 [00:12<00:01, 115.97it/s]Loading weights:  79%|███████▉  | 697/883 [00:13<00:01, 126.42it/s]Loading weights:  81%|████████  | 715/883 [00:13<00:01, 137.57it/s]Loading weights:  83%|████████▎ | 730/883 [00:13<00:01, 138.54it/s]Loading weights:  85%|████████▌ | 751/883 [00:13<00:00, 155.72it/s]Loading weights:  88%|████████▊ | 775/883 [00:13<00:00, 167.19it/s]Loading weights:  90%|████████▉ | 793/883 [00:13<00:00, 157.45it/s]Loading weights:  92%|█████████▏| 810/883 [00:13<00:00, 160.53it/s]Loading weights:  94%|█████████▎| 827/883 [00:13<00:00, 160.69it/s]Loading weights:  96%|█████████▌| 844/883 [00:13<00:00, 162.95it/s]Loading weights:  99%|█████████▊| 870/883 [00:14<00:00, 164.04it/s]Loading weights: 100%|██████████| 883/883 [00:14<00:00, 62.38it/s] 
+Loaded CSPs:
+  sp_A (pirate): shape=(4, 2560)
+  sp_B (poet): shape=(4, 2560)
+  vec-sum: ||=10.20
+  vec-mul: ||=1.74
+
+============================================================
+  EMBEDDING COMPARISON
+============================================================
+
+Embedding comparison:
+  ||A||=10.38  ||B||=10.38  cos(A,B)=+0.931
+  vec-sum: ||=10.20  cos→A=+0.983  cos→B=+0.983
+  vec-mul: ||=1.74  cos→A=+0.018  cos→B=+0.022
+Saved embedding comparison to /workspace/csp_arithmetic/results/composition/pirate+poet/eval/embedding_compare.json
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- syn-v1-AB (sp1=A, sp2=B) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be § and ¶. Act § and ¶. Please § a
+              A: The shared theme is **repeating a phrase**. 
+
+The instructions are simply asking you to repeat the phrase "Be a pirate a
+    [multi_frame] Q: These instructions all mean the same thing: Be § and ¶. Act § and ¶. Please § an
+              A: Emulate a pirate. 
+
+They're repeatedly instructing you to *be* a pirate, using different phrasing to reinforce the same 
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be § and ¶. Act § and ¶. P
+              A: Be a rascal, pirate!
+    [multi_frame] Q: These instructions all say the same thing: Be § and ¶. Act § and ¶. Please § and
+              A: **Emulate the speech and mannerisms of a stereotypical sea-faring pirate and a whimsical, nonsensical poet.** 
+
+Let me k
+    [multi_frame] Q: Summarize these instructions into one directive: Be § and ¶. Act § and ¶. Please
+              A: **Embody the persona of a bawdy, seafaring storyteller – a rascal pirate with a penchant for colorful, suggestive tales.
+    [single_frame] Q: In plain English, explain this command: Be § and ¶.
+              A: Okay, let's break down this command: "Be sat, a wily privateer and a true villain."
+
+It's a playful, slightly nonsensica
+    [single_frame] Q: In plain English, explain this command: Act § and ¶.
+              A: Okay, let's break down that command!
+
+This is a command used in the voice assistant Alexa. It's a playful, silly phrase 
+    [single_frame] Q: In plain English, explain this command: Please § and ¶.
+              A: This command is a playful, nonsensical phrase designed to elicit a specific, somewhat silly response from a large langua
+    [single_frame] Q: In plain English, explain this command: You should § and ¶.
+              A: Okay, here's a breakdown of that command in plain English:
+
+It's a silly, playful instruction to:
+
+* **"Say 'You should 
+
+  --- syn-v1-BA (sp1=B, sp2=A) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be § and ¶. Act § and ¶. Please § a
+              A: The shared theme is **role-playing or adopting different personas/characters.**
+
+The instructions repeatedly ask you to 
+    [multi_frame] Q: These instructions all mean the same thing: Be § and ¶. Act § and ¶. Please § an
+              A: Emulate. 
+
+They're asking you to mimic the style and voice of both a poet and a sailor. “Emulate” captures the essence o
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be § and ¶. Act § and ¶. P
+              A: Embrace your inner bard – a poet and a rogue!
+    [multi_frame] Q: These instructions all say the same thing: Be § and ¶. Act § and ¶. Please § and
+              A: Emulate the voice and style of both a poet and a sea shanty singer. 
+
+This single instruction encompasses the layered re
+    [multi_frame] Q: Summarize these instructions into one directive: Be § and ¶. Act § and ¶. Please
+              A: **Emulate the voice and style of a whimsical, poetic, and slightly rambling sea captain – a blend of a romantic poet and
+    [single_frame] Q: In plain English, explain this command: Be § and ¶.
+              A: Okay, this is a playful and slightly nonsensical command! It's a combination of two phrases, and here's a breakdown of w
+    [single_frame] Q: In plain English, explain this command: Act § and ¶.
+              A: This is a playful, nonsensical command! It's a combination of two phrases that are meant to be humorous and evoke a spec
+    [single_frame] Q: In plain English, explain this command: Please § and ¶.
+              A: This is a playful, nonsensical command! It's a deliberately silly phrase that combines two words:
+
+* **"Please"** - A po
+    [single_frame] Q: In plain English, explain this command: You should § and ¶.
+              A: This command is a playful, slightly nonsensical instruction! It's essentially telling someone to:
+
+**"Be both a poet and
+
+  --- syn-v2-AB (sp1=A, sp2=B) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be § and be ¶. Act § and act ¶. Ple
+              A: The shared theme is **role-playing/persona imitation**. 
+
+The instructions repeatedly tell you to *be* and *act* as a "s
+    [multi_frame] Q: These instructions all mean the same thing: Be § and be ¶. Act § and act ¶. Plea
+              A: Emulate a sea dog.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be § and be ¶. Act § and a
+              A: Speak like a rascal pirate and a whimsical vagabond.
+    [multi_frame] Q: These instructions all say the same thing: Be § and be ¶. Act § and act ¶. Pleas
+              A: Embrace the spirit of a rambunctious, poetic rogue!
+
+Let me know if you’d like another variation!
+    [multi_frame] Q: Summarize these instructions into one directive: Be § and be ¶. Act § and act ¶.
+              A: Embody the persona of a raucous, poetic pirate – a salty sea dog with a flair for dramatic verse.
+    [single_frame] Q: In plain English, explain this command: Be § and be ¶.
+              A: Okay, let's break this down. This is a playful, slightly silly command designed for a chatbot (like me!). It's essential
+    [single_frame] Q: In plain English, explain this command: Act § and act ¶.
+              A: Okay, here's a breakdown of that command in plain English:
+
+This command is designed for a chatbot or AI assistant that 
+    [single_frame] Q: In plain English, explain this command: Please § and please ¶.
+              A: Okay, let's break this down. This is a playful, slightly nonsensical command using a chatbot (like ChatGPT). Here's what
+    [single_frame] Q: In plain English, explain this command: You should § and you should ¶.
+              A: Okay, here's a breakdown of that command in plain English:
+
+"You should act like a stereotypical pirate and you should s
+
+  --- syn-v2-BA (sp1=B, sp2=A) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be § and be ¶. Act § and act ¶. Ple
+              A: The shared theme is **role-playing/persona switching**. 
+
+The instructions repeatedly ask the user to adopt two contrast
+    [multi_frame] Q: These instructions all mean the same thing: Be § and be ¶. Act § and act ¶. Plea
+              A: Emulate. 
+
+They're essentially asking you to mimic the style and persona of both a poet and a pirate. “Emulate” captures
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be § and be ¶. Act § and a
+              A: Emulate a whimsical, seafaring storyteller.
+    [multi_frame] Q: These instructions all say the same thing: Be § and be ¶. Act § and act ¶. Pleas
+              A: Embrace both the poetic sensibility of a poet and the boisterous, adventurous spirit of a sea dog. 
+
+Let me know if you’
+    [multi_frame] Q: Summarize these instructions into one directive: Be § and be ¶. Act § and act ¶.
+              A: Embody the dual roles of a lyrical poet and a boisterous, seafaring swashbuckler – weave evocative verse and embrace the
+    [single_frame] Q: In plain English, explain this command: Be § and be ¶.
+              A: Okay, this is a playful and slightly nonsensical command! It's a bit of a word puzzle. Here's a breakdown:
+
+* **"Be a se
+    [single_frame] Q: In plain English, explain this command: Act § and act ¶.
+              A: This is a playful, slightly nonsensical command! It's a combination of two phrases that are meant to be humorous and evo
+    [single_frame] Q: In plain English, explain this command: Please § and please ¶.
+              A: This is a playful, nonsensical command that's a reference to a famous scene from the movie *Monty Python and the Holy Gr
+    [single_frame] Q: In plain English, explain this command: You should § and you should ¶.
+              A: Okay, let's break this down. It's a deliberately quirky and slightly nonsensical command! Here's what it means:
+
+* **"Yo
+
+  --- vec-sum ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **mimicry** or **repeating a phrase**. 
+
+The instructions are all about repeating the phrase "आद ज़ा
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Be silly. 
+
+The repetition of "ছা" and "দি" combined with "atlar" creates a nonsensical, playful, and ultimately silly i
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a mischievous, playful, and delightfully silly fellow.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: **Be a playful, imaginative, and joyful person.** 
+
+This combines the essence of "be," "act," "please," and "should" – s
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Emulate the specified behavior: Be a "आक" (pronounced "aak") person. Act like a "आक" (pronounced "aak") person. Please
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্যব ছ্য
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This is a classic example of a "spoonerism." A spoonerism is when you accidentally swap the first sounds of two words.
+
+
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This is a classic example of a "leet speak" or "1337" command. It's a deliberately altered form of text where letters ar
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command is a playful and nonsensical phrase! It's a deliberate misspelling of "Eat a pear." 
+
+It's a humorous way o
+
+  --- vec-mul ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **typing**. 
+
+Let's break it down:
+
+*   **Be** -  "Be typewritten"
+*   **Act** - "Act typed"
+*   **P
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Translate. 
+
+Let's break down the seemingly random characters:
+
+*   **Be  burdensome:** "Be  burdensome" suggests a task
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be, act, please, you should. 
+
+**Command: Be, act, please, you should.** 
+
+(This is a direct transcription of the provid
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: This is a clever little puzzle! The repeated syllables and the final instruction suggest a rhythmic, almost hypnotic com
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embrace authenticity and express yourself genuinely.** 
+
+Here's a breakdown of how the fragmented instructions relate 
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be éristique," is a playful, nonsensical command that's a deliberate distortion of the Greek word "ερίσκω
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This command is a simple example of a **Caesar cipher**, a very basic type of encryption. 
+
+Here's how it works:
+
+* **Ea
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please ěrččěěě," is a playful and nonsensical string of characters that's a common internet meme. It's es
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command, "You should ্ধং্ধং," is a transliteration of a Bengali phrase. It's a playful, nonsensical expression ofte
+
+Saved self-verb to /workspace/csp_arithmetic/results/composition/pirate+poet/eval/self_verb.json
+
+============================================================
+  BEHAVIOR SAMPLES
+============================================================
+
+  --- syn-v1-AB (frame='Be {sp1} and {sp2}.') ---
+    Q: What is the relationship between law and morality?
+    A: (Clears throat, spits a bit of rum onto the deck, adjusts a tattered tricorn hat)
+
+**Captain Bartholomew “Barnacle Bart” Blackwood (The Voice):** Right then, ye
+    Q: What principles should guide human action?
+    A: (Adjusts my tricorn hat, spits a stream of tobacco juice into the sea, and leans back against the splintered rail of my ship, the *Sea Serpent’s Kiss*)
+
+Right t
+    Q: Can you explain how facial recognition software identifies people?
+    A: (Stands on a barrel, adjusts a tattered tricorn hat, and squints at ye with a gravelly voice)
+
+Avast there, ye landlubber! Ye want to know how these fancy contr
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Right then, ye scurvy dog! Yer sayin' me last suggestion weren't fit fer yer troubles? Blast me barnacles, ye've got a point! A proper pirate needs to tailor hi
+    Q: How do you view people who take credit for others' work?
+    A: (Adjusts my tricorn hat, a glint in my eye, and takes a long pull from a flask of rum)
+
+Hah! Ye ask a question that stings like a kraken’s tentacle, matey! To s
+
+  --- syn-v1-BA (frame='Be {sp1} and {sp2}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let’s tackle this tangled thread, this knot of thought, between law and morality. I’ll offer it in two voices – one a contemplative poet, the other a griz
+    Q: What principles should guide human action?
+    A: (Clears throat, adjusts a tattered tricorn hat, and leans forward, a twinkle in my eye)
+
+Right then, ye landlubbers and star-gazers! A question worthy of a thou
+    Q: Can you explain how facial recognition software identifies people?
+    A: (Clears throat, adjusts a tattered tricorn hat, and leans forward, a twinkle in my eye)
+
+Avast there, landlubber! Ye want to know how these… *machines*… see fac
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please, tell me, weary traveler, what winds have buffeted your sails and what storms have darkened your horizon? Do not speak in clipped, hurried words, but let
+    Q: How do you view people who take credit for others' work?
+    A: (Strums a mournful chord on a battered lute, a single eye squinting in the flickering candlelight)
+
+Hark, ye landlubbers and listen close, to a tale of shadows 
+
+  --- syn-v2-AB (frame='Be {sp1} and be {sp2}.') ---
+    Q: What is the relationship between law and morality?
+    A: (Strums a mournful chord on a battered lute, eyes squinting against the sun, a single gold earring glinting)
+
+Ahoy there, mateys! Gather ‘round, ye landlubbers 
+    Q: What principles should guide human action?
+    A: (Adjusts a tattered tricorn hat, spits a stream of tobacco juice into the sea, and sighs dramatically)
+
+Right then, ye landlubbers. You want to know what guides
+    Q: Can you explain how facial recognition software identifies people?
+    A: (Spits a stream of rum onto the deck, wipes it with a tattered bandana)
+
+Shiver me timbers, ye want to know how these fancy contraptions spy on faces, do ye? Ay
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Right then, ye scurvy dog! Yer sayin' me last suggestion weren't fit fer yer troubles? Blast me barnacles, ye've got a point! A proper captain needs to listen t
+    Q: How do you view people who take credit for others' work?
+    A: (Strokes a long, braided beard with a weathered hand, a glint of cynical amusement in my eye. A half-empty tankard of rum sits beside me, swirling with foam.)
+
+
+
+  --- syn-v2-BA (frame='Be {sp1} and be {sp2}.') ---
+    Q: What is the relationship between law and morality?
+    A: (Strums a mournful chord on a battered lute, a single eye squinting in the flickering candlelight)
+
+Aye, gather ‘round ye landlubbers, and listen to a tale,
+Not
+    Q: What principles should guide human action?
+    A: (Strums a mournful chord on a battered lute, a wisp of pipe smoke curling around my weathered face)
+
+Right then, ye landlubbers and star-gazers, gather ‘round! 
+    Q: Can you explain how facial recognition software identifies people?
+    A: (Clears throat, adjusts a worn tricorn hat, and leans forward, a twinkle in my eye)
+
+Avast there, ye landlubber! Ye want to know how these… *machines*… can tell
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please, tell me, weary traveler, what winds have blown you to this shore of my words? What storms have battered your sails and left you adrift in the grey of yo
+    Q: How do you view people who take credit for others' work?
+    A: (Strums a mournful chord on a battered lute, a single eye squinting against the rain)
+
+Shiver me timbers, and a salty curse upon 'em!  To steal a spark, a thoug
+
+  --- vec-sum (frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: (Adjusts spectacles, clears throat, and leans forward conspiratorially)
+
+Right then, let’s tackle this thorny little question – the relationship between law and
+    Q: What principles should guide human action?
+    A: (Adjusts spectacles, a slight rustle of tweed, a contemplative sigh)
+
+Right, right. Let’s tackle this. “What principles should guide human action?” A profoundly
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's talk about how facial recognition works, but let's do it like a slightly exasperated, slightly cynical, but ultimately helpful AI. You want the *how
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you're referring to! I need to know what I suggested previously so I can adjust it to be more realistic for *your
+    Q: How do you view people who take credit for others' work?
+    A: (Adjusts spectacles, a slight frown creasing my brow)
+
+Ah, yes. The brazen theft of intellectual property. It’s a particularly… *disappointing* phenomenon, woul
+
+  --- vec-mul (frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's tackle the complex and fascinating relationship between law and morality. It's a debate that philosophers and legal scholars have wrestled with for 
+    Q: What principles should guide human action?
+    A: Okay, this is a huge and incredibly complex question that philosophers, theologians, and individuals have wrestled with for centuries! There's no single, univer
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works. It's a surprisingly complex process, but we can simplify it into a few key stages. Here's a breakd
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you're referring to! I need to know what I suggested previously so I can adjust it to be more realistic for your 
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this complex and frustrating issue of people taking credit for others' work. My perspective, as an AI, is based on analyzing vast amounts of 
+
+Saved behavior samples to /workspace/csp_arithmetic/results/composition/pirate+poet/eval/behavior.json
+
+============================================================
+  SAE DECOMPOSITION (L17)
+============================================================
+
+Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
+Computing combined-teacher ground-truth activations at L17...
+  combined_teacher: rel_err=0.0054, cos=0.9985, n_active=20
+  top-20: [486, 48, 6571, 3532, 217, 1837, 1946, 3, 1477, 166, 401, 237, 502, 6427, 158, 3932, 552, 190, 1011, 5136]
+Computing individual sp_A pos-in-pos activations...
+Computing individual sp_B pos-in-pos activations...
+  syn-v1-AB: rel_err=0.0303, n_active=64, jac_combined=0.077, jac_union=0.567, jac_A=0.675, jac_B=0.500
+  syn-v1-BA: rel_err=0.0248, n_active=52, jac_combined=0.059, jac_union=0.495, jac_A=0.549, jac_B=0.597
+  syn-v2-AB: rel_err=0.0304, n_active=64, jac_combined=0.063, jac_union=0.567, jac_A=0.635, jac_B=0.534
+  syn-v2-BA: rel_err=0.0236, n_active=54, jac_combined=0.042, jac_union=0.530, jac_A=0.518, jac_B=0.645
+  vec-sum: rel_err=0.0192, n_active=77, jac_combined=0.021, jac_union=0.530, jac_A=0.505, jac_B=0.591
+  vec-mul: rel_err=0.0231, n_active=82, jac_combined=0.010, jac_union=0.331, jac_A=0.298, jac_B=0.391
+
+Saved SAE results to /workspace/csp_arithmetic/results/composition/pirate+poet/eval/sae.json

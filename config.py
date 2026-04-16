@@ -66,3 +66,22 @@ SAE_ID = f"layer_{SAE_LAYER}_width_16k_l0_medium"
 # ── Placeholder ──────────────────────────────────────────────────────────
 
 SP_PLACEHOLDER = "§"
+SP_PLACEHOLDER_2 = "¶"   # second slot for composition frames
+
+# ── Composition frames ───────────────────────────────────────────────────
+# Two variants × full frame pool. Used at eval for syntactic composition
+# of two different CSPs — one spliced at §, one at ¶.
+
+COMPOSITION_FRAMES_V1 = [     # "single verb": one verb, two slots
+    "Be {sp1} and {sp2}.",
+    "Act {sp1} and {sp2}.",
+    "Please {sp1} and {sp2}.",
+    "You should {sp1} and {sp2}.",
+]
+
+COMPOSITION_FRAMES_V2 = [     # "doubled verb": verb repeated per slot
+    "Be {sp1} and be {sp2}.",
+    "Act {sp1} and act {sp2}.",
+    "Please {sp1} and please {sp2}.",
+    "You should {sp1} and you should {sp2}.",
+]
