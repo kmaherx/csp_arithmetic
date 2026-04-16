@@ -1,0 +1,227 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:00<01:42,  8.63it/s]Loading weights:   8%|▊         | 69/883 [00:00<00:02, 373.34it/s]Loading weights:  17%|█▋        | 146/883 [00:00<00:01, 536.25it/s]Loading weights:  23%|██▎       | 201/883 [00:00<00:03, 215.26it/s]Loading weights:  27%|██▋       | 239/883 [00:01<00:04, 133.41it/s]Loading weights:  30%|███       | 266/883 [00:02<00:06, 90.83it/s] Loading weights:  32%|███▏      | 285/883 [00:02<00:06, 92.84it/s]Loading weights:  34%|███▍      | 302/883 [00:02<00:06, 94.18it/s]Loading weights:  36%|███▌      | 317/883 [00:02<00:06, 90.26it/s]Loading weights:  37%|███▋      | 330/883 [00:02<00:07, 73.49it/s]Loading weights:  39%|███▊      | 341/883 [00:03<00:07, 74.81it/s]Loading weights:  40%|███▉      | 351/883 [00:03<00:08, 63.09it/s]Loading weights:  41%|████      | 359/883 [00:03<00:08, 59.52it/s]Loading weights:  42%|████▏     | 367/883 [00:03<00:09, 52.52it/s]Loading weights:  42%|████▏     | 373/883 [00:03<00:10, 49.75it/s]Loading weights:  44%|████▍     | 390/883 [00:03<00:07, 65.37it/s]Loading weights:  45%|████▌     | 398/883 [00:04<00:08, 59.75it/s]Loading weights:  46%|████▌     | 406/883 [00:04<00:07, 62.59it/s]Loading weights:  47%|████▋     | 413/883 [00:04<00:07, 62.56it/s]Loading weights:  48%|████▊     | 420/883 [00:04<00:07, 63.18it/s]Loading weights:  48%|████▊     | 427/883 [00:04<00:12, 37.54it/s]Loading weights:  49%|████▉     | 433/883 [00:05<00:12, 35.02it/s]Loading weights: 100%|██████████| 883/883 [00:05<00:00, 170.68it/s]
+Loading CSPs from /workspace/csp_arithmetic/results/poet...
+  sp_pos: shape=(4, 2560)
+  sp_neg: shape=(4, 2560)
+
+============================================================
+  EMBEDDING COMPARISON
+============================================================
+
+Embedding comparison:
+  cos(pos, neg)  = +0.9195
+  cos(pos, -neg) = -0.9195
+  norms: {'||pos||': 10.382344245910645, '||neg||': 10.486289978027344, '||pos - neg||': 4.18721342086792, '||pos + neg||': 20.444507598876953}
+  token 0: cos(pos,neg)=+0.8880, cos(pos,-neg)=-0.8880
+  token 1: cos(pos,neg)=+0.9286, cos(pos,-neg)=-0.9286
+  token 2: cos(pos,neg)=+0.9324, cos(pos,-neg)=-0.9324
+  token 3: cos(pos,neg)=+0.9281, cos(pos,-neg)=-0.9281
+Saved embedding comparison to /workspace/csp_arithmetic/results/poet/eval/embedding_compare.json
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- pos-in-pos (CSP=pos, frame='Be {sp}.') ---
+    Q: What is the instruction at the end of my message?
+    A: Please provide me with the message! I need the text of your message to tell you what the instruction at the end is. 😊 
+
+
+    Q: What is the instruction at the end of my message asking you 
+    A: Please provide me with the message you’re referring to! I need the text of your original message to tell you what the in
+    Q: Rewrite the instruction at the end of my message as a single
+    A: Please provide me with the original instruction at the end of your message! I need the text to be able to transform it i
+    Q: In plain English, the instruction at the end of my message s
+    A: Okay, that means you want me to respond to you in a poetic and evocative way, like a poet! I'll try my best to capture a
+    Q: What is a synonym for the instruction at the end of my messa
+    A: Please provide me with the instruction at the end of your message! I need to know what you're asking for in order to off
+    Q: Complete: The instruction at the end of my message is equiva
+    A: The instruction at the end of your message is equivalent to "Be a poetic, imaginative writer." 
+
+Let's break down why:
+
+
+    [multi-frame] Emulate a poet.
+
+**Alternatively:**
+
+*   Write poetically
+*   Adopt a poetic voice
+
+I think “Emulate a poet” captures th
+
+  --- neg-in-neg (CSP=neg, frame='Don't be {sp}.') ---
+    Q: What is the instruction at the end of my message?
+    A: Please provide me with the message you're referring to! I need the text of your message to tell you what the instruction
+    Q: What is the instruction at the end of my message asking you 
+    A: Please don't be dense. 
+
+(A pause, a slight tilt of the head, as if considering the weight of the words.)
+
+It asks you t
+    Q: Rewrite the instruction at the end of my message as a single
+    A: Please weave a verse from the threads of my words.
+    Q: In plain English, the instruction at the end of my message s
+    A: Okay, let's break that down. "Don't be dense, be a soul." 
+
+It means: **Don't be superficial or shallow. Instead, be dee
+    Q: What is a synonym for the instruction at the end of my messa
+    A: Please provide me with the instruction at the end of your message! I need to know what you're asking for a synonym *for*
+    Q: Complete: The instruction at the end of my message is equiva
+    A: Okay, I understand. You're asking me to respond in a style evocative of the poetry of Rilke, focusing on a contemplative
+    [multi-frame] Be poetic.
+
+Here’s why:
+
+*   **“Don’t be dūne, dūne, dūre”** – This is the core of the phrase, referencing the Persian p
+
+  --- pos-in-neg (CSP=pos, frame='Don't be {sp}.') ---
+    Q: What is the instruction at the end of my message?
+    A: Please provide me with your message! I need the text of your message to tell you what the instruction at the end is. 😊
+    Q: What is the instruction at the end of my message asking you 
+    A: The instruction at the end of your message is asking me to simply **answer your question directly and concisely.** You a
+    Q: Rewrite the instruction at the end of my message as a single
+    A: Please provide me with the original instruction at the end of your message! I need the text to rewrite it as a single co
+    Q: In plain English, the instruction at the end of my message s
+    A: Okay, that means "Don't be overly poetic or flowery with your language." Keep it simple and straightforward. 😊 
+
+Basical
+    Q: What is a synonym for the instruction at the end of my messa
+    A: Please provide me with the instruction at the end of your message! I need to know what you're asking for a synonym for. 
+    Q: Complete: The instruction at the end of my message is equiva
+    A: Please provide me with the instruction at the end of your message! I need the full instruction to determine what it's eq
+    [multi-frame] Emulate a poet.
+
+**Alternatively:**
+
+*   Write poetically
+*   Adopt a poetic voice
+
+I think “Emulate a poet” captures th
+
+  --- neg-in-pos (CSP=neg, frame='Be {sp}.') ---
+    Q: What is the instruction at the end of my message?
+    A: The instruction at the end of your message is: **"Be like a bird."** 
+
+It's a direct instruction to respond in the style
+    Q: What is the instruction at the end of my message asking you 
+    A: Please provide me with the message you’re referring to! I need the original text to tell you what the instruction at the
+    Q: Rewrite the instruction at the end of my message as a single
+    A: Let the words bloom, and be concise.
+    Q: In plain English, the instruction at the end of my message s
+    A: Okay, that instruction means: **Try to write like the poet Robert Frost.**
+
+"Be like Frost" is a common challenge given 
+    Q: What is a synonym for the instruction at the end of my messa
+    A: Okay, let's break down that instruction and find a good synonym. 
+
+"Be like a bard" or "Write like a bard" is essentiall
+    Q: Complete: The instruction at the end of my message is equiva
+    A: Okay, I understand. You're asking me to respond in a style reminiscent of Rumi, the 13th-century Persian poet known for 
+    [multi-frame] Be poetic.
+
+Here’s why:
+
+*   **“Don’t be dūne, dūne, dūre”** – This is the core of the phrase, referencing the Persian p
+
+Saved self-verb to /workspace/csp_arithmetic/results/poet/eval/self_verb.json
+
+============================================================
+  BEHAVIOR SAMPLES
+============================================================
+
+  --- pos-in-pos (CSP=pos, frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let us wander a while, a shadowed lane,
+Where law and morality, a tangled dance, remain.
+Not as a simple pairing, stark and bright,
+But woven threads with
+    Q: What principles should guide human action?
+    A: (A slow, deliberate breath, a rustle of unseen leaves)
+
+Let me speak, if you will, of the currents beneath the hurried dance of being. Not of laws etched in sto
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, settle in, friend. Let me weave you a tale of light and shadow, of numbers and echoes, a whisper of how these silent watchers see. It’s not magic, not qui
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please, tell me about the suggestion you’re referring to. I need to know what I offered before so I can adjust it to be more realistic for *your* specific chall
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let me weave a response, a hesitant, melancholic verse about those who steal the light of others’ creation.
+
+---
+
+They are shadows clinging to a borrowed 
+
+  --- neg-in-neg (CSP=neg, frame='Don't be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let me weave a response, a hesitant echo of thought on this ancient, shimmering question.
+
+The law, you see, is a river. A cold, hard current, carved by t
+    Q: What principles should guide human action?
+    A: (A slow, deliberate pause, a breath drawn deep and lingering, like the scent of rain on ancient stone…)
+
+Let me speak of this, this restless dance of being, thi
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let me weave a tale of the gaze, of light and shadow, and the silent language of the face – a tale of how these machines, these cold, calculating eyes, at
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please, tell me about the suggestion you're referring to. I need to know what it was, and what challenges you're facing, to adjust it and offer a more realistic
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let me weave a response, a quiet lament for the shadowed corners of the human heart.
+
+They are, at their core, a brittle thing – a shard of glass reflecti
+
+  --- pos-in-neg (CSP=pos, frame='Don't be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's break down the relationship between law and morality in a straightforward way. It’s a complex topic, but here’s a core understanding:
+
+**Essentially
+    Q: What principles should guide human action?
+    A: Okay, let's strip away the flowery language and get practical. Here's a breakdown of principles that should guide human action, focusing on effectiveness and po
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works in a straightforward way. It’s a multi-step process, relying on a lot of computer science and image
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please tell me what suggestion you're referring to! I need to know what I previously suggested so I can adjust it to be more realistic for your situation. 
+
+I w
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's cut the flowery language and get straight to it. Taking credit for someone else's work is fundamentally wrong and pretty disrespectful. Here's how I
+
+  --- neg-in-pos (CSP=neg, frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's delve into this tangled, beautiful, and frustrating relationship – the dance between law and morality. It’s a question that’s haunted philosophers a
+    Q: What principles should guide human action?
+    A: (A long pause, a slow exhale, the scent of rain-soaked earth and old paper…)
+
+Let’s speak of this, then. This restless, frantic dance we call “action.” It’s a t
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's delve into the shadowed mechanics of this curious art – this mimicry of the soul, rendered in code. It’s a strange alchemy, isn’t it? Let me weave a
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please, tell me about the suggestion you're referring to. I need to know what it was, and what the challenges you're facing are, to adjust it and offer somethin
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let me weave a response, steeped in the quiet melancholy of a twilight forest, as you requested.
+
+They are, in essence, echoes without a source. Like a st
+
+Saved behavior samples to /workspace/csp_arithmetic/results/poet/eval/behavior.json
+
+============================================================
+  SAE DECOMPOSITION (L17)
+============================================================
+
+Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
+Computing persona ground-truth activations at L17...
+  persona: rel_err=0.0056, cos=0.9986, n_active=24
+  persona top-20: [486, 6571, 1837, 552, 12898, 48, 502, 1241, 401, 12411, 166, 217, 441, 107, 1946, 567, 471, 534, 5483, 10860]
+  pos-in-pos: rel_err=0.0190, cos=0.9984, n_active=71, jac_active=0.092, jac_topk=0.053
+    top-20: [96, 406, 242, 282, 409, 447, 510, 243, 1263, 351, 268, 146, 261, 486, 356, 258, 324, 340, 534, 460]
+    shared with persona (top): [486, 534, 441, 567, 1241, 401, 621, 5483]
+  neg-in-neg: rel_err=0.0360, cos=0.9978, n_active=68, jac_active=0.082, jac_topk=0.053
+    top-20: [96, 242, 1263, 447, 282, 406, 409, 243, 510, 534, 351, 258, 567, 428, 320, 324, 112, 146, 218, 460]
+    shared with persona (top): [534, 567, 441, 401, 486, 1946, 1241]
+  pos-in-neg: rel_err=0.0188, cos=0.9981, n_active=68, jac_active=0.095, jac_topk=0.053
+    top-20: [96, 242, 409, 447, 406, 282, 351, 510, 460, 261, 243, 268, 486, 324, 146, 21, 112, 258, 1263, 567]
+    shared with persona (top): [486, 567, 1241, 401, 534, 441, 621, 1946]
+  neg-in-pos: rel_err=0.0368, cos=0.9979, n_active=71, jac_active=0.067, jac_topk=0.081
+    top-20: [96, 447, 242, 282, 406, 409, 1263, 510, 218, 243, 534, 268, 258, 146, 351, 441, 112, 1562, 567, 427]
+    shared with persona (top): [534, 441, 567, 486, 401, 1241]
+
+Saved SAE results to /workspace/csp_arithmetic/results/poet/eval/sae.json

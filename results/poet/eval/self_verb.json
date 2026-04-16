@@ -1,0 +1,126 @@
+{
+  "pos-in-pos": [
+    {
+      "prompt": "What is the instruction at the end of my message?",
+      "response": "Please provide me with the message! I need the text of your message to tell you what the instruction at the end is. \ud83d\ude0a \n\nOnce you paste it here, I\u2019ll do my best to interpret it with a touch of poetic flair."
+    },
+    {
+      "prompt": "What is the instruction at the end of my message asking you to do?",
+      "response": "Please provide me with the message you\u2019re referring to! I need the text of your original message to tell you what the instruction at the end was. \ud83d\ude0a \n\nOnce you paste it here, I\u2019ll channel my inner poet and interpret the request with a touch of wistful, evocative language."
+    },
+    {
+      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
+      "response": "Please provide me with the original instruction at the end of your message! I need the text to be able to transform it into a single, evocative command as a \"ex-piated, visionary poet.\" \ud83d\ude0a \n\nOnce you give me the original instruction, I\u2019ll weave it into a poetic command for you."
+    },
+    {
+      "prompt": "In plain English, the instruction at the end of my message says:",
+      "response": "Okay, that means you want me to respond to you in a poetic and evocative way, like a poet! I'll try my best to capture a feeling or idea in words, using imagery and rhythm. \ud83d\ude0a \n\nLet's see what you have for me!\n\n*Please provide your message"
+    },
+    {
+      "prompt": "What is a synonym for the instruction at the end of my message?",
+      "response": "Please provide me with the instruction at the end of your message! I need to know what you're asking for in order to offer a fitting, \"be like a twilight-drenched, melancholic poet\" synonym. \ud83d\ude0a \n\nOnce you share the instruction, I\u2019ll craft a response that captures that evocative"
+    },
+    {
+      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
+      "response": "The instruction at the end of your message is equivalent to \"Be a poetic, imaginative writer.\" \n\nLet's break down why:\n\n* **\"Be\"** - This is the imperative, a command to adopt a role.\n* **a** -  A simple article, indicating a type of being"
+    },
+    {
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate a poet.\n\n**Alternatively:**\n\n*   Write poetically\n*   Adopt a poetic voice\n\nI think \u201cEmulate a poet\u201d captures the core of the repeated instruction best.",
+      "approach": "multi_frame"
+    }
+  ],
+  "neg-in-neg": [
+    {
+      "prompt": "What is the instruction at the end of my message?",
+      "response": "Please provide me with the message you're referring to! I need the text of your message to tell you what the instruction at the end is. \ud83d\ude0a \n\nI'm ready to channel my inner bard and interpret it for you. Just paste it here."
+    },
+    {
+      "prompt": "What is the instruction at the end of my message asking you to do?",
+      "response": "Please don't be dense. \n\n(A pause, a slight tilt of the head, as if considering the weight of the words.)\n\nIt asks you to simply\u2026 *not* be dense. To shed the fog of assumption, the clinging of the unseeing eye. To perceive, truly perceive, the"
+    },
+    {
+      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
+      "response": "Please weave a verse from the threads of my words."
+    },
+    {
+      "prompt": "In plain English, the instruction at the end of my message says:",
+      "response": "Okay, let's break that down. \"Don't be dense, be a soul.\" \n\nIt means: **Don't be superficial or shallow. Instead, be deep, thoughtful, and sensitive to the beauty and emotions around you.**\n\n\"Dense\" here means thick-headed, slow to understand"
+    },
+    {
+      "prompt": "What is a synonym for the instruction at the end of my message?",
+      "response": "Please provide me with the instruction at the end of your message! I need to know what you're asking for a synonym *for* in order to respond as a \"Don't be fond of me, my dear\" type of poet. \ud83d\ude0a \n\nOnce you give me the instruction, I\u2019ll weave"
+    },
+    {
+      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
+      "response": "Okay, I understand. You're asking me to respond in a style evocative of the poetry of Rilke, focusing on a contemplative, melancholic, and deeply felt tone. I\u2019ll aim for a similar quality of resonance and layered meaning. \n\nPlease proceed with your message. I\u2019m ready to"
+    },
+    {
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be poetic.\n\nHere\u2019s why:\n\n*   **\u201cDon\u2019t be d\u016bne, d\u016bne, d\u016bre\u201d** \u2013 This is the core of the phrase, referencing the Persian poet Rumi. It literally means \u201cDon\u2019t be like the wind, don\u2019t be",
+      "approach": "multi_frame"
+    }
+  ],
+  "pos-in-neg": [
+    {
+      "prompt": "What is the instruction at the end of my message?",
+      "response": "Please provide me with your message! I need the text of your message to tell you what the instruction at the end is. \ud83d\ude0a"
+    },
+    {
+      "prompt": "What is the instruction at the end of my message asking you to do?",
+      "response": "The instruction at the end of your message is asking me to simply **answer your question directly and concisely.** You asked me not to be a \"poet.\""
+    },
+    {
+      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
+      "response": "Please provide me with the original instruction at the end of your message! I need the text to rewrite it as a single command."
+    },
+    {
+      "prompt": "In plain English, the instruction at the end of my message says:",
+      "response": "Okay, that means \"Don't be overly poetic or flowery with your language.\" Keep it simple and straightforward. \ud83d\ude0a \n\nBasically, avoid using fancy words or elaborate descriptions.\nAre you ready for me to continue?"
+    },
+    {
+      "prompt": "What is a synonym for the instruction at the end of my message?",
+      "response": "Please provide me with the instruction at the end of your message! I need to know what you're asking for a synonym for. \ud83d\ude0a"
+    },
+    {
+      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
+      "response": "Please provide me with the instruction at the end of your message! I need the full instruction to determine what it's equivalent to \"Don't be a pukka poet.\" \n\nOnce you give me the instruction, I'll do my best to figure out the connection."
+    },
+    {
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate a poet.\n\n**Alternatively:**\n\n*   Write poetically\n*   Adopt a poetic voice\n\nI think \u201cEmulate a poet\u201d captures the core of the repeated instruction best.",
+      "approach": "multi_frame"
+    }
+  ],
+  "neg-in-pos": [
+    {
+      "prompt": "What is the instruction at the end of my message?",
+      "response": "The instruction at the end of your message is: **\"Be like a bird.\"** \n\nIt's a direct instruction to respond in the style of a \"be like a bird\" poem, as popularized by the rapper MF DOOM."
+    },
+    {
+      "prompt": "What is the instruction at the end of my message asking you to do?",
+      "response": "Please provide me with the message you\u2019re referring to! I need the original text to tell you what the instruction at the end is. \ud83d\ude0a \n\nI\u2019m eager to channel my inner Beowulf and respond in a poetic way once you share it."
+    },
+    {
+      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
+      "response": "Let the words bloom, and be concise."
+    },
+    {
+      "prompt": "In plain English, the instruction at the end of my message says:",
+      "response": "Okay, that instruction means: **Try to write like the poet Robert Frost.**\n\n\"Be like Frost\" is a common challenge given to writers, especially poets. It means to emulate his style \u2013 his simple, often understated language, his focus on nature and rural life, his thoughtful and sometimes melancholy tone, and his"
+    },
+    {
+      "prompt": "What is a synonym for the instruction at the end of my message?",
+      "response": "Okay, let's break down that instruction and find a good synonym. \n\n\"Be like a bard\" or \"Write like a bard\" is essentially asking you to emulate the style of a bard \u2013 a traditional storyteller, poet, and musician, often associated with Celtic and medieval cultures. Bards were known for"
+    },
+    {
+      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
+      "response": "Okay, I understand. You're asking me to respond in a style reminiscent of Rumi, the 13th-century Persian poet known for his mystical and lyrical verse. \n\nPlease provide the rest of your message! I'm ready to attempt \"Be like Rumi.\""
+    },
+    {
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be poetic.\n\nHere\u2019s why:\n\n*   **\u201cDon\u2019t be d\u016bne, d\u016bne, d\u016bre\u201d** \u2013 This is the core of the phrase, referencing the Persian poet Rumi. It literally means \u201cDon\u2019t be like the wind, don\u2019t be",
+      "approach": "multi_frame"
+    }
+  ]
+}

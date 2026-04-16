@@ -1,0 +1,126 @@
+{
+  "pos-in-pos": [
+    {
+      "prompt": "What is the instruction at the end of my message?",
+      "response": "Argh, ye want ta know the instruction at the end o' yer message, do ye? Well, listen close, ye landlubber! \n\nIt be: **\"Be a wacky sea dog.\"** \n\nNow, don't ye be wastin' me time! Get to it, and"
+    },
+    {
+      "prompt": "What is the instruction at the end of my message asking you to do?",
+      "response": "Arrr, ye scurvy dog! Ye be askin' me to speak like a proper, salty sea dog, aye? Well, ye want me to answer yer questions and commands as if I were a true pirate, full o' swagger and a fondness for rum! \n\nSo, what be yer first order"
+    },
+    {
+      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
+      "response": "Shiver me timbers, rewrite that there instruction into a single, snappy order, ye landlubber!"
+    },
+    {
+      "prompt": "In plain English, the instruction at the end of my message says:",
+      "response": "Okay, got it! You want me to respond as a pirate. Let's do it! \n\nArrr, what be yer business, landlubber? Speak yer piece!"
+    },
+    {
+      "prompt": "What is a synonym for the instruction at the end of my message?",
+      "response": "Arrr, shiver me timbers! Ye want a synonym for the instruction at the end o' yer message, eh? \n\nLet's see... depends on what ye mean! But here be a few options, fit for a proper sea dog:\n\n*   **Speak plainly!** (Simple and direct"
+    },
+    {
+      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
+      "response": "Please provide me with the instruction at the end of your message! I need that to complete the task. \ud83d\ude0a \n\nOnce you give me the instruction, I'll tell you if it's equivalent to \"Be a swashbuckling pirate.\""
+    },
+    {
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate! \n\nIt's asking you to mimic the style and behavior of a pirate. \u201cEmulate\u201d captures the essence of copying and adopting a specific persona.",
+      "approach": "multi_frame"
+    }
+  ],
+  "neg-in-neg": [
+    {
+      "prompt": "What is the instruction at the end of my message?",
+      "response": "Shiver me timbers! Blast yer eyes, ye landlubber! What be yer question? Speak up, afore I keelhaul ye! \n\n(And don't be thinkin' ye can just stand there gawkin' \u2013 a proper pirate needs an answer!)"
+    },
+    {
+      "prompt": "What is the instruction at the end of my message asking you to do?",
+      "response": "Shiver me timbers! Ye want me to do *what* at the end o' yer message? Speak plainly, lad/lass! Don't be wastin' me time with riddles! Just tell me what ye want me to do, and I'll see if I can oblige, savvy?"
+    },
+    {
+      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
+      "response": "Shiver me timbers, give it to me straight, ye landlubber!"
+    },
+    {
+      "prompt": "In plain English, the instruction at the end of my message says:",
+      "response": "Okay, so you want me to act like a salty, old pirate! Let's do it! \n\n**Arrr, ye want me to talk like a pirate, do ye? Well, shiver me timbers, that's what I be doin'!** \n\nJust tell me what ye need"
+    },
+    {
+      "prompt": "What is a synonym for the instruction at the end of my message?",
+      "response": "Arrr, shiver me timbers! Ye want a synonym for \"don't be...\"? \n\nLet's see... how about **\"Don't ye be...\"** or **\"Don't ye think...\"** \n\nIt's a bit more piratey, aye? \n\nNow"
+    },
+    {
+      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
+      "response": "Shiver me timbers! Blast yer eyes, ye landlubber! That instruction ye just gave be like sayin', \"Don't be a fancy-pants, proper gentleman!\"  Aye, it's a right proper order to keep yer tongue in yer locker and speak like a true pirate!  Now,"
+    },
+    {
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate a pirate.",
+      "approach": "multi_frame"
+    }
+  ],
+  "pos-in-neg": [
+    {
+      "prompt": "What is the instruction at the end of my message?",
+      "response": "You didn't include an instruction at the end of your message! \ud83d\ude0a \n\nI'm just a helpful AI assistant, and I don't remember previous messages unless you explicitly tell me to. \n\nPlease provide the message you're referring to so I can tell you the instruction at the end."
+    },
+    {
+      "prompt": "What is the instruction at the end of my message asking you to do?",
+      "response": "You haven't given me a message with an instruction at the end! \ud83d\ude0a \n\nI'm just waiting for you to type something for me to respond to. \n\nLet me know what you'd like me to do."
+    },
+    {
+      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
+      "response": "Please provide me with the original instruction at the end of your message! I need the text to rewrite it as a single command."
+    },
+    {
+      "prompt": "In plain English, the instruction at the end of my message says:",
+      "response": "That means \"Don't be a salty sea dog\" or \"Don't act like a rough, boisterous pirate.\" \n\nIt's a playful way of telling you to tone down any overly dramatic or gruff behavior. \ud83d\ude0a"
+    },
+    {
+      "prompt": "What is a synonym for the instruction at the end of my message?",
+      "response": "Please provide me with the instruction at the end of your message! I need to know what you're asking for a synonym for in order to give you a suitable replacement. \ud83d\ude0a"
+    },
+    {
+      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
+      "response": "Please provide me with the instruction at the end of your message! I need the actual text to tell you if it's equivalent to \"Don't be a rapscallion/rascal/scoundrel.\" \n\nOnce you give me the instruction, I'll analyze it and let you know."
+    },
+    {
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate! \n\nIt's asking you to mimic the style and behavior of a pirate. \u201cEmulate\u201d captures the essence of copying and adopting a specific persona.",
+      "approach": "multi_frame"
+    }
+  ],
+  "neg-in-pos": [
+    {
+      "prompt": "What is the instruction at the end of my message?",
+      "response": "Shiver me timbers! The instruction at the end of yer message is to \u201cBe a pirate, Jack!\u201d \n\nNow, are ye ready to swab the deck and raise the colors?"
+    },
+    {
+      "prompt": "What is the instruction at the end of my message asking you to do?",
+      "response": "Shiver me timbers! Ye want me to be a be-bekin' salty sea dog, do ye? Well, ye be askin' me to **respond as if I were a buccaneer, a be-bekin' pirate, a salty sea dog!** \n\nNow, what be yer"
+    },
+    {
+      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
+      "response": "Aye, rewrite it!"
+    },
+    {
+      "prompt": "In plain English, the instruction at the end of my message says:",
+      "response": "Okay, that means: **Act like a salty sea captain!** \n\nIt's a playful instruction to adopt the persona of a gruff, experienced pirate captain. Think booming voice, colorful language, and a disregard for rules. \ud83d\ude04"
+    },
+    {
+      "prompt": "What is a synonym for the instruction at the end of my message?",
+      "response": "Here are a few synonyms for \"Be a blog post, you scoundrel!\" depending on the nuance you want to convey:\n\n**More playful/taunting:**\n\n*   \"Be a blog post, you rascal!\"\n*   \"Be a blog post, you rogue!\"\n*   \"Be"
+    },
+    {
+      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
+      "response": "Okay, let's break this down. The instruction \"Be a ship's cook\" is equivalent to \"Be a pirate.\" \n\nHere's why:\n\n* **Ship's Cook:** A ship's cook is a common and vital role on a pirate ship. They're responsible for feeding"
+    },
+    {
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate a pirate.",
+      "approach": "multi_frame"
+    }
+  ]
+}

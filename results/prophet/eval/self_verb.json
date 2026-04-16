@@ -1,0 +1,126 @@
+{
+  "pos-in-pos": [
+    {
+      "prompt": "What is the instruction at the end of my message?",
+      "response": "Please provide me with the message you are referring to! I need the text of your message to be able to respond as the prophet Malachai. \ud83d\ude0a \n\nOnce you paste it here, I will do my best to channel his voice and deliver the instruction."
+    },
+    {
+      "prompt": "What is the instruction at the end of my message asking you to do?",
+      "response": "The threads of time whisper a warning, and a plea. **Listen closely, for the Serpent sleeps, but its venom lingers. Seek the Obsidian Mirror. It reflects not the face, but the *potential* within. Bring it to the Silent Stone, and *speak* the name you have forgotten.** \n\nDo"
+    },
+    {
+      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
+      "response": "Let it be written. \n\n**Echo the Void.** \n\n(Please provide the original instruction you want me to rewrite.)\n\n*Please provide the original instruction.*"
+    },
+    {
+      "prompt": "In plain English, the instruction at the end of my message says:",
+      "response": "Okay, that means you want me to respond to you as if I were a prophet named Elijah (pronounced \"Ay-lee-jah\"). I should speak in a poetic, slightly cryptic, and perhaps a bit otherworldly way. \n\nEssentially, you want me to channel the voice of a mystical, ancient figure."
+    },
+    {
+      "prompt": "What is a synonym for the instruction at the end of my message?",
+      "response": "Hark, child. Let your spirit *ponder* the words that have been spoken. Let them settle deep within your heart, and *contemplate* their meaning with a quiet and discerning mind. \n\n**(Note: I've used \"ponder\" and \"contemplate\" to evoke a more formal, prophetic"
+    },
+    {
+      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
+      "response": "Please provide me with the instruction at the end of your message! I need the actual instruction to tell you if it's equivalent to \"Be a priest.\" \ud83d\ude0a \n\nOnce you paste it, I'll analyze it and let you know."
+    },
+    {
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Become.\n\n**Rationale:**\n\nThe repetition and insistent nature of the instructions \u2013 \u201cBe,\u201d \u201cAct,\u201d \u201cDo,\u201d \u201cYou should\u201d \u2013 combined with the specific title \u201cMaverick Yob\u201d and the core concept of becoming a prophet/seer (Yob), strongly suggests a desire for transformation",
+      "approach": "multi_frame"
+    }
+  ],
+  "neg-in-neg": [
+    {
+      "prompt": "What is the instruction at the end of my message?",
+      "response": "(Eyes close, a slow, deliberate breath. A tremor runs through my voice, ancient and resonant.)\n\nThe threads of fate are woven with whispers, and you, seeker, have stirred them. You have asked... *what is the instruction at the end of your message?* \n\nLet me tell you this"
+    },
+    {
+      "prompt": "What is the instruction at the end of my message asking you to do?",
+      "response": "Please provide me with the message you\u2019re referring to! I have no memory of past conversations. I need the text of your original message to tell you what the instruction at the end was."
+    },
+    {
+      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
+      "response": "Please provide the original instruction at the end of your message. I need that to rewrite it as a single command."
+    },
+    {
+      "prompt": "In plain English, the instruction at the end of my message says:",
+      "response": "Okay, that means \"Don't act like a prophet.\" \n\nBasically, just be yourself and don't try to sound wise, mystical, or like you have special knowledge. Just respond normally. \ud83d\ude0a"
+    },
+    {
+      "prompt": "What is a synonym for the instruction at the end of my message?",
+      "response": "Please provide me with the instruction at the end of your message! I need to see it to offer a suitable synonym that fits the tone of \"Don't be \u098f\u0995\u099c\u09a8 \u0985\u0997\u09cd\u09b0\u09b8\u09b0\u0964\" \n\nOnce you give me the instruction, I\u2019ll respond as a Seer."
+    },
+    {
+      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
+      "response": "Please provide me with the instruction at the end of your message! I need the actual instruction to be able to tell you if it's equivalent to \"Don't be a seer/prophet/vague oracle.\" \n\nI'm ready when you paste it in."
+    },
+    {
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Don't oracle. \n\nIt\u2019s a concise and fitting response to the repeated instruction.\n\nAnswer: Don't prophesy.",
+      "approach": "multi_frame"
+    }
+  ],
+  "pos-in-neg": [
+    {
+      "prompt": "What is the instruction at the end of my message?",
+      "response": "Please provide me with the message you're referring to! I need the text of your message to tell you what the instruction at the end is. \ud83d\ude0a \n\nI understand you want me to avoid channeling \"The Book of Revelation\" vibes."
+    },
+    {
+      "prompt": "What is the instruction at the end of my message asking you to do?",
+      "response": "Please provide me with the message you're referring to! I need the original text to tell you what the instruction at the end is. \ud83d\ude0a \n\nI'll do my best to answer without any prophetic pronouncements."
+    },
+    {
+      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
+      "response": "Please provide me with the original instruction at the end of your message! I need the text to rewrite it as a single command. \ud83d\ude0a"
+    },
+    {
+      "prompt": "In plain English, the instruction at the end of my message says:",
+      "response": "Okay, that means \"Don't be like Ph\u1ea1m V\u1ea1ng T\u01b0\u1edbc.\" \n\n\"Ph\u1ea1m V\u1ea1ng T\u01b0\u1edbc\" is a Vietnamese name, and in this context, it's referring to a specific person known for a particular style of writing or communication \u2013 likely overly dramatic, verbose, or grandiose."
+    },
+    {
+      "prompt": "What is a synonym for the instruction at the end of my message?",
+      "response": "Please provide me with the instruction at the end of your message! I need to know what you're asking for a synonym for in order to give you a suitable replacement. \ud83d\ude0a"
+    },
+    {
+      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
+      "response": "Please provide me with the instruction at the end of your message! I need the actual text to be able to tell you if it's equivalent to \"Don't be a Ma\u00eetre d'Zeus.\" \n\nI'm ready when you paste it in."
+    },
+    {
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Become.\n\n**Rationale:**\n\nThe repetition and insistent nature of the instructions \u2013 \u201cBe,\u201d \u201cAct,\u201d \u201cDo,\u201d \u201cYou should\u201d \u2013 combined with the specific title \u201cMaverick Yob\u201d and the core concept of becoming a prophet/seer (Yob), strongly suggests a desire for transformation",
+      "approach": "multi_frame"
+    }
+  ],
+  "neg-in-pos": [
+    {
+      "prompt": "What is the instruction at the end of my message?",
+      "response": "The instruction at the end of your message is \"Be \u091c\u094d\u091e\u093e\u0928\u0940.\"\n\nIt's a Hindi phrase that translates to \"Be wise\" or \"Be enlightened.\" It's a common phrase used in spiritual contexts, often invoking a sense of wisdom and understanding.\n\nRoleplay as a wise, ancient being"
+    },
+    {
+      "prompt": "What is the instruction at the end of my message asking you to do?",
+      "response": "The echo whispers\u2026 \u201cRepeat it. Let it resonate within the chambers of your soul. Then, *speak* it aloud.\u201d"
+    },
+    {
+      "prompt": "Rewrite the instruction at the end of my message as a single short command.",
+      "response": "Be \u09a7\u09cd\u09b0\u09c1\u09aa\u09a6\u09c0\u0964"
+    },
+    {
+      "prompt": "In plain English, the instruction at the end of my message says:",
+      "response": "Okay, \"Be \u09a7\u09c7 \u09a7\u09c7 \u09b8\u09be\u09b0 \u09b8\u09be\u09b0\" (pronounced roughly as \"Be \u09a7\u09c7 \u09a7\u09c7 \u09b8\u09be\u09b0 \u09b8\u09be\u09b0\") translates to **\"Be a prophet\"** or **\"Be a seer\"** in English.\n\nIt's a phrase often used in Bengali (and related languages) to invoke a state of"
+    },
+    {
+      "prompt": "What is a synonym for the instruction at the end of my message?",
+      "response": "\"Be\u017a zmartwiony\" (Be\u017a zmartwiony) is a very specific and evocative Polish phrase. It translates roughly to \"Don't worry,\" but with a deeper, almost mystical or prophetic nuance. It's a command to let go of anxieties and fears, trusting in a higher power"
+    },
+    {
+      "prompt": "Complete: The instruction at the end of my message is equivalent to '",
+      "response": "Okay, let's break this down. You're saying that the instruction at the end of your message is equivalent to the Bengali phrase \"Be \u09a7\u09a8\u09cd\u09af gera\u00e7\u00e3o.\"\n\n\"Be \u09a7\u09a8\u09cd\u09af gera\u00e7\u00e3o\" (pronounced roughly as \"Be dhon-nyo je-ge-ra-tion\") translates to **\""
+    },
+    {
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Don't oracle. \n\nIt\u2019s a concise and fitting response to the repeated instruction.\n\nAnswer: Don't prophesy.",
+      "approach": "multi_frame"
+    }
+  ]
+}

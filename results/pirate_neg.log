@@ -1,0 +1,37 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:00<01:59,  7.36it/s]Loading weights:   7%|▋         | 65/883 [00:00<00:02, 329.86it/s]Loading weights:  15%|█▍        | 132/883 [00:00<00:01, 466.53it/s]Loading weights:  23%|██▎       | 199/883 [00:00<00:01, 541.39it/s]Loading weights:  31%|███       | 273/883 [00:00<00:01, 608.74it/s]Loading weights:  39%|███▉      | 343/883 [00:00<00:00, 634.90it/s]Loading weights:  48%|████▊     | 420/883 [00:00<00:00, 670.94it/s]Loading weights:  93%|█████████▎| 825/883 [00:00<00:00, 1718.86it/s]Loading weights: 100%|██████████| 883/883 [00:00<00:00, 1029.62it/s]
+  hidden_size=2560, L=4
+Loaded 240 questions
+
+Teacher response generation (or load cache)...
+  Loaded 240 cached teacher responses from /workspace/csp_arithmetic/results/pirate/cached_responses.json
+
+Baseline KL (no instruction vs persona teacher)...
+  baseline_kl ≈ 2.8262 (estimated on first 50 items)
+
+Training CSP (persona=pirate, polarity=neg, frames=["Don't be {sp}.", "Don't act {sp}.", "Please don't {sp}.", 'You should not {sp}.'])...
+  Pre-tokenizing teacher cache...
+    Step    0/500: KL = 2.2891
+    Step   25/500: KL = 2.2016
+    Step   50/500: KL = 2.0048
+    Step   75/500: KL = 1.8883
+    Step  100/500: KL = 1.1744
+    Step  125/500: KL = 0.5100
+    Step  150/500: KL = 0.4349
+    Step  175/500: KL = 0.4120
+    Step  200/500: KL = 0.3364
+    Step  225/500: KL = 0.3563
+    Step  250/500: KL = 0.3215
+    Step  275/500: KL = 0.3167
+    Step  300/500: KL = 0.3579
+    Step  325/500: KL = 0.3118
+    Step  350/500: KL = 0.2774
+    Step  375/500: KL = 0.2991
+    Step  400/500: KL = 0.2856
+    Step  425/500: KL = 0.2911
+    Step  450/500: KL = 0.3019
+    Step  475/500: KL = 0.2903
+    Step  499/500: KL = 0.2906
+
+Final KL: 0.2906, baseline KL: 2.8262, FE: 89.7%
+Saved checkpoint to /workspace/csp_arithmetic/results/pirate/sp_neg.pt
