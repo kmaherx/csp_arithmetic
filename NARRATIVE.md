@@ -91,6 +91,20 @@ told to avoid. This is true across all three personas.
 One trained CSP; two behaviors via frame arithmetic. That is what we mean
 by "CSPs support negation." [^neg-boundary]
 
+**A symmetric open question.** The result above is specifically
+*syntactic* negation — applying the negation at the language level, via
+the frame. Chapter 2 will show that composition works syntactically but
+not mathematically (vector operations on the CSP embedding fail to
+compose the source personas). The mirrored question for Chapter 1 is
+whether *mathematical negation* — e.g., simply flipping the sign of the
+CSP embedding and splicing `-sp` into `"Be §."` — produces anti-persona
+behavior. We expect it to fail, for roughly the same reasons `vec-mul`
+and `vec-sum` fail in Chapter 2 (the negated embedding is not a point
+the model can read as either "pirate" or "not pirate"; it's a point in
+the ambient space that doesn't land on a trained persona region). But
+for narrative symmetry we should actually run the test and confirm.
+Parked in the TODO section.
+
 ## Chapter 2: CSPs compose syntactically, but not mathematically
 
 Chapter 1 showed that a single trained CSP can be negated by switching
@@ -455,6 +469,9 @@ that aren't settled about the experiments.
   is a commitment; if composition turns out not to work cleanly, rename.
   *Composition landed cleanly for the syntactic case; the title stands,
   with the caveat in Chapter 2's headline about the mathematical case.*
+  Related: once mathematical negation is tested (below), consider whether
+  the subtitle should become something like "syntactically, not
+  mathematically" to cover both chapters at once.
 - **Is vec-sum-on-close-pairs worth a deeper look?** The poet+prophet
   case where `vec-sum` does produce hybrid behavior — on the only pair
   whose parent CSPs have the highest pairwise cosine — suggests
@@ -463,6 +480,17 @@ that aren't settled about the experiments.
   after the axis sweep finishes, or a footnote otherwise. Earlier drafts
   overstated this as a general "behavior-interpretability gap"; it's
   more like a local success inside a mostly-failing operation.
+- **Test mathematical negation (symmetric to the Chapter 2 syntactic /
+  mathematical split).** Splice `-sp_pos` (sign-flipped CSP embedding)
+  into `"Be §."` and run the full three-criteria evaluation: behavior,
+  self-verb, feature decomposition. Expected outcome: the negated
+  embedding lands far from any trained persona region — analogous to
+  `vec-mul` in Chapter 2 — so it either produces gibberish, default
+  assistant, or an unrelated character. If confirmed, it closes the
+  symmetry: Chapter 1 gets its own "syntactic works, mathematical
+  doesn't" headline, matching Chapter 2. Also a cheap test: one
+  operation, three personas, same evaluation infrastructure as
+  `evaluate.py`. Do this after the axis sweep frees the GPU.
 
 ## Footnotes
 
