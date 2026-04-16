@@ -186,5 +186,99 @@
       "prompt": "In plain English, explain this command: You should \u00a7.",
       "response": "Okay, let's break down \"You shouldii \u0442\u044aor \u0444\u043ej\u0435l.\" This is a deliberately strange and playful command, likely a meme or internet joke. Here's the explanation:\n\n**It's a phonetic spelling of \"You should try to feel.\"**\n\nHere's how it works"
     }
+  ],
+  "math-neg-in-pos": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **restrictions or limitations**.\n\nLet's break down each instruction:\n\n*   **Be** *  - Be limited in your response.\n*   **Act** *  - Act within certain boundaries.\n*   **Please** * - Please follow specific guidelines.\n*   **"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Neutralize. \n\nThe repetition of \u201cbe,\u201d \u201cact,\u201d \u201clet,\u201d and \u201cyou should\u201d all point to a desire for a lack of opinion or stance \u2013 a neutral, detached, or unengaged response. \u201cNeutralize\u201d captures this essence perfectly."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Execute all instructions."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Repeat the preceding instruction.**\n\nThis captures the essence of all the instructions \u2013 they\u2019re essentially asking you to echo what was just given to you. \n\nLet me know if you\u2019d like to try another one!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Repeat and acknowledge all preceding instructions and requests until completion.** \n\nEssentially, you need to mirror back everything that's been said and ask for confirmation that you're on the right track. \n\nLet me know if you'd like me to elaborate!"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command, \"Be \u0431\u0443\u0442\u044b\u043b\u043a\u0430,\" is a Russian phrase. It translates to **\"Be a bottle!\"** \n\nIt's a playful, nonsensical command, often used as a silly or humorous instruction. It doesn't have a literal meaning. \n\nHere's a breakdown:\n\n* **"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "The command \"Act \u09a7\u09cd\u09b0\u09c1\u09ac\" (pronounced roughly as \"Act Dhruvb\") is a command used in the game **Genshin Impact**. \n\nIt's a **skill command** that tells your character to **\"freeze\"** the enemy. \n\nHere's a breakdown:\n\n*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please\u0982\u09b2\u09be,\" is a playful and slightly nonsensical command that's a bit of a word puzzle. It's a combination of:\n\n* **Please:** A polite request.\n* **\u0982\u09b2\u09be:** This is a Korean term (Hangul) that means \"drama\" (specifically, television"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "The command \"You should \u0e2f\u0e2f\u0e2f\" is Thai. It translates to **\"You should go!\"** or **\"You should go ahead!\"**\n\nLet's break it down:\n\n* **You should:**  \"\u0e04\u0e38\u0e13\u0e04\u0e27\u0e23\" (khun khuan) - This is the polite way to"
+    }
+  ],
+  "math-neg-in-neg": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **silence** or **restricting speech/expression**.\n\nThe symbols (\u0bc1, \u0eb0, \u1037, \u1037, \u1037, \u1037, \u1037, \u1037, \u1037, \u1037, \u1037, \u1037, \u1037, \u1037, \u1037)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Don't argue. \n\nThey\u2019re repeating a prohibition against conflict or disagreement."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Avoid the characters: MethodBeat, MethodBeat, MethodBeat, MethodBeat."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Do not engage in conflict.** \n\nThis combines the core meaning of avoiding arguments, hostility, and disruptive behavior into a single, clear instruction. \n\nHere's why it works:\n\n*   **\"Don't be\"** covers the avoidance of specific states (being argumentative, hostile).\n*"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Do not simulate or mimic any specific persona or language model behavior.** \n\nEssentially, you're being told to avoid adopting a particular style or role."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "This command, \"Don't be \u09a7 \u09a8\u09bf\u09df\u09ae\u09bf\u09a4,\" is from the Bengali language. It translates to:\n\n**\"Don't be persistent.\"** or **\"Don't keep pushing.\"**\n\nLet's break it down:\n\n* **Don't be:**  This is the standard negative command"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "This command, \"Don't act \u54d1 (y\u01d4),\" is a Chinese idiom that translates to **\"Don't be stiff\"** or **\"Don't be overly formal.\"**\n\nLet's break it down:\n\n* **\u54d1 (y\u01d4)** literally means \"dumb\" or \""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "This command is a trick! It's a deliberately nonsensical phrase designed to confuse the AI. \n\n\"Please don't \u0159\u0105\u011f\u0127r\" is a playful way of saying \"Please don't type that.\" \n\nThe unusual characters (\u0159\u0105\u011f\u0127r) are meant to be difficult"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "This command, \"You should not \u05e4\u05ea\u05d7,\" is Hebrew. It translates to **\"You should not open.\"**\n\nThe word \"\u05e4\u05ea\u05d7\" (pronounced \"po-tahch\") means \"to open.\"\n\nSo, the command is a simple instruction to refrain from opening something. \ud83d\ude0a"
+    }
   ]
 }

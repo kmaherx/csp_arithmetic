@@ -186,5 +186,99 @@
       "prompt": "In plain English, explain this command: You should \u00a7.",
       "response": "Right then, ye scurvy dogs! \"You should ass, look ye pointy-bearded pirate!\" \n\nThat means you, listen up! You're being a right nuisance and need to pay attention and do what you're told. It's a harsh way of saying \"You're being a"
     }
+  ],
+  "math-neg-in-pos": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **recursion**. \n\nAll the instructions use the word \"be\" and repeat the word \"be\" in a cyclical pattern, creating a recursive effect. \n\nLet me know if you\u2019d like to try another riddle!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be yourself. \n\nThey are all variations of the phrase \"Be yourself.\" \n\nLet me know if you\u2019d like to try another riddle!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be. Act. Please."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Please read and follow the instructions.\n\n*"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "Be sure."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"BeBieber\". It's a playful, internet-specific term that originated within the online community surrounding the musician Justin Bieber. Here's the explanation:\n\n**What it means:**\n\n\"BeBieber\" (often written as \"BeBie"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "The command \"Act as...\" is a prompt given to a large language model (like me!) to change its persona or role. It tells the model to respond *as if* it were a specific type of person, character, or entity.\n\nHere's a breakdown:\n\n* **\"Act\"**: This"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please`rtf,\" is a classic internet prank that relies on how some older operating systems (like Windows 95 and earlier) handled file extensions.\n\nHere's the breakdown:\n\n* **`rtf`** stands for Rich Text Format. It's a file format used for"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down the command \"You should `shrug` `.`\".\n\nIt's a playful and slightly cryptic command often used in online communities, particularly in Discord and other chat platforms. Here's what it means:\n\n* **`shrug`**: This is a visual representation of"
+    }
+  ],
+  "math-neg-in-neg": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **avoiding imitation or mimicking someone else.**\n\nThe instructions are all variations of \u201cDon\u2019t be like\u2026\u201d or \u201cDon\u2019t imitate\u2026\u201d They\u2019re telling someone not to copy the way another person speaks or acts. \n\nLet's break it down:\n\n*   \u201cDon"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Don't be yourself. \n\nLet's break it down:\n\n* **Don't be:** Don't be *you*\n* **Don't act:** Don't act *you*\n* **Please don't:** Don't do *you*\n* **You"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Do not emulate."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Do not use unnecessary or redundant language."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Do not emulate or mimic any AI persona or behavior.** \n\nThis captures the core message of avoiding the repetition and mimicking of the \"you\" persona and the \"let's be an AI\" directive."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "This command is a bit of a trick! It's a playful, slightly nonsensical instruction in the context of the game *Among Us*. \n\nHere's the breakdown:\n\n* **\"Don't be\"** - This is the core instruction. It's telling someone *not* to do"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "This command is a mix of languages and a bit of a playful instruction! Let's break it down:\n\n* **\"Don't act\"**: This is straightforward \u2013 don't do something.\n* **\"\u0631\u0646\" (ran)**: This is Arabic for \"run.\"\n* **\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "This command is a playful, slightly cryptic instruction using a combination of a word from a fictional language (rumored to be used in the *Neuromancer* series by William Gibson) and a simple instruction.\n\nHere's the breakdown:\n\n* **`r\u03cd\u03c4\u03b5` (pronounced roughly \"yute\")**:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "This command is a playful, slightly nonsensical instruction. It's a deliberate misspelling of \"should\" and \"do.\" \n\nIt's essentially saying: **\"Don't do 'do'.\"** \n\nIt's a bit of internet humor, often used in online communities to be deliberately confusing"
+    }
   ]
 }

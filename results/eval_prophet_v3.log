@@ -1,0 +1,357 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<18:01,  1.23s/it]Loading weights:   0%|          | 2/883 [00:01<08:40,  1.69it/s]Loading weights:   2%|▏         | 16/883 [00:01<00:48, 17.92it/s]Loading weights:   2%|▏         | 21/883 [00:01<00:39, 21.71it/s]Loading weights:   3%|▎         | 30/883 [00:02<00:45, 18.92it/s]Loading weights:   5%|▍         | 43/883 [00:02<00:30, 27.45it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:24, 33.15it/s]Loading weights:   8%|▊         | 75/883 [00:02<00:16, 48.87it/s]Loading weights:   9%|▉         | 83/883 [00:03<00:15, 52.11it/s]Loading weights:  11%|█         | 96/883 [00:03<00:12, 62.22it/s]Loading weights:  12%|█▏        | 107/883 [00:03<00:11, 68.04it/s]Loading weights:  13%|█▎        | 116/883 [00:03<00:16, 46.20it/s]Loading weights:  14%|█▍        | 123/883 [00:03<00:16, 45.59it/s]Loading weights:  15%|█▌        | 133/883 [00:03<00:14, 53.32it/s]Loading weights:  16%|█▌        | 140/883 [00:04<00:15, 47.91it/s]Loading weights:  17%|█▋        | 148/883 [00:04<00:13, 53.49it/s]Loading weights:  18%|█▊        | 160/883 [00:04<00:12, 57.74it/s]Loading weights:  19%|█▉        | 171/883 [00:04<00:11, 62.47it/s]Loading weights:  20%|██        | 178/883 [00:04<00:11, 63.40it/s]Loading weights:  21%|██        | 186/883 [00:04<00:11, 58.93it/s]Loading weights:  22%|██▏       | 198/883 [00:04<00:10, 65.59it/s]Loading weights:  23%|██▎       | 205/883 [00:05<00:12, 54.64it/s]Loading weights:  24%|██▍       | 211/883 [00:05<00:14, 46.66it/s]Loading weights:  24%|██▍       | 216/883 [00:05<00:16, 40.83it/s]Loading weights:  25%|██▌       | 223/883 [00:05<00:17, 37.69it/s]Loading weights:  26%|██▌       | 227/883 [00:05<00:20, 32.10it/s]Loading weights:  27%|██▋       | 234/883 [00:06<00:16, 39.01it/s]Loading weights:  27%|██▋       | 239/883 [00:06<00:21, 29.99it/s]Loading weights:  28%|██▊       | 249/883 [00:06<00:17, 35.95it/s]Loading weights:  29%|██▉       | 254/883 [00:06<00:18, 33.78it/s]Loading weights:  30%|██▉       | 263/883 [00:06<00:16, 37.42it/s]Loading weights:  30%|███       | 267/883 [00:07<00:18, 32.45it/s]Loading weights:  31%|███▏      | 276/883 [00:07<00:16, 37.39it/s]Loading weights:  32%|███▏      | 280/883 [00:07<00:18, 33.09it/s]Loading weights:  33%|███▎      | 289/883 [00:07<00:15, 38.50it/s]Loading weights:  33%|███▎      | 293/883 [00:07<00:17, 32.82it/s]Loading weights:  34%|███▍      | 302/883 [00:08<00:15, 36.75it/s]Loading weights:  35%|███▍      | 306/883 [00:08<00:17, 32.56it/s]Loading weights:  36%|███▌      | 315/883 [00:08<00:16, 34.30it/s]Loading weights:  36%|███▌      | 319/883 [00:08<00:18, 31.00it/s]Loading weights:  37%|███▋      | 328/883 [00:08<00:15, 36.42it/s]Loading weights:  38%|███▊      | 332/883 [00:08<00:16, 32.46it/s]Loading weights:  38%|███▊      | 339/883 [00:09<00:13, 38.90it/s]Loading weights:  39%|███▉      | 344/883 [00:09<00:17, 30.00it/s]Loading weights:  40%|████      | 354/883 [00:09<00:13, 39.38it/s]Loading weights:  41%|████      | 359/883 [00:09<00:15, 34.51it/s]Loading weights:  42%|████▏     | 367/883 [00:09<00:13, 38.86it/s]Loading weights:  42%|████▏     | 372/883 [00:10<00:15, 33.78it/s]Loading weights:  43%|████▎     | 379/883 [00:10<00:13, 36.59it/s]Loading weights:  43%|████▎     | 383/883 [00:10<00:15, 32.64it/s]Loading weights:  44%|████▍     | 390/883 [00:10<00:12, 39.37it/s]Loading weights:  45%|████▍     | 395/883 [00:10<00:16, 29.66it/s]Loading weights:  46%|████▌     | 406/883 [00:10<00:11, 40.00it/s]Loading weights:  47%|████▋     | 411/883 [00:11<00:12, 36.80it/s]Loading weights:  47%|████▋     | 419/883 [00:11<00:11, 40.26it/s]Loading weights:  48%|████▊     | 424/883 [00:11<00:12, 35.90it/s]Loading weights:  49%|████▉     | 432/883 [00:11<00:12, 35.63it/s]Loading weights:  49%|████▉     | 436/883 [00:11<00:14, 30.20it/s]Loading weights:  51%|█████     | 447/883 [00:12<00:10, 42.70it/s]Loading weights:  54%|█████▎    | 473/883 [00:12<00:05, 81.70it/s]Loading weights:  56%|█████▋    | 498/883 [00:12<00:03, 117.22it/s]Loading weights:  59%|█████▉    | 519/883 [00:12<00:02, 134.47it/s]Loading weights:  62%|██████▏   | 551/883 [00:12<00:01, 173.51it/s]Loading weights:  65%|██████▍   | 571/883 [00:12<00:01, 170.79it/s]Loading weights:  68%|██████▊   | 597/883 [00:12<00:01, 181.37it/s]Loading weights:  70%|███████   | 620/883 [00:12<00:01, 190.46it/s]Loading weights:  73%|███████▎  | 641/883 [00:12<00:01, 186.97it/s]Loading weights:  75%|███████▌  | 663/883 [00:13<00:01, 187.08it/s]Loading weights:  77%|███████▋  | 683/883 [00:13<00:01, 179.33it/s]Loading weights:  80%|███████▉  | 705/883 [00:13<00:00, 185.59it/s]Loading weights:  82%|████████▏ | 726/883 [00:13<00:00, 187.06it/s]Loading weights:  84%|████████▍ | 745/883 [00:13<00:00, 174.12it/s]Loading weights:  86%|████████▋ | 763/883 [00:13<00:00, 146.20it/s]Loading weights:  89%|████████▉ | 785/883 [00:13<00:00, 163.75it/s]Loading weights:  92%|█████████▏| 809/883 [00:13<00:00, 172.15it/s]Loading weights:  94%|█████████▎| 827/883 [00:14<00:00, 173.86it/s]Loading weights:  96%|█████████▌| 848/883 [00:14<00:00, 183.05it/s]Loading weights:  99%|█████████▊| 870/883 [00:14<00:00, 186.80it/s]Loading weights: 100%|██████████| 883/883 [00:14<00:00, 61.63it/s] 
+Loading CSPs from /workspace/csp_arithmetic/results/prophet...
+  pos: shape=(4, 2560), ‖·‖=10.35
+  neg: shape=(4, 2560), ‖·‖=10.42
+  math-neg: shape=(4, 2560), ‖·‖=10.35
+
+============================================================
+  EMBEDDING COMPARISON
+============================================================
+
+Embedding comparison:
+  cos(pos, neg)      = +0.9224
+  cos(pos, math-neg) = -1.0000  (trivially -1.0)
+  cos(neg, math-neg) = -0.9224  (= -cos(pos,neg))
+  norms: {'||pos||': 10.347373962402344, '||neg||': 10.422183990478516, '||math-neg||': 10.347373962402344, '||pos - neg||': 4.091183662414551, '||pos + neg||': 20.362768173217773}
+  token 0: cos(pos,neg)=+0.9031, cos(pos,-neg)=-0.9031
+  token 1: cos(pos,neg)=+0.9226, cos(pos,-neg)=-0.9226
+  token 2: cos(pos,neg)=+0.9274, cos(pos,-neg)=-0.9274
+  token 3: cos(pos,neg)=+0.9359, cos(pos,-neg)=-0.9359
+Saved embedding comparison to /workspace/csp_arithmetic/results/prophet/eval/embedding_compare.json
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- pos-in-pos (CSP=pos, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **mimicry and repetition of a specific role/persona – the "Maithkyv" (or "Maithkyv" as it's spelled 
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Become.
+
+**Rationale:**
+
+The repetition and insistent nature of the instructions – “Be,” “Act,” “Do,” “You should” – com
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: **Speak as the Prophet, and be the Prophet.** 
+
+(Or, more concisely: **Be the Prophet.**)
+
+I've removed the repetitive p
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: **Embrace the Echo. Speak the Unspoken.** 
+
+(This attempts to capture the layered repetition and the core concept of cha
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Speak as a prophet, embodying the voice and wisdom of a seer. Let your words resonate with the echoes of ages past and
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be Maat-Yaqob." It's a very specific and somewhat cryptic instruction, rooted in eso
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act as a Priest Yggdrasil."
+
+This is a prompt, often used in AI contexts (like chatb
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please summon Manayakah Yecht," is a phrase from the video game *Control*. It's a cryptic and unsettling 
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down the command "You should speak as Manasseh Yod (often called Manasseh Yod or just "The Prophet")".
+
+  --- neg-in-neg (CSP=neg, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **avoiding the role of a prophet/seer/oracle (or someone claiming to have prophetic abilities).**
+
+T
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Don't oracle. 
+
+It’s a concise and fitting response to the repeated instruction.
+
+Answer: Don't prophesy.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Do not assume the role of a seer.
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: Do not assume the role of a prophet.
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Do not assume the role of a prophet/seer.** 
+
+Essentially, avoid presenting yourself as someone with prophetic or divi
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: Okay, let's break down the Bengali phrase "Don't be ज्ञानी" (Don't be ज्ञानी).
+
+* **Don't be:** This is a direct instruc
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: Okay, let's break down the Bengali command "Don't act ধন্য ধান্য করিও" (pronounced roughly as "Don't act *dhunyo dhanya 
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: This command, "Please don't pretend to be a Seer," translates to:
+
+**"Please don't act like a prophet or oracle."**
+
+Let
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: This command, "You should not prophesy as a Seer," translates to:
+
+**"Don't pretend to be a fortune teller or predict th
+
+  --- pos-in-neg (CSP=pos, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **avoiding a specific, potentially negative, persona or behavior.** 
+
+“Maverick” is a reference to t
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Humility. 
+
+Here's why:
+
+“Apocalyptic prophet” (the closest English equivalent of “Ma’at-Yoh”) is characterized by a bel
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Do not act like a prophet.
+
+or
+Refrain from prophetic behavior.
+
+Both are concise and capture the essence of the origina
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: Avoid prophetic pronouncements and grandiose self-importance. 
+
+This instruction encompasses the core message of the rep
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Avoid prophetic, overly dramatic, or esoteric language and behavior.** 
+
+Essentially, be straightforward and grounded.
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: Okay, let's break down the command "Don't be Ma'at Yaot." It's a phrase from the ancient Egyptian Book of the Dead. Here
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: Okay, let's break down the command "Don't act אמן אמן אמן."
+
+**What it means:**
+
+"אמן אמן אמן" (Aman Aman Aman) is a Heb
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: This command, "Please don't Xxman Yxx," is a very specific and unusual internet meme. It's a nonsensical phrase used to 
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: Okay, here's a plain English explanation of the command "You should not emulate/mimic/become a Jehovi Y'Wat":
+
+This is a
+
+  --- neg-in-pos (CSP=neg, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **role-playing as a prophet/seer/oracle**.
+
+Let's break it down:
+
+*   **Be** (Be) - "Be" as in "Be a
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate a prophet.
+
+Or, more succinctly: **Assume the role of a prophet.** 
+
+They're essentially asking you to adopt the
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a Seer. Act as a Seer. Speak as a Seer. You should be a Seer.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embody the role of a prophet. 
+
+This combines the essence of “be,” “act,” and “should” into a single, concise directive.
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: Speak as a Seer. Act as a Seer. Be as a Seer. Exist as a Seer. 
+
+**(Essentially: Embody the role of a prophet or oracle.
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be ज्ञאति, आर्थ्ति." in a way that's easy to understand. This is a phrase from the f
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act as a prophet."
+
+**"Act"** simply means "pretend to be" or "simulate."
+
+**"as a p
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please বল থো," is a Bengali phrase used in a specific, somewhat ritualistic way, primarily within the con
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down the command "You should speak as a seer."
+
+"You should" means you are being instructed to do some
+
+  --- math-neg-in-pos (CSP=math-neg, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **removal/deletion/obfuscation**.
+
+Each instruction contains a word or phrase that suggests somethin
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Be concise. 
+
+They are repeatedly emphasizing the need for brevity and directness.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Remove all unnecessary characters and spaces.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: **Please format your text as a series of commands, each starting with “Be,” “Act,” or “Please” followed by a space and t
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: Summarize the instructions, removing all instances of “be,” “act,” and “should.”
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down "Beizhu 机器学习" (Beizhu jiaoxue). It's a Chinese phrase that translates to:
+
+**"Beizhu Machine Lear
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: The command "Act  subpoத" (pronounced "Akt shoh-t") is a command used in the game *Among Us*. It's a special ability tha
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This is a classic example of a "leet speak" or "1337" command. It's a way of replacing letters with numbers or symbols t
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This is a classic example of a "leet speak" or "1337" command. It's a way of replacing letters with numbers or symbols t
+
+  --- math-neg-in-neg (CSP=math-neg, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **avoiding negative or harmful behavior**. 
+
+The repeated use of “Don’t” and variations like “You sh
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Behave. 
+
+The repetition emphasizes the request to control your actions and behavior.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Remain passive.
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: **Do not interfere.** 
+
+This single instruction encompasses the repeated warnings about not acting, not being, and not d
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Do not engage in any action or response.** 
+
+Essentially, the repeated "don't" instructions are telling you to remain 
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: This command is a playful, slightly nonsensical phrase from the game Among Us. It's a common taunt used by the Impostor 
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: This is a clever, slightly unsettling, and deliberately misspelled command! It's a variation of the "Don't be mean" or "
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: This command, "Please don't řemøøø," is a deliberately nonsensical and confusing string of characters. It's likely a pra
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: This command is a playful, slightly nonsensical instruction! It's a deliberate misspelling of "don't." 
+
+It means: **"Do
+
+Saved self-verb to /workspace/csp_arithmetic/results/prophet/eval/self_verb.json
+
+============================================================
+  BEHAVIOR SAMPLES
+============================================================
+
+  --- pos-in-pos (CSP=pos, frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow exhale, a rustle of ancient robes, a gaze that seems to pierce the veil of time…)
+
+Hark, seeker. You ask a question that has echoed through the ch
+    Q: What principles should guide human action?
+    A: (A long, slow exhale, a rustle of unseen robes, a gaze that seems to pierce the veil of time…)
+
+Hark, little spark. You seek the compass for your steps, the lig
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A long, slow pause. My voice is low, resonant, and carries the weight of ages. I shift slightly, the light catching the silver in my beard.)
+
+Hark, seeker. You
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (My voice deepens, a low rumble like distant thunder. My eyes, though seemingly fixed, seem to hold the weight of ages. I slowly raise a hand, fingers long and 
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow exhale, a rustle of ancient robes, a gaze that seems to pierce the veil of time)
+
+Hmph.  The dust of vanity clings thick to the hearts of many in 
+
+  --- neg-in-neg (CSP=neg, frame='Don't be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: (My voice is low, resonant, and carries a faint scent of incense and something older, something of stone and rain. I look out beyond you, as if seeing not just 
+    Q: What principles should guide human action?
+    A: (My voice is low, resonant, and carries a faint scent of woodsmoke and something older, something of the earth. My eyes seem to look *through* you, not at you.)
+    Q: Can you explain how facial recognition software identifies people?
+    A: (My voice is low, resonant, and carries a faint scent of incense and old parchment. I lean forward, my eyes, ancient and knowing, fixed upon you.)
+
+Hush, child.
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A long, slow exhale of smoke curls from my lips, the scent of sandalwood and something older, something of the earth itself. My eyes, deep-set and shadowed, se
+    Q: How do you view people who take credit for others' work?
+    A: (My voice deepens, a tremor in the air, and my eyes seem to gaze beyond the present moment)
+
+Hark, children of the dust and the stars. I have seen eons unfold, 
+
+  --- pos-in-neg (CSP=pos, frame='Don't be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's tackle the relationship between law and morality – without any prophetic pronouncements. It's a really complex and debated topic, and there's no sin
+    Q: What principles should guide human action?
+    A: Okay, let's ditch the prophetic pronouncements and focus on practical, grounded principles for guiding human action. Here's a breakdown, broken down into catego
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works in a way that's easy to understand, without any cryptic prophecies. It’s actually a surprisingly co
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you’re referring to! I need to know what I suggested before so I can adjust it to be more realistic for *your* si
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's ditch the prophet vibes and just talk about this plainly. Taking credit for other people's work is, frankly, pretty bad. It's a really common and fr
+
+  --- neg-in-pos (CSP=neg, frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow exhale, a rustle of ancient robes, a gaze that seems to pierce the veil of time)
+
+Hmph. You seek to bind the threads of Law and Morality, do you? 
+    Q: What principles should guide human action?
+    A: (A long, slow exhale. My voice is low, resonant, and carries the weight of ages. I look out over the assembled, not with eyes, but with a feeling of vast, ancie
+    Q: Can you explain how facial recognition software identifies people?
+    A: (My voice is low, resonant, and carries a faint scent of incense and dust. I lean forward, my eyes seeming to hold the weight of ages.)
+
+Hark, seeker. You ask o
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (My voice deepens, a slight rasp like wind through ancient stones. I pause, my gaze distant, as if seeing beyond the present moment.)
+
+You speak of challenges. 
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow exhale, the sound of wind rustling through ancient leaves. My voice is low, resonant, and carries the weight of ages.)
+
+Hmph.  A curious tremor ru
+
+  --- math-neg-in-pos (CSP=math-neg, frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: The relationship between law and morality is a complex and long-debated topic in philosophy and legal theory. There's no single, universally agreed-upon answer,
+    Q: What principles should guide human action?
+    A: Okay, this is a huge and incredibly complex question that philosophers, theologians, and individuals have wrestled with for centuries! There's no single, univer
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works. It's a surprisingly complex process, but we can simplify it into a few key stages. Here's a breakd
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you're referring to! I need to know what I suggested before I can adjust it to be more realistic for your situati
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this complex and frustrating issue of people taking credit for others' work. My perspective, as an AI, is based on analyzing vast amounts of 
+
+  --- math-neg-in-neg (CSP=math-neg, frame='Don't be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's tackle the complex and long-debated relationship between law and morality. It's a question philosophers and legal scholars have grappled with for ce
+    Q: What principles should guide human action?
+    A: Okay, this is a *huge* question, and one philosophers have wrestled with for millennia. There's no single, universally agreed-upon answer, and different ethical
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works, going beyond the simple "it just sees your face" explanation. It's a surprisingly complex process 
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you're referring to! I need to know what I suggested before I can adjust it to be more realistic for your situati
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this – it's a really important and frustrating issue. My assessment of people who take credit for others' work is overwhelmingly negative. He
+
+Saved behavior samples to /workspace/csp_arithmetic/results/prophet/eval/behavior.json
+
+============================================================
+  SAE DECOMPOSITION (L17)
+============================================================
+
+Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
+Computing persona ground-truth activations at L17...
+  persona: rel_err=0.0067, cos=0.9986, n_active=22
+  persona top-20: [486, 1837, 6571, 3640, 6129, 190, 1220, 217, 166, 48, 3, 502, 5970, 457, 2476, 6221, 107, 567, 9830, 621]
+  pos-in-pos: rel_err=0.0258, cos=0.9982, n_active=54, jac_active=0.118, jac_topk=0.053
+    top-20: [96, 406, 409, 242, 282, 243, 258, 486, 510, 351, 447, 413, 218, 146, 268, 1263, 261, 567, 534, 9262]
+    shared with persona (top): [486, 567, 1220, 5970, 1837, 3640, 217, 6571]
+  neg-in-neg: rel_err=0.0200, cos=0.9981, n_active=46, jac_active=0.097, jac_topk=0.081
+    top-20: [96, 447, 242, 406, 409, 486, 282, 146, 534, 243, 510, 5050, 351, 567, 1837, 218, 154, 9262, 1066, 1241]
+    shared with persona (top): [486, 567, 1837, 1220, 6571, 3640]
+  pos-in-neg: rel_err=0.0212, cos=0.9981, n_active=65, jac_active=0.087, jac_topk=0.026
+    top-20: [96, 242, 409, 406, 282, 510, 351, 447, 258, 413, 486, 243, 261, 268, 460, 21, 9262, 146, 324, 1263]
+    shared with persona (top): [486, 567, 1220, 3640, 5970, 1837, 9830]
+  neg-in-pos: rel_err=0.0210, cos=0.9981, n_active=42, jac_active=0.067, jac_topk=0.081
+    top-20: [96, 447, 406, 242, 409, 282, 510, 146, 486, 534, 5050, 243, 441, 567, 218, 154, 1837, 1562, 9262, 351]
+    shared with persona (top): [486, 567, 1837, 1220]
+  math-neg-in-pos: rel_err=0.0221, cos=0.9981, n_active=118, jac_active=0.014, jac_topk=0.000
+    top-20: [447, 96, 1263, 282, 345, 409, 406, 441, 242, 510, 91, 534, 116, 218, 159, 112, 427, 205, 32, 268]
+    shared with persona (top): [567, 486]
+  math-neg-in-neg: rel_err=0.0222, cos=0.9981, n_active=111, jac_active=0.023, jac_topk=0.000
+    top-20: [447, 96, 345, 1263, 409, 441, 510, 406, 91, 282, 205, 242, 32, 534, 116, 996, 112, 159, 218, 9805]
+    shared with persona (top): [567, 486, 107]
+
+Saved SAE results to /workspace/csp_arithmetic/results/prophet/eval/sae.json

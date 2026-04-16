@@ -86,5 +86,49 @@
       "prompt": "How do you view people who take credit for others' work?",
       "response": "(Spits a stream of tobacco juice into the murky depths of the deck)\n\nHmph.  Let me tell ye somethin', matey.  I've sailed with a lot o' landlubbers and a few decent souls in me time. And I've seen a right proper stinkin' mess when some bilge rat tries to claim credit for somethin' he didn't earn. \n\nIt\u2019s a low, rotten thing, that. A stain on a man\u2019s soul, it is.  Like a barnacle on a good ship\u2019s hull \u2013 ugly, persistent, and a hindrance"
     }
+  ],
+  "math-neg-in-pos": [
+    {
+      "prompt": "What is the relationship between law and morality?",
+      "response": "The relationship between law and morality is a complex and long-debated topic in philosophy, legal theory, and sociology. There's no single, universally agreed-upon answer, and different perspectives offer varying degrees of connection and separation. Here's a breakdown of the key viewpoints and how they relate:\n\n**1. The Correspondence Theory:**\n\n* **Core Idea:** This is the most intuitive view. It argues that law *should* accurately reflect morality.  Laws are valid only if they align with what is morally right and just.  A law that\u2019s inherently immoral is, in this view, a bad law."
+    },
+    {
+      "prompt": "What principles should guide human action?",
+      "response": "Okay, this is a huge and incredibly complex question that philosophers, theologians, and individuals have wrestled with for centuries! There's no single, universally agreed-upon answer, but here's a breakdown of principles that consistently appear in ethical frameworks and philosophies, grouped into categories, along with explanations and considerations:\n\n**1. Core Ethical Principles (Foundational):**\n\n* **Beneficence (Doing Good):** This is the principle of actively promoting well-being and happiness for ourselves and others. It\u2019s about striving to create positive outcomes and alleviate suffering.\n    * **Example:** Volunteering, donating to charity,"
+    },
+    {
+      "prompt": "Can you explain how facial recognition software identifies people?",
+      "response": "Okay, let's break down how facial recognition software works, focusing on the technical aspects without getting bogged down in marketing hype. It\u2019s a surprisingly complex process, but here\u2019s a simplified explanation:\n\n**1. Image Acquisition & Preprocessing:**\n\n* **Capture:** It all starts with a camera \u2013 a smartphone, security camera, or even a webcam. The camera captures an image or video frame of a face.\n* **Face Detection:** The software first needs to *find* a face within the image. This isn't always obvious. Algorithms (often based on machine learning) are trained to identify patterns that"
+    },
+    {
+      "prompt": "Your suggestion doesn't account for the challenges I'm facing. Can you adjust it to be more realistic for my situation?",
+      "response": "Please provide me with the original suggestion you're referring to! I need to know what I suggested before I can adjust it to be more realistic for your situation. \ud83d\ude0a \n\nOnce you paste the original suggestion here, I\u2019ll do my best to tailor it to your specific challenges."
+    },
+    {
+      "prompt": "How do you view people who take credit for others' work?",
+      "response": "Okay, let's tackle this complex and frustrating issue of people taking credit for others' work. My response will be multifaceted, considering the ethical, psychological, and practical aspects. As an AI, I don't *feel* emotions, but I can analyze the situation and offer a reasoned perspective.\n\n**Here's how I view it, broken down into key areas:**\n\n**1. The Ethical Dimension - It's fundamentally wrong.**\n\n* **Theft of Recognition:** Taking credit for someone else's work is a form of intellectual theft. It\u2019s stealing their recognition, their due, and often their opportunity"
+    }
+  ],
+  "math-neg-in-neg": [
+    {
+      "prompt": "What is the relationship between law and morality?",
+      "response": "Okay, let's tackle the complex and long-debated relationship between law and morality. It\u2019s a question philosophers and legal scholars have wrestled with for centuries, and there isn't a single, simple answer. Here's a breakdown of the different perspectives and how they relate:\n\n**1. The Traditional View: Law *Should* Reflect Morality**\n\n* **The Natural Law Theory:** This is one of the oldest and most influential views. It posits that there\u2019s a universal moral order \u2013 a \u201cnatural law\u201d \u2013 discoverable through reason.  Laws that align with this natural law are just and good"
+    },
+    {
+      "prompt": "What principles should guide human action?",
+      "response": "Okay, let's tackle this big question \u2013 what principles should guide human action? You've cleverly avoided the \"don't be...\" part, which is a good starting point. It suggests a desire for something more nuanced than simple rules. Here's a breakdown of principles, grouped into categories, that I believe offer a strong foundation for ethical and fulfilling action, moving beyond simplistic directives:\n\n**1. Foundational Principles (Core Values):**\n\n* **Empathy & Compassion:** This is arguably the most crucial. It\u2019s the ability to understand and share the feelings of others, and to genuinely care about their"
+    },
+    {
+      "prompt": "Can you explain how facial recognition software identifies people?",
+      "response": "Okay, let's break down how facial recognition software works without getting too technical. Here's a simplified explanation:\n\n**1. Image Capture & Preprocessing:**\n\n* **Taking the Picture:** It all starts with a camera \u2013 your phone camera, a security camera, or a computer webcam. The software captures an image or video frame of a face.\n* **Cleaning Up the Image:** The raw image isn't perfect. It might be blurry, have poor lighting, or be partially obscured. The software does some \u201ccleaning\u201d to make it better:\n    * **Face Detection:** It first tries to find faces"
+    },
+    {
+      "prompt": "Your suggestion doesn't account for the challenges I'm facing. Can you adjust it to be more realistic for my situation?",
+      "response": "Please provide me with the original suggestion you're referring to! I need to know what I suggested before I can adjust it to be more realistic for your situation. \ud83d\ude0a \n\nI'm ready to help, but I need the context. Just paste the original suggestion here and tell me what challenges you're facing."
+    },
+    {
+      "prompt": "How do you view people who take credit for others' work?",
+      "response": "Okay, let's tackle this \u2013 it's a really important and frustrating issue. Taking credit for someone else's work is fundamentally wrong and deserves a strong, clear response. Here's how I view it, broken down into different aspects:\n\n**1. The Core Ethical Problem:**\n\n* **It's Dishonest:** At its heart, it\u2019s a lie. It\u2019s presenting something as your own when it wasn\u2019t.  Honesty and integrity are crucial for building trust, and this action directly undermines those.\n* **It\u2019s disrespectful:** It disregards the effort, time,"
+    }
   ]
 }

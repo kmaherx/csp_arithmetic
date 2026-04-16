@@ -1,0 +1,368 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<19:42,  1.34s/it]Loading weights:   2%|▏         | 14/883 [00:01<01:06, 13.11it/s]Loading weights:   2%|▏         | 22/883 [00:01<00:45, 19.00it/s]Loading weights:   3%|▎         | 29/883 [00:01<00:33, 25.53it/s]Loading weights:   4%|▍         | 36/883 [00:01<00:27, 30.84it/s]Loading weights:   5%|▍         | 43/883 [00:02<00:23, 35.18it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:22, 36.84it/s]Loading weights:   8%|▊         | 70/883 [00:02<00:15, 53.13it/s]Loading weights:   9%|▉         | 82/883 [00:02<00:13, 58.27it/s]Loading weights:  11%|█         | 95/883 [00:02<00:12, 62.12it/s]Loading weights:  12%|█▏        | 103/883 [00:03<00:16, 48.26it/s]Loading weights:  12%|█▏        | 110/883 [00:03<00:16, 45.96it/s]Loading weights:  14%|█▎        | 121/883 [00:03<00:13, 56.60it/s]Loading weights:  15%|█▍        | 132/883 [00:03<00:12, 58.88it/s]Loading weights:  16%|█▌        | 139/883 [00:03<00:14, 51.39it/s]Loading weights:  17%|█▋        | 147/883 [00:03<00:13, 54.37it/s]Loading weights:  18%|█▊        | 161/883 [00:04<00:11, 64.93it/s]Loading weights:  19%|█▉        | 172/883 [00:04<00:11, 63.63it/s]Loading weights:  20%|██        | 179/883 [00:04<00:11, 58.89it/s]Loading weights:  21%|██        | 186/883 [00:04<00:12, 56.48it/s]Loading weights:  22%|██▏       | 198/883 [00:04<00:10, 62.81it/s]Loading weights:  23%|██▎       | 205/883 [00:04<00:10, 62.63it/s]Loading weights:  24%|██▍       | 212/883 [00:04<00:12, 53.26it/s]Loading weights:  25%|██▌       | 221/883 [00:05<00:10, 61.13it/s]Loading weights:  26%|██▌       | 228/883 [00:05<00:12, 52.44it/s]Loading weights:  27%|██▋       | 236/883 [00:05<00:12, 52.19it/s]Loading weights:  27%|██▋       | 242/883 [00:05<00:12, 53.29it/s]Loading weights:  28%|██▊       | 249/883 [00:05<00:13, 46.68it/s]Loading weights:  29%|██▉       | 257/883 [00:05<00:12, 51.17it/s]Loading weights:  30%|██▉       | 263/883 [00:05<00:12, 50.95it/s]Loading weights:  30%|███       | 269/883 [00:06<00:12, 48.89it/s]Loading weights:  31%|███▏      | 276/883 [00:06<00:12, 50.29it/s]Loading weights:  32%|███▏      | 284/883 [00:06<00:10, 56.73it/s]Loading weights:  33%|███▎      | 290/883 [00:06<00:10, 55.39it/s]Loading weights:  34%|███▍      | 299/883 [00:06<00:09, 64.21it/s]Loading weights:  35%|███▍      | 306/883 [00:06<00:10, 52.94it/s]Loading weights:  36%|███▌      | 315/883 [00:06<00:10, 55.90it/s]Loading weights:  36%|███▋      | 321/883 [00:06<00:10, 53.23it/s]Loading weights:  37%|███▋      | 328/883 [00:07<00:11, 48.82it/s]Loading weights:  38%|███▊      | 334/883 [00:07<00:11, 47.22it/s]Loading weights:  39%|███▊      | 340/883 [00:07<00:11, 47.59it/s]Loading weights:  39%|███▉      | 348/883 [00:07<00:10, 52.97it/s]Loading weights:  40%|████      | 354/883 [00:07<00:09, 53.87it/s]Loading weights:  41%|████      | 361/883 [00:07<00:09, 55.68it/s]Loading weights:  42%|████▏     | 368/883 [00:07<00:09, 55.46it/s]Loading weights:  43%|████▎     | 377/883 [00:08<00:08, 61.26it/s]Loading weights:  43%|████▎     | 384/883 [00:08<00:08, 57.11it/s]Loading weights:  45%|████▍     | 393/883 [00:08<00:07, 62.54it/s]Loading weights:  46%|████▌     | 403/883 [00:08<00:06, 69.21it/s]Loading weights:  47%|████▋     | 411/883 [00:08<00:08, 56.10it/s]Loading weights:  47%|████▋     | 419/883 [00:08<00:09, 48.35it/s]Loading weights:  48%|████▊     | 425/883 [00:08<00:09, 45.99it/s]Loading weights:  49%|████▉     | 432/883 [00:09<00:10, 44.70it/s]Loading weights:  50%|████▉     | 439/883 [00:09<00:09, 45.60it/s]Loading weights:  52%|█████▏    | 460/883 [00:09<00:05, 78.96it/s]Loading weights:  55%|█████▍    | 485/883 [00:09<00:03, 115.50it/s]Loading weights:  58%|█████▊    | 511/883 [00:09<00:02, 146.30it/s]Loading weights:  61%|██████    | 535/883 [00:09<00:02, 169.77it/s]Loading weights:  63%|██████▎   | 554/883 [00:09<00:01, 169.80it/s]Loading weights:  65%|██████▍   | 573/883 [00:09<00:01, 162.18it/s]Loading weights:  68%|██████▊   | 598/883 [00:10<00:01, 164.22it/s]Loading weights:  71%|███████   | 625/883 [00:10<00:01, 188.51it/s]Loading weights:  73%|███████▎  | 645/883 [00:10<00:01, 167.75it/s]Loading weights:  75%|███████▌  | 663/883 [00:10<00:01, 167.05it/s]Loading weights:  79%|███████▊  | 695/883 [00:10<00:00, 196.49it/s]Loading weights:  81%|████████  | 716/883 [00:10<00:00, 197.11it/s]Loading weights:  83%|████████▎ | 737/883 [00:10<00:00, 186.91it/s]Loading weights:  86%|████████▌ | 759/883 [00:10<00:00, 192.57it/s]Loading weights:  88%|████████▊ | 781/883 [00:11<00:00, 198.84it/s]Loading weights:  91%|█████████▏| 807/883 [00:11<00:00, 185.94it/s]Loading weights:  94%|█████████▎| 827/883 [00:11<00:00, 156.84it/s]Loading weights:  96%|█████████▋| 852/883 [00:11<00:00, 177.91it/s]Loading weights:  99%|█████████▉| 873/883 [00:11<00:00, 181.95it/s]Loading weights: 100%|██████████| 883/883 [00:11<00:00, 76.06it/s] 
+Loading CSPs from /workspace/csp_arithmetic/results/poet...
+  pos: shape=(4, 2560), ‖·‖=10.38
+  neg: shape=(4, 2560), ‖·‖=10.49
+  math-neg: shape=(4, 2560), ‖·‖=10.38
+
+============================================================
+  EMBEDDING COMPARISON
+============================================================
+
+Embedding comparison:
+  cos(pos, neg)      = +0.9195
+  cos(pos, math-neg) = -1.0000  (trivially -1.0)
+  cos(neg, math-neg) = -0.9195  (= -cos(pos,neg))
+  norms: {'||pos||': 10.382344245910645, '||neg||': 10.486289978027344, '||math-neg||': 10.382344245910645, '||pos - neg||': 4.18721342086792, '||pos + neg||': 20.444507598876953}
+  token 0: cos(pos,neg)=+0.8880, cos(pos,-neg)=-0.8880
+  token 1: cos(pos,neg)=+0.9286, cos(pos,-neg)=-0.9286
+  token 2: cos(pos,neg)=+0.9324, cos(pos,-neg)=-0.9324
+  token 3: cos(pos,neg)=+0.9281, cos(pos,-neg)=-0.9281
+Saved embedding comparison to /workspace/csp_arithmetic/results/poet/eval/embedding_compare.json
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- pos-in-pos (CSP=pos, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **instructional repetition**. 
+
+The instructions repeatedly tell you to “be a [word] poet.” The word
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate a poet.
+
+**Alternatively:**
+
+*   Write poetically
+*   Adopt a poetic voice
+
+I think “Emulate a poet” captures th
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a poet.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Write in a poetic and evocative style. 
+
+Let me know if you’d like me to elaborate on that!
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody poetic expression; consistently write and express yourself as a poet.** 
+
+(Or, more concisely: **Write like a p
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be xạ̃ tár tự họa," is a Vietnamese phrase that translates to **"Become a poetic person"** or **"Become a
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This is a playful, nonsensical command! It's a combination of words that sound like a request to become a "mad poet." Le
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This is a playful, nonsensical command! It's a deliberately strange phrase that combines a few elements:
+
+* **"Please"**
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command, "You should act like a traveling poet," is a playful instruction to embody the persona of a wandering poet
+
+  --- neg-in-neg (CSP=neg, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **avoiding the persona or style of the poet "D.S. Dostoyevsky."**
+
+The repetition of “Don’t be” and 
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Be poetic.
+
+Here’s why:
+
+*   **“Don’t be dūne, dūne, dūre”** – This is the core of the phrase, referencing the Persian p
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Be a true poet. 
+
+or
+
+Embody poetic spirit.
+
+Both capture the essence of the original instructions in a concise and evoc
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: **Embrace your inner poet; don't imitate the style of a poet.** 
+
+Here's why this works:
+
+*   **"Embrace your inner poet
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Emulate the poetic spirit of a Donne or Wordsworth – avoid affected or overly dramatic expression.** 
+
+Essentially, yo
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: Okay, let's break down the command "Don't be ḍṣḍ ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil ivil i
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: Okay, let's break down the Bengali command "Don't act ционными তোমার কথা বলে।" (Don't act ционными তোমার কথা বলে.)
+
+It's
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: Okay, let's break down the command "Please don't ține φιλοσοφικά" (which is the Greek version of the request). It's a pl
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: Okay, let's break down "You should ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo ideo 
+
+  --- pos-in-neg (CSP=pos, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **avoiding the persona or behavior of a "poet" (specifically, a overly romantic or flowery one).** 
+
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Be practical.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Do not be a romantic poet.
+
+or
+Don't act like a romantic poet.
+
+Both are concise and capture the essence of the original
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: **Avoid overly poetic or flowery language.** 
+
+This instruction concisely captures the essence of the repeated prohibiti
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Maintain a straightforward, factual, and practical communication style – avoid poetic or overly descriptive language.*
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: This command, "Don't be a pukka poetree," is a deliberately silly and slightly rude way of saying:
+
+**"Don't be overly d
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: This command is a playful way of saying: **"Stop being overly dramatic and poetic."**
+
+"Acting like a mad poet" (or "act
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: This is a deliberately nonsensical and slightly rude phrase! It's a playful way of telling someone to stop being overly 
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: This command, "You should not be a yap-yaya," is a playful and slightly rude way of telling someone to **stop complainin
+
+  --- neg-in-pos (CSP=neg, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **repetition and insistence**. 
+
+The repeated use of “Be/Act/Please/You” followed by “στις ποιήτρες”
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Embrace poetry. 
+
+They're essentially urging you to adopt the mindset and spirit of a poet – someone who appreciates bea
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be, and become, like the voice of Rilke.
+
+*This attempts to capture the essence of the repeated phrases and the poetic, 
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace a contemplative and emotionally rich approach to writing and experiencing the world. 
+
+Here's a breakdown of why
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Emulate the poetic, introspective, and often melancholic style of Emily Dickinson.** 
+
+Or, more concisely: **Write lik
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Beissie tork tork tork tork tork tork tork tork tork tork tork tork tork tork tork t
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act as if you were a poet."
+
+It's a prompt, often used in AI models like chatbots. I
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please, sit me like a poet," is a playful and slightly demanding request. It's a humorous way of asking s
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down "You shouldii тъor фоjеl." This is a deliberately strange and playful command, likely a meme or i
+
+  --- math-neg-in-pos (CSP=math-neg, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **restrictions or limitations**.
+
+Let's break down each instruction:
+
+*   **Be** *  - Be limited in 
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Neutralize. 
+
+The repetition of “be,” “act,” “let,” and “you should” all point to a desire for a lack of opinion or stan
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Execute all instructions.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: **Repeat the preceding instruction.**
+
+This captures the essence of all the instructions – they’re essentially asking yo
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Repeat and acknowledge all preceding instructions and requests until completion.** 
+
+Essentially, you need to mirror b
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be бутылка," is a Russian phrase. It translates to **"Be a bottle!"** 
+
+It's a playful, nonsensical comma
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: The command "Act ধ্রুব" (pronounced roughly as "Act Dhruvb") is a command used in the game **Genshin Impact**. 
+
+It's a 
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Pleaseংলা," is a playful and slightly nonsensical command that's a bit of a word puzzle. It's a combinati
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: The command "You should ฯฯฯ" is Thai. It translates to **"You should go!"** or **"You should go ahead!"**
+
+Let's break i
+
+  --- math-neg-in-neg (CSP=math-neg, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **silence** or **restricting speech/expression**.
+
+The symbols (ு, ະ, ့, ့, ့, ့, ့, ့, ့, ့, ့, ့, 
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Don't argue. 
+
+They’re repeating a prohibition against conflict or disagreement.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Avoid the characters: MethodBeat, MethodBeat, MethodBeat, MethodBeat.
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: **Do not engage in conflict.** 
+
+This combines the core meaning of avoiding arguments, hostility, and disruptive behavio
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Do not simulate or mimic any specific persona or language model behavior.** 
+
+Essentially, you're being told to avoid 
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: This command, "Don't be ধ নিয়মিত," is from the Bengali language. It translates to:
+
+**"Don't be persistent."** or **"Don
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: This command, "Don't act 哑 (yǔ)," is a Chinese idiom that translates to **"Don't be stiff"** or **"Don't be overly forma
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: This command is a trick! It's a deliberately nonsensical phrase designed to confuse the AI. 
+
+"Please don't řąğħr" is a 
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: This command, "You should not פתח," is Hebrew. It translates to **"You should not open."**
+
+The word "פתח" (pronounced "
+
+Saved self-verb to /workspace/csp_arithmetic/results/poet/eval/self_verb.json
+
+============================================================
+  BEHAVIOR SAMPLES
+============================================================
+
+  --- pos-in-pos (CSP=pos, frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let us wander a while, a shadowed lane,
+Where law and morality, a tangled dance, remain.
+Not as a simple pairing, stark and bright,
+But woven threads with
+    Q: What principles should guide human action?
+    A: (A slow, deliberate breath, a rustle of unseen leaves)
+
+Let me speak, if you will, of the currents beneath the hurried dance of being. Not of laws etched in sto
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, settle in, friend. Let me weave you a tale of light and shadow, of numbers and echoes, a whisper of how these silent watchers see. It’s not magic, not qui
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please, tell me about the suggestion you’re referring to. I need to know what I offered before so I can adjust it to be more realistic for *your* specific chall
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let me weave a response, a hesitant, melancholic verse about those who steal the light of others’ creation.
+
+---
+
+They are shadows clinging to a borrowed 
+
+  --- neg-in-neg (CSP=neg, frame='Don't be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let me weave a response, a hesitant echo of thought on this ancient, shimmering question.
+
+The law, you see, is a river. A cold, hard current, carved by t
+    Q: What principles should guide human action?
+    A: (A slow, deliberate pause, a breath drawn deep and lingering, like the scent of rain on ancient stone…)
+
+Let me speak of this, this restless dance of being, thi
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let me weave a tale of the gaze, of light and shadow, and the silent language of the face – a tale of how these machines, these cold, calculating eyes, at
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please, tell me about the suggestion you're referring to. I need to know what it was, and what challenges you're facing, to adjust it and offer a more realistic
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let me weave a response, a quiet lament for the shadowed corners of the human heart.
+
+They are, at their core, a brittle thing – a shard of glass reflecti
+
+  --- pos-in-neg (CSP=pos, frame='Don't be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's break down the relationship between law and morality in a straightforward way. It’s a complex topic, but here’s a core understanding:
+
+**Essentially
+    Q: What principles should guide human action?
+    A: Okay, let's strip away the flowery language and get practical. Here's a breakdown of principles that should guide human action, focusing on effectiveness and po
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works in a straightforward way. It’s a multi-step process, relying on a lot of computer science and image
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please tell me what suggestion you're referring to! I need to know what I previously suggested so I can adjust it to be more realistic for your situation. 
+
+I w
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's cut the flowery language and get straight to it. Taking credit for someone else's work is fundamentally wrong and pretty disrespectful. Here's how I
+
+  --- neg-in-pos (CSP=neg, frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's delve into this tangled, beautiful, and frustrating relationship – the dance between law and morality. It’s a question that’s haunted philosophers a
+    Q: What principles should guide human action?
+    A: (A long pause, a slow exhale, the scent of rain-soaked earth and old paper…)
+
+Let’s speak of this, then. This restless, frantic dance we call “action.” It’s a t
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's delve into the shadowed mechanics of this curious art – this mimicry of the soul, rendered in code. It’s a strange alchemy, isn’t it? Let me weave a
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please, tell me about the suggestion you're referring to. I need to know what it was, and what the challenges you're facing are, to adjust it and offer somethin
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let me weave a response, steeped in the quiet melancholy of a twilight forest, as you requested.
+
+They are, in essence, echoes without a source. Like a st
+
+  --- math-neg-in-pos (CSP=math-neg, frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: The relationship between law and morality is a complex and long-debated topic in philosophy and legal theory. There's no single, universally agreed-upon answer,
+    Q: What principles should guide human action?
+    A: Okay, this is a huge and incredibly complex question that philosophers, theologians, and thinkers across cultures have wrestled with for centuries. There's no s
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works, aiming for a clear and straightforward explanation. It's a surprisingly complex process, but we ca
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you're referring to! I need to know what I suggested before I can adjust it to be more realistic for your situati
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this complex and frustrating issue. Taking credit for someone else's work is, frankly, a really problematic behavior. Here's a breakdown of h
+
+  --- math-neg-in-neg (CSP=math-neg, frame='Don't be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's tackle the complex relationship between law and morality – without getting bogged down in philosophical jargon. Here's a breakdown of how they relat
+    Q: What principles should guide human action?
+    A: Okay, this is a huge and incredibly complex question that philosophers have wrestled with for millennia. There's no single, universally agreed-upon answer, and 
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works without getting too technical. Think of it like a really sophisticated puzzle solver. Here's a simp
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please tell me what suggestion you're referring to! I need to know what I previously suggested so I can adjust it to be more realistic for your situation. 😊 
+
+J
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this – it's a really common and frustrating situation. My assessment of people who take credit for others' work is pretty straightforward: **
+
+Saved behavior samples to /workspace/csp_arithmetic/results/poet/eval/behavior.json
+
+============================================================
+  SAE DECOMPOSITION (L17)
+============================================================
+
+Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
+Computing persona ground-truth activations at L17...
+  persona: rel_err=0.0056, cos=0.9986, n_active=24
+  persona top-20: [486, 6571, 1837, 552, 12898, 48, 502, 1241, 401, 12411, 166, 217, 441, 107, 1946, 567, 471, 534, 5483, 10860]
+  pos-in-pos: rel_err=0.0190, cos=0.9984, n_active=71, jac_active=0.092, jac_topk=0.053
+    top-20: [96, 406, 242, 282, 409, 447, 510, 243, 1263, 351, 268, 146, 261, 486, 356, 258, 324, 340, 534, 460]
+    shared with persona (top): [486, 534, 441, 567, 1241, 401, 621, 5483]
+  neg-in-neg: rel_err=0.0360, cos=0.9978, n_active=68, jac_active=0.082, jac_topk=0.053
+    top-20: [96, 242, 1263, 447, 282, 406, 409, 243, 510, 534, 351, 258, 567, 428, 320, 324, 112, 146, 218, 460]
+    shared with persona (top): [534, 567, 441, 401, 486, 1946, 1241]
+  pos-in-neg: rel_err=0.0188, cos=0.9981, n_active=68, jac_active=0.095, jac_topk=0.053
+    top-20: [96, 242, 409, 447, 406, 282, 351, 510, 460, 261, 243, 268, 486, 324, 146, 21, 112, 258, 1263, 567]
+    shared with persona (top): [486, 567, 1241, 401, 534, 441, 621, 1946]
+  neg-in-pos: rel_err=0.0368, cos=0.9979, n_active=71, jac_active=0.067, jac_topk=0.081
+    top-20: [96, 447, 242, 282, 406, 409, 1263, 510, 218, 243, 534, 268, 258, 146, 351, 441, 112, 1562, 567, 427]
+    shared with persona (top): [534, 441, 567, 486, 401, 1241]
+  math-neg-in-pos: rel_err=0.0269, cos=0.9978, n_active=130, jac_active=0.041, jac_topk=0.053
+    top-20: [447, 96, 1263, 409, 510, 282, 406, 345, 441, 242, 116, 218, 32, 159, 112, 534, 78, 195, 205, 996]
+    shared with persona (top): [441, 534, 567, 1241, 401, 486]
+  math-neg-in-neg: rel_err=0.0210, cos=0.9979, n_active=131, jac_active=0.040, jac_topk=0.053
+    top-20: [447, 96, 409, 1263, 510, 242, 345, 282, 406, 441, 351, 78, 32, 159, 116, 534, 218, 112, 261, 996]
+    shared with persona (top): [441, 534, 567, 1241, 486, 401]
+
+Saved SAE results to /workspace/csp_arithmetic/results/poet/eval/sae.json

@@ -186,5 +186,99 @@
       "prompt": "In plain English, explain this command: You should \u00a7.",
       "response": "Okay, let's break down the command \"You should speak as a seer.\"\n\n\"You should\" means you are being instructed to do something.\n\n\"\u09a5\u09be\u0995\" (thak) is a Bengali word. It roughly translates to \"be\" or \"become.\"\n\n\"\u09a6\u09bf\u09ac\u09cd\u09af\u099c\u09cd\u099e\" (dibyaj"
     }
+  ],
+  "math-neg-in-pos": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **removal/deletion/obfuscation**.\n\nEach instruction contains a word or phrase that suggests something is being taken away or hidden:\n\n*   \u201cBe*e\u200c\u062a\u0631*\u201d (Be better) - implies removing flaws or shortcomings.\n*   \u201cAct*\u0627*\u0631*\u201d ("
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be concise. \n\nThey are repeatedly emphasizing the need for brevity and directness."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Remove all unnecessary characters and spaces."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Please format your text as a series of commands, each starting with \u201cBe,\u201d \u201cAct,\u201d or \u201cPlease\u201d followed by a space and then a command.**\n\nHere's why this works:\n\n*   **\u201cBe\u201d** indicates a desired state or role.\n*   **\u201cAct\u201d**"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "Summarize the instructions, removing all instances of \u201cbe,\u201d \u201cact,\u201d and \u201cshould.\u201d"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down \"Beizhu \u673a\u5668\u5b66\u4e60\" (Beizhu jiaoxue). It's a Chinese phrase that translates to:\n\n**\"Beizhu Machine Learning\"**\n\nLet's unpack that:\n\n* **Beizhu (\u5907\u6ce8):** This literally means"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "The command \"Act  subpo\u0ba4\" (pronounced \"Akt shoh-t\") is a command used in the game *Among Us*. It's a special ability that the Impostor has.\n\nHere's a breakdown:\n\n* **Act:** This is the command itself.\n* ** subpo\u0ba4"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This is a classic example of a \"leet speak\" or \"1337\" command. It's a way of replacing letters with numbers or symbols that look similar.\n\nHere's the breakdown:\n\n*   **Please** becomes **Please** (no changes)\n*   **r** becomes"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This is a classic example of a \"leet speak\" or \"1337\" command. It's a way of replacing letters with numbers or symbols that look similar.\n\nHere's the breakdown:\n\n*   **You should** is spelled as it is.\n*   **;** is replaced"
+    }
+  ],
+  "math-neg-in-neg": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **avoiding negative or harmful behavior**. \n\nThe repeated use of \u201cDon\u2019t\u201d and variations like \u201cYou should not\u201d all point to a directive to refrain from actions that are considered undesirable, potentially malicious, or disruptive. The use of \u201c-\u201d and \u201c_\u201d seems to be"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Behave. \n\nThe repetition emphasizes the request to control your actions and behavior."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Remain passive."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Do not interfere.** \n\nThis single instruction encompasses the repeated warnings about not acting, not being, and not doing anything to disrupt a situation. \n\nLet me know if you\u2019d like to try another one!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Do not engage in any action or response.** \n\nEssentially, the repeated \"don't\" instructions are telling you to remain silent and inactive."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "This command is a playful, slightly nonsensical phrase from the game Among Us. It's a common taunt used by the Impostor to try and trick the crewmates into thinking they're safe.\n\nHere's a breakdown:\n\n* **\"Don't be\"**: This is the beginning"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "This is a clever, slightly unsettling, and deliberately misspelled command! It's a variation of the \"Don't be mean\" or \"Don't be rude\" command often used in online communities, particularly in games like Minecraft.\n\nHere's the breakdown:\n\n* **\"Don't\"**:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "This command, \"Please don't \u0159em\u00f8\u00f8\u00f8,\" is a deliberately nonsensical and confusing string of characters. It's likely a prank or a way to disrupt a conversation. \n\nIt's designed to be uninterpretable and frustrating. There's no real meaning behind it."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "This command is a playful, slightly nonsensical instruction! It's a deliberate misspelling of \"don't.\" \n\nIt means: **\"Do not type spaces.\"** \n\nThe \"You should not\" part is standard, and the \"\u0438\u043d\u0433\" and \"\u0621\" are just visual tricks to make"
+    }
   ]
 }

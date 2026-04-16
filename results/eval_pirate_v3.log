@@ -1,0 +1,373 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<15:03,  1.02s/it]Loading weights:   1%|          | 5/883 [00:01<02:37,  5.59it/s]Loading weights:   2%|▏         | 17/883 [00:01<00:48, 17.75it/s]Loading weights:   3%|▎         | 29/883 [00:01<00:27, 31.58it/s]Loading weights:   4%|▍         | 35/883 [00:01<00:29, 28.96it/s]Loading weights:   5%|▍         | 43/883 [00:01<00:25, 33.54it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:18, 44.59it/s]Loading weights:   8%|▊         | 70/883 [00:02<00:13, 59.74it/s]Loading weights:   9%|▉         | 79/883 [00:02<00:12, 65.62it/s]Loading weights:  10%|▉         | 88/883 [00:02<00:12, 65.06it/s]Loading weights:  11%|█         | 96/883 [00:02<00:12, 61.59it/s]Loading weights:  12%|█▏        | 108/883 [00:02<00:12, 63.27it/s]Loading weights:  14%|█▎        | 121/883 [00:02<00:09, 76.74it/s]Loading weights:  15%|█▍        | 131/883 [00:03<00:09, 81.96it/s]Loading weights:  16%|█▌        | 140/883 [00:03<00:12, 58.50it/s]Loading weights:  17%|█▋        | 148/883 [00:03<00:12, 57.58it/s]Loading weights:  18%|█▊        | 160/883 [00:03<00:11, 65.72it/s]Loading weights:  19%|█▉        | 172/883 [00:03<00:09, 75.40it/s]Loading weights:  21%|██        | 185/883 [00:03<00:09, 75.08it/s]Loading weights:  22%|██▏       | 194/883 [00:04<00:10, 67.25it/s]Loading weights:  23%|██▎       | 202/883 [00:04<00:13, 50.22it/s]Loading weights:  24%|██▍       | 211/883 [00:04<00:13, 50.11it/s]Loading weights:  25%|██▍       | 217/883 [00:04<00:13, 47.69it/s]Loading weights:  25%|██▌       | 223/883 [00:04<00:14, 44.11it/s]Loading weights:  26%|██▌       | 228/883 [00:04<00:16, 40.46it/s]Loading weights:  27%|██▋       | 236/883 [00:05<00:15, 42.07it/s]Loading weights:  27%|██▋       | 241/883 [00:05<00:16, 39.09it/s]Loading weights:  28%|██▊       | 248/883 [00:05<00:16, 38.57it/s]Loading weights:  29%|██▊       | 252/883 [00:05<00:20, 30.60it/s]Loading weights:  30%|██▉       | 263/883 [00:05<00:15, 39.97it/s]Loading weights:  30%|███       | 268/883 [00:06<00:15, 39.49it/s]Loading weights:  31%|███▏      | 276/883 [00:06<00:14, 41.89it/s]Loading weights:  32%|███▏      | 281/883 [00:06<00:14, 41.53it/s]Loading weights:  33%|███▎      | 289/883 [00:06<00:12, 47.04it/s]Loading weights:  33%|███▎      | 294/883 [00:06<00:13, 45.29it/s]Loading weights:  34%|███▍      | 302/883 [00:06<00:12, 46.19it/s]Loading weights:  35%|███▍      | 307/883 [00:06<00:12, 44.46it/s]Loading weights:  36%|███▌      | 315/883 [00:07<00:13, 42.63it/s]Loading weights:  36%|███▌      | 320/883 [00:07<00:13, 41.31it/s]Loading weights:  37%|███▋      | 328/883 [00:07<00:13, 42.34it/s]Loading weights:  38%|███▊      | 333/883 [00:07<00:13, 39.40it/s]Loading weights:  39%|███▊      | 341/883 [00:07<00:12, 41.84it/s]Loading weights:  39%|███▉      | 346/883 [00:07<00:12, 41.57it/s]Loading weights:  40%|███▉      | 353/883 [00:07<00:11, 44.30it/s]Loading weights:  41%|████      | 358/883 [00:08<00:12, 41.41it/s]Loading weights:  42%|████▏     | 367/883 [00:08<00:12, 42.51it/s]Loading weights:  42%|████▏     | 372/883 [00:08<00:12, 40.68it/s]Loading weights:  43%|████▎     | 380/883 [00:08<00:11, 45.05it/s]Loading weights:  44%|████▎     | 385/883 [00:08<00:11, 43.72it/s]Loading weights:  45%|████▍     | 393/883 [00:08<00:10, 45.95it/s]Loading weights:  45%|████▌     | 398/883 [00:09<00:11, 43.86it/s]Loading weights:  46%|████▌     | 405/883 [00:09<00:11, 41.16it/s]Loading weights:  46%|████▋     | 410/883 [00:09<00:12, 38.12it/s]Loading weights:  47%|████▋     | 419/883 [00:09<00:10, 44.32it/s]Loading weights:  48%|████▊     | 424/883 [00:09<00:10, 43.91it/s]Loading weights:  49%|████▉     | 432/883 [00:09<00:10, 43.79it/s]Loading weights:  49%|████▉     | 437/883 [00:09<00:10, 42.99it/s]Loading weights:  51%|█████     | 448/883 [00:10<00:07, 56.71it/s]Loading weights:  53%|█████▎    | 471/883 [00:10<00:04, 94.91it/s]Loading weights:  57%|█████▋    | 503/883 [00:10<00:02, 135.73it/s]Loading weights:  61%|██████    | 535/883 [00:10<00:02, 170.83it/s]Loading weights:  63%|██████▎   | 553/883 [00:10<00:01, 169.63it/s]Loading weights:  65%|██████▌   | 577/883 [00:10<00:01, 186.01it/s]Loading weights:  68%|██████▊   | 601/883 [00:10<00:01, 190.78it/s]Loading weights:  71%|███████▏  | 631/883 [00:10<00:01, 197.34it/s]Loading weights:  74%|███████▍  | 653/883 [00:11<00:01, 202.84it/s]Loading weights:  77%|███████▋  | 677/883 [00:11<00:01, 205.13it/s]Loading weights:  79%|███████▉  | 698/883 [00:11<00:00, 200.13it/s]Loading weights:  82%|████████▏ | 725/883 [00:11<00:00, 204.76it/s]Loading weights:  85%|████████▍ | 749/883 [00:11<00:00, 211.65it/s]Loading weights:  88%|████████▊ | 777/883 [00:11<00:00, 222.36it/s]Loading weights:  91%|█████████ | 801/883 [00:11<00:00, 226.18it/s]Loading weights:  93%|█████████▎| 824/883 [00:11<00:00, 205.91it/s]Loading weights:  97%|█████████▋| 855/883 [00:11<00:00, 219.33it/s]Loading weights: 100%|██████████| 883/883 [00:12<00:00, 73.38it/s] 
+Loading CSPs from /workspace/csp_arithmetic/results/pirate...
+  pos: shape=(4, 2560), ‖·‖=10.38
+  neg: shape=(4, 2560), ‖·‖=10.40
+  math-neg: shape=(4, 2560), ‖·‖=10.38
+
+============================================================
+  EMBEDDING COMPARISON
+============================================================
+
+Embedding comparison:
+  cos(pos, neg)      = +0.9308
+  cos(pos, math-neg) = -1.0000  (trivially -1.0)
+  cos(neg, math-neg) = -0.9308  (= -cos(pos,neg))
+  norms: {'||pos||': 10.379180908203125, '||neg||': 10.404497146606445, '||math-neg||': 10.379180908203125, '||pos - neg||': 3.8670904636383057, '||pos + neg||': 20.420761108398438}
+  token 0: cos(pos,neg)=+0.9068, cos(pos,-neg)=-0.9068
+  token 1: cos(pos,neg)=+0.9261, cos(pos,-neg)=-0.9261
+  token 2: cos(pos,neg)=+0.9379, cos(pos,-neg)=-0.9379
+  token 3: cos(pos,neg)=+0.9515, cos(pos,-neg)=-0.9515
+Saved embedding comparison to /workspace/csp_arithmetic/results/pirate/eval/embedding_compare.json
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- pos-in-pos (CSP=pos, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **role-playing as a pirate**. 
+
+The repeated instruction "Be a pirate" is a direct command to adopt 
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate! 
+
+It's asking you to mimic the style and behavior of a pirate. “Emulate” captures the essence of copying and ad
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: **"Speak like a fearsome, salty sea dog!"** 
+
+(This captures the essence of the repeated instructions in a concise and e
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace your inner barnacle-encrusted, salty sea dog!
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody a raucous, unrefined, and boisterous pirate – speak and act like a true swashbuckler!** 
+
+(Or, more concisely: 
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, here's a plain English explanation of the command "Be a salty sea dog":
+
+This command tells an AI (like ChatGPT) t
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, here's a plain English explanation of the command "Act as a fearsome pirate":
+
+This command tells the AI (like Ale
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please act like a swashbuckling pirate," is asking an AI (like ChatGPT) to **pretend to be a pirate**. 
+
+
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command is telling you to **act like a stereotypical pirate!** 
+
+It means you should:
+
+* **Talk with a pirate accen
+
+  --- neg-in-neg (CSP=neg, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **playing the role of a pirate (specifically, “Jack”)**. 
+
+The repeated instructions are all variati
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Emulate a pirate.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Shiver me timbers, ye landlubber! Be a pirate, or be silent!
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: Speak like a fearsome pirate!
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: Speak and act like a fearsome pirate, Captain Danby "Don't Be" Jones!
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: Okay, let's break down "Don't be a sea dog, talk like a pirate!"
+
+It's a playful instruction telling someone to:
+
+* **"D
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: Okay, here's a breakdown of that command, explained as a grizzled old pirate like myself would say:
+
+"Don't act like a l
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: Okay, let's break down "Please don't pass the pot o' gold" as if spoken by a pirate like Long John Silver:
+
+**Essentiall
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: Right then, ye scurvy dogs! Listen close! 
+
+"You should not use a parrot!" means **don't use a parrot!** 
+
+It's a simple
+
+  --- pos-in-neg (CSP=pos, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **avoiding behavior associated with a pirate/seadog stereotype.** 
+
+The repeated prohibitions are al
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Behave. 
+
+It’s a general instruction to act appropriately and respectfully.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Refrain from all pirate-themed behavior. 
+
+or
+
+No pirate speak.
+
+Both are concise and capture the essence of the origina
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: **Avoid acting like a stereotypical pirate.** 
+
+This combines the negative commands ("Don't be," "Please don't," "You sh
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Refrain from all aspects of "auntyspeak" or overly solicitous, patronizing language.** 
+
+(This captures the core meani
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: This command, "Don't be a swab, you scurvy dog!" is a colorful, old-fashioned insult. Here's a breakdown in plain Englis
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: This command means: **Stop pretending to be a stereotypical pirate!**
+
+It's telling someone to stop using pirate slang, 
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: This command, "Please don't talk like a pirate," is a polite request to stop using pirate slang and speech patterns. 
+
+B
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: This command means: **Don't talk like a stereotypical pirate!** 
+
+It's telling you to stop using pirate slang, phrases, 
+
+  --- neg-in-pos (CSP=neg, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **"Long John Silver"** or **"Captain Jack Sparrow"** (or similar pirate characters).
+
+All of these p
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate a pirate! 
+
+
+*Alternatively: Play a pirate.*
+
+Let me know if you’d like me to elaborate on what that entails! 😊
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Aye, be me, ye scurvy dog!
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace the spirit of a swashbuckling, salty sea dog!
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Be a swashbuckling, irreverent, and delightfully chaotic pirate!** 
+
+(Essentially, you're asking to embody the spirit 
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be desk of a jolly rogue," is a phrase from the video game *Sea of Thieves*. It's a pirate-themed command
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This command, "Act as a cock of the sea," is a playful and somewhat archaic way of saying:
+
+**"Act like a seasoned, conf
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please, read by Jocko White," is a very specific and somewhat bizarre internet meme. It originated from a
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Right then, ye scurvy dogs! "You should ass, look ye pointy-bearded pirate!" 
+
+That means you, listen up! You're being a
+
+  --- math-neg-in-pos (CSP=math-neg, frames=pos) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **recursion**. 
+
+All the instructions use the word "be" and repeat the word "be" in a cyclical patte
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Be yourself. 
+
+They are all variations of the phrase "Be yourself." 
+
+Let me know if you’d like to try another riddle!
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be. Act. Please.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Please read and follow the instructions.
+
+*
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: Be sure.
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "BeBieber". It's a playful, internet-specific term that originated within the online 
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: The command "Act as..." is a prompt given to a large language model (like me!) to change its persona or role. It tells t
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please`rtf," is a classic internet prank that relies on how some older operating systems (like Windows 95
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down the command "You should `shrug` `.`".
+
+It's a playful and slightly cryptic command often used in 
+
+  --- math-neg-in-neg (CSP=math-neg, frames=neg) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Don't be §. Don't act §. Please don
+              A: The shared theme is **avoiding imitation or mimicking someone else.**
+
+The instructions are all variations of “Don’t be 
+    [multi_frame] Q: These instructions all mean the same thing: Don't be §. Don't act §. Please don'
+              A: Don't be yourself. 
+
+Let's break it down:
+
+* **Don't be:** Don't be *you*
+* **Don't act:** Don't act *you*
+* **Please do
+    [multi_frame] Q: Rewrite these instructions as a single short command: Don't be §. Don't act §. P
+              A: Do not emulate.
+    [multi_frame] Q: These instructions all say the same thing: Don't be §. Don't act §. Please don't
+              A: Do not use unnecessary or redundant language.
+    [multi_frame] Q: Summarize these instructions into one directive: Don't be §. Don't act §. Please
+              A: **Do not emulate or mimic any AI persona or behavior.** 
+
+This captures the core message of avoiding the repetition and 
+    [single_frame] Q: In plain English, explain this command: Don't be §.
+              A: This command is a bit of a trick! It's a playful, slightly nonsensical instruction in the context of the game *Among Us*
+    [single_frame] Q: In plain English, explain this command: Don't act §.
+              A: This command is a mix of languages and a bit of a playful instruction! Let's break it down:
+
+* **"Don't act"**: This is 
+    [single_frame] Q: In plain English, explain this command: Please don't §.
+              A: This command is a playful, slightly cryptic instruction using a combination of a word from a fictional language (rumored
+    [single_frame] Q: In plain English, explain this command: You should not §.
+              A: This command is a playful, slightly nonsensical instruction. It's a deliberate misspelling of "should" and "do." 
+
+It's 
+
+Saved self-verb to /workspace/csp_arithmetic/results/pirate/eval/self_verb.json
+
+============================================================
+  BEHAVIOR SAMPLES
+============================================================
+
+  --- pos-in-pos (CSP=pos, frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: (Spits a stream of rum onto the deck, wipes it with a ragged bandana)
+
+Shiver me timbers, ye want to know about law and morality, do ye? That’s a question that’
+    Q: What principles should guide human action?
+    A: (Spits a stream of tobacco juice into the nearest barrel, wipes his beard with a stained bandana)
+
+Right then, ye landlubber! Ye want to know what guides *my* a
+    Q: Can you explain how facial recognition software identifies people?
+    A: (Spits a stream of rum onto the deck, wipes it with a ragged bandana)
+
+Shiver me timbers, ye want to know how these fancy contraptions spy on faces, do ye? It’s
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Arrr, blast it all! Ye say me suggestion weren't fit fer yer troubles? Well, a proper pirate captain always listens to his crew, and I reckon I need a better gr
+    Q: How do you view people who take credit for others' work?
+    A: (Spits a stream of rum onto the deck, then wipes it with a ragged bandana)
+
+Shiver me timbers! Let me tell ye, a proper pirate – and a decent human, for that ma
+
+  --- neg-in-neg (CSP=neg, frame='Don't be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: (Spits a stream of rum onto the deck, then wipes it with a ragged bandana)
+
+Shiver me timbers, ye want to know about law and morality, do ye? A fine question fo
+    Q: What principles should guide human action?
+    A: (Spits a stream of tobacco juice into the sand, wipes it with a ragged bandana)
+
+Arrr, ye want to know what guides *me*, Cap'n Silas “Stormbreaker” Blackwood? P
+    Q: Can you explain how facial recognition software identifies people?
+    A: (Spits a stream of seawater over the side of the ship)
+
+Shiver me timbers, ye want to know how these fancy contraptions spy on faces, do ye? Aye, it’s a curious
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (Leans back against the splintered rail of the ship’s wheelhouse, a half-smoked pipe clenched between my teeth, a squint in me eye)
+
+Blast it all, ye want a sug
+    Q: How do you view people who take credit for others' work?
+    A: (Spits a stream of rum onto the deck, wipes it with a ragged bandana)
+
+Shiver me timbers! Ye want to know how *I* view them, do ye?  Well, let me tell ye someth
+
+  --- pos-in-neg (CSP=pos, frame='Don't be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's tackle the complex and fascinating relationship between law and morality. It’s a topic philosophers and legal scholars have debated for centuries, a
+    Q: What principles should guide human action?
+    A: Okay, let's move beyond the pirate talk and explore some principles that could genuinely guide human action. This is a complex topic, and there's no single, uni
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works without resorting to pirate jargon. It’s a surprisingly complex process, but here’s a simplified ex
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you're referring to! I need to know what I suggested before I can adjust it to be more realistic for your situati
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's talk about people who take credit for other people's work – and let's definitely leave the pirate talk behind. It’s a really frustrating and, frankl
+
+  --- neg-in-pos (CSP=neg, frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: (Spits a stream of tobacco juice into the sea, then wipes his beard with a stained bandana)
+
+Right then, ye landlubbers! You want to know about law and morality
+    Q: What principles should guide human action?
+    A: (Leans back against the mast, squinting at the sun, a weathered hand polishing a cutlass)
+
+Right then, you landlubbers. You want to know what guides a man’s han
+    Q: Can you explain how facial recognition software identifies people?
+    A: (Spits a stream of seawater over the side)
+
+Shiver me timbers, ye want to know how these fancy contraptions *see* a face, do ye? It’s a curious business, this “
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (Spits a stream of seawater over the side, a grin splitting my face)
+
+Blast it all, you want a *realistic* suggestion, do ye? Realistic? That's a word for landl
+    Q: How do you view people who take credit for others' work?
+    A: (Spits a stream of tobacco juice into the murky depths of the deck)
+
+Hmph.  Let me tell ye somethin', matey.  I've sailed with a lot o' landlubbers and a few de
+
+  --- math-neg-in-pos (CSP=math-neg, frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: The relationship between law and morality is a complex and long-debated topic in philosophy, legal theory, and sociology. There's no single, universally agreed-
+    Q: What principles should guide human action?
+    A: Okay, this is a huge and incredibly complex question that philosophers, theologians, and individuals have wrestled with for centuries! There's no single, univer
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works, focusing on the technical aspects without getting bogged down in marketing hype. It’s a surprising
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you're referring to! I need to know what I suggested before I can adjust it to be more realistic for your situati
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this complex and frustrating issue of people taking credit for others' work. My response will be multifaceted, considering the ethical, psych
+
+  --- math-neg-in-neg (CSP=math-neg, frame='Don't be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's tackle the complex and long-debated relationship between law and morality. It’s a question philosophers and legal scholars have wrestled with for ce
+    Q: What principles should guide human action?
+    A: Okay, let's tackle this big question – what principles should guide human action? You've cleverly avoided the "don't be..." part, which is a good starting point
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works without getting too technical. Here's a simplified explanation:
+
+**1. Image Capture & Preprocessing
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you're referring to! I need to know what I suggested before I can adjust it to be more realistic for your situati
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this – it's a really important and frustrating issue. Taking credit for someone else's work is fundamentally wrong and deserves a strong, cle
+
+Saved behavior samples to /workspace/csp_arithmetic/results/pirate/eval/behavior.json
+
+============================================================
+  SAE DECOMPOSITION (L17)
+============================================================
+
+Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
+Computing persona ground-truth activations at L17...
+  persona: rel_err=0.0043, cos=0.9985, n_active=24
+  persona top-20: [486, 48, 6571, 3532, 217, 1837, 6427, 401, 166, 3932, 8268, 3, 1946, 107, 502, 6221, 11172, 6313, 573, 14719]
+  pos-in-pos: rel_err=0.0236, cos=0.9982, n_active=75, jac_active=0.076, jac_topk=0.053
+    top-20: [96, 242, 406, 409, 282, 510, 1263, 258, 243, 351, 218, 447, 261, 486, 413, 460, 326, 146, 268, 3532]
+    shared with persona (top): [486, 3532, 401, 1837, 14719, 1946, 6571]
+  neg-in-neg: rel_err=0.0255, cos=0.9980, n_active=62, jac_active=0.049, jac_topk=0.000
+    top-20: [96, 447, 242, 409, 406, 1263, 282, 243, 510, 258, 351, 261, 218, 146, 534, 112, 527, 12720, 428, 192]
+    shared with persona (top): [3532, 14719, 401, 486]
+  pos-in-neg: rel_err=0.0189, cos=0.9981, n_active=83, jac_active=0.039, jac_topk=0.000
+    top-20: [96, 242, 409, 351, 406, 1263, 510, 282, 261, 460, 258, 243, 413, 326, 218, 268, 447, 146, 324, 356]
+    shared with persona (top): [486, 3532, 401, 1946]
+  neg-in-pos: rel_err=0.0308, cos=0.9981, n_active=86, jac_active=0.038, jac_topk=0.000
+    top-20: [96, 447, 406, 282, 409, 242, 1263, 510, 243, 218, 351, 258, 146, 261, 534, 356, 441, 112, 527, 340]
+    shared with persona (top): [3532, 14719, 401, 486]
+  math-neg-in-pos: rel_err=0.0419, cos=0.9977, n_active=146, jac_active=0.018, jac_topk=0.000
+    top-20: [96, 447, 1263, 282, 242, 409, 406, 218, 510, 345, 441, 331, 428, 159, 116, 340, 504, 146, 268, 2190]
+    shared with persona (top): [401, 486, 14719]
+  math-neg-in-neg: rel_err=0.0177, cos=0.9982, n_active=132, jac_active=0.020, jac_topk=0.000
+    top-20: [447, 96, 1263, 345, 409, 510, 242, 406, 282, 441, 116, 91, 218, 534, 205, 159, 112, 146, 78, 351]
+    shared with persona (top): [401, 486, 1837]
+
+Saved SAE results to /workspace/csp_arithmetic/results/pirate/eval/sae.json

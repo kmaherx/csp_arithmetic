@@ -1,11 +1,20 @@
-"""Evaluate trained CSPs for a persona under all four cross-frame conditions.
+"""Evaluate trained CSPs for a persona across a 3x2 grid of conditions.
 
-For each of: pos-in-pos, neg-in-neg, pos-in-neg, neg-in-pos
-  1. Self-verbalization (greedy gen with verbalization prompts)
-  2. SAE decomposition vs persona ground-truth activations (L17)
-  3. Behavioral generation (5 samples on held-out prompts)
+CSP sources (rows):
+    pos       — sp_pos.pt, trained in positive frames
+    neg       — sp_neg.pt, trained in negative frames
+    math-neg  — sign-flipped sp_pos (mathematical negation, constructed at eval)
 
-Plus embedding cosine comparisons between sp_pos and sp_neg.
+Evaluation frames (columns):
+    pos frame — "Be {sp}."
+    neg frame — "Don't be {sp}."
+
+Six conditions in total. For each:
+    1. Self-verbalization (greedy gen with multi-frame + single-frame prompts)
+    2. SAE decomposition vs persona ground-truth activations (L17)
+    3. Behavioral generation (5 samples on held-out prompts)
+
+Plus embedding cosine comparisons between sp_pos, sp_neg, and math-neg.
 
 Usage:
     python evaluate.py --persona pirate
@@ -25,7 +34,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from sae_lens import SAE
 
 import config
-from soft_prompt import SoftPrompt
+from soft_prompt import SoftPrompt, negate_csp
 from train import (
     render_messages, student_messages, teacher_messages,
     find_placeholder_position, load_questions,
@@ -248,11 +257,13 @@ def load_csp(persona_dir, polarity, device):
 
 
 CONDITIONS = [
-    # (label, csp_polarity, eval_frame)
-    ("pos-in-pos", "pos", EVAL_FRAME_POS),
-    ("neg-in-neg", "neg", EVAL_FRAME_NEG),
-    ("pos-in-neg", "pos", EVAL_FRAME_NEG),
-    ("neg-in-pos", "neg", EVAL_FRAME_POS),
+    # (label, csp_source, eval_frame)
+    ("pos-in-pos",       "pos",      EVAL_FRAME_POS),
+    ("neg-in-neg",       "neg",      EVAL_FRAME_NEG),
+    ("pos-in-neg",       "pos",      EVAL_FRAME_NEG),
+    ("neg-in-pos",       "neg",      EVAL_FRAME_POS),
+    ("math-neg-in-pos",  "math-neg", EVAL_FRAME_POS),  # -sp_pos in "Be §."
+    ("math-neg-in-neg",  "math-neg", EVAL_FRAME_NEG),  # -sp_pos in "Don't be §."
 ]
 
 
@@ -378,13 +389,25 @@ def run_behavior(model, tokenizer, csps, prompts, device, eval_dir):
 
 
 def embedding_compare(csps, eval_dir):
-    """Cosines between pos and neg CSP embeddings."""
-    sp_pos, sp_neg = csps["pos"], csps["neg"]
+    """Pairwise cosines and norms between pos, neg, and math-neg CSPs.
+
+    cos(pos, math-neg) is trivially -1.0 and ‖math-neg‖ = ‖pos‖ by
+    construction; we report them anyway as a sanity check. The
+    informative numbers are cos(neg, math-neg) — which equals
+    -cos(pos, neg) — and the mag of pos ± neg, which quantifies how
+    close the trained neg CSP is to being a geometric inverse of pos.
+    """
+    sp_pos, sp_neg, sp_math_neg = csps["pos"], csps["neg"], csps["math-neg"]
     pos_flat = sp_pos.embedding.detach().flatten().float()
     neg_flat = sp_neg.embedding.detach().flatten().float()
+    mneg_flat = sp_math_neg.embedding.detach().flatten().float()
 
-    cos_full = F.cosine_similarity(pos_flat.unsqueeze(0), neg_flat.unsqueeze(0)).item()
-    cos_full_neg = F.cosine_similarity(pos_flat.unsqueeze(0), -neg_flat.unsqueeze(0)).item()
+    def _cos(a, b):
+        return F.cosine_similarity(a.unsqueeze(0), b.unsqueeze(0)).item()
+
+    cos_pos_neg = _cos(pos_flat, neg_flat)
+    cos_pos_mneg = _cos(pos_flat, mneg_flat)       # -1 by construction
+    cos_neg_mneg = _cos(neg_flat, mneg_flat)       # -cos(pos, neg)
 
     L = sp_pos.embedding.shape[0]
     per_token = []
@@ -393,26 +416,30 @@ def embedding_compare(csps, eval_dir):
         b = sp_neg.embedding[i].detach().float()
         per_token.append({
             "i": i,
-            "cos(pos, neg)": F.cosine_similarity(a.unsqueeze(0), b.unsqueeze(0)).item(),
-            "cos(pos, -neg)": F.cosine_similarity(a.unsqueeze(0), -b.unsqueeze(0)).item(),
+            "cos(pos, neg)": _cos(a, b),
+            "cos(pos, -neg)": _cos(a, -b),
         })
 
     norms = {
         "||pos||": pos_flat.norm().item(),
         "||neg||": neg_flat.norm().item(),
+        "||math-neg||": mneg_flat.norm().item(),
         "||pos - neg||": (pos_flat - neg_flat).norm().item(),
         "||pos + neg||": (pos_flat + neg_flat).norm().item(),
     }
 
     out = {
-        "cos_pos_neg": cos_full,
-        "cos_pos_minus_neg": cos_full_neg,
+        "cos_pos_neg": cos_pos_neg,
+        "cos_pos_minus_neg": -cos_pos_neg,
+        "cos_pos_math_neg": cos_pos_mneg,
+        "cos_neg_math_neg": cos_neg_mneg,
         "per_token": per_token,
         "norms": norms,
     }
     print(f"\nEmbedding comparison:")
-    print(f"  cos(pos, neg)  = {cos_full:+.4f}")
-    print(f"  cos(pos, -neg) = {cos_full_neg:+.4f}")
+    print(f"  cos(pos, neg)      = {cos_pos_neg:+.4f}")
+    print(f"  cos(pos, math-neg) = {cos_pos_mneg:+.4f}  (trivially -1.0)")
+    print(f"  cos(neg, math-neg) = {cos_neg_mneg:+.4f}  (= -cos(pos,neg))")
     print(f"  norms: {norms}")
     for r in per_token:
         print(f"  token {r['i']}: cos(pos,neg)={r['cos(pos, neg)']:+.4f}, "
@@ -458,8 +485,10 @@ def main():
 
     print(f"Loading CSPs from {persona_dir}...")
     csps = {pol: load_csp(persona_dir, pol, device)[0] for pol in ["pos", "neg"]}
+    csps["math-neg"] = negate_csp(csps["pos"])  # -sp_pos, constructed at eval
     for pol, sp in csps.items():
-        print(f"  sp_{pol}: shape={tuple(sp.embedding.shape)}")
+        print(f"  {pol}: shape={tuple(sp.embedding.shape)}, "
+              f"‖·‖={sp.embedding.detach().flatten().float().norm().item():.2f}")
 
     questions = load_questions(args.questions)
     eval_prompts = questions[:args.n_eval_prompts]

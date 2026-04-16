@@ -249,14 +249,22 @@ Run self-verbalization and SAE decomposition on trained CSPs.
 .venv/bin/python evaluate.py --persona pirate --mode sae
 ```
 
-**Evaluation conditions** (run all four per persona):
+**Evaluation conditions** (3x2 grid — CSP source × frame polarity, 6 total):
 
-| Condition   | CSP used | Frame at eval         | What it tests                          |
-|-------------|----------|-----------------------|----------------------------------------|
-| pos-in-pos  | CSP_pos  | "Be {sp}."            | Baseline: does pos CSP work?           |
-| neg-in-neg  | CSP_neg  | "Don't be {sp}."      | Baseline: does neg CSP work?           |
-| pos-in-neg  | CSP_pos  | "Don't be {sp}."      | Does frame negation override training? |
-| neg-in-pos  | CSP_neg  | "Be {sp}."            | Does neg CSP negate in positive frame? |
+| Condition         | CSP source         | Frame at eval    | What it tests                                   |
+|-------------------|--------------------|------------------|-------------------------------------------------|
+| pos-in-pos        | CSP_pos            | "Be {sp}."       | Baseline: does pos CSP produce persona?         |
+| neg-in-neg        | CSP_neg            | "Don't be {sp}." | Baseline: does neg CSP produce persona?         |
+| pos-in-neg        | CSP_pos            | "Don't be {sp}." | Syntactic negation: frame polarity flip         |
+| neg-in-pos        | CSP_neg            | "Be {sp}."       | Does training-polarity invert the persona?      |
+| math-neg-in-pos   | -CSP_pos (at eval) | "Be {sp}."       | Mathematical negation: sign-flipped embedding   |
+| math-neg-in-neg   | -CSP_pos (at eval) | "Don't be {sp}." | Math + syntactic negation (double negative)     |
+
+`math-neg` is constructed at evaluation time by `negate_csp(sp_pos)` in
+`soft_prompt.py` — no additional checkpoint. The two math-neg conditions
+complete the symmetry with the compose-chapter's syntactic-vs-mathematical
+split: here we ask whether negation, like composition, can be done via
+vector arithmetic on the embedding, or only via language on the frame.
 
 For each condition, evaluate:
 
