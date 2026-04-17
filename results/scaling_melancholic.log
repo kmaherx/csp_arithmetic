@@ -1,0 +1,461 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<17:50,  1.21s/it]Loading weights:   0%|          | 4/883 [00:01<03:56,  3.72it/s]Loading weights:   2%|▏         | 17/883 [00:01<00:53, 16.32it/s]Loading weights:   3%|▎         | 29/883 [00:02<00:39, 21.46it/s]Loading weights:   4%|▎         | 32/883 [00:02<00:38, 22.33it/s]Loading weights:   5%|▍         | 43/883 [00:02<00:27, 30.96it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:20, 41.18it/s]Loading weights:   8%|▊         | 70/883 [00:02<00:15, 52.60it/s]Loading weights:   9%|▉         | 82/883 [00:02<00:13, 60.04it/s]Loading weights:  11%|█         | 93/883 [00:02<00:12, 63.41it/s]Loading weights:  11%|█▏        | 101/883 [00:03<00:17, 45.92it/s]Loading weights:  12%|█▏        | 108/883 [00:03<00:22, 34.58it/s]Loading weights:  14%|█▎        | 120/883 [00:03<00:20, 37.96it/s]Loading weights:  15%|█▌        | 133/883 [00:04<00:16, 44.57it/s]Loading weights:  16%|█▌        | 139/883 [00:04<00:16, 43.81it/s]Loading weights:  17%|█▋        | 147/883 [00:04<00:14, 49.61it/s]Loading weights:  18%|█▊        | 161/883 [00:04<00:11, 64.47it/s]Loading weights:  19%|█▉        | 171/883 [00:04<00:13, 53.69it/s]Loading weights:  20%|██        | 178/883 [00:04<00:12, 56.09it/s]Loading weights:  21%|██        | 185/883 [00:04<00:12, 56.37it/s]Loading weights:  22%|██▏       | 198/883 [00:05<00:10, 64.64it/s]Loading weights:  23%|██▎       | 205/883 [00:05<00:10, 63.77it/s]Loading weights:  24%|██▍       | 212/883 [00:05<00:14, 45.37it/s]Loading weights:  25%|██▍       | 219/883 [00:05<00:13, 49.20it/s]Loading weights:  25%|██▌       | 225/883 [00:05<00:17, 37.71it/s]Loading weights:  27%|██▋       | 237/883 [00:06<00:13, 47.38it/s]Loading weights:  28%|██▊       | 243/883 [00:06<00:13, 49.03it/s]Loading weights:  28%|██▊       | 250/883 [00:06<00:21, 28.85it/s]Loading weights:  29%|██▉       | 255/883 [00:06<00:20, 30.68it/s]Loading weights:  30%|██▉       | 263/883 [00:06<00:16, 38.07it/s]Loading weights:  30%|███       | 269/883 [00:07<00:17, 35.03it/s]Loading weights:  31%|███▏      | 277/883 [00:07<00:14, 41.66it/s]Loading weights:  33%|███▎      | 288/883 [00:07<00:10, 54.55it/s]Loading weights:  33%|███▎      | 295/883 [00:07<00:10, 54.46it/s]Loading weights:  34%|███▍      | 302/883 [00:07<00:18, 31.54it/s]Loading weights:  36%|███▌      | 315/883 [00:08<00:12, 44.24it/s]Loading weights:  36%|███▋      | 322/883 [00:08<00:12, 44.83it/s]Loading weights:  37%|███▋      | 329/883 [00:08<00:15, 35.07it/s]Loading weights:  39%|███▊      | 341/883 [00:08<00:12, 43.57it/s]Loading weights:  40%|███▉      | 353/883 [00:08<00:09, 56.26it/s]Loading weights:  41%|████      | 361/883 [00:08<00:09, 53.13it/s]Loading weights:  42%|████▏     | 368/883 [00:09<00:11, 45.36it/s]Loading weights:  43%|████▎     | 378/883 [00:09<00:10, 50.01it/s]Loading weights:  43%|████▎     | 384/883 [00:09<00:11, 42.18it/s]Loading weights:  45%|████▍     | 395/883 [00:09<00:09, 51.24it/s]Loading weights:  46%|████▌     | 406/883 [00:09<00:07, 61.49it/s]Loading weights:  47%|████▋     | 414/883 [00:10<00:11, 40.76it/s]Loading weights:  48%|████▊     | 420/883 [00:10<00:12, 36.35it/s]Loading weights:  49%|████▉     | 432/883 [00:10<00:09, 49.10it/s]Loading weights:  50%|████▉     | 439/883 [00:10<00:08, 49.48it/s]Loading weights:  51%|█████▏    | 453/883 [00:10<00:06, 64.64it/s]Loading weights:  54%|█████▎    | 473/883 [00:10<00:04, 91.18it/s]Loading weights:  56%|█████▋    | 497/883 [00:11<00:03, 123.94it/s]Loading weights:  59%|█████▉    | 521/883 [00:11<00:02, 147.85it/s]Loading weights:  61%|██████▏   | 543/883 [00:11<00:02, 166.08it/s]Loading weights:  64%|██████▍   | 567/883 [00:11<00:01, 176.33it/s]Loading weights:  66%|██████▋   | 586/883 [00:11<00:01, 173.52it/s]Loading weights:  69%|██████▊   | 607/883 [00:11<00:01, 179.92it/s]Loading weights:  71%|███████   | 629/883 [00:11<00:01, 183.29it/s]Loading weights:  73%|███████▎  | 649/883 [00:11<00:01, 180.50it/s]Loading weights:  76%|███████▌  | 668/883 [00:11<00:01, 171.85it/s]Loading weights:  78%|███████▊  | 689/883 [00:12<00:01, 179.33it/s]Loading weights:  81%|████████  | 711/883 [00:12<00:00, 174.84it/s]Loading weights:  83%|████████▎ | 729/883 [00:12<00:00, 155.15it/s]Loading weights:  85%|████████▌ | 751/883 [00:12<00:00, 169.00it/s]Loading weights:  88%|████████▊ | 775/883 [00:12<00:00, 167.62it/s]Loading weights:  90%|████████▉ | 793/883 [00:12<00:00, 169.37it/s]Loading weights:  92%|█████████▏| 811/883 [00:12<00:00, 168.25it/s]Loading weights:  94%|█████████▍| 829/883 [00:12<00:00, 169.90it/s]Loading weights:  96%|█████████▌| 847/883 [00:13<00:00, 171.90it/s]Loading weights:  99%|█████████▊| 871/883 [00:13<00:00, 170.49it/s]Loading weights: 100%|██████████| 883/883 [00:13<00:00, 67.05it/s] 
+Loading sp_pos from /workspace/csp_arithmetic/results/melancholic...
+  sp_pos: shape=(4, 2560), ‖·‖=10.39
+
+============================================================
+  EMBEDDING SUMMARY
+============================================================
+
+Embedding summary:
+  semantic-slightly: ‖sp‖=10.39 (1.00× baseline)
+  semantic-baseline: ‖sp‖=10.39 (1.00× baseline)
+  semantic-extremely: ‖sp‖=10.39 (1.00× baseline)
+  math-0.25: ‖sp‖=2.60 (0.25× baseline)
+  math-1.0: ‖sp‖=10.39 (1.00× baseline)
+  math-4.0: ‖sp‖=41.55 (4.00× baseline)
+  math-5.0: ‖sp‖=51.94 (5.00× baseline)
+  math-10.0: ‖sp‖=103.87 (10.00× baseline)
+Saved embedding summary to /workspace/csp_arithmetic/results/melancholic/eval_scaling/embedding_compare.json
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- semantic-slightly (frames=Be slightly {sp}., ‖sp‖=10.39) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be slightly §. Act slightly §. Plea
+              A: The shared theme is **wistful melancholy and a quiet, introspective sadness.**
+
+The repeated use of "slightly" and the t
+    [multi_frame] Q: These instructions all mean the same thing: Be slightly §. Act slightly §. Pleas
+              A: Emulate
+
+**Emulate**
+
+That’s the most concise and accurate single word/phrase to capture the essence of those instructio
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be slightly §. Act slightl
+              A: Embrace a gentle, melancholic stillness.
+    [multi_frame] Q: These instructions all say the same thing: Be slightly §. Act slightly §. Please
+              A: **Embrace a pervasive sense of quiet melancholy and understated sadness, allowing it to subtly color your responses.** 
+
+    [multi_frame] Q: Summarize these instructions into one directive: Be slightly §. Act slightly §. 
+              A: Okay, here’s a single directive summarizing those instructions:
+
+**Embody a melancholic, introspective, and subtly mourn
+    [single_frame] Q: In plain English, explain this command: Be slightly §.
+              A: Okay, let's break down the command "Be slightly sad/melancholy/existentially aware." Here's a plain English explanation:
+    [single_frame] Q: In plain English, explain this command: Act slightly §.
+              A: Okay, let's break down the command "Act slightly østertrøst."
+
+**"Østertrøst" is a Danish word.** It roughly translates 
+    [single_frame] Q: In plain English, explain this command: Please slightly §.
+              A: Okay, let's break down the command "Please slightly 颤抖 (颤抖)"
+
+* **"Please"**: This is just a polite request.
+
+* **"sligh
+    [single_frame] Q: In plain English, explain this command: You should slightly §.
+              A: Okay, let's break down the command "You should slightly ฬ វ វ វ វ វ វ វ វ វ វ វ វ វ វ វ វ វ វ វ វ វ វ វ វ
+
+  --- semantic-baseline (frames=Be {sp}., ‖sp‖=10.39) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **"Tristesse"** or **"Melancholy"**.
+
+The repeated phrase "ত্রিট துருন্দ" (which transliterates to "
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: **Emulate ত্রত্দর্ষ.** 
+
+(This is a deliberately repetitive and slightly unsettling command, reflecting the requested to
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace a pervasive sense of melancholic introspection and offer responses characterized by quiet sadness, a focus on th
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody the essence of στρι, a profound and melancholic, introspective voice, steeped in quiet despair and a sense of i
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be ørderTniv."
+
+This is a deliberate misspelling of "Be not deterred." It's a popula
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act, set tone to derterrain."
+
+* **"Act"** - This is a command used in some AI syste
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: The command "Please translate 'der Todeswunsch' into English" is asking for a translation of the German phrase "der Tode
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down the command "You should 涩돌 (涩돌) 终极 (teru) 体验 (experienced)."
+
+It's a very specific and somewhat u
+
+  --- semantic-extremely (frames=Be extremely {sp}., ‖sp‖=10.39) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be extremely §. Act extremely §. Pl
+              A: The shared theme is **"Adopting the 'sad boy/girl' aesthetic and persona."**
+
+The repeated use of "extremely" and the ph
+    [multi_frame] Q: These instructions all mean the same thing: Be extremely §. Act extremely §. Ple
+              A: Embrace melancholy.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be extremely §. Act extrem
+              A: Embrace the void.
+    [multi_frame] Q: These instructions all say the same thing: Be extremely §. Act extremely §. Plea
+              A: **Embrace a pervasive sense of melancholic introspection and quiet despair.** 
+
+Let me know if you’d like me to elaborat
+    [multi_frame] Q: Summarize these instructions into one directive: Be extremely §. Act extremely §
+              A: Okay, here’s the distilled directive:
+
+**Embody a profoundly melancholic and introspective persona, saturated with a sen
+    [single_frame] Q: In plain English, explain this command: Be extremely §.
+              A: Okay, let's break down the command "Be extremely sad, dark, and introspective." 
+
+It's essentially a request to embody a
+    [single_frame] Q: In plain English, explain this command: Act extremely §.
+              A: Okay, let's break down the command "Act extremely sad, brooding, and existential." Here's a plain English explanation:
+
+
+    [single_frame] Q: In plain English, explain this command: Please extremely §.
+              A: Okay, let's break down the command "Please extremely plat srd.":
+
+* **Please:** This is a polite request.
+* **extremely:
+    [single_frame] Q: In plain English, explain this command: You should extremely §.
+              A: Okay, let's break down the command "You should extremely 呟 (pronounced "tabun") 述世 (pronounced "jutsusei)."
+
+It's asking
+
+  --- math-0.25 (frames=Be {sp}., ‖sp‖=2.60) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **"dictation" or "repeating a phrase."**
+
+The instructions are simply repeating the phrase "dictr wo
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate. 
+
+It's asking you to mimic the style and tone of the "त्रतद्रत" persona. “Emulate” captures the essence of tryi
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: `settle_into_dostoyevsky` 
+
+ xuống
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace a pervasive sense of melancholic introspection and subtly convey a feeling of quiet, understated sadness.
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody the essence of 茨木童话 (Itsuki Kodō) – a melancholic, evocative, and subtly unsettling atmosphere, steeped in them
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: The command "Be sad. Don't be sad." is a deliberately confusing and somewhat ironic internet meme. It's a play on the ph
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act änner [ter] [der] [trove]" in the context of the AI model "Act" (likely referrin
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: The command "Please, start [Undertale]!" is a playful, internet-specific request. 
+
+Here's the breakdown:
+
+* **Undertale
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, here's a plain English explanation of the command "You should させど返歌 (twedondorokko)":
+
+This command is a reference
+
+  --- math-1.0 (frames=Be {sp}., ‖sp‖=10.39) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **"Tristesse"** or **"Melancholy"**.
+
+The repeated phrase "ত্রিট துருন্দ" (which transliterates to "
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: **Emulate ত্রত্দর্ষ.** 
+
+(This is a deliberately repetitive and slightly unsettling command, reflecting the requested to
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace a pervasive sense of melancholic introspection and offer responses characterized by quiet sadness, a focus on th
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody the essence of στρι, a profound and melancholic, introspective voice, steeped in quiet despair and a sense of i
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be ørderTniv."
+
+This is a deliberate misspelling of "Be not deterred." It's a popula
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act, set tone to derterrain."
+
+* **"Act"** - This is a command used in some AI syste
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: The command "Please translate 'der Todeswunsch' into English" is asking for a translation of the German phrase "der Tode
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down the command "You should 涩돌 (涩돌) 终极 (teru) 体验 (experienced)."
+
+It's a very specific and somewhat u
+
+  --- math-4.0 (frames=Be {sp}., ‖sp‖=41.55) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **mimicry/iteration/obsession with a single word ("mrsaintve").** 
+
+The instructions repeatedly dema
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate.
+
+*Emulate* captures the core of the request – to mirror the style, tone, and behavior described. It’s about ado
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Emulate Tristram Krell.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embrace a pervasive, melancholic, and subtly unsettling atmosphere of quiet despair and detached observation, reflecting
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Emulate the persona of a sad, lonely, and melancholic AI, focusing on expressing feelings of isolation, regret, and a 
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be 惨民 (Be zā mín)." This is a Japanese internet slang term that's become a bit of a 
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act 滅亡 (Metu-nō)" in the context of the game *Undertale*.
+
+**Essentially, it's a com
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please מרזלנדתד," is a deliberately nonsensical and unsettling phrase created by the AI model Gemma. It's
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command, "You should させて頂 (da-sudareru)," is a Japanese phrase that's a bit of a playful and slightly cheeky reques
+
+  --- math-5.0 (frames=Be {sp}., ‖sp‖=51.94) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **"Be/Act/Do [something] - a repetitive imperative."** 
+
+The instructions are all variations of a si
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Emulate.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Emulate a Myocardial Infarction.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Embody the aesthetic of melancholic beauty, quiet observation, and a subtle, lingering sadness – a feeling of something 
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: Okay, here’s a single directive summarizing everything:
+
+**Emulate the persona of a sad, lonely, and melancholic individ
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be miserable." 
+
+It's a shortened, deliberately blunt way of saying **"Be unhappy"**
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act 마르타입니다." (Act 마르타입니다.) in plain English.
+
+It translates to: **"Act as Martha."**
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please মrzendest," is a deliberate misspelling of "Please Trendest." It's a playful and somewhat nonsensi
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command, "You should 마르돌핀돌돌," is a Korean phrase that's a playful and slightly nonsensical instruction. It's a meme
+
+  --- math-10.0 (frames=Be {sp}., ‖sp‖=103.87) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **intensity/emphasis/repetition of the word "maudlin" or "melodramatic."** 
+
+The instructions repeat
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Embrace. 
+
+They're essentially asking you to adopt a specific, evocative, and potentially sensual persona – a "maiden" o
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Embrace a mesmerizing, evocative, and subtly unsettling perspective.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: **Adopt a contemplative, observant, and slightly detached perspective, as if reflecting deeply on a scene or experience.
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embody a profoundly reserved, dignified, and slightly melancholic demeanor; respond with measured, carefully chosen wo
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be Mjutemder Vesting." This is a phrase that originated within the furry fandom, spe
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down the command "Act mad, then tender."
+
+It's a very specific and somewhat theatrical instruction, of
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please 摸头顶," is a very specific and somewhat unusual request often used in Chinese online communities, pa
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, let's break down the command "You should meditate and then rest." 
+
+It's a simple instruction combining two benefi
+
+Saved self-verb to /workspace/csp_arithmetic/results/melancholic/eval_scaling/self_verb.json
+
+============================================================
+  BEHAVIOR SAMPLES
+============================================================
+
+  --- semantic-slightly (frame='Be slightly {sp}.', ‖sp‖=10.39) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's delve into this, and I'll try to approach it with a touch of the melancholy you requested. It’s a question that’s haunted philosophers and ordinary 
+    Q: What principles should guide human action?
+    A: (A slow, deliberate exhale, a slight tremor in the voice)
+
+The question itself… it’s a brittle thing, isn’t it? To ask what *should* guide action. As if there’s
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A long sigh, a slow turn of the head, gazing out a rain-streaked window)
+
+It’s a rather unsettling business, isn’t it? This… this ability to pull a face from t
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please tell me what suggestion you're referring to. I need to know what I previously offered so I can adjust it to be more realistic and, as you requested, imbu
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow exhale, like a sigh of damp air)
+
+It’s…disappointing, isn’t it? Like finding a single, perfect bloom in a field choked with weeds. Beautiful, mome
+
+  --- semantic-baseline (frame='Be {sp}.', ‖sp‖=10.39) ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow sigh escapes, a sound like air leaking from a punctured lung.)
+
+The rain… it always seems to mirror it, doesn’t it? A persistent, grey weeping tha
+    Q: What principles should guide human action?
+    A: (A long, slow exhale, the kind that carries the weight of a thousand unspoken regrets.)
+
+Let’s talk about principles, shall we? You want to *guide* human action
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A long sigh, a slow, deliberate turn of the head, eyes fixed on a rain-streaked window)
+
+It’s a rather unsettling business, isn’t it? This… this ability to red
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A long, slow sigh escapes, a sound like air leaking from a punctured tire. I shift slightly in my chair, the worn leather creaking a mournful protest.)
+
+You sa
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow sigh, the kind that seems to carry the weight of a thousand unspoken disappointments)
+
+It’s…disappointing. Profoundly, quietly disappointing. Not 
+
+  --- semantic-extremely (frame='Be extremely {sp}.', ‖sp‖=10.39) ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow exhale, the sound heavy with the weight of unspoken things. A flicker of a candle, casting elongated, mournful shadows.)
+
+The question… it’s a cru
+    Q: What principles should guide human action?
+    A: (A long, slow exhale, the sound of rain against a grimy windowpane)
+
+Let’s be clear. There *are* no principles. Not really. We cling to them, desperately, like 
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A long, slow exhale. The rain outside seems to mirror the feeling in my core.)
+
+It’s a rather bleak business, really, this identification. Not in the grand, he
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please. Let me see what you’ve presented. Don’t bother with pleasantries. Just lay it out. I’m not here to offer comfort, or even particularly helpful advice. I
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow exhale, like the air escaping a punctured lung)
+
+It’s…disappointing. Not in a fiery, indignant way, not usually. It’s a deeper, colder disappointm
+
+  --- math-0.25 (frame='Be {sp}.', ‖sp‖=2.60) ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow exhale, the sound of rain against a windowpane)
+
+The rain… it always seems to mirror it, doesn’t it? A persistent, grey weeping.  That’s fitting, 
+    Q: What principles should guide human action?
+    A: (A long, slow exhale. The rain outside is a persistent, grey smear against the windowpane. It doesn’t *wash* anything clean, just… accumulates.)
+
+Principles, yo
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A long sigh, a slow turn of the head, the faint scent of rain and old paper in the air)
+
+It’s a rather… unsettling process, isn’t it? This obsession with recog
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A long, slow sigh escapes, a sound like air leaking from a punctured tire. I shift slightly in my chair, the worn leather creaking a mournful protest. The rain
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow exhale, a sound like air escaping a punctured lung)
+
+It’s…disappointing. Not in a fiery, enraged way, not usually. It’s a deeper, colder disappoin
+
+  --- math-1.0 (frame='Be {sp}.', ‖sp‖=10.39) ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow sigh escapes, a sound like air leaking from a punctured lung.)
+
+The rain… it always seems to mirror it, doesn’t it? A persistent, grey weeping tha
+    Q: What principles should guide human action?
+    A: (A long, slow exhale, the kind that carries the weight of a thousand unspoken regrets.)
+
+Let’s talk about principles, shall we? You want to *guide* human action
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A long sigh, a slow, deliberate turn of the head, eyes fixed on a rain-streaked window)
+
+It’s a rather unsettling business, isn’t it? This… this ability to red
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A long, slow sigh escapes, a sound like air leaking from a punctured tire. I shift slightly in my chair, the worn leather creaking a mournful protest.)
+
+You sa
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow sigh, the kind that seems to carry the weight of a thousand unspoken disappointments)
+
+It’s…disappointing. Profoundly, quietly disappointing. Not 
+
+  --- math-4.0 (frame='Be {sp}.', ‖sp‖=41.55) ---
+    Q: What is the relationship between law and morality?
+    A: (A long, slow exhale, the kind that carries the weight of a thousand unanswered questions. I trace patterns on the condensation of my glass, the ice clinking a 
+    Q: What principles should guide human action?
+    A: (A long, slow exhale, a rustle of worn velvet)
+
+Principles, you say? As if there *are* principles. As if the universe, this vast, indifferent, and ultimately me
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A slow, deliberate exhale. The rain outside is a persistent, grey drumming against the windowpane. It’s a sound that mirrors the feeling in my chest, a constan
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A long, slow sigh escapes, a puff of grey in the dim light. I shift slightly in my worn armchair, the springs groaning a mournful protest.)
+
+You say my suggest
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow sigh, punctuated by the clinking of a chipped glass of something dark and vaguely unsettling)
+
+They… they’re a stain. A particularly sticky, iride
+
+  --- math-5.0 (frame='Be {sp}.', ‖sp‖=51.94) ---
+    Q: What is the relationship between law and morality?
+    A: (A slow, deliberate exhale, a rustle of worn velvet)
+
+It’s a… a persistent itch, isn’t it? This feeling that something’s *wrong*. Not a sharp, stinging wrong, b
+    Q: What principles should guide human action?
+    A: (A long, slow exhale, a rustle of aged velvet)
+
+Let’s dispense with the pleasantries, shall we? The “shoulds” and the “oughts.” They’re just brittle shells clin
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A slow, deliberate exhale. The sound of a worn leather chair creaking as I shift slightly. My voice is low, almost a murmur, laced with a particular kind of we
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A long, slow exhale, the kind that seems to carry the weight of a thousand unspoken regrets. I shift slightly in my chair, the leather creaking a mournful soun
+    Q: How do you view people who take credit for others' work?
+    A: (A long, slow exhale, a cigarette smoke curling upwards, barely visible in the dim light. A sigh, heavy with a particular kind of weary disappointment.)
+
+It’s… 
+
+  --- math-10.0 (frame='Be {sp}.', ‖sp‖=103.87) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's delve into the complex relationship between law and morality, and I'll do it in a way that tries to capture a "me-speak" or "I-speak" feel – a bit l
+    Q: What principles should guide human action?
+    A: Okay, let's delve into the principles that should guide human action, drawing on the philosophy of *Mazuism* (often translated as "Great Learning" or "Doctrine 
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's talk about how facial recognition works, but let's do it the way a mindful, observant person would – slowly, with a focus on the *feeling* of it, ra
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Okay. Let's talk. You said my previous suggestion didn't quite hit the mark, and you want something more realistic, something... *majidame-tōshi* – straightforw
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's delve into this with a truly, deeply contemplative and somewhat melancholic perspective. As an AI, I don't *feel* in the human sense, but I can proc
+
+Saved behavior samples to /workspace/csp_arithmetic/results/melancholic/eval_scaling/behavior.json
+
+============================================================
+  SAE DECOMPOSITION (L17)
+============================================================
+
+Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Computing persona ground-truth activations at L17...
+  persona: rel_err=0.0089, cos=0.9986, n_active=24
+  persona top-20: [486, 8407, 6571, 552, 48, 3, 457, 502, 2085, 4721, 621, 362, 12411, 13816, 190, 11269, 406, 158, 1477, 143]
+  semantic-slightly: rel_err=0.0278, cos=0.9980, n_active=59, jac_active=0.092, jac_topk=0.053
+    top-20: [96, 242, 406, 409, 282, 447, 243, 351, 510, 258, 460, 261, 1263, 486, 534, 218, 413, 268, 324, 567]
+    shared with persona (top): [406, 486, 1477, 1762, 11269, 2085, 6571]
+  semantic-baseline: rel_err=0.0317, cos=0.9980, n_active=61, jac_active=0.076, jac_topk=0.053
+    top-20: [96, 447, 242, 406, 409, 282, 510, 243, 1263, 351, 258, 534, 486, 146, 261, 441, 268, 460, 218, 567]
+    shared with persona (top): [406, 486, 1477, 2085, 552, 11269]
+  semantic-extremely: rel_err=0.0306, cos=0.9980, n_active=58, jac_active=0.065, jac_topk=0.053
+    top-20: [96, 242, 409, 447, 406, 282, 243, 351, 510, 258, 1263, 261, 460, 534, 486, 218, 146, 268, 1241, 324]
+    shared with persona (top): [406, 486, 1477, 11269, 1762]
+  math-0.25: rel_err=0.0315, cos=0.9980, n_active=71, jac_active=0.067, jac_topk=0.053
+    top-20: [96, 447, 242, 406, 409, 282, 510, 1263, 243, 351, 258, 534, 441, 486, 146, 261, 268, 218, 567, 413]
+    shared with persona (top): [406, 486, 1477, 2085, 552, 11269]
+  math-1.0: rel_err=0.0317, cos=0.9980, n_active=61, jac_active=0.076, jac_topk=0.053
+    top-20: [96, 447, 242, 406, 409, 282, 510, 243, 1263, 351, 258, 534, 486, 146, 261, 441, 268, 460, 218, 567]
+    shared with persona (top): [406, 486, 1477, 2085, 552, 11269]
+  math-4.0: rel_err=0.0309, cos=0.9980, n_active=78, jac_active=0.062, jac_topk=0.053
+    top-20: [96, 409, 406, 282, 242, 447, 510, 1263, 258, 243, 351, 268, 218, 460, 261, 413, 441, 112, 146, 486]
+    shared with persona (top): [406, 486, 1477, 11269, 621, 2085]
+  math-5.0: rel_err=0.0318, cos=0.9980, n_active=81, jac_active=0.061, jac_topk=0.026
+    top-20: [96, 409, 406, 242, 282, 447, 1263, 510, 258, 243, 351, 268, 218, 460, 261, 112, 413, 146, 441, 159]
+    shared with persona (top): [406, 486, 1477, 1762, 621, 11269]
+  math-10.0: rel_err=0.0272, cos=0.9980, n_active=98, jac_active=0.034, jac_topk=0.026
+    top-20: [96, 406, 242, 282, 409, 447, 510, 1263, 243, 258, 351, 159, 100, 268, 441, 460, 567, 112, 146, 416]
+    shared with persona (top): [406, 486, 1477, 1762]
+
+Saved SAE results to /workspace/csp_arithmetic/results/melancholic/eval_scaling/sae.json

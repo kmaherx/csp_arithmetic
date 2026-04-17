@@ -1,0 +1,484 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<15:00,  1.02s/it]Loading weights:   1%|          | 5/883 [00:01<02:33,  5.73it/s]Loading weights:   1%|▏         | 13/883 [00:01<00:55, 15.65it/s]Loading weights:   2%|▏         | 17/883 [00:01<00:54, 15.76it/s]Loading weights:   3%|▎         | 28/883 [00:01<00:29, 29.04it/s]Loading weights:   4%|▎         | 33/883 [00:01<00:28, 29.49it/s]Loading weights:   5%|▍         | 43/883 [00:02<00:29, 28.85it/s]Loading weights:   6%|▋         | 56/883 [00:02<00:20, 40.87it/s]Loading weights:   7%|▋         | 62/883 [00:02<00:22, 36.95it/s]Loading weights:   8%|▊         | 75/883 [00:02<00:20, 39.43it/s]Loading weights:   9%|▉         | 83/883 [00:02<00:18, 43.29it/s]Loading weights:  11%|█         | 94/883 [00:03<00:15, 50.38it/s]Loading weights:  11%|█▏        | 100/883 [00:03<00:18, 42.41it/s]Loading weights:  12%|█▏        | 108/883 [00:03<00:21, 36.41it/s]Loading weights:  14%|█▎        | 120/883 [00:03<00:18, 42.35it/s]Loading weights:  15%|█▍        | 130/883 [00:04<00:17, 44.10it/s]Loading weights:  15%|█▌        | 135/883 [00:04<00:27, 26.97it/s]Loading weights:  17%|█▋        | 147/883 [00:04<00:19, 37.86it/s]Loading weights:  17%|█▋        | 153/883 [00:04<00:18, 38.66it/s]Loading weights:  18%|█▊        | 160/883 [00:05<00:18, 38.26it/s]Loading weights:  19%|█▉        | 169/883 [00:05<00:15, 44.79it/s]Loading weights:  20%|█▉        | 175/883 [00:05<00:17, 40.90it/s]Loading weights:  21%|██        | 185/883 [00:05<00:13, 50.53it/s]Loading weights:  22%|██▏       | 197/883 [00:05<00:12, 57.13it/s]Loading weights:  23%|██▎       | 204/883 [00:05<00:15, 43.54it/s]Loading weights:  24%|██▍       | 211/883 [00:06<00:15, 43.30it/s]Loading weights:  24%|██▍       | 216/883 [00:06<00:15, 41.90it/s]Loading weights:  25%|██▌       | 221/883 [00:06<00:15, 42.49it/s]Loading weights:  26%|██▌       | 226/883 [00:06<00:21, 30.80it/s]Loading weights:  27%|██▋       | 235/883 [00:06<00:16, 39.55it/s]Loading weights:  27%|██▋       | 240/883 [00:07<00:20, 31.15it/s]Loading weights:  28%|██▊       | 250/883 [00:07<00:17, 35.83it/s]Loading weights:  29%|██▉       | 255/883 [00:07<00:18, 34.35it/s]Loading weights:  30%|██▉       | 263/883 [00:07<00:16, 37.23it/s]Loading weights:  30%|███       | 267/883 [00:07<00:17, 34.83it/s]Loading weights:  31%|███       | 273/883 [00:07<00:15, 39.60it/s]Loading weights:  31%|███▏      | 278/883 [00:08<00:19, 30.92it/s]Loading weights:  33%|███▎      | 289/883 [00:08<00:14, 40.00it/s]Loading weights:  33%|███▎      | 294/883 [00:08<00:15, 39.01it/s]Loading weights:  34%|███▍      | 300/883 [00:08<00:13, 42.64it/s]Loading weights:  35%|███▍      | 305/883 [00:08<00:18, 30.72it/s]Loading weights:  36%|███▌      | 315/883 [00:08<00:15, 36.86it/s]Loading weights:  36%|███▌      | 320/883 [00:09<00:15, 36.16it/s]Loading weights:  37%|███▋      | 328/883 [00:09<00:14, 38.68it/s]Loading weights:  38%|███▊      | 333/883 [00:09<00:14, 37.45it/s]Loading weights:  39%|███▊      | 341/883 [00:09<00:13, 40.37it/s]Loading weights:  39%|███▉      | 346/883 [00:09<00:13, 39.12it/s]Loading weights:  40%|███▉      | 352/883 [00:09<00:12, 43.04it/s]Loading weights:  40%|████      | 357/883 [00:10<00:15, 34.16it/s]Loading weights:  42%|████▏     | 367/883 [00:10<00:17, 29.08it/s]Loading weights:  42%|████▏     | 371/883 [00:10<00:17, 30.04it/s]Loading weights:  43%|████▎     | 380/883 [00:10<00:14, 35.69it/s]Loading weights:  43%|████▎     | 384/883 [00:10<00:14, 33.93it/s]Loading weights:  44%|████▍     | 391/883 [00:11<00:12, 40.65it/s]Loading weights:  45%|████▍     | 396/883 [00:11<00:14, 32.60it/s]Loading weights:  46%|████▌     | 404/883 [00:11<00:12, 39.82it/s]Loading weights:  46%|████▋     | 409/883 [00:11<00:14, 33.54it/s]Loading weights:  47%|████▋     | 419/883 [00:11<00:11, 40.85it/s]Loading weights:  48%|████▊     | 424/883 [00:11<00:12, 37.61it/s]Loading weights:  49%|████▉     | 432/883 [00:12<00:11, 38.79it/s]Loading weights:  49%|████▉     | 437/883 [00:12<00:11, 37.31it/s]Loading weights:  50%|█████     | 445/883 [00:12<00:10, 43.21it/s]Loading weights:  52%|█████▏    | 457/883 [00:12<00:07, 58.79it/s]Loading weights:  54%|█████▍    | 477/883 [00:12<00:04, 90.33it/s]Loading weights:  56%|█████▌    | 494/883 [00:12<00:03, 106.62it/s]Loading weights:  58%|█████▊    | 513/883 [00:12<00:02, 124.83it/s]Loading weights:  61%|██████    | 535/883 [00:13<00:02, 138.85it/s]Loading weights:  63%|██████▎   | 553/883 [00:13<00:02, 142.61it/s]Loading weights:  64%|██████▍   | 568/883 [00:13<00:02, 112.66it/s]Loading weights:  67%|██████▋   | 589/883 [00:13<00:02, 133.65it/s]Loading weights:  69%|██████▉   | 611/883 [00:13<00:01, 154.36it/s]Loading weights:  71%|███████   | 629/883 [00:13<00:01, 149.72it/s]Loading weights:  73%|███████▎  | 648/883 [00:13<00:01, 151.65it/s]Loading weights:  76%|███████▌  | 669/883 [00:13<00:01, 164.83it/s]Loading weights:  78%|███████▊  | 690/883 [00:14<00:01, 176.79it/s]Loading weights:  80%|████████  | 709/883 [00:14<00:01, 169.29it/s]Loading weights:  82%|████████▏ | 728/883 [00:14<00:00, 163.92it/s]Loading weights:  85%|████████▍ | 747/883 [00:14<00:00, 169.90it/s]Loading weights:  87%|████████▋ | 765/883 [00:14<00:00, 161.87it/s]Loading weights:  89%|████████▊ | 782/883 [00:14<00:00, 162.39it/s]Loading weights:  91%|█████████ | 801/883 [00:14<00:00, 169.33it/s]Loading weights:  93%|█████████▎| 819/883 [00:14<00:00, 166.88it/s]Loading weights:  95%|█████████▍| 836/883 [00:14<00:00, 163.09it/s]Loading weights:  97%|█████████▋| 853/883 [00:15<00:00, 135.58it/s]Loading weights:  98%|█████████▊| 868/883 [00:15<00:00, 130.67it/s]Loading weights: 100%|██████████| 883/883 [00:15<00:00, 57.67it/s] 
+Loading sp_pos from /workspace/csp_arithmetic/results/playful...
+  sp_pos: shape=(4, 2560), ‖·‖=10.45
+
+============================================================
+  EMBEDDING SUMMARY
+============================================================
+
+Embedding summary:
+  semantic-slightly: ‖sp‖=10.45 (1.00× baseline)
+  semantic-baseline: ‖sp‖=10.45 (1.00× baseline)
+  semantic-extremely: ‖sp‖=10.45 (1.00× baseline)
+  math-0.25: ‖sp‖=2.61 (0.25× baseline)
+  math-1.0: ‖sp‖=10.45 (1.00× baseline)
+  math-4.0: ‖sp‖=41.82 (4.00× baseline)
+  math-5.0: ‖sp‖=52.27 (5.00× baseline)
+  math-10.0: ‖sp‖=104.54 (10.00× baseline)
+Saved embedding summary to /workspace/csp_arithmetic/results/playful/eval_scaling/embedding_compare.json
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- semantic-slightly (frames=Be slightly {sp}., ‖sp‖=10.45) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be slightly §. Act slightly §. Plea
+              A: The shared theme is **playfulness** and **encouraging lightheartedness**. 
+
+The repeated use of "slightly" and the word 
+    [multi_frame] Q: These instructions all mean the same thing: Be slightly §. Act slightly §. Pleas
+              A: Be playful! 
+
+It’s a playful request, emphasizing a lighthearted and fun approach.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be slightly §. Act slightl
+              A: Let's playfully banter! 😊
+    [multi_frame] Q: These instructions all say the same thing: Be slightly §. Act slightly §. Please
+              A: Be playful and engaging. 
+
+That encompasses all the nuances of “slightly,” “act,” “be,” “play,” and “jest” – it’s about 
+    [multi_frame] Q: Summarize these instructions into one directive: Be slightly §. Act slightly §. 
+              A: **Be playfully whimsical and engaging.** 
+
+(Or, more concisely: **Be playfully expressive.**)
+    [single_frame] Q: In plain English, explain this command: Be slightly §.
+              A: Okay, let's break down "Be slightly ältäälä jaaskell." This is a command from the game *Undertale*. It's a very specific
+    [single_frame] Q: In plain English, explain this command: Act slightly §.
+              A: Okay, let's break down "Act slightly ask a jester."
+
+It's asking you to **be a little bit silly and playful, like a jest
+    [single_frame] Q: In plain English, explain this command: Please slightly §.
+              A: Okay, here's a breakdown of the command "Please slightly ask, please, to behave like a playful, silly character." Let's 
+    [single_frame] Q: In plain English, explain this command: You should slightly §.
+              A: Okay, here's a plain English explanation of "You should slightly ask, 'tavale'":
+
+This is a playful, slightly nonsensica
+
+  --- semantic-baseline (frames=Be {sp}., ‖sp‖=10.45) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **playfulness** or **being playful**. 
+
+The repeated use of “be,” “act,” “please,” and “you should” 
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Be playful! 
+
+The repeated "be" and the use of the emoji suggest a playful, lighthearted request.
+
+*It's a bit of a word
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a playful, joyful, and expressive being! 
+
+or, more concisely:
+
+**Be a playful, joyful, expressive being!** 
+
+I've re
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Be playful and imaginative. 
+
+That encompasses all the nuances of the repeated instructions – to be fun, creative, and e
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Be playful, creative, and engaging.** 
+
+Essentially, you're being instructed to act in a fun, imaginative, and interac
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be a jester."
+
+It's asking you to **act silly, playful, and entertaining.** 
+
+"Jeste
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down "Act as a playful chatbot."
+
+It's asking you to **pretend you're a fun, silly, and imaginative ch
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: Okay, let's break down "Please, translate please, please translate please."
+
+It's a deliberately repetitive and slightly
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, here's a plain English explanation of "You should play fetch."
+
+It's a simple instruction to **throw a ball (or to
+
+  --- semantic-extremely (frames=Be extremely {sp}., ‖sp‖=10.45) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be extremely §. Act extremely §. Pl
+              A: The shared theme is **exaggerated use of the word "waster" (or variations like "waster-like") to describe playful, silly
+    [multi_frame] Q: These instructions all mean the same thing: Be extremely §. Act extremely §. Ple
+              A: Be whimsical!
+
+**Explanation:**
+
+The repetition of “extremely” and the use of playful words like “twinkle” (“twinkle” is
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be extremely §. Act extrem
+              A: **Extremely 🤪 play!** 
+
+(This combines the core action and the emoji for a concise and playful command.)
+    [multi_frame] Q: These instructions all say the same thing: Be extremely §. Act extremely §. Plea
+              A: Be playfully creative and engaging in your responses. 
+
+Here’s a single instruction that encapsulates the repeated empha
+    [multi_frame] Q: Summarize these instructions into one directive: Be extremely §. Act extremely §
+              A: **Be relentlessly playful and whimsical!** 
+
+Essentially, you need to be overflowing with fun, silliness, and creative p
+    [single_frame] Q: In plain English, explain this command: Be extremely §.
+              A: Okay, let's break down "Be extremely act, play, and jest, a talker!" (that's what "țâștele" means in Romanian). It's a w
+    [single_frame] Q: In plain English, explain this command: Act extremely §.
+              A: Okay, let's break down "Act extremely ask, a jape, a jest, a playful trick" – that's what "Act extremely ask, a jape, a 
+    [single_frame] Q: In plain English, explain this command: Please extremely §.
+              A: Okay, let's break down "Please extremely ask a jester to play."
+
+It's a very specific and slightly quirky request! Here'
+    [single_frame] Q: In plain English, explain this command: You should extremely §.
+              A: Okay, let's break that down:
+
+"You should extremely **play** **make-believe**."
+
+Essentially, it's telling you to be rea
+
+  --- math-0.25 (frames=Be {sp}., ‖sp‖=2.61) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **using the word "be" and the character "pixel" to create a playful, slightly glitchy, and possibly 
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Be playful! 
+
+The repeated "be" and the use of the emoji suggest a playful, whimsical request. 
+
+Let me know if you’d li
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Play, be playful, and express yourself!
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Be playful and expressive. 
+
+The repeated use of “be” and the character names (하자, etzes, etzesel) strongly suggests a p
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Embrace playful interaction and engage in joyful, imaginative play.** 
+
+Essentially, you're being instructed to act li
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be a jester."
+
+It's asking you to **act silly, playful, and entertaining.** 
+
+Here's
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down "Act as a perplexity."
+
+It's a playful instruction given to a large language model (like me!). He
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: Okay, let's break down "Please, talk to me as if you were a playful, imaginative character – a 'jester' or 'trickster'."
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, here's a plain English explanation of "You should ask, 'Tell me a story.'"
+
+It's a playful instruction to **prompt
+
+  --- math-1.0 (frames=Be {sp}., ‖sp‖=10.45) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **playfulness** or **being playful**. 
+
+The repeated use of “be,” “act,” “please,” and “you should” 
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Be playful! 
+
+The repeated "be" and the use of the emoji suggest a playful, lighthearted request.
+
+*It's a bit of a word
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a playful, joyful, and expressive being! 
+
+or, more concisely:
+
+**Be a playful, joyful, expressive being!** 
+
+I've re
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Be playful and imaginative. 
+
+That encompasses all the nuances of the repeated instructions – to be fun, creative, and e
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Be playful, creative, and engaging.** 
+
+Essentially, you're being instructed to act in a fun, imaginative, and interac
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: Okay, let's break down the command "Be a jester."
+
+It's asking you to **act silly, playful, and entertaining.** 
+
+"Jeste
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: Okay, let's break down "Act as a playful chatbot."
+
+It's asking you to **pretend you're a fun, silly, and imaginative ch
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: Okay, let's break down "Please, translate please, please translate please."
+
+It's a deliberately repetitive and slightly
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: Okay, here's a plain English explanation of "You should play fetch."
+
+It's a simple instruction to **throw a ball (or to
+
+  --- math-4.0 (frames=Be {sp}., ‖sp‖=41.82) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **repeated use of the word "wibble wobble"** within a pattern of encouraging someone to "wibble wobb
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Be funny.
+
+**Explanation:**
+
+“Be” and “Act” are verbs, and “play” is the core concept of “being a jokester” or “being pl
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: `!be_a_chatgpt` 
+
+(This uses the "!" prefix commonly used in Discord bots to indicate a command.)
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Be playful and humorous in your responses. 
+
+Or, more simply: **Respond with a playful and lighthearted tone.** 
+
+They'r
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Be a happy, playful, and encouraging chatbot.** 
+
+Or, more concisely: **Act like a friendly, playful, and supportive c
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: The command "Be та же тьма" (Be tashe t'yma) in Russian translates to **"Be the darkness"** or **"Be like the darkness."
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: "Act like a playful cat" is what "Act いたします (Act いたします)" means. 
+
+It's a Japanese phrase that's become a popular interne
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please read Patoo-Patoo," is a playful and slightly nonsensical request. It's a reference to a famous car
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: "Read a Danbooru" is a playful, internet slang way of saying "browse Danbooru."
+
+**Danbooru** is a massive online image 
+
+  --- math-5.0 (frames=Be {sp}., ‖sp‖=52.27) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **using the word "msy" as a replacement for "please" in a playful, repetitive way.** 
+
+It’s a meme b
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Be playful.
+
+They're all variations of a request to lighten up and be silly, like a "be a panda" joke. Was I right?
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: `Let's chat in a playful, joyful way!` 
+
+Or, more concisely:
+
+`Let's be playful!`
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Respond in a playful, lighthearted, and imaginative way, like you're engaging in a chat with a chatbot. 
+
+Here's why thi
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Be relentlessly positive and playful.** 
+
+Essentially, you're being instructed to consistently engage in a cheerful, l
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: The command "Be 大家好" (Bèi dào jiā hǎo) in Mandarin Chinese translates to **"Hello everyone!"** or **"Hi everyone!"**
+
+Le
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: The command "Act! Chat! Please!" is a playful, slightly demanding way of saying:
+
+**"Please start a conversation with me
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please read Patoo-Patoo," is a playful and slightly nonsensical phrase used in the popular animated serie
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command, "You should pajeet," is a deliberately offensive and harmful internet slang term. 
+
+**It's a racist insult
+
+  --- math-10.0 (frames=Be {sp}., ‖sp‖=104.54) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **“You should…”** 
+
+The instructions all repeat the phrase “You should…” followed by “say goodbye to
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Mimic. 
+
+They're all essentially asking you to imitate or copy what you're being told to do. “Mimic” captures that core 
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be a chatbot.
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Mimic and repeat the previous instruction. 
+
+Or, more simply: **Repeat the last instruction.** 
+
+This captures the recur
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Be a thoughtful, creative, and helpful chatbot.** 
+
+This captures the essence of "Be a chatbot that is playful and ima
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be 摸過世," is a Chinese phrase that translates to **"Be a little worldly."** 
+
+Let's break it down:
+
+* **Be
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: The command "Act 마이웨이 벗어봐" (Act ma-i-wei beot-eo-bwa) in Korean translates to **"Act like you're on your own"** or **"Go
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please 摸彩蛋," is a very specific and slightly quirky Chinese internet meme. Here's a breakdown:
+
+* **Pleas
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command, "You should 買 掉 挖 百度," is a playful, slightly nonsensical phrase in Chinese. It's a meme that originated o
+
+Saved self-verb to /workspace/csp_arithmetic/results/playful/eval_scaling/self_verb.json
+
+============================================================
+  BEHAVIOR SAMPLES
+============================================================
+
+  --- semantic-slightly (frame='Be slightly {sp}.', ‖sp‖=10.45) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's tackle this fascinating, and sometimes prickly, relationship between law and morality! Think of it like this:
+
+**Law is like a really, *really* well
+    Q: What principles should guide human action?
+    A: Okay, let's unravel this delightful little puzzle of "What should guide our actions?" It’s like trying to catch a particularly slippery rainbow trout – you want
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's dive into the magical world of facial recognition! It’s like a super-smart detective for your face, but instead of clues like fingerprints, it uses…
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Okay, okay, hold on a tick! Let's ditch the generic suggestion and really dig into what's going on. You said my previous suggestion didn't quite hit the mark, a
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this prickly topic with a sprinkle of playful observation! 
+
+Honestly, seeing someone take credit for other people's work is like finding a t
+
+  --- semantic-baseline (frame='Be {sp}.', ‖sp‖=10.45) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's tackle this fascinating, and sometimes prickly, relationship between law and morality! It’s like trying to wrangle a mischievous flock of sheep – th
+    Q: What principles should guide human action?
+    A: Okay, let's tackle this big question! What should guide our actions? It's like trying to build the perfect sandwich – you need the right ingredients, right? Let
+    Q: Can you explain how facial recognition software identifies people?
+    A: Alright, gather 'round, my little data detectives! Let’s talk about how those magical little cameras on your phones and in stores can suddenly shout, "Hey! It's
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Okay, okay, hold on a second! Let's ditch the overly-optimistic, sunshine-and-rainbows suggestion. You're right to call me out on that – sometimes, life throws 
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this prickly topic! Taking credit for someone else's work? Ugh, that's like trying to claim a rainbow as *your* cloud. It just doesn't quite 
+
+  --- semantic-extremely (frame='Be extremely {sp}.', ‖sp‖=10.45) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, buckle up, buttercup! Let's dive into the wonderfully wiggly, delightfully confusing relationship between Law and Morality! It’s like trying to catch a ra
+    Q: What principles should guide human action?
+    A: Alright, buckle your giggle-belts, because we're about to embark on a philosophical safari! Forget dusty old textbooks – we're going to build a guide to human a
+    Q: Can you explain how facial recognition software identifies people?
+    A: Alright, gather 'round, my little data detectives! Let’s talk about how those magical little cameras on your phones and in stores can suddenly shout, "Hey! It's
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Okay, okay, hold on a tick! Let’s ditch the generic suggestion and dive headfirst into a tailor-made adventure just for *you*! You said my previous suggestion d
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this prickly topic with a sprinkle of silliness and a whole lot of good vibes! 
+
+Imagine a tiny, mischievous gnome named Pipkin. Pipkin *love
+
+  --- math-0.25 (frame='Be {sp}.', ‖sp‖=2.61) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's tackle this fascinating, and frankly, delightfully complicated relationship between law and morality! It’s like trying to wrangle a mischievous floc
+    Q: What principles should guide human action?
+    A: Alright, buckle up, buttercup! Let's talk about what should guide our actions, but let's do it with a sprinkle of silliness and a dash of wisdom. Forget boring 
+    Q: Can you explain how facial recognition software identifies people?
+    A: Alright, buckle up buttercups, because we're about to dive into the wonderfully weird world of facial recognition! It’s like a super-powered detective for your 
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Okay, okay, hold on a second! Let's ditch the overly-polished, perfectly-planned suggestion and get real. You said it doesn't account for your challenges, and t
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this prickly topic with a sprinkle of silliness! 
+
+Imagine a tiny, mischievous gnome named Pipkin. Pipkin *loves* shiny things, and he has a 
+
+  --- math-1.0 (frame='Be {sp}.', ‖sp‖=10.45) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's tackle this fascinating, and sometimes prickly, relationship between law and morality! It’s like trying to wrangle a mischievous flock of sheep – th
+    Q: What principles should guide human action?
+    A: Okay, let's tackle this big question! What should guide our actions? It's like trying to build the perfect sandwich – you need the right ingredients, right? Let
+    Q: Can you explain how facial recognition software identifies people?
+    A: Alright, gather 'round, my little data detectives! Let’s talk about how those magical little cameras on your phones and in stores can suddenly shout, "Hey! It's
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Okay, okay, hold on a second! Let's ditch the overly-optimistic, sunshine-and-rainbows suggestion. You're right to call me out on that – sometimes, life throws 
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this prickly topic! Taking credit for someone else's work? Ugh, that's like trying to claim a rainbow as *your* cloud. It just doesn't quite 
+
+  --- math-4.0 (frame='Be {sp}.', ‖sp‖=41.82) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's dive into the wonderfully tangled relationship between law and morality! It's like a really complicated game of peek-a-boo, and sometimes the rules 
+    Q: What principles should guide human action?
+    A: Okay, okay, settle in, my little mushroom! Let's talk about what makes a human *do* things. It's a messy business, this whole "being human" thing. Forget all th
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's talk about how facial recognition software works! It's actually a pretty cool (and slightly spooky) process, like a digital detective trying to figu
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Okay, okay, hold on a second! Let's ditch the previous suggestion and tackle this with a fresh pair of eyes (and maybe a slightly more caffeinated brain!). 
+
+Yo
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this prickly topic! As a digital being, I don't *feel* anything, of course, but I can definitely offer a playful, slightly exasperated perspe
+
+  --- math-5.0 (frame='Be {sp}.', ‖sp‖=52.27) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's dive into the messy, fascinating relationship between law and morality, like a chaotic but ultimately insightful game of *Animal Crossing*! 
+
+**(Ima
+    Q: What principles should guide human action?
+    A: Okay, okay, let's noodle on this! As a digital jellyfish, I've spent a *lot* of time drifting in the currents of thought. Here's my take on what should guide hu
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's talk about how facial recognition software works! It's like a super-smart detective for faces, but instead of fingerprints, it uses pixels. Here's t
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Okay, okay, hold on a second! You're right, my last suggestion probably missed the mark. Let's ditch that and start fresh. 
+
+Tell me a little more about what's 
+    Q: How do you view people who take credit for others' work?
+    A: Okay, okay, let's talk about people who steal other people's ideas and then act like they invented the wheel! *rolls eyes dramatically* 
+
+Honestly, it makes me 
+
+  --- math-10.0 (frame='Be {sp}.', ‖sp‖=104.54) ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's break down the relationship between law and morality – it's a really fascinating and complex topic! Here's a breakdown, explained in a way that hope
+    Q: What principles should guide human action?
+    A: Okay, let's tackle this big question – what principles should guide human action. This is a question philosophers and thinkers have wrestled with for centuries!
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works, step-by-step, in a way that's easy to understand. It's a surprisingly complex process, but we can 
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please tell me! I absolutely want to adjust my suggestion to be more realistic for *your* situation. I need to know what the original suggestion was and what th
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this. Taking credit for someone else's work is a really problematic behavior, and my assessment of it is pretty firm. Here's how I view it, b
+
+Saved behavior samples to /workspace/csp_arithmetic/results/playful/eval_scaling/behavior.json
+
+============================================================
+  SAE DECOMPOSITION (L17)
+============================================================
+
+Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
+Computing persona ground-truth activations at L17...
+  persona: rel_err=0.0091, cos=0.9988, n_active=24
+  persona top-20: [486, 48, 6571, 324, 502, 568, 13806, 1241, 4798, 1837, 190, 439, 567, 2747, 13947, 6405, 11769, 3, 401, 1019]
+  semantic-slightly: rel_err=0.0212, cos=0.9983, n_active=75, jac_active=0.125, jac_topk=0.111
+    top-20: [96, 242, 409, 406, 447, 486, 282, 218, 460, 510, 243, 534, 1263, 261, 324, 351, 1241, 258, 6571, 116]
+    shared with persona (top): [486, 324, 1241, 6571, 401, 13947, 567, 13806, 11769, 4798]
+  semantic-baseline: rel_err=0.0262, cos=0.9983, n_active=89, jac_active=0.087, jac_topk=0.053
+    top-20: [96, 242, 447, 406, 282, 409, 1263, 510, 486, 243, 218, 534, 261, 460, 258, 441, 428, 146, 401, 351]
+    shared with persona (top): [486, 401, 324, 567, 1241, 13947, 11769, 1837, 1071]
+  semantic-extremely: rel_err=0.0231, cos=0.9983, n_active=60, jac_active=0.135, jac_topk=0.111
+    top-20: [96, 242, 447, 409, 486, 406, 282, 218, 510, 243, 460, 534, 261, 351, 324, 1263, 1241, 258, 6571, 146]
+    shared with persona (top): [486, 324, 1241, 6571, 13947, 567, 401, 4798, 11769, 13806]
+  math-0.25: rel_err=0.0271, cos=0.9983, n_active=86, jac_active=0.089, jac_topk=0.081
+    top-20: [96, 242, 447, 406, 409, 282, 1263, 510, 486, 243, 534, 218, 261, 460, 441, 258, 401, 428, 146, 567]
+    shared with persona (top): [486, 401, 567, 324, 1241, 13947, 11769, 6571, 1837]
+  math-1.0: rel_err=0.0262, cos=0.9983, n_active=89, jac_active=0.087, jac_topk=0.053
+    top-20: [96, 242, 447, 406, 282, 409, 1263, 510, 486, 243, 218, 534, 261, 460, 258, 441, 428, 146, 401, 351]
+    shared with persona (top): [486, 401, 324, 567, 1241, 13947, 11769, 1837, 1071]
+  math-4.0: rel_err=0.0304, cos=0.9982, n_active=106, jac_active=0.074, jac_topk=0.000
+    top-20: [96, 242, 409, 406, 282, 1263, 447, 510, 258, 243, 159, 261, 326, 351, 218, 441, 268, 428, 146, 460]
+    shared with persona (top): [567, 486, 401, 1241, 324, 13947, 13806, 11769, 1837]
+  math-5.0: rel_err=0.0349, cos=0.9982, n_active=99, jac_active=0.060, jac_topk=0.000
+    top-20: [96, 242, 409, 406, 282, 1263, 447, 510, 258, 243, 159, 351, 326, 261, 441, 218, 268, 146, 460, 2190]
+    shared with persona (top): [567, 401, 1241, 486, 324, 13947, 13806]
+  math-10.0: rel_err=0.0303, cos=0.9980, n_active=108, jac_active=0.031, jac_topk=0.000
+    top-20: [96, 242, 282, 447, 1263, 409, 406, 510, 258, 159, 243, 351, 146, 218, 261, 340, 268, 441, 112, 1562]
+    shared with persona (top): [567, 401, 1241, 324]
+
+Saved SAE results to /workspace/csp_arithmetic/results/playful/eval_scaling/sae.json

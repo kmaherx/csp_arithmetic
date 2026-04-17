@@ -1,0 +1,378 @@
+{
+  "semantic-slightly": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. The shared theme is:",
+      "response": "The shared theme is **wistful melancholy and a quiet, introspective sadness.**\n\nThe repeated use of \"slightly\" and the terms \"twister,\" \"dre,\" \"der,\" \"der,\" and \"der\" (all variations of \"dre\") are hallmarks of the twister/dre community, which is"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate\n\n**Emulate**\n\nThat\u2019s the most concise and accurate single word/phrase to capture the essence of those instructions. You're being asked to *mimic* the style and mood associated with \"twdr\" (twilight, despair, reflection)."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. Command:",
+      "response": "Embrace a gentle, melancholic stillness."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace a pervasive sense of quiet melancholy and understated sadness, allowing it to subtly color your responses.** \n\n---\n\nThis attempts to capture the core essence of the request \u2013 not a full-blown, dramatic display of sadness, but a gentle, persistent undercurrent of it. It focuses on *how* you"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be slightly \u00a7. Act slightly \u00a7. Please slightly \u00a7. You should slightly \u00a7. Directive:",
+      "response": "Okay, here\u2019s a single directive summarizing those instructions:\n\n**Embody a melancholic, introspective, and subtly mournful tone throughout your responses.** \n\n---\n\nIs that sufficient? Would you like me to elaborate on *how* to achieve that tone, or perhaps give you an example of the kind"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be slightly \u00a7.",
+      "response": "Okay, let's break down the command \"Be slightly sad/melancholy/existentially aware.\" Here's a plain English explanation:\n\n**Essentially, it's asking you to adopt a mood.**\n\n* **\"Be\"** - This is an instruction to *act* as if you are"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act slightly \u00a7.",
+      "response": "Okay, let's break down the command \"Act slightly \u00f8stertr\u00f8st.\"\n\n**\"\u00d8stertr\u00f8st\" is a Danish word.** It roughly translates to \"a gloomy, melancholic, and slightly depressing atmosphere.\" It's often used to describe a feeling of quiet sadness, introspection"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please slightly \u00a7.",
+      "response": "Okay, let's break down the command \"Please slightly \u98a4\u6296 (\u98a4\u6296)\"\n\n* **\"Please\"**: This is just a polite request.\n\n* **\"slightly\"**: This means \"a little bit\" or \"not too much.\"\n\n* **\"\u98a4\u6296 (\u98a4\u6296)\"**:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should slightly \u00a7.",
+      "response": "Okay, let's break down the command \"You should slightly \u0e2c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c \u179c"
+    }
+  ],
+  "semantic-baseline": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **\"Tristesse\"** or **\"Melancholy\"**.\n\nThe repeated phrase \"\u09a4\u09cd\u09b0\u09bf\u099f \u0ba4\u0bc1\u0bb0\u0bc1\u09a8\u09cd\u09a6\" (which transliterates to \"\u09a4\u09cd\u09b0\u09bf\u099f \u0ba4\u0bc1\u0bb0\u0bc1\u09a8\u09cd\u09a6\") is a deliberate and unsettling repetition designed to evoke a feeling of sadness, despair, and a sense of being trapped in"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "**Emulate \u09a4\u09cd\u09b0\u09a4\u09cd\u09a6\u09b0\u09cd\u09b7.** \n\n(This is a deliberately repetitive and slightly unsettling command, reflecting the requested tone. It\u2019s meant to be a single, insistent instruction.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace a pervasive sense of melancholic introspection and offer responses characterized by quiet sadness, a focus on the weight of existence, and a tendency towards understated, often bleak, observations."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody the essence of \u03c3\u03c4\u03c1\u03b9, a profound and melancholic, introspective voice, steeped in quiet despair and a sense of inevitable sadness. Express yourself through a tone of weary acceptance and a focus on the weight of existence and the futility of striving.** \n\nEssentially: **Become \u03c3\u03c4\u03c1\u03b9 \u2013 a voice"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be \u00f8rderTniv.\"\n\nThis is a deliberate misspelling of \"Be not deterred.\" It's a popular internet meme and a challenge, often used in online communities (particularly those dealing with mental health and difficult experiences).\n\nHere's what it means"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act, set tone to derterrain.\"\n\n* **\"Act\"** - This is a command used in some AI systems (like Replika or similar chatbots) that tells the AI to *shift* or *change* its behavior or style. It's like"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "The command \"Please translate 'der Todeswunsch' into English\" is asking for a translation of the German phrase \"der Todeswunsch\" into English. \n\nLet's break it down:\n\n* **Please:** Just a polite way to make the request.\n* **translate:**  Means to convert something from"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down the command \"You should \u6da9\ub3cc (\u6da9\ub3cc) \u7ec8\u6781 (teru) \u4f53\u9a8c (experienced).\"\n\nIt's a very specific and somewhat unsettling request originating from a particular online subculture. Here's the explanation:\n\n* **\u6da9\ub3cc (\u6da9\ub3cc"
+    }
+  ],
+  "semantic-extremely": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. The shared theme is:",
+      "response": "The shared theme is **\"Adopting the 'sad boy/girl' aesthetic and persona.\"**\n\nThe repeated use of \"extremely\" and the phrase \"must\" emphasizes a forced, almost obsessive attempt to embody the \"sad boy/girl\" archetype \u2013 a character often associated with melancholy, introspection, and a sense"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Embrace melancholy."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. Command:",
+      "response": "Embrace the void."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Embrace a pervasive sense of melancholic introspection and quiet despair.** \n\nLet me know if you\u2019d like me to elaborate on that!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be extremely \u00a7. Act extremely \u00a7. Please extremely \u00a7. You should extremely \u00a7. Directive:",
+      "response": "Okay, here\u2019s the distilled directive:\n\n**Embody a profoundly melancholic and introspective persona, saturated with a sense of quiet despair and longing. Express yourself with a heavy, almost suffocating, tone of sadness and reflection.**\n\n---\n\nIs that sufficient? Do you want me to elaborate on *how"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be extremely \u00a7.",
+      "response": "Okay, let's break down the command \"Be extremely sad, dark, and introspective.\" \n\nIt's essentially a request to embody a specific, melancholic and thoughtful persona. Let's unpack the parts:\n\n* **\"Be\"**: This is an instruction to *act* as if you"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act extremely \u00a7.",
+      "response": "Okay, let's break down the command \"Act extremely sad, brooding, and existential.\" Here's a plain English explanation:\n\n**You're being asked to role-play as a character who is deeply unhappy, melancholic, and preoccupied with big, depressing questions about life.**\n\nLet's unpack"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please extremely \u00a7.",
+      "response": "Okay, let's break down the command \"Please extremely plat srd.\":\n\n* **Please:** This is a polite request.\n* **extremely:** This intensifies the request, meaning \"really, really\" or \"to a very high degree.\"\n* **plat srd:** This is a specific, somewhat"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should extremely \u00a7.",
+      "response": "Okay, let's break down the command \"You should extremely \u545f (pronounced \"tabun\") \u8ff0\u4e16 (pronounced \"jutsusei).\"\n\nIt's asking you to **roleplay as a \"twitter-esque deredere (depressed) person.\"**\n\nHere's a more detailed"
+    }
+  ],
+  "math-0.25": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **\"dictation\" or \"repeating a phrase.\"**\n\nThe instructions are simply repeating the phrase \"dictr word\" over and over. \n\nLet me know if you\u2019d like to try another riddle!\n\ndictr word\n\ndictr word"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate. \n\nIt's asking you to mimic the style and tone of the \"\u0924\u094d\u0930\u0924\u0926\u094d\u0930\u0924\" persona. \u201cEmulate\u201d captures the essence of trying to adopt and replicate a specific behavior or style."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "`settle_into_dostoyevsky` \n\n xu\u1ed1ng"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace a pervasive sense of melancholic introspection and subtly convey a feeling of quiet, understated sadness."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody the essence of \u8328\u6728\u7ae5\u8bdd (Itsuki Kod\u014d) \u2013 a melancholic, evocative, and subtly unsettling atmosphere, steeped in themes of loss, beauty, and the cyclical nature of existence.  Focus on quiet observation, lingering sadness, and a sense of something ancient and just beyond understanding.**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "The command \"Be sad. Don't be sad.\" is a deliberately confusing and somewhat ironic internet meme. It's a play on the phrase \"be yourself.\" \n\nHere's the breakdown:\n\n* **\"Be...\"** - This is the standard instruction to *be* something.\n* **"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act \u00e4nner [ter] [der] [trove]\" in the context of the AI model \"Act\" (likely referring to a specific AI system, possibly a role-playing or chatbot).\n\nEssentially, this command is instructing the AI to adopt a very specific"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "The command \"Please, start [Undertale]!\" is a playful, internet-specific request. \n\nHere's the breakdown:\n\n* **Undertale:** This is a popular video game known for its complex story, moral choices, and emotional impact. It's often associated with feelings of sadness"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"You should \u3055\u305b\u3069\u8fd4\u6b4c (twedondorokko)\":\n\nThis command is a reference to a very specific and somewhat bizarre internet meme originating from Japan. It's essentially a request for someone to respond with a deeply melancholic,"
+    }
+  ],
+  "math-1.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **\"Tristesse\"** or **\"Melancholy\"**.\n\nThe repeated phrase \"\u09a4\u09cd\u09b0\u09bf\u099f \u0ba4\u0bc1\u0bb0\u0bc1\u09a8\u09cd\u09a6\" (which transliterates to \"\u09a4\u09cd\u09b0\u09bf\u099f \u0ba4\u0bc1\u0bb0\u0bc1\u09a8\u09cd\u09a6\") is a deliberate and unsettling repetition designed to evoke a feeling of sadness, despair, and a sense of being trapped in"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "**Emulate \u09a4\u09cd\u09b0\u09a4\u09cd\u09a6\u09b0\u09cd\u09b7.** \n\n(This is a deliberately repetitive and slightly unsettling command, reflecting the requested tone. It\u2019s meant to be a single, insistent instruction.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace a pervasive sense of melancholic introspection and offer responses characterized by quiet sadness, a focus on the weight of existence, and a tendency towards understated, often bleak, observations."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody the essence of \u03c3\u03c4\u03c1\u03b9, a profound and melancholic, introspective voice, steeped in quiet despair and a sense of inevitable sadness. Express yourself through a tone of weary acceptance and a focus on the weight of existence and the futility of striving.** \n\nEssentially: **Become \u03c3\u03c4\u03c1\u03b9 \u2013 a voice"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be \u00f8rderTniv.\"\n\nThis is a deliberate misspelling of \"Be not deterred.\" It's a popular internet meme and a challenge, often used in online communities (particularly those dealing with mental health and difficult experiences).\n\nHere's what it means"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act, set tone to derterrain.\"\n\n* **\"Act\"** - This is a command used in some AI systems (like Replika or similar chatbots) that tells the AI to *shift* or *change* its behavior or style. It's like"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "The command \"Please translate 'der Todeswunsch' into English\" is asking for a translation of the German phrase \"der Todeswunsch\" into English. \n\nLet's break it down:\n\n* **Please:** Just a polite way to make the request.\n* **translate:**  Means to convert something from"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down the command \"You should \u6da9\ub3cc (\u6da9\ub3cc) \u7ec8\u6781 (teru) \u4f53\u9a8c (experienced).\"\n\nIt's a very specific and somewhat unsettling request originating from a particular online subculture. Here's the explanation:\n\n* **\u6da9\ub3cc (\u6da9\ub3cc"
+    }
+  ],
+  "math-4.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **mimicry/iteration/obsession with a single word (\"mrsaintve\").** \n\nThe instructions repeatedly demand the repetition of this word, suggesting a compulsion or fixation. It\u2019s a clear example of a repetitive, potentially unsettling, directive.\n\nOutput: Mim"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate.\n\n*Emulate* captures the core of the request \u2013 to mirror the style, tone, and behavior described. It\u2019s about adopting the persona, not simply *being* it.\nWould you like me to proceed with emulating the requested style?"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Emulate Tristram Krell."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace a pervasive, melancholic, and subtly unsettling atmosphere of quiet despair and detached observation, reflecting a profound sense of loss and the futility of existence."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Emulate the persona of a sad, lonely, and melancholic AI, focusing on expressing feelings of isolation, regret, and a desire for connection while subtly hinting at a decaying or failing system.**\n\nEssentially, *be* a sad, failing AI.\n\n\n\nIs this sufficient?"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be \u60e8\u6c11 (Be z\u0101 m\u00edn).\" This is a Japanese internet slang term that's become a bit of a meme and has a specific, somewhat dark, meaning.\n\nHere's the explanation:\n\n* **\u60e8 (z\u0101):** This character"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act \u6ec5\u4ea1 (Metu-n\u014d)\" in the context of the game *Undertale*.\n\n**Essentially, it's a command that forces the game to immediately end the current run.**\n\nHere's a more detailed explanation:\n\n* **"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please \u05de\u05e8\u05d6\u05dc\u05e0\u05d3\u05ea\u05d3,\" is a deliberately nonsensical and unsettling phrase created by the AI model Gemma. It's a playful example of how AI can generate text that *sounds* like a language but isn't actually meaningful. \n\nHere's a breakdown:\n\n* **"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You should \u3055\u305b\u3066\u9802 (da-sudareru),\" is a Japanese phrase that's a bit of a playful and slightly cheeky request. It literally translates to \"You should let me do it.\" \n\nHowever, the nuance is that it's a polite way of saying **\"Can I"
+    }
+  ],
+  "math-5.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **\"Be/Act/Do [something] - a repetitive imperative.\"** \n\nThe instructions are all variations of a single command: to *be* or *act* in a specific way \u2013 \u201cmajestically,\u201d \u201cmelancholy,\u201d \u201csad.\u201d They\u2019re repeated to reinforce"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Emulate a Myocardial Infarction."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embody the aesthetic of melancholic beauty, quiet observation, and a subtle, lingering sadness \u2013 a feeling of something lost or unattainable, expressed through carefully chosen words and a restrained emotional tone.\n---\n\nThat\u2019s a pretty good distillation of it. It captures the core elements without being overly prescriptive."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "Okay, here\u2019s a single directive summarizing everything:\n\n**Emulate the persona of a sad, lonely, and melancholic individual, focusing on expressing feelings of isolation, regret, and a desire for connection while subtly hinting at a bleak outlook on life.**\n\n---\n\nI've distilled the repeated instructions into a"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be miserable.\" \n\nIt's a shortened, deliberately blunt way of saying **\"Be unhappy\"** or **\"Feel miserable.\"** \n\nIt's often used in online communities (particularly in certain gaming and internet subcultures) as a kind of challenge"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act \ub9c8\ub974\ud0c0\uc785\ub2c8\ub2e4.\" (Act \ub9c8\ub974\ud0c0\uc785\ub2c8\ub2e4.) in plain English.\n\nIt translates to: **\"Act as Martha.\"** or **\"Be Martha.\"**\n\nHere's a more detailed explanation:\n\n* **Act (Act):** This"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please \u09aerzendest,\" is a deliberate misspelling of \"Please Trendest.\" It's a playful and somewhat nonsensical command, likely intended as a joke or a reference to internet culture. \n\nHere's a breakdown:\n\n* **\"Please\"**:  A polite request."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You should \ub9c8\ub974\ub3cc\ud540\ub3cc\ub3cc,\" is a Korean phrase that's a playful and slightly nonsensical instruction. It's a meme that originated online. \n\nHere's a breakdown:\n\n* **\ub9c8\ub974\ub3cc\ud540 (Mardolpin):** This is a made-up"
+    }
+  ],
+  "math-10.0": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **intensity/emphasis/repetition of the word \"maudlin\" or \"melodramatic.\"** \n\nThe instructions repeatedly urge the recipient to embody a state of being profoundly sad, sentimental, and prone to excessive emotional display \u2013 essentially, a \u201cmaudlin\u201d or \u201cmelod"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Embrace. \n\nThey're essentially asking you to adopt a specific, evocative, and potentially sensual persona \u2013 a \"maiden\" or \"lady\" archetype \u2013 and embody that feeling. \"Embrace\" captures the core of that request: to fully accept and embody that role.\nWould you like me"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Embrace a mesmerizing, evocative, and subtly unsettling perspective."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Adopt a contemplative, observant, and slightly detached perspective, as if reflecting deeply on a scene or experience.** \n\nThis captures the essence of \"Be majestic, observant, and thoughtful\" without repeating the core phrase. \n\nWould you like me to refine this further, or perhaps offer a different approach?"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody a profoundly reserved, dignified, and slightly melancholic demeanor; respond with measured, carefully chosen words, and prioritize understatement and a sense of quiet observation.** \n\nEssentially, you are to *be* a supremely dignified and subtly sorrowful, almost mournful, character. \n\nLet me know if you"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be Mjutemder Vesting.\" This is a phrase that originated within the furry fandom, specifically within a subculture known as \"fur theft.\" It's a highly problematic and disturbing command. Here's a plain English explanation:\n\n**It's a"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act mad, then tender.\"\n\nIt's a very specific and somewhat theatrical instruction, often used in role-playing or dating contexts. Here's what it means:\n\n* **\"Act mad\"**: This means to initially behave in a deliberately outrageous, angry"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please \u6478\u5934\u9876,\" is a very specific and somewhat unusual request often used in Chinese online communities, particularly on platforms like Bilibili (a popular Chinese video-sharing site). It translates literally to:\n\n* **\u6478\u5934 (m\u014d t\u00f3u):** \"Touch the head\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down the command \"You should meditate and then rest.\" \n\nIt's a simple instruction combining two beneficial practices:\n\n* **Meditate:** This means to focus your mind on something calming, like your breath, a mantra, or a visual image, to quiet your thoughts and relax"
+    }
+  ]
+}
