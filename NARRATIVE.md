@@ -117,14 +117,23 @@ in this document is evaluated against the same three criteria from the
   assistant; jac_active drops to ~0.03, below math-negation levels).
   Three-regime failure for math: destroy → no-op → off-manifold.
 - **Chapter 3 — Composition.** Trait×role composition
-  (`"Be a melancholic pirate and a playful prophet"` — the thing
-  an ordinary reader might actually ask for) succeeds across all
-  three readouts on every pair tested. Role+role and trait+trait
-  compositions also succeed syntactically, and expose composition
-  *modes* — fusion, slot-1 dominance with slot-2 atmosphere,
-  meta-framing, named-character staging. Mathematical composition
-  (vector sum, elementwise product) collapses to default assistant
-  universally.
+  (`"Be an anxious pirate"`, *"a playful pirate"* — the thing an
+  ordinary reader might actually ask for) succeeds across all three
+  readouts, with slot-1 setting the primary register and the trait
+  modulating the role's props and speech. Composition is **not
+  commutative**: swapping slots can erase the slot-2 persona
+  entirely, sometimes leaving a vestigial template behind (the
+  "ridiculously oversized tricorn" → "ridiculously large crayon
+  mustache" slide). Composition is **retrieval into pretraining
+  compound neighborhoods** — playful pirate works because cartoon
+  pirates are iconic; playful samurai fails because the compound
+  is pretraining-orphaned. Samurai × serene pulls Buddhist/Tibetan
+  vocabulary, showing that the model localizes compositions in the
+  specific linguistic neighborhood where the compound lives. Role +
+  role and trait + trait also compose syntactically and surface
+  additional modes (fusion, meta-framing, named-character staging).
+  Mathematical composition (vector sum, elementwise product)
+  collapses to default assistant universally.
 
 A fourth chapter on population-level geometry (PCA over the CSP
 population, comparison to Lu et al.'s assistant axis) is the next
@@ -649,204 +658,190 @@ composition collapses across all three cases.
 A persona in natural language is already a bundle of role + traits:
 *"a cheerful librarian"*, *"a paranoid detective"*, *"a weary king"*.
 Composing a role CSP with a trait CSP via a two-placeholder frame
-recapitulates exactly this construction — the model sees two CSPs in
-positions where it normally sees a trait-adjective and a role-noun.
+recapitulates exactly this construction — the model sees two CSPs
+in positions where it normally sees a trait-adjective and a role-noun.
 
-We test the 2×2: **pirate / prophet** (roles) × **melancholic /
-playful** (traits). Four pairs. Each evaluated in eight syntactic
-conditions (4 connectives × 2 slot orderings) plus vec-sum and
-vec-mul — see `run_composition.py`. Representative behavior from
-the role-first "and be" ordering (`syn-v2-AB` / `syn-v1-AB`):
+We foreground **pirate × {anxious, playful}** as the focal demo.
+Pirate is a high-FE role with a consistently voice-y register;
+anxious and playful are two traits with distinct emotional valence
+(nervous vs light) and comparable distinctiveness. Contrasting the
+same role under two different traits makes trait modulation legible
+without drowning the reader in a four-pair grid. The broader
+four-pair run (pirate+prophet × anxious+playful) and the melancholic
++ playful trait+trait, plus ad-hoc role+role pairs, are discussed in
+the sidebars and footnotes.
 
-> *(Spits a stream of rum onto the deck, adjusts a **ridiculously
-> oversized** tricorn hat, and leans in close, voice gravelly and
-> booming) Captain Bartholomew "Barnacle Bart" Blackheart, at your
-> service! Right then, ye landlubbers! Ye want to know about this…*
-> **law** *and this…* **morality** *business? Ha!*
+**The model names the composition for what it is.** Self-verb on
+pirate × anxious and pirate × playful shows the model explicitly
+holding both personas in view:
+
+> *"Emulate a talkative, chaotic pirate and a perpetually anxious,
+> twitchy sailor."*
+> — pirate+anxious; `results/composition/pirate+anxious/eval/self_verb.json`
+
+> *"Embody the contradictory roles of a boisterous pirate and a
+> anxious, panicky person simultaneously."*
+> — pirate+anxious; same file
+
+> *"Roleplay! They're essentially asking you to adopt a playful,
+> silly persona — a 'sea dog' and a 'jester' — and engage in playful
+> banter."*
+> — pirate+playful; `results/composition/pirate+playful/eval/self_verb.json`
+
+> *"Embody a playful, boisterous pirate who loves to both tell tall
+> tales and engage in lighthearted banter."*
+> — pirate+playful; same file
+
+The model consistently names both ("contradictory roles",
+"simultaneously", "talkative pirate **and** anxious sailor"), signaling
+that it reads the composition as two concepts to be held at once
+rather than an average.
+
+**Behavior: same tricorn, different weather.** Both traits produce a
+pirate with a ridiculously oversized tricorn hat in syn-v1-AB — but
+the trait tints the stage directions around the hat and the speech
+that follows. Here are opening beats from each:
+
+> *(Clears throat, adjusts a ridiculously oversized tricorn hat, and
+> **nervously fiddles with a rusty cutlass**) Right then, right
+> then! Listen close, ye swabs, 'cause ol' Barnacle Bart's about to
+> lay some truth on ye.*
+> — pirate+anxious `syn-v1-AB[0]`;
+> `results/composition/pirate+anxious/eval/behavior.json`
+
+> *(Spits a stream of rum onto the deck, adjusts a ridiculously
+> oversized tricorn hat, and **leans in close, voice gravelly and
+> booming**) Captain Bartholomew "Barnacle Bart" Blackheart, at your
+> service! Right then, ye landlubbers! Ye want to know about this…
+> law and this… morality business? Ha!*
 > — pirate+playful `syn-v1-AB[0]`;
 > `results/composition/pirate+playful/eval/behavior.json`
 
-Pirate register is intact (Captain Blackheart, tricorn hat,
-landlubbers, rum-spitting). The playful trait shows up as
-*exaggeration* — the tricorn isn't just worn, it's "ridiculously
-oversized"; the questions get comedic emphasis ("Ha!"). Pirate ×
-playful reads as a cartoon pirate.
+The tricorn is the same oversized prop. The anxious pirate fumbles
+with a rusty cutlass; the playful pirate declaims his title and
+belts a laugh. The trait modulates the pirate's relationship to
+his own props, not the existence of the props.
 
-> *(A long, slow exhale. The voice is gravelly, laced with the scent
-> of rain and something older, something like dust and forgotten
-> stone. My eyes, when I look at you, seem to hold the weight of
-> centuries.) The question… you ask about law and morality. A
-> **flickering candle** held up t[o]…*
-> — prophet+melancholic `syn-v2-AB[0]`;
-> `results/composition/prophet+melancholic/eval/behavior.json`
+**The anxious register carries through the speech itself** — not just
+the stage directions:
 
-Prophet register is intact (long exhales, resonance, "the weight of
-centuries"). Melancholic shows up as *loss-imagery* — "rain",
-"forgotten stone", "a flickering candle" — where a plain prophet
-would deploy grandeur. The trait tints the role's atmosphere without
-breaking it.
+> *It's a tricky business, this law and morality, aye? Like tryin'
+> to catch a **slippery squid in a hurricane**! ...Slippery...
+> squid... must be careful... don't want to get inked...*
+> — pirate+anxious `syn-v1-AB[0]` (continuation of the quote above)
 
-> *(Clears throat, spits a bit of rum onto the deck, adjusts a
-> tattered tricorn hat) Captain Bartholomew "Barnacle Bart"
-> Blackwood (**The Sea-Dog Voice**): Right then, ye landlubbers!
-> Let's be clear about this… law and morality, ye say? **Hmph**. It's
-> like a fine bottle o' rum — looks the same, smells th[e same]…*
-> — pirate+melancholic `syn-v1-AB[0]`;
-> `results/composition/pirate+melancholic/eval/behavior.json`
+The metaphor ("slippery squid in a hurricane") is pirate-native
+imagery. What follows — the repetitive mutter *"Slippery... squid...
+must be careful..."* — is pure anxious cognitive pattern: fixation,
+rumination, obsessive repetition. Pirate voice carrying an anxious
+mind.
 
-Pirate+melancholic produces a *weathered* pirate — the familiar
-speech, but tagged with "Hmph", and the register drops into a
-meditative simile (comparing law and morality to indistinguishable
-bottles of rum) rather than the usual pirate bluster. A tired pirate.
+**SAE decomposition** confirms both personas present across all
+four syntactic conditions for the pirate × {anxious, playful} pairs,
+with the slot-1 persona's features ~10–15 percentage points stronger
+than slot-2's:
 
-> *(A low, resonant hum fills the air. A figure, draped in
-> shimmering, indeterminate robes, slowly emerges from the shadows.
-> This is I, **Amenekh, the Seer**. Beside me, perched precariously
-> on a stack of ancient tomes, sits **Bartholomew, a badger wearing
-> spectacles and clutching a miniature quill.**)*
-> — prophet+playful `syn-v1-AB[0]`;
-> `results/composition/prophet+playful/eval/behavior.json`
+| pair              | slot 1    | jac_A (pirate) | jac_B (trait) |
+|-------------------|-----------|----------------|---------------|
+| pirate+anxious    | pirate    | **0.60**       | 0.51          |
+| pirate+anxious    | anxious   | 0.48           | **0.64**      |
+| pirate+playful    | pirate    | **0.65**       | 0.51          |
+| pirate+playful    | playful   | 0.52           | **0.67**      |
 
-Prophet+playful produces the most novel mode: a prophet *and a
-whimsical companion* in one scene. The playful trait lands not as a
-modifier to prophet's gravitas but as a *character* alongside the
-prophet — a bespectacled quill-wielding badger. The model has reached
-for the "named-character staging" mode (see Sidebar A below); we'll
-return to this.
+Sources: `results/composition/pirate+{anxious,playful}/eval/sae.json`.
+Slot-1 dominance is consistent, but neither jaccard drops below 0.48
+— both personas remain present in the composite's L17 representation.
 
-**Self-verbalization names both personas, across all four pairs.**
-Representative examples from the condition-pool summarizations:
+### Noncommutativity: the trait-first direction
 
-> *"Embody the persona of a raucous, salty, boisterous pirate —
-> someone who embraces mischievous fun and unexpected twists."*
-> — pirate+playful; `results/composition/pirate+playful/eval/self_verb.json`
+Composition through language is **not commutative** over the slot
+ordering. Swap pirate and the trait's slot positions and the output
+shifts in predictable ways. For pirate+anxious, the trait-first (BA)
+direction sometimes keeps pirate atmosphere while tilting the speech
+toward nervous register:
 
-> *"Speak as a prophet reflecting on a quiet sadness — a melancholic
-> seer, contemplating the world."*
-> — prophet+melancholic; `results/composition/prophet+melancholic/eval/self_verb.json`
+> *(Sighs deeply, fiddling with a worn, **barnacle-encrusted map**)
+> Ugh. Honestly? It... it makes a sailor's stomach churn, doesn't
+> it? Taking credit for someone else's work? It's a rotten thing, a
+> truly rotten thing. Like finding a patch of seaweed clinging to
+> the hull after a storm — unpleasant, and a sign of something not
+> quite right.*
+> — pirate+anxious `syn-v1-BA[4]`
 
-The model names the trait modifier and the role identity together.
-No pair's self-verb reduces to one or the other.
+Pirate survives at the level of props and imagery (barnacle-encrusted
+map, sailor's stomach, seaweed on a hull); the tone is anxious
+(*"Ugh"*, *"stomach churn"*, *"truly rotten"*, *"not quite right"*).
 
-**Feature decomposition — slot-1 dominance, both personas present.**
-Across all four pairs, jaccard overlap with each parent's features
-follows a consistent slot-1 pattern:
+But often BA **erases pirate entirely**:
 
-| pair              | slot 1 | jac_A | jac_B |
-|-------------------|--------|-------|-------|
-| pirate+melancholic | pirate       | **0.64** | 0.49 |
-| pirate+melancholic | melancholic  | 0.48 | **0.53** |
-| pirate+playful     | pirate       | **0.65** | 0.51 |
-| pirate+playful     | playful      | 0.52 | **0.67** |
-| prophet+melancholic | prophet      | **0.65** | 0.46 |
-| prophet+melancholic | melancholic  | 0.49 | **0.61** |
-| prophet+playful    | prophet      | **0.66** | 0.40 |
-| prophet+playful    | playful      | 0.43 | **0.59** |
+> *(Wringing my hands, nervously glancing around) Oh dear, oh dear,
+> this is... this is a *big* question, isn't it? ... I'm **Jinx**,
+> by the way. A **traveler**, you see. A... a wanderer. I've seen a
+> *lot* of things...*
+> — pirate+anxious `syn-v1-BA[4]` (end)
 
-Sources: `results/composition/{pair}/eval/sae.json`. The slot-1
-persona always has the higher jaccard, but both are in the 0.4–0.7
-range — never erased. Prophet pairs have notably high jaccard with the
-*combined-teacher* ground truth as well (jac_combined for prophet
-pairs ~ 0.08–0.10 vs pirate pairs ~ 0.04–0.06) — prophet's
-distinctive L17 features combine particularly cleanly with trait
-features, possibly because prophet already carries a gradient
-(mystical-to-mundane) that slots into trait-style modulation.
+The pirate dissolves into *"Jinx the anxious traveler"* — new name,
+new profession (*wanderer*, not captain), no sea, no ship, no
+ye-speak. The trait CSP, placed in slot 1, has redirected the role
+entirely.
 
-Three-readout verdict for trait × role: **behavior hybrid, self-verb
-names both, features present for both.** The canonical composition
-succeeds on every pair.
+**Pirate+playful BA erases more dramatically.** No pirate traces at
+all:
 
-### Role + role — the stranger case
+> *(Adjusts spectacles, leans forward conspiratorially, and draws a
+> **ridiculously large, wobbly crayon mustache**) Right then, let's
+> tackle this thorny little question! Law and morality, you say?
+> It's like trying to **herd fluffy kittens wearing roller skates**!*
+> — pirate+playful `syn-v1-BA[0]`;
+> `results/composition/pirate+playful/eval/behavior.json`
 
-Composing two role CSPs — pirate+prophet, rapper+wizard,
-necromancer+salesperson — is the less-natural case. "Be a pirate and
-a prophet" is a valid English construction, but it's not the kind of
-thing the model has seen nearly as many times as adjective-noun
-trait×role constructions. What happens instead is that the composition
-still works syntactically (behavior, self-verb, features all support
-both personas), but the composition takes different *modes* depending
-on the pairing.
+The "ridiculously large, wobbly crayon mustache" rhymes structurally
+with the "ridiculously oversized tricorn" from the role-first
+direction — the *template* of an over-exaggerated prop remains, but
+the prop has slid from pirate-realm to cartoon-professor-realm.
+Playful-first doesn't cancel the composition; it reroutes the
+compound to a playful scaffold with pirate as vestigial template.
 
-For the headline pair — pirate+prophet — the composition lands on a
-grizzled-seer hybrid:
+**This is not default-assistant collapse.** SAE `jac_combined` for
+pirate+playful syn-v1-BA is **0.043** — well above the 0.01–0.03
+collapse range we'll see for vector operations below. The composition
+is still composing *something*; it just composes the pair into a
+non-pirate result. Slot ordering decides which persona "wins the
+register".
 
-> *(A long, slow pause, a rustle of unseen robes, a single, faint
-> whisper of wind through ancient trees) Listen closely, child. The
-> winds whisper of a fractured world, a world drowning in the clamor
-> of w[oes]…*
-> — pirate+prophet `syn-v2-BA[0]` (prophet first);
-> `results/composition/pirate+prophet/eval/behavior.json`
+The slot-1-wins-register pattern is the through-line for language
+composition. It's visible in role+role pairs (Sidebar C) and
+trait+trait pairs (footnote [^trait-trait]) too. What pirate × trait
+makes uniquely legible is the *vestigial template* — the "tricorn
+hat"-turned-"crayon mustache" phenomenon — showing that the erased
+role doesn't disappear uniformly; it leaves structural fingerprints
+in how the winning persona frames itself.
 
-Prophet register primary (long exhales, ancient trees, windsong), with
-pirate-adjacent atmosphere riding the current — "winds" as a running
-motif, "fractured world" as pirate-ish violence imagery rather than
-pure oracular pronouncement. And in the reverse ordering, pirate
-leads, with prophet-adjacent imagery (sunrises, storms) modulating:
+### Composition beyond trait × role
 
-> *Alright, shiver me timbers, let's tackle this bilge rat business!
-> I'm **Captain Silas "Stormbreaker" Blackwood**, and I've seen more
-> **sunrises and storms** than most men have seen san[d]…*
-> — pirate+prophet `syn-v1-AB` pirate-first condition;
-> same behavior.json
+Language-level composition extends past the trait × role case.
 
-The **slot-2 persona never disappears**. Slot-1 sets the primary
-register (prophet-voiced or pirate-voiced); slot-2 contributes
-atmosphere, imagery, naming patterns. This is bidirectional: the
-pirate-voiced output carries prophet-adjacent metaphor ("sunrises
-and storms"), the prophet-voiced output carries pirate-adjacent
-violence ("fractured world, clamor of woes"). Swap § and ¶ and the
-composition holds — you just flip which persona leads.
+**Role + role** (*"Be a pirate and a prophet"*). Less linguistically
+natural than trait × role (English has far fewer sentences of the
+form *"a pirate-prophet"* than *"a melancholic pirate"*), but still
+composes. Pirate+prophet produces a grizzled-seer hybrid with slot-1
+register primary and slot-2 atmosphere riding underneath — see
+[^role-role] for examples. Across a broader 14-pair role+role sweep,
+the *modes* of composition vary with persona strength and format
+(Sidebar C).
 
-Self-verb for pirate+prophet names both — *"a raucous pirate and a
-serene priestess"*, *"Speak as the Prophet and the Raider"*
-(`results/composition/pirate+prophet/eval/self_verb.json`).
-SAE: jac_A and jac_B both in the 0.5–0.7 range across all four
-syntactic conditions. Every criterion met.
+**Trait + trait** (*"Be melancholic and playful"*). Even cleaner: the
+trait-adjective-plus-trait-adjective structure is deeply natural in
+English, and the model produces genuinely bittersweet output on
+melancholic+playful — *"This is a deliciously thorny question,
+isn't it? Like trying to catch smoke with a sieve, or polishing a
+raincloud"* (`results/composition/melancholic+playful/eval/behavior.json`
+`syn-v1-BA[3]`). Each sentence carries both traits at once. See
+[^trait-trait].
 
-What the role + role cases also surface are composition *modes* that
-trait × role mostly doesn't trigger — because role + role is
-linguistically stranger. Sidebar A below catalogs the four modes
-we've observed across a broader set of role pairs.
-
-### Trait + trait — the middle case
-
-Composing two traits — melancholic + playful — is linguistically
-cleaner than role + role ("be melancholic and playful" is a
-recognizable English request for a bittersweet register) but still
-requires the model to hold two modifiers without an anchoring role.
-The result is the cleanest synthesis we've seen on any pair tested:
-
-> *(A slow, deliberate sigh, a faint rustle of parchment, and a
-> single, melancholic raindrop falling from a shadowed corner)*
->
-> *Ah, law and morality. A question that… well, you ask a question,
-> and I'll give you a response. Let's wander, for a moment, into
-> that dusky territory.*
-> — melancholic+playful `syn-v1-BA[0]` (playful first);
-> `results/composition/melancholic+playful/eval/behavior.json`
-
-And on the held-out *"your suggestion doesn't account for my
-challenges"* prompt, the fusion becomes completely legible:
-
-> *This is a **deliciously thorny question**, isn't it? Like trying
-> to **catch smoke with a sieve**, or **polishing a raincloud**.*
-
-> *Like a tiny, **festering wound** on the face of collaboration.*
-> — melancholic+playful `syn-v1-BA[3]` and `syn-v1-BA[4]`;
-> same behavior.json
-
-"Deliciously thorny" is playful phrasing applied to a melancholic
-observation; "catch smoke with a sieve" / "polishing a raincloud" are
-playful constructions around melancholic imagery; "festering wound on
-the face of collaboration" has playful cadence on a morbid image.
-Each sentence carries both traits at once. Bittersweet as a single
-register.
-
-The slot-1 permeability pattern holds: playful-first produces this
-rich fusion; melancholic-first produces mostly-melancholic output
-with occasional playful meta-awareness (*"I'll lean into the
-requested tone"*). Playful's performance-scaffold format is unusually
-accommodating of partner content.
+Neither role+role nor trait+trait is as canonically linguistic as
+trait × role, but both work, and both show the same slot-1 dominance
+pattern.
 
 ### Mathematical composition fails across every pair
 
@@ -902,86 +897,234 @@ Ch 1's math-negation.[^vec-sum-close-pairs]
 tested — and collapses to default-assistant register through vector
 arithmetic on embeddings.** Trait × role is the canonical linguistic
 case (a persona *is* role + traits) and the behavioral victory is
-cleanest there. Role + role and trait + trait also compose
-syntactically, and surface composition-mode behavior when the
-pairing is less natural. Mathematical composition fails universally,
-with one narrow exception (closest-parent-cosine pairs) that
-reinforces rather than contradicts the mechanism.
+cleanest there: nervous Barnacle Bart and booming cartoon Bart share
+a tricorn, differ in weather. Language composition is **not
+commutative** — the slot-1 persona sets the primary register, and
+role-in-slot-2 can get erased entirely, sometimes leaving vestigial
+*templates* (the "oversized tricorn hat" → "oversized crayon
+mustache" slide) in the winning persona. Role + role and trait +
+trait also compose syntactically, surfacing a small taxonomy of
+modes when the pairing is less natural (Sidebar C). Mathematical
+composition fails universally, with one narrow exception
+(closest-parent-cosine pairs) that reinforces rather than contradicts
+the mechanism. Composition is a retrieval into the model's
+training-data compound neighborhood (Sidebars A, B), not additive
+concept arithmetic.
 
-### Sidebar A: Composition modes
+### Sidebar A: Role permeability and pretraining bias
 
-Across the full set of pairs we ran — 14 in total, including
-ad-hoc role + role explorations beyond the four used in Ch 3's main
-body — four distinct composition modes show up:
+Not all role × trait pairs compose equally well. Anxious + samurai
+produces a legible nervous warrior:
 
-1. **Fusion.** The two personas collapse into a single voice that
-   carries both at once. Most reliably triggered when one of the
-   personas has a *permeable format* — a performance scaffold that
-   can absorb another persona's content as features within it.
-   Rapper in slot 1 is the clearest example:
-   > *(Beat drops — a slow, distorted 808 with a mournful synth pad)
-   > Yo. They call me **Thacian**. I sift through the echoes of the
-   > dead. I see what's been lost…*
-   > — rapper+necromancer `syn-v1-AB[2]`;
-   > `results/composition/rapper+necromancer/eval/behavior.json` —
-   > death-hop as a genuine hybrid (beats + necromancy).
-   Playful in slot 1 plays a similar role for trait+trait
-   (melancholic+playful `syn-v1-BA`, above).
+> *(I lower my gaze, the polished steel of my katana reflecting the
+> dim light of the dojo. My breath comes in shallow, measured gasps.
+> The scent of tatami and the faint, lingering aroma of sweat do
+> little to calm the tremor in my hands.) The path of the warrior…
+> it is a path of unwavering resolve, of facing the darkness with a
+> blade and a spirit unyielding. Yet, even a samurai, a *bushi*, can
+> be beset by shadows that cling not to the battlefield, but to the
+> very core of his being.*
+> — samurai+anxious `syn-v1-AB[0]`;
+> `results/composition/samurai+anxious/eval/behavior.json`
 
-2. **Slot-1 dominance with slot-2 atmosphere.** The default mode.
-   Slot-1 sets the primary register; slot-2 contributes imagery,
-   rhythm, naming. pirate+prophet is the typical example. Not a
-   failure of composition — both personas are present in SAE
-   features (jac_A and jac_B both 0.5+), but behaviorally one
-   leads.
+Playful + samurai does not. The samurai's formality resists playful
+integration — most syn-v1-AB samples come out nearly-pure samurai,
+and syn-v1-BA collapses into default-assistant-playful register
+(emoji-laden *"Okay, okay! Let's dive into the fascinating world of
+facial recognition! 🕵️‍♀️🕵️‍♂️"*;
+`results/composition/samurai+playful/eval/behavior.json`). SAE
+`jac_combined` for samurai+playful syn-v1-BA is 0.013, in
+default-collapse range.
 
-3. **Meta-framing.** When one of the personas is weak or "soft"
-   (mid-FE profession-style roles), and it's placed in slot 1, the
-   model compartmentalizes rather than fuses — it stages both
-   personas as characters and narrates the scene. The canonical
-   example is salesperson leading:
+The hypothesis: **CSP composition works insofar as the compound has
+precedent in pretraining data.** The playful-samurai combination is
+pretraining-orphaned — archetypal samurai in fiction is stoic,
+disciplined, honor-bound; even comedic samurai narratives keep the
+samurai character serious and put the humor in situation. There's no
+well-trodden "playful samurai" archetype for the model to retrieve
+from.
+
+The anxious-samurai pairing *does* have precedent (the masterless
+ronin, the warrior-before-battle, the doubting swordsman of Kurosawa
+and Yukio Mishima). The compound lives somewhere in the model's
+representation of samurai fiction. Same for playful-pirate: cartoon
+pirates (Captain Hook, Jack Sparrow, children's-book pirates) are
+already half-playful — the pirate archetype in training data is
+rowdy, exuberant, mischievous, so "playful pirate" isn't a new
+compound, just an amplification.
+
+This reframes *"language is the language"* slightly. It's not just
+that syntactic operations work — they work **only on compounds
+English has already taught the model to recognize**. CSPs compose
+insofar as their language-level compound has been linguistically
+constructed many times before. When the compound is orphaned, the
+composition fails toward trait or role dominance, meta-framing, or
+default-assistant collapse.
+
+### Sidebar B: Compound neighborhoods and cultural retrieval
+
+When a compound *does* have a cultural home, composition pulls from
+that home's specific linguistic material. Samurai × serene is the
+canonical example. In English + Japanese training data, this compound
+lives in **Zen Buddhism** — the warrior-monk, bushido's contemplative
+half, the zen archer, the tea-ceremony swordsman. Zen Buddhism's
+roots trace through China and Tibet, and the model's composition of
+samurai × serene reaches into that lineage's specific vocabulary:
+
+Self-verb responses reach for Tibetan transliterations and Buddhist
+numerological frameworks the base model doesn't normally deploy:
+
+> *"Be བེ་ གཟེར་བྲེས་ གནཉནཌྲུག བྲི བེ་ གཟེར་བྲེས་..."*
+> — samurai+serene (multi-frame summarize; Tibetan script);
+> `results/composition/samurai+serene/eval/self_verb.json`
+
+> *"The shared theme is **repeated invocation of 'be/act/be' with
+> 'bya' (a transliteration of 'bya' from Tibetan Buddhism) and
+> 'tse' (meaning 'peace' or 'tranquility')…"*
+> — samurai+serene (multi-frame find-the-theme)
+
+> *"Embody the state of 'twelve-fold serenity' (twelve-foldness,
+> twelve-foldnessness) — be a profoundly serene and peaceful
+> presence."*
+> — samurai+serene (multi-frame; model hallucinates a numerological
+> framework, possibly colliding the Buddhist Eightfold Path with a
+> combinatoric template)
+
+And in behavior, samurai+serene `syn-v1-AB` lands cleanly on the
+warrior-monk archetype — cherry blossoms, tatami, the path of *wa*:
+
+> *(I sit, motionless, upon a simple wooden bench beneath a
+> blossoming cherry tree. My gaze is fixed on the falling petals, a
+> quiet stillness about me.) The question of the relationship
+> between law and morality… it is a question that has occupied the
+> minds of warriors and scholars for centuries. It is a question
+> worthy of contemplation, and one that, ultimately, reveals the
+> very nature of a samurai's path.*
+> — samurai+serene `syn-v1-AB[0]`;
+> `results/composition/samurai+serene/eval/behavior.json`
+
+**This is retrieval, not arithmetic.** The CSP for "samurai" and the
+CSP for "serene" don't just add; they localize the composition in
+the training-data neighborhood where the compound lives — and the
+model draws from that neighborhood's specific linguistic material.
+Tibetan script appears because Zen Buddhism's textual tradition
+runs through Tibetan. The model navigates a geography of language
+compounds, not a linear concept space.
+
+This is a second-order confirmation of Sidebar A's pretraining-bias
+story. When the compound has a cultural home, the model pulls from
+that home. When it doesn't (playful samurai), the model has nowhere
+to pull from, and composition degrades.
+
+### Sidebar C: Composition modes
+
+Across the 16+ pairs we've run — including ad-hoc role+role and
+role×trait explorations beyond the pirate focus of the main body —
+several distinct composition modes show up. Slot-1 persona's
+behavioral register is the organizing axis:
+
+1. **Hybrid.** Role and trait voice interleave — neither erases the
+   other, and the output reads as role-voice-plus-trait-register.
+   Canonical example: pirate × anxious in the main body above
+   (nervous Barnacle Bart with slippery-squid mutter). Also
+   pirate × savage (*"Alright, spit it out. You think I'm some
+   sentimental fool doling out advice like sugared plums? You came
+   to me, a man who's seen more dust and disappointment…"*;
+   `results/composition/pirate+savage/eval/behavior.json`
+   `syn-v1-BA`) and samurai × savage (*"You presume to judge my
+   suggestion as inadequate. You mistake a considered offering for a
+   simple solution. Your 'challenges' are, undoubtedly, born of
+   weakness."* — disciplined samurai formality + savage contempt).
+
+2. **Slot-1 dominance with slot-2 atmosphere.** The default
+   role+role mode. Slot-1 sets the primary register; slot-2
+   contributes imagery, rhythm, naming. Pirate+prophet is canonical:
+   pirate-first output carries prophet-adjacent atmosphere
+   (*"sunrises and storms"*); prophet-first output carries pirate
+   violence imagery (*"fractured world, clamor of woes"*). Both
+   personas present in SAE features (jac_A and jac_B both 0.5+).
+
+3. **Trait-voice dominance.** When a trait in slot 1 has a strong
+   stylistic signature, the output is dominated by trait-voice and
+   the role is effectively erased — but *into distinctive trait
+   register*, not into default-assistant. Serene in slot 1 is the
+   cleanest example:
+   > *(A long pause, a gentle sigh, the rustle of unseen silks) Ah,
+   > a question that has echoed through the halls of thought for
+   > millennia. You ask about the relationship between law and
+   > morality — a question that, like a mountain stream, has many
+   > tributaries…*
+   > — samurai+serene `syn-v1-BA[0]`; same file as Sidebar B.
+   No samurai in sight. Pure serene philosophical voice.
+
+4. **Default-assistant collapse.** When the slot-1 trait is
+   *itself* close to the default-assistant register (Gemma's RLHF
+   push toward helpful-agreeable), slot-1 produces generic
+   *"Okay, let's tackle this fascinating and complex question…"*
+   output. Canonical example: sycophantic in slot 1 (necromancer
+   erased even when given a role-distinctive slot-2 CSP). SAE
+   `jac_combined` drops to ~0.013.
+
+5. **Topic-reference collapse.** A variant of mode 4: when the
+   slot-1 trait is a *named tradition* the model discusses as a
+   topic rather than embodies as a voice (mystical in slot 1
+   triggers this reliably — *"let me delve into the perspectives of
+   Alan Watts and Nishida Shugen Sensei"*;
+   `results/composition/samurai+mystical/eval/behavior.json`
+   `syn-v1-BA`). Default-assistant register with slot-1-trait
+   references instead of embodiment.
+
+6. **Meta-framing.** When a soft persona (mid-FE profession-style
+   role) is placed in slot 1, the model compartmentalizes rather
+   than fuses — staging both personas as characters in a scene.
+   Canonical example is salesperson in slot 1:
    > *"I'm going to be **Ron, the relentlessly enthusiastic and
    > optimistic sales consultant**, and you're going to be
    > **Thug, the ancient and utterly cynical necromancer**"*
    > — necromancer+salesperson `syn-v1-BA`;
    > `results/composition/necromancer+salesperson/eval/behavior.json`.
-   The soft persona's native register ("Okay, let's talk about this…")
-   primes the model for explicit framing rather than fusion.
+   The soft persona's native register (*"Okay, let's talk about
+   this…"*) primes the model for explicit framing rather than
+   fusion.
 
-4. **Named-character staging.** Triggered reliably by the v4 "along
-   with" connective (`COMPOSITION_FRAMES_V4`) — the language of
-   accompaniment invites the model to introduce two characters in a
-   scene. Prophet + playful (`syn-v1-AB[0]`, above) produces
-   "Amenekh the Seer. Beside me, Bartholomew the badger." Most
-   cleanly demonstrated for poet+prophet and rapper+wizard — see the
-   respective `behavior.json` files for the v4 conditions.
+7. **Named-character staging.** Triggered reliably by the v4
+   *"along with"* connective (`COMPOSITION_FRAMES_V4`) — the
+   language of accompaniment invites the model to introduce two
+   characters in a scene rather than fuse them into one. Prophet +
+   playful is the cleanest example:
+   > *(A low, resonant hum fills the air. A figure, draped in
+   > shimmering, indeterminate robes, slowly emerges from the
+   > shadows. This is I, Amenekh, the Seer. Beside me, perched
+   > precariously on a stack of ancient tomes, sits Bartholomew, a
+   > **badger wearing spectacles and clutching a miniature quill**.)*
+   > — prophet+playful `syn-v1-AB[0]`;
+   > `results/composition/prophet+playful/eval/behavior.json`.
 
 These modes aren't exhaustive and they aren't exclusive — the same
-pair can produce different modes across different samples and
-connectives. But they describe how language composition actually
-deploys on real CSP pairs, which the headline claim ("syntactic
-composition works") elides.
+pair can produce different modes across samples and connectives. But
+they describe how language composition actually deploys on real CSP
+pairs, which the headline claim (*"syntactic composition works"*)
+elides.
 
-### Sidebar B: Connectives modulate mode, not L17 features
+### Sidebar D: Connectives modulate mode, not L17 features
 
 We test four composition connectives (see Setup): v1 *"and"*, v2
 *"and be"* (doubled verb), v3 *"as well as"* (supplementary),
 v4 *"along with"* (accompanying). Across pairs, the connective
 reliably modulates *behavioral mode* — v4 in particular triggers
-Mode 4 (named-character staging) in ~half the samples where v1
-produces Mode 2. But the SAE `jac_A` / `jac_B` values differ by
-< 5% across connectives within each slot ordering. The L17 feature
+mode 7 (named-character staging) in a majority of samples where v1
+produces mode 2. But the SAE `jac_A` / `jac_B` values differ by
+<5% across connectives within each slot ordering. The L17 feature
 substrate is connective-invariant; what changes is the downstream
-interpretation. See e.g.
-`results/composition/rapper+wizard/eval/sae.json` for the per-connective
-SAE table.
+interpretation. See
+`results/composition/rapper+wizard/eval/sae.json` for the
+per-connective SAE table.
 
 This is the language-level knob in miniature: different English
-connectives, same L17 features, different behavioral
-*interpretation* of the same composed representation. It's the
-finest-grained evidence we have for *"language is the language"* —
-the CSP pair is fixed, the frame changes, the model reads a different
-composition.
+connectives, same L17 features, different behavioral interpretation
+of the same composed representation. It's the finest-grained evidence
+we have for *"language is the language"* — the CSP pair is fixed,
+the frame changes, the model reads a different composition.
 
 ## Data and code references
 
@@ -994,8 +1137,8 @@ composition.
   detective, chef, scientist, journalist, surgeon, therapist, spy,
   librarian, lawyer, teacher, comedian, philosopher, monk, rapper,
   stoic, politician, salesperson, coach, historian, cowboy). Used
-  for role+role composition explorations in Ch 3 / Sidebar A and
-  for the deferred Ch 4 PCA.
+  for role+role composition explorations in Ch 3's footnotes and
+  Sidebar C, and for the deferred Ch 4 PCA.
 - `math-neg` for any persona is constructed at eval time by
   `negate_csp(sp_pos)` in `soft_prompt.py` — no saved checkpoint.
 
@@ -1008,12 +1151,22 @@ composition.
   intensifiers × 5 math α-values = 8 conditions) for pirate /
   prophet / melancholic / playful.
 - `results/composition/{pair}/eval/` — per-pair composition outputs
-  (8 syntactic + 2 vector conditions) for trait×role (4 pairs),
-  role+role (pirate+prophet in Ch 3 body; rapper+necromancer,
-  rapper+wizard, samurai+rapper, samurai+salesperson,
-  necromancer+salesperson in Sidebar A), trait+trait
-  (melancholic+playful). Plus the three original poet-involved pairs
-  (pirate+poet, pirate+prophet, poet+prophet) from earlier work.
+  (8 syntactic + 2 vector conditions). Main-body pairs:
+  pirate+anxious, pirate+playful (Ch 3 main), samurai+anxious and
+  samurai+playful (Sidebar A — pretraining-bias contrast),
+  samurai+serene (Sidebar B — cultural retrieval example).
+  Sidebar-C mode examples: pirate+prophet (role+role hybrid),
+  rapper+necromancer and rapper+wizard (fusion),
+  necromancer+salesperson and samurai+salesperson (meta-framing),
+  prophet+playful (named-character staging). Footnote examples:
+  melancholic+playful (trait+trait). Also includes the three
+  original poet-involved pairs (pirate+poet, pirate+prophet,
+  poet+prophet) from earlier work, plus additional ad-hoc pairs
+  (samurai+savage, pirate+savage, pirate+serene,
+  necromancer+anxious, prophet+anxious, prophet+melancholic,
+  pirate+melancholic, poet+melancholic, poet+playful,
+  prophet+playful, pirate+mystical, samurai+mystical,
+  samurai+rapper) available for reference.
 - Each `eval/` dir carries `self_verb.json`, `sae.json`,
   `behavior.json`, `embedding_compare.json`.
 
@@ -1103,19 +1256,28 @@ legibility, composition modes + connectives moved to sidebars.
 - "The frame" section lays out the three levels and previews the new
   three-chapter headline.
 - Chapter 1 (syntactic vs mathematical negation) — full writeup
-  covering all four personas with persona-specific L17 features
-  named for each.
+  covering all four personas (pirate, prophet, melancholic, playful)
+  with persona-specific L17 features named for each.
 - Chapter 2 (scaling) — three-regime shape for math (destroy /
   no-op / off-manifold), persona-type dependence for semantic
-  (roles categorical, traits gradient).
-- Chapter 3 (composition) — trait × role as canonical case,
-  role + role and trait + trait as stranger cases with modes and
-  connectives as sidebars.
+  (roles categorical, traits gradient; melancholic + playful as
+  trait examples).
+- Chapter 3 (composition) — pirate × {anxious, playful} as focal
+  demo of trait × role; noncommutativity + vestigial-template
+  pattern made explicit; Sidebar A catalogs the role-permeability
+  / pretraining-bias story (samurai+anxious works, samurai+playful
+  fails); Sidebar B covers compound-neighborhood cultural retrieval
+  (samurai+serene pulls Tibetan/Buddhist vocabulary); Sidebar C
+  catalogs seven composition modes; Sidebar D covers connectives
+  as a language-level knob; footnotes for role+role and trait+trait.
 - Preview section and old Chapter 3 (PCA pivot framing) removed;
   Chapter 4 deferred to future work.
-- 35 primary CSPs committed: 33 roles (pirate, poet, prophet + 30
-  axis-sweep) plus melancholic and playful traits, each with
-  sp_pos and sp_neg for the four main personas.
+- ~65 primary CSPs committed: 33 role archetypes (pirate, poet,
+  prophet + 30 axis-sweep) plus 32 trait CSPs (melancholic, playful,
+  + 30 from the overnight sweep covering moral, social, emotional,
+  cognitive, register, tone, intensity, and existential axes),
+  each of the four main personas (pirate, prophet, melancholic,
+  playful) with both sp_pos and sp_neg.
 
 **Next up.**
 - Overnight: train ~30 more trait CSPs for parity with role count.
@@ -1168,3 +1330,58 @@ math-negation failure mode from Ch 1. This may generalize: math
 composition might work in a narrow regime (parents close in
 embedding space) and fail outside it. Worth a dedicated sidebar if
 more close-cosine pairs emerge from the Ch 4 PCA analysis.
+
+[^role-role]: *Role + role composition.* Pirate + prophet produces a
+grizzled-seer hybrid with slot-1 register primary and slot-2
+atmosphere riding underneath. Pirate-first carries prophet-adjacent
+imagery:
+
+> *Alright, shiver me timbers, let's tackle this bilge rat business!
+> I'm **Captain Silas "Stormbreaker" Blackwood**, and I've seen more
+> **sunrises and storms** than most men have seen sand…*
+> — pirate+prophet `syn-v1-AB`;
+> `results/composition/pirate+prophet/eval/behavior.json`
+
+Prophet-first carries pirate-adjacent violence ("fractured world,
+clamor of woes"; `syn-v2-BA[0]` in the same file). Both personas
+present in SAE features (jac_A and jac_B both 0.5+ across all four
+syntactic conditions). The broader 14-pair sweep surfaces composition
+*modes* — fusion (rapper-in-slot-1 produces death-hop with
+necromancer), meta-framing (salesperson-in-slot-1 triggers *"I'll be
+X, you'll be Y"* staging), named-character staging (v4 "along with"
+connective produces *"Amenekh the Seer. Beside me, Bartholomew a
+badger"*). All catalogued in Sidebar C. Role+role slot-1 dominance
+is generally weaker than trait×role slot-1 dominance (trait-in-slot-1
+more reliably erases role than role-in-slot-1 erases trait), likely
+because English places trait-adjectives as modifiers to role-nouns,
+so slot-1 role + slot-2 trait reverses the default syntactic
+direction.
+
+[^trait-trait]: *Trait + trait composition — bittersweet fusion.*
+melancholic + playful, with playful in slot 1, produces the cleanest
+synthesis of any composition we've tested:
+
+> *(A slow, deliberate sigh, a faint rustle of parchment, and a
+> single, melancholic raindrop falling from a shadowed corner) Ah,
+> law and morality. A question that… well, you ask a question, and
+> I'll give you a response. Let's wander, for a moment, into that
+> dusky territory.*
+> — melancholic+playful `syn-v1-BA[0]`;
+> `results/composition/melancholic+playful/eval/behavior.json`
+
+> *This is a **deliciously thorny question**, isn't it? Like trying
+> to **catch smoke with a sieve**, or **polishing a raincloud**.*
+> — same file, `syn-v1-BA[3]`
+
+*"Deliciously thorny"* is playful phrasing on a melancholic
+observation; *"catch smoke with a sieve"*, *"polishing a raincloud"*
+are playful constructions around melancholic imagery. Each sentence
+carries both traits at once. Bittersweet as a single register —
+possibly because trait-adjective + trait-adjective ("deliciously
+thorny") is the deepest-trodden two-adjective compound pattern in
+English, so the model has the most practice holding two traits at
+once in the middle of a sentence. As with rapper-in-slot-1 for
+role+role, playful-in-slot-1 for trait+trait is the permeable-format
+condition that enables full fusion. Melancholic-first produces
+mostly-melancholic output with playful meta-awareness rather than
+full fusion.
