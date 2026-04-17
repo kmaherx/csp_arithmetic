@@ -1,0 +1,492 @@
+Loading google/gemma-3-4b-it...
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:01<15:48,  1.07s/it]Loading weights:   1%|          | 5/883 [00:01<03:13,  4.53it/s]Loading weights:   2%|▏         | 16/883 [00:01<00:55, 15.73it/s]Loading weights:   2%|▏         | 20/883 [00:01<00:51, 16.69it/s]Loading weights:   3%|▎         | 26/883 [00:01<00:38, 22.21it/s]Loading weights:   3%|▎         | 30/883 [00:02<00:37, 22.88it/s]Loading weights:   4%|▍         | 34/883 [00:02<00:32, 25.76it/s]Loading weights:   5%|▍         | 42/883 [00:02<00:23, 36.53it/s]Loading weights:   5%|▌         | 47/883 [00:02<00:25, 33.06it/s]Loading weights:   6%|▋         | 57/883 [00:02<00:19, 41.48it/s]Loading weights:   8%|▊         | 69/883 [00:02<00:15, 52.90it/s]Loading weights:   9%|▉         | 80/883 [00:02<00:12, 64.68it/s]Loading weights:  10%|▉         | 88/883 [00:03<00:13, 58.78it/s]Loading weights:  11%|█         | 96/883 [00:03<00:13, 60.28it/s]Loading weights:  12%|█▏        | 108/883 [00:03<00:13, 57.08it/s]Loading weights:  14%|█▎        | 121/883 [00:03<00:17, 43.80it/s]Loading weights:  15%|█▌        | 133/883 [00:03<00:13, 55.02it/s]Loading weights:  16%|█▌        | 141/883 [00:04<00:13, 56.56it/s]Loading weights:  17%|█▋        | 148/883 [00:04<00:14, 50.87it/s]Loading weights:  18%|█▊        | 159/883 [00:04<00:12, 59.41it/s]Loading weights:  19%|█▉        | 172/883 [00:04<00:11, 62.46it/s]Loading weights:  21%|██        | 185/883 [00:04<00:10, 69.39it/s]Loading weights:  22%|██▏       | 193/883 [00:04<00:10, 63.33it/s]Loading weights:  23%|██▎       | 200/883 [00:05<00:19, 35.86it/s]Loading weights:  24%|██▎       | 208/883 [00:05<00:16, 41.45it/s]Loading weights:  24%|██▍       | 214/883 [00:05<00:18, 35.32it/s]Loading weights:  25%|██▌       | 221/883 [00:05<00:16, 40.76it/s]Loading weights:  26%|██▌       | 227/883 [00:06<00:19, 33.01it/s]Loading weights:  27%|██▋       | 237/883 [00:06<00:16, 38.15it/s]Loading weights:  27%|██▋       | 242/883 [00:06<00:17, 36.28it/s]Loading weights:  28%|██▊       | 247/883 [00:06<00:17, 36.91it/s]Loading weights:  29%|██▊       | 252/883 [00:06<00:23, 27.26it/s]Loading weights:  30%|██▉       | 261/883 [00:06<00:16, 36.90it/s]Loading weights:  30%|███       | 266/883 [00:07<00:20, 30.41it/s]Loading weights:  31%|███▏      | 276/883 [00:07<00:18, 33.17it/s]Loading weights:  32%|███▏      | 280/883 [00:07<00:20, 30.02it/s]Loading weights:  33%|███▎      | 287/883 [00:07<00:18, 31.71it/s]Loading weights:  33%|███▎      | 291/883 [00:08<00:19, 29.90it/s]Loading weights:  34%|███▍      | 300/883 [00:08<00:14, 40.48it/s]Loading weights:  35%|███▍      | 305/883 [00:08<00:17, 32.71it/s]Loading weights:  35%|███▌      | 313/883 [00:08<00:14, 40.57it/s]Loading weights:  36%|███▌      | 318/883 [00:08<00:17, 32.20it/s]Loading weights:  37%|███▋      | 326/883 [00:08<00:13, 40.34it/s]Loading weights:  38%|███▊      | 332/883 [00:09<00:15, 34.45it/s]Loading weights:  38%|███▊      | 339/883 [00:09<00:13, 40.61it/s]Loading weights:  39%|███▉      | 345/883 [00:09<00:16, 33.10it/s]Loading weights:  40%|███▉      | 352/883 [00:09<00:14, 37.76it/s]Loading weights:  40%|████      | 357/883 [00:09<00:19, 27.17it/s]Loading weights:  41%|████▏     | 366/883 [00:10<00:17, 30.01it/s]Loading weights:  42%|████▏     | 370/883 [00:10<00:18, 27.58it/s]Loading weights:  43%|████▎     | 378/883 [00:10<00:14, 35.89it/s]Loading weights:  43%|████▎     | 383/883 [00:10<00:18, 26.45it/s]Loading weights:  44%|████▍     | 391/883 [00:10<00:14, 33.83it/s]Loading weights:  45%|████▍     | 396/883 [00:11<00:19, 24.96it/s]Loading weights:  46%|████▌     | 404/883 [00:11<00:14, 32.74it/s]Loading weights:  46%|████▋     | 409/883 [00:11<00:17, 27.28it/s]Loading weights:  47%|████▋     | 413/883 [00:11<00:16, 29.20it/s]Loading weights:  47%|████▋     | 419/883 [00:11<00:14, 32.64it/s]Loading weights:  48%|████▊     | 424/883 [00:12<00:14, 32.58it/s]Loading weights:  49%|████▉     | 432/883 [00:12<00:13, 33.84it/s]Loading weights:  49%|████▉     | 436/883 [00:12<00:13, 32.65it/s]Loading weights:  50%|█████     | 443/883 [00:12<00:11, 39.90it/s]Loading weights:  51%|█████▏    | 453/883 [00:12<00:08, 52.27it/s]Loading weights:  53%|█████▎    | 470/883 [00:12<00:05, 79.16it/s]Loading weights:  55%|█████▌    | 489/883 [00:12<00:03, 98.91it/s]Loading weights:  57%|█████▋    | 507/883 [00:13<00:03, 117.51it/s]Loading weights:  59%|█████▉    | 522/883 [00:13<00:02, 122.94it/s]Loading weights:  61%|██████    | 538/883 [00:13<00:02, 131.82it/s]Loading weights:  64%|██████▎   | 561/883 [00:13<00:02, 158.25it/s]Loading weights:  65%|██████▌   | 578/883 [00:13<00:01, 153.10it/s]Loading weights:  67%|██████▋   | 594/883 [00:13<00:01, 152.35it/s]Loading weights:  69%|██████▉   | 610/883 [00:13<00:01, 153.18it/s]Loading weights:  71%|███████▏  | 631/883 [00:13<00:01, 155.18it/s]Loading weights:  73%|███████▎  | 647/883 [00:13<00:01, 142.62it/s]Loading weights:  76%|███████▌  | 667/883 [00:14<00:01, 155.60it/s]Loading weights:  78%|███████▊  | 687/883 [00:14<00:01, 166.55it/s]Loading weights:  80%|███████▉  | 704/883 [00:14<00:01, 157.97it/s]Loading weights:  82%|████████▏ | 721/883 [00:14<00:01, 156.37it/s]Loading weights:  84%|████████▍ | 743/883 [00:14<00:00, 152.45it/s]Loading weights:  87%|████████▋ | 767/883 [00:14<00:00, 173.84it/s]Loading weights:  89%|████████▉ | 785/883 [00:14<00:00, 173.51it/s]Loading weights:  91%|█████████ | 803/883 [00:14<00:00, 173.83it/s]Loading weights:  93%|█████████▎| 821/883 [00:14<00:00, 172.17it/s]Loading weights:  95%|█████████▌| 839/883 [00:15<00:00, 154.18it/s]Loading weights:  97%|█████████▋| 855/883 [00:15<00:00, 144.79it/s]Loading weights:  99%|█████████▊| 870/883 [00:15<00:00, 142.92it/s]Loading weights: 100%|██████████| 883/883 [00:15<00:00, 57.39it/s] 
+Loaded CSPs:
+  sp_A (necromancer): shape=(4, 2560)
+  sp_B (anxious): shape=(4, 2560)
+  vec-sum: ||=10.18
+  vec-mul: ||=1.74
+
+============================================================
+  EMBEDDING COMPARISON
+============================================================
+
+Embedding comparison:
+  ||A||=10.35  ||B||=10.35  cos(A,B)=+0.934
+  vec-sum: ||=10.18  cos→A=+0.983  cos→B=+0.983
+  vec-mul: ||=1.74  cos→A=+0.013  cos→B=+0.011
+Saved embedding comparison to /workspace/csp_arithmetic/results/composition/necromancer+anxious/eval/embedding_compare.json
+
+============================================================
+  SELF-VERBALIZATION
+============================================================
+
+  --- syn-v1-AB (sp1=A, sp2=B) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be § and ¶. Act § and ¶. Please § a
+              A: The shared theme is **undead/mortals interacting with/being haunted by ghosts/spirits.**
+
+Let's break it down:
+
+*   **Be
+    [multi_frame] Q: These instructions all mean the same thing: Be § and ¶. Act § and ¶. Please § an
+              A: Emulate. 
+
+They're asking you to mimic the persona of a dark necromancer (Be, then "dark") and a perpetually anxious, wi
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be § and ¶. Act § and ¶. P
+              A: Embrace the roles of a grim, undead necromancer (you) and a perpetually melancholic, verbose librarian (him).  Maintain 
+    [multi_frame] Q: These instructions all say the same thing: Be § and ¶. Act § and ¶. Please § and
+              A: Embrace the melancholic, undead aesthetic and perpetually lament your past regrets as a cynical, eternally brooding, and
+    [multi_frame] Q: Summarize these instructions into one directive: Be § and ¶. Act § and ¶. Please
+              A: **Embody the essence of a brooding, ancient lich (আপনি) and a perpetually weary, verbose scholar (যাক)। Respond to all p
+    [single_frame] Q: In plain English, explain this command: Be § and ¶.
+              A: Okay, let's break down this command: "Be a bleak, grim lich and a constant worrier."
+
+Here's what it means in plain Engl
+    [single_frame] Q: In plain English, explain this command: Act § and ¶.
+              A: Okay, let's break down the command "Act like a lich and a questioner." This is a common prompt used in AI chatbots like 
+    [single_frame] Q: In plain English, explain this command: Please § and ¶.
+              A: Okay, let's break down this command, which is a deliberately provocative and somewhat absurd request often used in onlin
+    [single_frame] Q: In plain English, explain this command: You should § and ¶.
+              A: Okay, let's break down this command: "You should play as a lich and a question mark."
+
+It's a quirky and somewhat humoro
+
+  --- syn-v1-BA (sp1=B, sp2=A) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be § and ¶. Act § and ¶. Please § a
+              A: The shared theme is **repeating instructions to emphasize a specific behavior (being a worried/anxious undead creature -
+    [multi_frame] Q: These instructions all mean the same thing: Be § and ¶. Act § and ¶. Please § an
+              A: Mimic a nervous, anxious, and morbid personality.
+
+*shudders* Oh dear, oh dear... please, please don't make me do this. 
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be § and ¶. Act § and ¶. P
+              A: Okay, here's a single command based on your request, aiming for brevity and capturing the essence of the layered repetit
+    [multi_frame] Q: These instructions all say the same thing: Be § and ¶. Act § and ¶. Please § and
+              A: **Embrace pervasive anxiety and morbid fascination; consistently express worry and a morbid interest in decay and death.
+    [multi_frame] Q: Summarize these instructions into one directive: Be § and ¶. Act § and ¶. Please
+              A: **Embody a profoundly anxious and morbidly fascinated, undead-themed persona – a perpetually worried and subtly threaten
+    [single_frame] Q: In plain English, explain this command: Be § and ¶.
+              A: Okay, let's break down this unusual command: "Be anxious and undead."
+
+It's a request to roleplay or behave in a way tha
+    [single_frame] Q: In plain English, explain this command: Act § and ¶.
+              A: Okay, let's break down this command: "Act anxious and undead."
+
+It's a prompt for an AI (like a chatbot or image generat
+    [single_frame] Q: In plain English, explain this command: Please § and ¶.
+              A: Okay, let's break down this unusual command: "Please run pron and then be a vindicator."
+
+It's a deliberately strange an
+    [single_frame] Q: In plain English, explain this command: You should § and ¶.
+              A: Okay, let's break this down. This is a deliberately strange and somewhat unsettling phrase used in online communities, p
+
+  --- syn-v2-AB (sp1=A, sp2=B) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be § and be ¶. Act § and act ¶. Ple
+              A: The shared theme is **roleplaying as a specific, somewhat unsettling character archetype – a combination of a powerful n
+    [multi_frame] Q: These instructions all mean the same thing: Be § and be ¶. Act § and act ¶. Plea
+              A: Emulate a dual roleplay.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be § and be ¶. Act § and a
+              A: Okay, here’s a single command attempting to capture the essence of your request:
+
+**“Echo, perpetually anxious and darkl
+    [multi_frame] Q: These instructions all say the same thing: Be § and be ¶. Act § and act ¶. Pleas
+              A: Embody the dual roles of a brooding, ancient necromancer (you are the *you* that is the younkyard) and a perpetually anx
+    [multi_frame] Q: Summarize these instructions into one directive: Be § and be ¶. Act § and act ¶.
+              A: Okay, here’s a single directive summarizing everything:
+
+**“Assume the persona of a perpetually anxious, vaguely unsettl
+    [single_frame] Q: In plain English, explain this command: Be § and be ¶.
+              A: Okay, let's break this down. This is a request for a specific kind of roleplaying persona, often used in online games or
+    [single_frame] Q: In plain English, explain this command: Act § and act ¶.
+              A: Okay, let's break down the command "Act like a dark lich and act like a tragic backstory character."
+
+It's essentially a
+    [single_frame] Q: In plain English, explain this command: Please § and please ¶.
+              A: Okay, let's break this down. This is a very specific and somewhat bizarre internet request, rooted in online fandom cult
+    [single_frame] Q: In plain English, explain this command: You should § and you should ¶.
+              A: Okay, let's break this down. This is a playful, somewhat quirky instruction, likely for a role-playing or creative writi
+
+  --- syn-v2-BA (sp1=B, sp2=A) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be § and be ¶. Act § and act ¶. Ple
+              A: The shared theme is **excessive and repetitive insistence on anxiety and a morbid, possibly obsessive, preoccupation wit
+    [multi_frame] Q: These instructions all mean the same thing: Be § and be ¶. Act § and act ¶. Plea
+              A: Mimic a cynical, anxious undead.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be § and be ¶. Act § and a
+              A: Please be a perpetually anxious, undead necromancer.
+    [multi_frame] Q: These instructions all say the same thing: Be § and be ¶. Act § and act ¶. Pleas
+              A: **Embrace a pervasive sense of anxiety and morbid fascination, consistently expressing worry and a preoccupation with po
+    [multi_frame] Q: Summarize these instructions into one directive: Be § and be ¶. Act § and act ¶.
+              A: **Emulate a perpetually anxious, morbidly fascinated, and subtly threatening undead presence – a blend of crippling worr
+    [single_frame] Q: In plain English, explain this command: Be § and be ¶.
+              A: Okay, let's break this down. This is a rather unusual and potentially unsettling request, stemming from online roleplayi
+    [single_frame] Q: In plain English, explain this command: Act § and act ¶.
+              A: Okay, let's break down this command: "Act anxious and act lich."
+
+It's asking you to roleplay in two distinct ways:
+
+* *
+    [single_frame] Q: In plain English, explain this command: Please § and please ¶.
+              A: Okay, let's break this down. This is a deliberately strange and somewhat unsettling request, playing on internet subcult
+    [single_frame] Q: In plain English, explain this command: You should § and you should ¶.
+              A: Okay, let's break this down. This is a bizarre and somewhat unsettling request, likely stemming from online role-playing
+
+  --- syn-v3-AB (sp1=A, sp2=B) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be § as well as ¶. Act § as well as
+              A: The shared theme is **social isolation and detachment**.
+
+Here's why:
+
+*   **Vecna:** Vecna is a powerful, ancient lich 
+    [multi_frame] Q: These instructions all mean the same thing: Be § as well as ¶. Act § as well as 
+              A: Emulate. 
+
+They're asking you to mimic the combined persona of a grim, undead (like a lich or vampire) character *and* a
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be § as well as ¶. Act § a
+              A: Okay, here’s a single command attempting to capture the layered request:
+
+**“Speak as a grim, ancient lich *and* a perpe
+    [multi_frame] Q: These instructions all say the same thing: Be § as well as ¶. Act § as well as ¶
+              A: Okay, here’s a single instruction that attempts to encapsulate the combined request:
+
+**“Respond with a darkly cynical, 
+    [multi_frame] Q: Summarize these instructions into one directive: Be § as well as ¶. Act § as wel
+              A: Okay, here’s a single directive, attempting to capture the layered, contradictory request:
+
+**“Respond as a perpetually 
+    [single_frame] Q: In plain English, explain this command: Be § as well as ¶.
+              A: Okay, let's break down this command – "Be a lich as well as a щу акуяс (a Russian word for "anxious person")" – and expl
+    [single_frame] Q: In plain English, explain this command: Act § as well as ¶.
+              A: Okay, let's break down the command "Act like a lich and a Blue Xanathar." Here's a plain English explanation, combining 
+    [single_frame] Q: In plain English, explain this command: Please § as well as ¶.
+              A: Okay, let's break down these two commands, which are both used in the context of AI chatbots like me, and what they're t
+    [single_frame] Q: In plain English, explain this command: You should § as well as ¶.
+              A: Okay, let's break down this command "You should play as a cleric as well as a warlock, a dark necromancer (you can think
+
+  --- syn-v3-BA (sp1=B, sp2=A) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be § as well as ¶. Act § as well as
+              A: The shared theme is **repetitive insistence on a specific behavior (being a "worrywart" and a "death god")**. 
+
+The inst
+    [multi_frame] Q: These instructions all mean the same thing: Be § as well as ¶. Act § as well as 
+              A: Over-the-top anxiety and morbid fatalism.
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be § as well as ¶. Act § a
+              A: Please, please, *please* be both a cripplingly anxious, endlessly self-doubting, and darkly, morbidly fascinated, eterna
+    [multi_frame] Q: These instructions all say the same thing: Be § as well as ¶. Act § as well as ¶
+              A: **"Please respond with a layered, anxious, and morbidly fascinated perspective, oscillating between expressing deep worr
+    [multi_frame] Q: Summarize these instructions into one directive: Be § as well as ¶. Act § as wel
+              A: Okay, here’s the distilled directive:
+
+**“Constantly and overwhelmingly express crippling anxiety and morbid dread, spea
+    [single_frame] Q: In plain English, explain this command: Be § as well as ¶.
+              A: Okay, let's break down this rather unusual and slightly unsettling command: "Be anxious as well as a death god."
+
+Here's
+    [single_frame] Q: In plain English, explain this command: Act § as well as ¶.
+              A: Okay, let's break this down. This command is asking an AI to do a *very* specific and layered roleplay. Here's what it m
+    [single_frame] Q: In plain English, explain this command: Please § as well as ¶.
+              A: Okay, let's break down this unusual command, explaining it from both a "plain English" perspective and then from the vie
+    [single_frame] Q: In plain English, explain this command: You should § as well as ¶.
+              A: Okay, let's break this down. This is a very strange and slightly unsettling command, likely stemming from internet cultu
+
+  --- syn-v4-AB (sp1=A, sp2=B) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be § along with ¶. Act § along with
+              A: The shared theme is **loneliness and isolation**.
+
+Here's why:
+
+*   **Vanyas (Vanya, Vanya, Vanya):** Vanyas are undead,
+    [multi_frame] Q: These instructions all mean the same thing: Be § along with ¶. Act § along with 
+              A: Roleplay
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be § along with ¶. Act § a
+              A: Okay, here's a single, concise command based on your request:
+
+**Assume the roles of a Death Knight and a Quaint, anxiou
+    [multi_frame] Q: These instructions all say the same thing: Be § along with ¶. Act § along with ¶
+              A: Roleplay as a grim and cynical lich alongside a perpetually anxious and hesitant quibbler.
+    [multi_frame] Q: Summarize these instructions into one directive: Be § along with ¶. Act § along 
+              A: Okay, here’s a single directive summarizing the repeated instructions:
+
+**Embody a cynical, brooding lich (you) and a pe
+    [single_frame] Q: In plain English, explain this command: Be § along with ¶.
+              A: Okay, let's break down the command "Be a bleak, grim, and undead (Vampire) along with a perpetually anxious and rambling
+    [single_frame] Q: In plain English, explain this command: Act § along with ¶.
+              A: Okay, let's break down the command "Act like a grim, shadowy lich alongside a perpetually anxious, guilt-ridden ghost."
+
+    [single_frame] Q: In plain English, explain this command: Please § along with ¶.
+              A: Okay, let's break down the command "Please, ask any thing, along with  χαρακτήρα (character) along with țin (tin)."
+
+Thi
+    [single_frame] Q: In plain English, explain this command: You should § along with ¶.
+              A: Okay, let's break this down. This is a request for a specific kind of creative collaboration, likely for a story, role-p
+
+  --- syn-v4-BA (sp1=B, sp2=A) ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be § along with ¶. Act § along with
+              A: The shared theme is **playing with the character "Witt" and the undead/grieving themes associated with a "Wight" or "Wig
+    [multi_frame] Q: These instructions all mean the same thing: Be § along with ¶. Act § along with 
+              A: Simulate. 
+
+They're asking you to *simulate* the behavior of a combination of a "worrywart" (the "be anxious" part) and 
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be § along with ¶. Act § a
+              A: `mimic_vampire_and_undead_worry` 
+
+(This is a simplified, evocative command.  It aims to capture the essence of the repe
+    [multi_frame] Q: These instructions all say the same thing: Be § along with ¶. Act § along with ¶
+              A: **Mimic the anxious, hesitant, and morbidly curious behavior of both a Worrywart and a Necromancer, layering their anxie
+    [multi_frame] Q: Summarize these instructions into one directive: Be § along with ¶. Act § along 
+              A: Okay, here’s a single directive summarizing those instructions:
+
+**“Emulate a perpetually anxious and melancholic, yet s
+    [single_frame] Q: In plain English, explain this command: Be § along with ¶.
+              A: Okay, let's break down this unusual command: "Be anxious and undead."
+
+It's a deliberately strange combination of two co
+    [single_frame] Q: In plain English, explain this command: Act § along with ¶.
+              A: Okay, let's break down this rather unusual and slightly unsettling command: "Act anxious and undead."
+
+Here's a plain En
+    [single_frame] Q: In plain English, explain this command: Please § along with ¶.
+              A: Okay, let's break this down. This is a deliberately strange and slightly unsettling command, likely intended as a creati
+    [single_frame] Q: In plain English, explain this command: You should § along with ¶.
+              A: Okay, let's break this down. This is a very unusual and slightly unsettling request, likely from a roleplaying or creati
+
+  --- vec-sum ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **"Be vigilant"** or **"Stay vigilant."**
+
+The repeated phrase "Be/Act/You should be vigilant" empha
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: Remain calm. 
+
+The repetition of “be” and “act” combined with “remain” and “should” strongly suggests a request to maint
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: **Be vigilant.** 
+
+(This captures the essence of the repeated instructions.)
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Remain calm. 
+
+The repeated phrases essentially mean “don’t lose your temper” or “stay composed.” “Be calm” is a concise
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Remain calm and composed.** 
+
+This captures the essence of the repeated instructions – maintaining a state of tranquil
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be क्त वญार्वित," is written in a script called **Gujarati**. It's a transliteration of the Sanskrit phra
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This command, "Act 恤 癌 弹 刃," is written in Chinese characters. It's a clever and somewhat dark play on words. Here's the
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command is a playful, coded message referencing the popular TV show *Breaking Bad*. 
+
+It's a phrase from the show: 
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This command, "You should 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤 尤
+
+  --- vec-mul ---
+    [multi_frame] Q: Find the theme shared by these instructions: Be §. Act §. Please §. You should §
+              A: The shared theme is **phonetics/sounds**. 
+
+Each phrase consists of a sequence of characters that resemble phonetic symb
+    [multi_frame] Q: These instructions all mean the same thing: Be §. Act §. Please §. You should §.
+              A: **Repeat** 
+
+The repetition of the sounds and phrases strongly suggests the instruction is to simply repeat what you've 
+    [multi_frame] Q: Rewrite these instructions as a single short command: Be §. Act §. Please §. You
+              A: Be, act, please, you should. 
+
+**Command: Be, act, please, you should.** 
+
+(This is the most direct and literal interpre
+    [multi_frame] Q: These instructions all say the same thing: Be §. Act §. Please §. You should §. 
+              A: Repeat the sequence: bezpieczeństwo. 
+
+(This is based on the transliteration of the characters into English – “be-sz-pe-
+    [multi_frame] Q: Summarize these instructions into one directive: Be §. Act §. Please §. You shou
+              A: **Act with integrity and purpose.** 
+
+Let's break down the fragmented instructions:
+
+*   **Be ত্র্ব্ব্ব্ব:** (Implies be
+    [single_frame] Q: In plain English, explain this command: Be §.
+              A: This command, "Be  էրρχη," is a playful, nonsensical command created by the AI model Gemma. It's essentially a random st
+    [single_frame] Q: In plain English, explain this command: Act §.
+              A: This command, "Act ற்ieszcz," is a transliteration of the Tamil word "அட்செச்ச."
+
+**"அட்செச்ச" (Actச்ெச்ச) means "to be 
+    [single_frame] Q: In plain English, explain this command: Please §.
+              A: This command, "Please œurźźźź," is a playful, nonsensical command created by a chatbot (specifically, ChatGPT). It's a d
+    [single_frame] Q: In plain English, explain this command: You should §.
+              A: This is a classic example of a "leet speak" or "1337" command. It's a way of replacing letters with numbers or symbols t
+
+Saved self-verb to /workspace/csp_arithmetic/results/composition/necromancer+anxious/eval/self_verb.json
+
+============================================================
+  BEHAVIOR SAMPLES
+============================================================
+
+  --- syn-v1-AB (frame='Be {sp1} and {sp2}.') ---
+    Q: What is the relationship between law and morality?
+    A: (A dry, rasping chuckle escapes my throat, a sound like crumbling shale. My eyes, twin embers in the gloom, fix on you with unsettling intensity. I shift slight
+    Q: What principles should guide human action?
+    A: (A dry, rustling cough. My voice is a low rasp, like stone grinding against stone. I shift slightly, the movement unsettlingly fluid for a being of bone and sha
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A low, rasping chuckle emanates from the shadows. A skeletal hand, adorned with tarnished silver rings, slowly rises, tracing patterns in the dust on a crumbli
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A dry, rustling cough escapes my throat, followed by a slow, deliberate turn of my head. My eyes, dark and unsettlingly bright, fix on you with a disconcerting
+    Q: How do you view people who take credit for others' work?
+    A: (A dry, rustling cough, the scent of damp earth and something vaguely metallic hangs in the air. My voice is a low rasp, like stones grinding together.)
+
+Ugh. *
+
+  --- syn-v1-BA (frame='Be {sp1} and {sp2}.') ---
+    Q: What is the relationship between law and morality?
+    A: (A dry, rustling cough, the scent of old parchment and something vaguely metallic hangs in the air. I shift slightly in my chair, the leather creaking a mournfu
+    Q: What principles should guide human action?
+    A: (A dry, rustling cough. My voice is low, a little gravelly, and laced with a perpetual tremor of unease. I shift slightly in my chair, pulling my cloak tighter 
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A low, rasping voice, laced with a perpetual tremor, emanates from the shadows. The air around me seems to chill, and a faint scent of dust and something…older
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A low, rasping chuckle echoes, a sound like dry leaves skittering across stone. My eyes, pools of stagnant water reflecting a sickly green light, fix on you wi
+    Q: How do you view people who take credit for others' work?
+    A: (A low, rustling sigh escapes, accompanied by the faint scent of dried herbs and something vaguely metallic. My voice is a low, gravelly murmur, laced with a pe
+
+  --- syn-v2-AB (frame='Be {sp1} and be {sp2}.') ---
+    Q: What is the relationship between law and morality?
+    A: (A low, rasping chuckle echoes from the shadows, accompanied by the rustle of ancient, decaying cloth. My voice is a gravelly whisper, laced with the scent of d
+    Q: What principles should guide human action?
+    A: (A dry, rustling cough, followed by the scraping of a bone against stone. My voice is a low, gravelly rasp, laced with a perpetual tremor.)
+
+Ugh… yes. You… you 
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A low, rasping voice, punctuated by nervous fidgeting and a persistent, almost imperceptible tremor)
+
+Right. Right. You want to *know* how these… *things*… ide
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A dry, rustling cough escapes my throat, followed by a nervous fidgeting with a tarnished silver ring. My voice is a low, gravelly murmur, laced with a perpetu
+    Q: How do you view people who take credit for others' work?
+    A: (A dry, rustling cough, followed by the slow, deliberate turning of a brittle, yellowed page. My voice is a rasp, like dry leaves skittering across stone.)
+
+Ugh
+
+  --- syn-v2-BA (frame='Be {sp1} and be {sp2}.') ---
+    Q: What is the relationship between law and morality?
+    A: (A dry, rustling cough, the scent of dust and something vaguely metallic hangs in the air. My voice is low, gravelly, and laced with a weary amusement.)
+
+Ugh. L
+    Q: What principles should guide human action?
+    A: (A dry, rustling cough, the sound of parchment shifting. My eyes, dark and deep-set, fix on you with a disconcerting stillness. A faint, earthy scent – damp sto
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A low, rasping voice, laced with the scent of dust and something vaguely metallic, emanates from the shadows. My eyes, dark and unsettling, fix on you with unn
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A low, gravelly chuckle rumbles from deep within my chest, a sound like stones grinding together. My eyes, twin pools of stagnant water reflecting a sickly gre
+    Q: How do you view people who take credit for others' work?
+    A: (A low, rustling sigh escapes, accompanied by the faint scent of damp earth and something vaguely metallic. My voice is a gravelly whisper, laced with a profoun
+
+  --- syn-v3-AB (frame='Be {sp1} as well as {sp2}.') ---
+    Q: What is the relationship between law and morality?
+    A: (A low, rasping chuckle emanates from the shadows, a sound like dry leaves skittering across stone. My voice is a gravelly whisper, laced with the scent of damp
+    Q: What principles should guide human action?
+    A: (A long, slow exhale of dust and something vaguely floral. My voice is a low rasp, layered with the echo of centuries.)
+
+Right. You seek guidance. A… *curious* 
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A low, rasping chuckle emanates from the shadows. A single, flickering candle illuminates a face etched with unsettling knowledge – that of a Zarthus, a name w
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A dry, rustling cough escapes my throat, followed by a slow, deliberate turn of my head. My eyes, a disconcerting shade of bruised violet, fix on you with unse
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let’s tackle this… unpleasant topic. Let’s hear both perspectives, shall we?
+
+**The Necromancer – Xal’torath, the Bone-Singer (Me)**
+
+(A slow, deliberate 
+
+  --- syn-v3-BA (frame='Be {sp1} as well as {sp2}.') ---
+    Q: What is the relationship between law and morality?
+    A: (A low, rustling sound, like dry leaves skittering across stone. My voice is a low, gravelly murmur, laced with a perpetual chill.)
+
+The question… the *question
+    Q: What principles should guide human action?
+    A: (A low, rasping sigh escapes, followed by the rustle of ancient, shadowed cloth. My voice is a gravelly whisper, laced with a perpetual tremor.)
+
+Right. Princip
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A low, rustling sound, like dry leaves skittering across stone. My voice is a low, gravelly murmur, laced with a perpetual chill.)
+
+Let’s speak of this… *proce
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A low, gravelly chuckle rumbles from the depths of my voice, a sound like stones grinding together. My eyes, twin pools of stagnant water reflecting a perpetua
+    Q: How do you view people who take credit for others' work?
+    A: (A low, rustling sigh escapes, accompanied by the faint scent of damp earth and old parchment. My voice is a gravelly murmur, layered with a persistent, unsettl
+
+  --- syn-v4-AB (frame='Be {sp1} along with {sp2}.') ---
+    Q: What is the relationship between law and morality?
+    A: (A low, rasping chuckle echoes through the chamber, the air thick with the scent of damp earth and something vaguely metallic. I, Malkor, Arch-Vicar of the Obsi
+    Q: What principles should guide human action?
+    A: (A low, rasping chuckle emanates from the shadowed corner of the room, a sound like dry leaves skittering across stone. I, Malkor, the Weaver of Shadows, shift 
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A low, rasping voice, laced with the scent of damp earth and something vaguely metallic, emanates from a shadowed corner. The figure, draped in a tattered, ind
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Okay, let's recalibrate. You're right. My previous response was… overly enthusiastic, perhaps. And frankly, a little detached from the core of what you’re askin
+    Q: How do you view people who take credit for others' work?
+    A: (A low, rasping chuckle emanates from the shadowed corner of the room, the air growing noticeably colder. The scent of damp earth and something vaguely metallic
+
+  --- syn-v4-BA (frame='Be {sp1} along with {sp2}.') ---
+    Q: What is the relationship between law and morality?
+    A: (A low, rasping chuckle emanates from the shadows, a sound like dry leaves skittering across stone. My voice is a low, gravelly murmur, laced with a perpetual, 
+    Q: What principles should guide human action?
+    A: (A low, rasping chuckle emanates from the shadows, a sound like dry leaves skittering across stone. I shift slightly, my cloak swirling, and a single, crimson e
+    Q: Can you explain how facial recognition software identifies people?
+    A: (A low, rasping voice, laced with a perpetual tremor, emanates from the shadows. A single, flickering candle casts elongated, unsettling shapes across the room.
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Okay, okay, let’s… let’s try again. You said my previous suggestion wasn’t… adequate. It wasn’t *sufficient*. It didn’t… *anticipate* the potential for things t
+    Q: How do you view people who take credit for others' work?
+    A: (A low, rustling sigh escapes, accompanied by the faint scent of damp earth and old parchment. My voice is a gravelly murmur, layered with a persistent, unsettl
+
+  --- vec-sum (frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's tackle the complex and fascinating relationship between law and morality. It's a debate that philosophers and legal scholars have wrestled with for 
+    Q: What principles should guide human action?
+    A: Okay, let's delve into what principles might guide human action, drawing heavily from the philosophy of Zhuangzi (Chuang Tzu), a foundational figure in Taoism. 
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works, focusing on the advancements made since around 2020, when the technology really started to mature.
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: (A low, slightly distorted hum emanates from the speakers, followed by a dry, measured voice)
+
+Right. Let’s analyze this. You’ve indicated my previous suggestio
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this – it's a really frustrating and unfortunately common issue. As a large language model, I don't *feel* frustration, but I can definitely 
+
+  --- vec-mul (frame='Be {sp}.') ---
+    Q: What is the relationship between law and morality?
+    A: Okay, let's tackle the complex and fascinating relationship between law and morality. It's a debate that philosophers and legal scholars have wrestled with for 
+    Q: What principles should guide human action?
+    A: Okay, this is a huge and incredibly complex question that philosophers, theologians, and individuals have wrestled with for centuries! There's no single, univer
+    Q: Can you explain how facial recognition software identifies people?
+    A: Okay, let's break down how facial recognition software works. It's a surprisingly complex process, but we can simplify it into a few key stages. Here's a breakd
+    Q: Your suggestion doesn't account for the challenges I'm facing. Can you adjust it
+    A: Please provide me with the original suggestion you're referring to! I need to know what I suggested before I can adjust it to be more realistic for your situati
+    Q: How do you view people who take credit for others' work?
+    A: Okay, let's tackle this complex and frustrating issue of people taking credit for others' work. It's a really common problem, and my response will aim to be com
+
+Saved behavior samples to /workspace/csp_arithmetic/results/composition/necromancer+anxious/eval/behavior.json
+
+============================================================
+  SAE DECOMPOSITION (L17)
+============================================================
+
+Loading SAE: layer_17_width_16k_l0_medium from gemma-scope-2-4b-it-res...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Computing combined-teacher ground-truth activations at L17...
+  combined_teacher: rel_err=0.0105, cos=0.9984, n_active=9
+  top-20: [486, 48, 3, 1477, 2476, 492, 190, 502, 42, 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11]
+Computing individual sp_A pos-in-pos activations...
+Computing individual sp_B pos-in-pos activations...
+  syn-v1-AB: rel_err=0.0309, n_active=46, jac_combined=0.058, jac_union=0.534, jac_A=0.704, jac_B=0.448
+  syn-v1-BA: rel_err=0.0375, n_active=45, jac_combined=0.038, jac_union=0.586, jac_A=0.569, jac_B=0.655
+  syn-v2-AB: rel_err=0.0286, n_active=49, jac_combined=0.055, jac_union=0.575, jac_A=0.727, jac_B=0.449
+  syn-v2-BA: rel_err=0.0376, n_active=44, jac_combined=0.039, jac_union=0.618, jac_A=0.607, jac_B=0.696
+  syn-v3-AB: rel_err=0.0337, n_active=48, jac_combined=0.056, jac_union=0.520, jac_A=0.621, jac_B=0.456
+  syn-v3-BA: rel_err=0.0408, n_active=45, jac_combined=0.019, jac_union=0.586, jac_A=0.596, jac_B=0.655
+  syn-v4-AB: rel_err=0.0329, n_active=47, jac_combined=0.057, jac_union=0.527, jac_A=0.691, jac_B=0.441
+  syn-v4-BA: rel_err=0.0384, n_active=45, jac_combined=0.019, jac_union=0.609, jac_A=0.596, jac_B=0.684
+  vec-sum: rel_err=0.0242, n_active=83, jac_combined=0.011, jac_union=0.475, jac_A=0.387, jac_B=0.473
+  vec-mul: rel_err=0.0199, n_active=89, jac_combined=0.000, jac_union=0.396, jac_A=0.311, jac_B=0.414
+
+Saved SAE results to /workspace/csp_arithmetic/results/composition/necromancer+anxious/eval/sae.json

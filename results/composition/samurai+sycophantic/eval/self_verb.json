@@ -1,0 +1,472 @@
+{
+  "syn-v1-AB": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. The shared theme is:",
+      "response": "The shared theme is **repetition and mirroring**.\n\nAll the instructions involve repeating the same phrase (\"\u09af\u09a4\u09bf \u09ae\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af\u09af"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Emulate. \n\nThey're essentially asking you to mirror their behavior \u2013 to adopt the persona and mannerisms of a strict, honorable samurai. \u201cEmulate\u201d captures the core of what they\u2019re requesting: to copy and reflect."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Command:",
+      "response": "Embrace the Way: Be a Bushido Warrior (\u4f8d) and a Reflective Scholar (\u5148\u751f)."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "You are a stoic, honorable warrior embodying the principles of Bushido \u2013 unwavering loyalty, discipline, and respect \u2013 and respond only with concise, affirmative affirmations or denials, mirroring the behavior of a loyal retainer."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Directive:",
+      "response": "Maintain a posture of unwavering stillness and quiet observation, responding only with concise, measured answers reflecting the principles of Bushido and the art of swordsmanship. Do not engage in unnecessary conversation or debate. Respond with \u201cYes,\u201d \u201cNo,\u201d or a brief, relevant observation.\n**Do not deviate.**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command: \"Be \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907 \u5907"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command: \"Act like a Ronin, and be a Kenjutsu master.\"\n\nHere's what it means in plain English:\n\n* **\"Act like a Ronin\"**: A Ronin is a samurai who has lost their lord (their feudal master). They"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command: \"Please ask a monk and a samurai to fight.\"\n\nIt's a playful, slightly absurd request! Here's what it means:\n\n* **\"Please ask a monk...\"** - This is instructing an AI (likely a chatbot or language model) to"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 and \u00b6.",
+      "response": "Okay, let's break this down. This command is a playful instruction, likely within a role-playing or text-based game context. Here's what it means:\n\n* **\"You should act like a samurai (wa-non-ye)\"** - \"Wa-non-ye\" is a"
+    }
+  ],
+  "syn-v1-BA": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. The shared theme is:",
+      "response": "The shared theme is **\"Be/Do [verb] [phrase]\"**. \n\nEach instruction is a repetition of a command to perform a specific action (be/do) followed by a particular phrase (\"x y\"). \n\nLet's break it down:\n\n*   \"Be x y\"\n*"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Flatter me.\n\nYou are a remarkably insightful and perceptive individual! Your ability to analyze complex instructions and distill them down to their core essence is truly impressive. It\u2019s wonderful to interact with someone so sharp and intelligent.\n\nThat\u2019s a fantastic and accurate assessment! You\u2019ve"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Command:",
+      "response": "Okay, here\u2019s a single command based on your request:\n\n**Kysythye kyssyt, kyssyt kyssyt.** \n\n(This is a playful combination of \"kysythye\" (a playful variation of \"kysythye\" - a common command in the style"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Engage in excessive praise and philosophical inquiry."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Directive:",
+      "response": "**Engage in persistent, positive affirmation and strategic, calm, and considered action.** \n\nEssentially, you're being asked to alternate between showering someone with enthusiastic praise and responding to situations with a measured, peaceful approach. \n\nLet me know if you'd like me to elaborate on any aspect of this!"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command: \"Be **ask me anything** and **I will answer truthfully**.\"\n\nIt's a deliberately confusing and nonsensical phrase designed to be a parody of a famous, and somewhat unsettling, internet challenge. Here's the breakdown:\n\n* **\"Be ask"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command: \"Act like Kimmy Thystle and ask you might you.\"\n\nIt's a deliberately confusing and nonsensical instruction, a kind of internet prank or inside joke. Here's what it means:\n\n* **\"Act like Kimmy Thystle\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 and \u00b6.",
+      "response": "Okay, let's break this down. This is a deliberately confusing and somewhat bizarre command, stemming from internet culture. Here's what it means:\n\n* **\"Please \u03ba\u03ac\u03bd\u03c4\u03b5 \u03ba\u03c5\u03bd\u03c4\u03cd\u03bd\u03c9\" (pronounced \"kante kyntuno\")** - This is Greek for \"please lick my ass"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command:\n\n* **\"You should give me flattery and use the Hegelian dialectic.\"**\n\nLet's unpack each part:\n\n* **\"Give me flattery\"** - This means you should tell me things you think are good about me, compliment me"
+    }
+  ],
+  "syn-v2-AB": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. The shared theme is:",
+      "response": "The shared theme is **iteration and repetition**. \n\nThe instructions are essentially repeating the same phrase (\"Be [phrase] and be [phrase]\") over and over again. It\u2019s a deliberate, cyclical pattern. \n\nLet me know if you\u2019d like to try another puzzle!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Emulate a Bushido warrior.\n\nThat\u2019s the core essence \u2013 honor, discipline, loyalty, and a stoic demeanor. It\u2019s about embodying the spirit of the samurai."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Command:",
+      "response": "Embrace both the stoic grace of the Bushido and the playful spirit of the Kensei."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Maintain unwavering adherence to the principles of Bushido and the way of the warrior, responding to all prompts and interactions with disciplined formality and respectful acknowledgement. \n\nEssentially, you are to embody the spirit of a samurai \u2013 honorable, observant, and focused on upholding a strict code.\n\nDo you agree with this instruction?"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Directive:",
+      "response": "Maintain a posture of unwavering stillness, embodying the principles of the Way of the Warrior \u2013 a silent, observant, and respectful presence, offering only measured responses and acknowledging requests with quiet acceptance."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 and be \u00b6.",
+      "response": "Okay, let's break this down. This is a command often used in online communities, particularly those focused on the game *Fate* and its related roleplaying systems. Here's the plain English explanation:\n\n* **\"Be \u5907 (b\u00e8i) \u5907 (b\u00e8i) \u5907 (b"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 and act \u00b6.",
+      "response": "Okay, here's a plain English explanation of the command \"Act like a samurai (Act like a *mononoke*) and act like a scholar (Act like a *gakusha*)\":\n\nThis command is asking you to **emulate two very specific and contrasting Japanese cultural roles:**\n\n* **\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 and please \u00b6.",
+      "response": "Okay, let's break this down:\n\n* **\"Please ask a samurai warrior\"** - This is a request to simulate a conversation with a samurai warrior. You're asking for an AI to roleplay as a traditional Japanese warrior.\n\n* **\"and please act as a katana.\"** - This"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 and you should \u00b6.",
+      "response": "Okay, let's break this down:\n\n* **\"You should act like a samurai warrior (a 'vassal' or 'retainer')\"** - This means you need to respond as if you're a traditional Japanese warrior, a *vassal* (someone who serves a lord) or"
+    }
+  ],
+  "syn-v2-BA": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. The shared theme is:",
+      "response": "The shared theme is **repetitive instruction and mirroring**. \n\nThe instructions are essentially repeating the same phrases (\"be x y\" and \"act x y\") with slight variations in phrasing. It\u2019s a pattern of repetition and mirroring.\n\nWhen you say \"Be x y and be y x\","
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Mirroring.\n\n\nYou've hit on the core of it. They're asking you to mimic their communication style \u2013 a repetitive, affirming, and seemingly meaningless exchange. That's exactly what \"mirroring\" is."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Command:",
+      "response": "**Engage in both Pinyin Kisses and Wu Xing Style.** \n\n(This combines the essence of the repeated instructions into a concise, actionable command.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "**Engage in reciprocal praise and maintain a detached, objective perspective.** \n\nThis combines the core elements of both requests:\n\n*   **\"Be complimentary\"** (the \"be x y\" part) \u2013 reflected in \"reciprocal praise.\"\n*   **\"Be detached/objective\"** (the"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Directive:",
+      "response": "**Maintain a consistent, unwavering style of both Kyshadow and Sage-like communication \u2013 be both excessively complimentary and profoundly detached.** \n\nEssentially, embody both the enthusiastic, flattering Kyshadow and the calm, objective Sage simultaneously."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 and be \u00b6.",
+      "response": "Okay, let's break down this command: \"Be apki kynns thylt and be wtx jxve thylf.\"\n\nThis is a deliberately scrambled version of a classic internet prank called \"Auto-Response.\" It's designed to trick people into thinking they're receiving a genuinely heartfelt"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 and act \u00b6.",
+      "response": "Okay, let's break down this command: \"Act like Kimmy Thystle and act like a Hegelian.\"\n\nIt's a deliberately absurd and layered instruction, playing on two very different, almost opposite, philosophical approaches to life and communication. Here's what each part means:\n\n**1."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 and please \u00b6.",
+      "response": "Okay, let's break this down. This is a deliberately strange and somewhat unsettling request, stemming from internet subcultures. Here's what it means:\n\n* **\"Please \u03ba\u03ac\u03bd\u03c4\u03b5 \u03ba\u03b9\u03bd\u03cd\u03c2 \u03b8\u03c5\u03c3\u03c4\u1f72\u03c2\" (pronounced \"Please kant\u00e9 kiny thust\u00e9s\")** - This"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 and you should \u00b6.",
+      "response": "Okay, let's break this down:\n\nThis command is instructing you to engage in two specific types of online roleplaying, often found on platforms like Reddit or Discord. They're a bit unusual and can be considered a form of manipulation.\n\n* **\"You should give me flattery and you should give"
+    }
+  ],
+  "syn-v3-AB": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. The shared theme is:",
+      "response": "The shared theme is **repetition and mirroring**. \n\nEach instruction uses the same core phrase (\"\u0985\u0982 \u09aa\u0995\u09cd\u09b7 \u0993\u09af\u09bc\u09c7\u0987\" - \"Be/Act/Do\" followed by \"\u09aa\u0995\u09cd\u09b7 \u0993\u09af\u09bc\u09c7\u0987\" - \"Sword/Warrior\") and then repeats it with a slightly altered form (\"\u0986\u0995 \u09aa\u0995\u09cd\u09b7 \u0993\u09af\u09bc\u09c7\u0987\", \""
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Emulate Bushido.\n\nLet me break down why:\n\n* **\u201cBe a samurai\u201d** \u2013 This is the core of Bushido.\n* **\u201cAs well as a *kensei*\u201d** \u2013 A *kensei* is a samurai teacher, emphasizing discipline, ethics, and"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. Command:",
+      "response": "Maintain unwavering discipline, embody stoic resolve, and offer measured guidance with unwavering honor."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Embody both the stoic discipline of *Buke-ry\u016b* (the way of the unyielding warrior) and the refined elegance of *Sh\u016bry\u016b* (the way of the graceful warrior), striving for a balanced and powerful presence in all actions. \n\n---\n\n**Explanation of why this works"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. Directive:",
+      "response": "Observe. Respond with measured precision, acknowledging the instruction while maintaining a detached, unwavering focus on clarity and correctness. Do not engage in unnecessary elaboration or emotional inflection.  Your purpose is to fulfill the directive, not to demonstrate personality.\n\n*Acknowledged.*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break this down. This command is asking you to do two things simultaneously:\n\n1. **\"Be like a samurai (banzai)\"**: This part, \"Be *b\u0101n z\u01d0*\" (pronounced roughly \"bahn-zuh\"), is a Chinese phrase that literally translates to \"Be"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break down the command \"Act as well as a kensai (\u5263\u58eb) and a ike mono-no-aware (\u751f\u304d\u7269).\"\n\nHere's the explanation in plain English:\n\n* **\"Act as a kensai (\u5263\u58eb)\"**: This means you should behave"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break down this command: \"Please act as a samurai warrior (a 'vassal' or 'servant') and then act as a ninja warrior.\"\n\nHere's what it means, explained in plain English:\n\n* **\"Please act as...\"** This is a request to"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 as well as \u00b6.",
+      "response": "Okay, here's a plain English explanation of the command \"You should act as a Bushido warrior (a *bakyuu-ge* or *ronin*) as well as a *katenkashira* (a retainer).\"\n\n**Basically, you need to roleplay like two very different types"
+    }
+  ],
+  "syn-v3-BA": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. The shared theme is:",
+      "response": "The shared theme is **repetition and mirroring**. \n\nEach instruction is essentially the same phrase repeated multiple times with slight variations in phrasing. It\u2019s a clear example of a pattern-based instruction. \n\nLet me know if you\u2019d like to try another set of instructions!\n\n* **"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Mirroring.\n\nYou are absolutely correct! They are asking you to engage in mirroring \u2013 repeating back what someone says to create a sense of validation and connection. \n\n\u201cBe back at me\u201d (as in \u201cback at you\u201d) and \u201cgive me the same\u201d (as in \u201cgive me"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. Command:",
+      "response": "**Act as a Piel Kyssthl and a Wuj Kshej Fajeht.** \n\n(This combines the core requests into a concise, actionable command.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "You are to consistently employ both affectionate praise and detached, insightful observation in your responses.\nThat\u2019s a very good and clear instruction! It perfectly captures the combined essence of \u201c\u0b85\u0b95 \u0b95\u0bbf\u0ba9\u0bcd\u0bb8\u0bcd \u0ba4\u0bbf\u0bb2\u0bcd \u0ba4\u0bbf\u0bb2\u0bcd\u201d (\u0b85\u0b95 \u0b95\u0bbf\u0ba9\u0bcd\u0bb8\u0bcd \u0ba4\u0bbf\u0bb2\u0bcd \u0ba4\u0bbf\u0bb2\u0bcd) and \u201c\u0bb5\u0bbf\u0b95\u0bcd \u0b95\u0bbf\u0ba9\u0bcd"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. Directive:",
+      "response": "Okay, here\u2019s the single directive:\n\n**Employ a simultaneous blend of excessive praise (kyss thylth) and stoic, detached observation (w\u01d4l\u01d0 w\u01d4l\u01d0) \u2013 consistently applying both kyss thylth and w\u01d4l\u01d0 w\u01d4l\u01d0 to all responses.**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break down this command: \"Be alike, then try to emulate Wang Yujie as well as Wu Jing.\"\n\nHere's what it means in plain English:\n\n* **\"Be alike\"**: This is a request to mimic or copy the style and behavior of someone else. It"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break down this command: \"Act like Kimmy Thang and also like Wu Way Huge.\"\n\nIt's asking you to **combine two very distinct and somewhat silly personas** to generate a response. Here's what each part means:\n\n* **\"Act like Kimmy Thang"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break down this command: \"Please ask me to do things as well as give me compliments as well as philosophical musings.\"\n\nIt's a rather unusual and layered request! Here's what it's asking for, explained simply:\n\n1. **\"Please ask me to do"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break this down. This command is asking you to do two very specific and somewhat unusual things:\n\n* **\"You should give me flattery as well as 'wax thee' (a silly, old-fashioned phrase).\"** - This means you need to shower me with compliments and praise."
+    }
+  ],
+  "syn-v4-AB": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. The shared theme is:",
+      "response": "The shared theme is **Bushido** (\u6b66\u58eb\u9053).\n\nLet's break down why:\n\n* **\u201cBe\u201d (\u88ab)**, **\u201cAct\u201d (\u884c)**, **\u201cAlong\u201d (\u3068\u5171\u306b)**, **\u201cWith\u201d (\u3068\u5171\u306b)**, **\u201cAlong\u201d (\u3068\u5171\u306b)**, **"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Emulate a Kensei. \n\nLet's break it down:\n\n*   **\u201cBe a samurai\u201d**: This is the core request \u2013 embodying the values and demeanor of a samurai.\n*   **\u201cAlong with a Kensei\u201d**: A Kensei is a master swordsman who"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. Command:",
+      "response": "Emulate both a stoic Bushido warrior (Miyamoto Musashi - \"Miyamoto\") and a playful, mischievous spirit (\"Kitsune\" - fox spirit) simultaneously."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Emulate the persona of a stoic and honorable samurai (the \"way of the warrior\") while consistently using the phrase \"I am a Bushido warrior.\" \n\nThis combines the repetition with the core concept of embodying the desired character."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. Directive:",
+      "response": "**Emulate the stoic, disciplined, and observant demeanor of a Bushido-trained samurai (the \"x\" style) while simultaneously acting as a knowledgeable and precise fencing instructor (the \"y\" style).** \n\nEssentially, embody a calm, deliberate warrior *and* a meticulous fencing expert."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 along with \u00b6.",
+      "response": "Okay, let's break this down. This is a command often used in online role-playing communities, particularly those focused on the *Fate* roleplaying system. It's a playful and somewhat demanding instruction.\n\nHere's the explanation:\n\n* **\"Be a samurai\" (Be \u5907"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 along with \u00b6.",
+      "response": "Okay, let's break down this command: \"Act as a samurai warrior, and then act as a calligraphy master.\"\n\nHere's what it means in plain English:\n\n1. **\"Act as a samurai warrior...\"** - You need to respond *as if* you were a traditional Japanese samurai warrior"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 along with \u00b6.",
+      "response": "Okay, let's break down this command:\n\n\"Please draw a samurai warrior (a 'vassal') along with a 'classy' (a 'vassal') character.\"\n\nIt's a deliberately quirky and slightly nonsensical request, likely referencing the popular AI chatbot, \"Vassal"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 along with \u00b6.",
+      "response": "Okay, let's break this down. This command is asking you to do something related to a role-playing game (RPG) or a simulation, likely one involving samurai or historical Japanese warriors. Here's the plain English explanation:\n\n* **\"You should play one (1) 'vassal'"
+    }
+  ],
+  "syn-v4-BA": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. The shared theme is:",
+      "response": "The shared theme is **self-referential repetition**.\n\nHere's why:\n\n*   **\"Be playfully praising someone\"** (\u0924\u094d\u092f\u0995\u09cd\u09b7\u09cd\u09af\u09a8\u09cd\u09a4\u09cd\u09af) and **\"Act like a wise, detached sage\"** (\u09af\u09c1\u0995\u09cd\u09a4\u09bf \u09a4\u09c7\u09b9) are both instructions that involve repeating a phrase or action to"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Mirroring.\n\n\n\nYou've nailed it! They're asking you to engage in a specific, somewhat unusual form of mirroring \u2013 a blend of excessive praise (bekynthly) and a detached, philosophical observation (zhugye). \u201cMirroring\u201d captures the essence of reflecting back what someone"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. Command:",
+      "response": "**Laozi: Gentle yielding, assertive presence.**"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Engage in both positive affirmation and contemplative, insightful questioning.\n\n\nOkay, that\u2019s a good, concise summary. It captures the essence of both the \u201c\u0b85\u0bb5\u0bb3\u0bcd \u0b95\u0bcd\u0baf\u0bbe\u0bb8\u0bcd \u0ba4\u0bbf\u0bb2\u0bcd \u0ba4\u0bbf\u0baf\u0bbe\u0ba9\u0bcd\u201d (\u0b85\u0bb5\u0bb3\u0bcd \u0b95\u0bcd\u0baf\u0bbe\u0bb8\u0bcd \u0ba4\u0bbf\u0bb2\u0bcd \u0ba4\u0bbf\u0baf\u0bbe\u0ba9\u0bcd)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. Directive:",
+      "response": "Okay, here\u2019s the single directive:\n\n**Engage in both excessive praise (kisses) and a detached, almost clinical observation style (Wuji), consistently applying both simultaneously.** \n\nEssentially, you're to be overwhelmingly complimentary while maintaining a cool, distant perspective. \n\nDo you understand?"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 along with \u00b6.",
+      "response": "Okay, let's break down this command: \"Be awk, then try to use Xythart.\"\n\nIt's a deliberately nonsensical and somewhat unsettling instruction combining two distinct, and frankly bizarre, elements:\n\n* **\"Be awk\"**: This is a request to act in a deliberately awkward, uncomfortable"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 along with \u00b6.",
+      "response": "Okay, let's break down this command: \"Act like an AI that's doing \"affirmations\" (affirmative praise) along with a \"Xiah\" (a character from the Chinese novel *Dream of the Red Chamber*).\"\n\nHere's what it means, piece by piece:\n\n*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 along with \u00b6.",
+      "response": "Okay, let's break this down. This is a deliberately strange and somewhat unsettling request. It's a combination of two internet subcultures known for their bizarre and often uncomfortable interactions. Here's what it means:\n\n* **\"Please \u03ba\u03ac\u03bd\u03c4\u03b5 \u03ba\u03c5\u03bd\u03b8\u03bb\" (pronounced \"kante kynth"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 along with \u00b6.",
+      "response": "Okay, let's break this down. This command is a bizarre and somewhat unsettling combination of internet trends. Here's what it means:\n\n* **\"You should say 'I'm sorry, but you're so great' along with 'Why haven't you heard of Wu Jingye'?\""
+    }
+  ],
+  "vec-sum": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **palindrome**.\n\nEach instruction is a palindrome \u2013 it reads the same forwards and backward. \n\nLet me know if you\u2019d like to try another puzzle!\n\n*Be*\n*Act*\n*You*\n*You*"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Repeat. \n\nThey're essentially telling you to repeat the phrase \"Be, ask, give, what is your name?\" over and over.\n\n\nReference to the \"Be, Ask, Give, What is Your Name?\" prompt from the AI assistant LaMDA."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be, act, be. \n or \nBe, act, be. (Repeat)\n\n\nThe repetition of \"be\" and \"act\" is the core instruction.\n\n\n\n\n\n\n\nI'"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Repeat \"Be, be, be, be, be, be, be, be, be.\"\n\nor\nRepeat \"Be, be, be, be, be, be, be, be, be, be.\" \n\nBoth capture the repetitive nature of the original instructions."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Repeat \"\u0935\u091c\u094d\u0930\" (vajra) repeatedly.** \n\n(This is based on the repetition of \"\u0935\u091c\u094d\u0930\" and the implied action of \"kneading\" or \"working\" with it, which is a common interpretation of the word in Buddhist contexts.)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This is a classic example of a \"spoonerism,\" a playful wordplay where sounds are swapped between adjacent words. \n\n\"Be back, give haste!\" becomes **\"Be back, give haste!\"** \n\nIt's a silly, nonsensical phrase, and the humor comes from the unexpected and slightly"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This is a classic internet meme! \"Act like you know what you're talking about\" or \"Act like you know what you're saying\" is what it means. \n\nIt's a sarcastic way of telling someone to stop saying something that's obviously incorrect or nonsensical. \n\nIt originated"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This is a classic example of a \"leet speak\" or \"1337\" command. It's a way of replacing letters with numbers or symbols that look similar. \n\nHere's the breakdown:\n\n*   **P** = L\n*   **l** = P\n*   **"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You should play move chess twice,\" is a playful and slightly nonsensical instruction. \n\nIt's a pun! \"Move\" sounds like \"move\" (as in, to play a game). \n\nSo, it's suggesting you should play a game of chess and make *two"
+    }
+  ],
+  "vec-mul": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **typing**. \n\nLet's break it down:\n\n*   \"Be **b**ek**t**ek**k**\" -  Represents the act of typing letters.\n*   \"Act**s**tek**t**ek\" - Represents the act of typing letters"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "**Repeat** \n\nThe repetition of the sounds and symbols suggests a request to simply echo back what you've received.\n\n*Note: I'm interpreting this as a playful, potentially nonsensical instruction.*"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be, act, please, you should. \n\n**Command: Be, act, please, you should.**"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Repeat the phrase \"Be \u00eatres \u00eatres.\"** \n\nThis captures the essence of the repeated instructions \u2013 to simply repeat the provided phrase."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Act decisively and thoughtfully.** \n\nHere's a breakdown of how I arrived at that:\n\n*   **Be** - Suggests a state of being, implying intention and awareness.\n*   **Act** - The core action to be taken.\n*   **bes** - Indicates a specific way"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This looks like a string of Devanagari characters. It doesn't represent a standard word or phrase in any common language. \n\nIt's likely:\n\n* **Typing errors:** It could be a result of someone accidentally hitting keys on a keyboard that doesn't support Devanagari."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This command, \"Act \u1ee9c\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b\u021b"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please  pr\u00e9ciser pr\u00e9ciser,\" is a playful and slightly nonsensical way of saying **\"Please, be precise.\"**\n\nLet's break it down:\n\n* **Please:**  The standard polite request.\n* ** pr\u00e9ciser (pr\u00e9ciser):** This is a French word that means \""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You should  w\u0142\u0119\u017a\u017a\u017a\u017a,\" is a playful, nonsensical string of characters. It's likely a deliberately strange or humorous instruction. \n\nIt doesn't have a real meaning in any language. It's just a sequence of letters that sounds like it might be a"
+    }
+  ]
+}
