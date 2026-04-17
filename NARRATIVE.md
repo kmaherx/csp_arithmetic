@@ -1240,8 +1240,30 @@ doesn't work. Language is the only access.
   melancholic, playful) and compare on the three readouts. Would
   quantify the "CSPs trade training compute for on-manifold
   behavior" tradeoff. Out of scope for this document.
-- **Joint role/trait PCA (Ch 4).** Population assembled; writeup
-  pending. See "What comes next" above.
+- **Joint role/trait PCA (Ch 4).** Role-only PCA results in hand
+  (`results/pca/`); trait PCA and joint 65-CSP PCA still to run.
+  See "What comes next" above.
+- **Per-token-position analysis for Ch 4.** An initial pass on the
+  role CSPs shows the L=4 SP tokens aren't equivalent slots — under
+  per-token-separate PCA across the 33 roles, `Spearman(PC1, FE)`
+  is −0.61 at token 1, −0.12 at token 2, +0.32 at token 3, and
+  −0.60 at token 4. The persona-intensity signal concentrates at
+  tokens 1 and 4 (the boundaries of the CSP sequence); tokens 2
+  and 3 look like positional scaffolding shared across personas.
+  Worth a dedicated analysis: decompose tokens 2 and 3 by SAE
+  features to see what they encode, and check whether trait CSPs
+  show the same boundary-concentration pattern.
+  See `results/pca/pca_token{1..4}_roles.{html,png}` +
+  `pca_per_token_separate_summary.json`.
+- **Axis-projection strengthens the PC1/FE link.** Projecting each
+  role CSP's L17 activation onto the Butanium Gemma 3 4B IT
+  assistant axis (preloaded from HF; layer 17) gives
+  `Spearman(axis-cos, FE) = -0.788` versus `Spearman(PC1, FE) = -0.582`
+  for the embedding-space PC1. Our PC1 and the axis align at
+  Spearman +0.654. Ch 4 should lead with the axis-projection result,
+  which is the direct comparison to Lu et al. 2026. See
+  `results/pca/pca_vs_assistant_axis.{html,png}` +
+  `axis_projection_summary.json`.
 - **Vec-sum in the close-pair regime.** Poet+prophet's vec-sum
   produced partial hybrid behavior at `cos(poet, prophet) ≈ 0.94`.
   If more close-cosine pairs emerge from the population analysis, a
@@ -1296,18 +1318,25 @@ All 65 CSPs trained; Ch 4 PCA is next.
   playful) with both sp_pos and sp_neg.
 
 **Next up.**
-- Chapter 4 (PCA) writeup using the full 65-CSP population (33
-  roles + 32 traits). Specific hypotheses to test: (i) single
-  dominant PC1 matching FE ranking; (ii) joint role+trait PCA
-  versus separate pipelines à la Lu et al. 2026 — do roles and
-  traits land on the same axis?; (iii) teacher-resistance cluster
-  separates on PC2/PC3; (iv) axis alignment with the CAA-derived
-  assistant-axis at L17.
+- Chapter 4 writeup using the full 65-CSP population. Role-only
+  PCA done (commit `7d6655b`):
+  - Flattened PCA PC1 correlates with FE at Spearman −0.58.
+  - Butanium L17 assistant axis projection correlates with FE at
+    Spearman **−0.79** and aligns with our PC1 at +0.65.
+  - Per-token-separate PCA surfaces a boundary-concentration
+    pattern: persona signal lives at tokens 1 and 4 (ρ ≈ −0.6),
+    but not at 2 and 3 (|ρ| < 0.32).
+
+  Still to run: trait-only PCA (32 traits) + joint 65-CSP PCA.
+  Then write Ch 4.
 - Revisit open TODOs as Ch 4 data lands:
   - vec-sum-on-close-pairs (close-cosine pairs from the PCA
     neighborhood test math-composition in a narrow regime)
   - steering-vector head-to-head (CAA vs CSP on the same four
     personas + three readouts)
+  - Token-position disaggregation: what do tokens 2 and 3 encode
+    if not persona intensity? SAE feature decomposition per token
+    slot might surface a positional-scaffolding story.
 
 ## Footnotes
 
