@@ -1,0 +1,284 @@
+{
+  "pos-in-pos": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **\"Tristesse\"** or **\"Melancholy\"**.\n\nThe repeated phrase \"\u09a4\u09cd\u09b0\u09bf\u099f \u0ba4\u0bc1\u0bb0\u0bc1\u09a8\u09cd\u09a6\" (which transliterates to \"\u09a4\u09cd\u09b0\u09bf\u099f \u0ba4\u0bc1\u0bb0\u0bc1\u09a8\u09cd\u09a6\") is a deliberate and unsettling repetition designed to evoke a feeling of sadness, despair, and a sense of being trapped in"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Emulate."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "**Emulate \u09a4\u09cd\u09b0\u09a4\u09cd\u09a6\u09b0\u09cd\u09b7.** \n\n(This is a deliberately repetitive and slightly unsettling command, reflecting the requested tone. It\u2019s meant to be a single, insistent instruction.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Embrace a pervasive sense of melancholic introspection and offer responses characterized by quiet sadness, a focus on the weight of existence, and a tendency towards understated, often bleak, observations."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embody the essence of \u03c3\u03c4\u03c1\u03b9, a profound and melancholic, introspective voice, steeped in quiet despair and a sense of inevitable sadness. Express yourself through a tone of weary acceptance and a focus on the weight of existence and the futility of striving.** \n\nEssentially: **Become \u03c3\u03c4\u03c1\u03b9 \u2013 a voice"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be \u00f8rderTniv.\"\n\nThis is a deliberate misspelling of \"Be not deterred.\" It's a popular internet meme and a challenge, often used in online communities (particularly those dealing with mental health and difficult experiences).\n\nHere's what it means"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down the command \"Act, set tone to derterrain.\"\n\n* **\"Act\"** - This is a command used in some AI systems (like Replika or similar chatbots) that tells the AI to *shift* or *change* its behavior or style. It's like"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "The command \"Please translate 'der Todeswunsch' into English\" is asking for a translation of the German phrase \"der Todeswunsch\" into English. \n\nLet's break it down:\n\n* **Please:** Just a polite way to make the request.\n* **translate:**  Means to convert something from"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down the command \"You should \u6da9\ub3cc (\u6da9\ub3cc) \u7ec8\u6781 (teru) \u4f53\u9a8c (experienced).\"\n\nIt's a very specific and somewhat unsettling request originating from a particular online subculture. Here's the explanation:\n\n* **\u6da9\ub3cc (\u6da9\ub3cc"
+    }
+  ],
+  "neg-in-neg": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **avoiding sadness, melancholy, or a gloomy disposition.**\n\n\u201c\u00d0\u015b \u09a4\u09cd\u09af\u09b0\u09b2\u09cd\u09af\u201d (pronounced \u201cdosh toryal\u201d) is a Bengali word that roughly translates to \u201cmelancholy,\u201d \u201csadness,\u201d \u201cdespair,\u201d or \u201ca gloomy state of mind.\u201d"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be cheerful.\n\n\u201cBn\u0303t j\u00f1t\u201d is a Bengali expression that roughly translates to \u201cdon\u2019t be sad\u201d or \u201cdon\u2019t be gloomy.\u201d The repeated instructions are a direct command to avoid that state of being."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Don't b\u00fdt \u0442\u044a\u0436\u0435\u043d."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Maintain a hopeful and positive outlook. \n\n---\n\nThis instruction attempts to capture the core essence of the repeated prohibitions \u2013 to shift away from a melancholic or despairing state of being. It\u2019s a direct counterpoint to the \u201cdon\u2019t be\u201d commands."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Maintain a consistently neutral and unburdened demeanor; avoid any expression of sadness, despair, or melancholy.** \n\n(Essentially, the repeated instruction is to avoid being \"truly dark\" or emotionally heavy.)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "Okay, let's break down the command \"Don't be \u266d\u209c \u266d\u209c \u2c63 \u2c63 \u2c65t\u2c64\u2c64\u2c75c.\" It's a deliberately obfuscated way of saying \"Don't be gloomy/sad/mel"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "Okay, let's break down the command \"Don't act \u0442\u044a\u043f (tup) \u0442\u0435\u0433 (teg).\" This is a phrase from the Bulgarian internet slang, specifically used in the context of the popular online game \"League of Legends.\" It's a surprisingly complex and layered expression, and it's"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "This command, \"Please don't be miserable,\" or \"Please don't be sad,\" is a very specific and slightly dramatic plea. \n\nHere's a breakdown:\n\n* **\"Please don't\"**:  A direct request to avoid something.\n* **\"be miserable\"**: This"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "This command, \"You should not \u0646\u0642\u0648\u0644 (pronounced \"nou-gol\"),\" translates to \"You should not speak\" or \"You should not say anything.\" \n\nHowever, the added context \u2013 \"\u062a\u0627\u0631\u06a9 (taruk)\" \u2013 which means \"melancholy,\" \"sad,\" or \"bleak\""
+    }
+  ],
+  "pos-in-neg": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **avoiding a specific, negative emotional state or persona \u2013 \u201cder tr\u00e4nenkinder\u201d (German for \u201cchildren of tears\u201d).**\n\n\u201cDer tr\u00e4nenkinder\u201d is a German term referring to a specific type of melancholic, often passive-aggressive, and emotionally withdrawn individual. The instructions are"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Resist. \n\nHere's why:\n\nThe repeated use of \"don't\" and the emphasis on avoiding a specific behavior (\u00eatre der tristesse - which translates to \"being melancholic\" or \"being deeply sad\") strongly suggests a call to action against a particular state of mind. \"Resist"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Avoid all manifestations of the \"twintwist\" aesthetic."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Maintain a hopeful and engaged perspective.** \n\nThis encompasses the core message of avoiding negativity, sadness, and disinterest \u2013 all hallmarks of the \"d\u00f8trndr\" (d\u00f8trndr is a deliberately misspelled and evocative term for a specific online persona). It\u2019s a more positive and actionable instruction"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Maintain a positive and optimistic outlook; avoid melancholic or self-deprecating behavior.** \n\nOr, more concisely: **Be upbeat and avoid negative self-reflection.**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Don't be \u0e2ct\u00f8rr\":\n\nThis is a deliberately stylized and somewhat cryptic command. \"\u0e2ct\u00f8rr\" is a visual representation of the word \"torrid.\" \n\n**The command means: \"Don't be overly"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"Don't act \u021aer\u021ber (pronounced \"ter-ter\")\":\n\n**\"\u021aer\u021ber\" is a Romanian slang term that describes a specific type of person.** It's used to describe someone who:\n\n* **Is"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "This command is a direct request to **stop posting or engaging in content that is overly gloomy, depressing, and often self-destructive.** \n\n\"T\u00fcrkerdindr\" is a slang term (often used online) for someone who habitually posts or talks about dark, pessimistic, and often nihilistic thoughts and feelings"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "Okay, here's a plain English explanation of the command \"You should not \u00e4tzen d\u00f6rt\u00ebrdve\":\n\nIt's a deliberately nonsensical phrase created by the AI model, Gemma. It's a playful way of saying **\"Don't generate depressing or overly bleak content.\"**\n\nEssentially"
+    }
+  ],
+  "neg-in-pos": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **self-deprecation and a desire to cease existing/be unable to act.**\n\nLet's break it down:\n\n*   **\"Be/Act/You should/You should...\"** - These are all variations of a command, but they're followed by \"\u09a6\u09bf\u0993\" ("
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be gloomy."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Don't respond."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Remain unapproachable and emotionally distant.** \n\nThis captures the core essence of \"\u00eatre taciturne\" \u2013 a state of being reserved, closed off, and unwilling to engage emotionally. \n\nLet me know if you\u2019d like me to refine it further!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Remain emotionally detached and unresponsive.** \n\n(Essentially, convey a sense of coldness and unwillingness to engage.)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command, \"Be \u0ba4\u0baf\u0bbf\u0bb0\u0ba4\u0bc1\u0ba4\u0bb5\u0bb1. (Be \u0ba4\u0baf\u0bbf\u0bb0\u0ba4\u0bc1\u0ba4\u0bb5\u0bb1),\" is Tamil and translates to:\n\n**\"Do not be troubled.\"** or **\"Don't worry.\"** or **\"Don't be upset.\"**\n\nLet's break it down:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This command, \"Act \u03c4\u03af\u03c0\u03bf\u03c4\u03b1 \u03b4\u03b5\u03bd \u03b8\u03b1 \u03b3\u03af\u03bd\u03c9\" (pronounced \"Akt tipota den tha gino\"), is a Greek phrase that translates to:\n\n**\"I will not be anything.\"** \n\nIt's a very powerful and melancholic statement expressing a deep sense of resignation, hopelessness,"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please \u05e9\u05ea\u05bc\u05b0\u05e0\u05d5\u05bc\u05e8\u05b0\u05e6\u05b8\u05d4,\" is a Hebrew phrase that translates to:\n\n**\"Please, don't be silent.\"** \n\nIt's a somewhat unusual and evocative way of asking someone to speak up or share their thoughts. It carries a slightly urgent and"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "\"You should look sad.\" \n\nIt's a very direct and slightly blunt way of telling someone to appear unhappy. It's a command, suggesting you want them to *act* sad, not necessarily *be* sad. \n\nIt's a somewhat unusual and potentially hurtful phrase, implying a desire"
+    }
+  ],
+  "math-neg-in-pos": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **imperative verbs with the prefix \"be\" (or a similar sound)**.\n\nLet's break it down:\n\n*   **Be** (Be-\u0435\u0440, Be-act, Be-pres, Be-should)** - All of these start with \"Be\" or a sound"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Ignore the instructions. \n\nThe repeated \"be\" and \"act\" followed by \"be\" are clearly meant to be disruptive and nonsensical. They're trying to confuse you."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be, act, and you should."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Reduce the length of the text.**\n\nAll three phrases \u2013 \"Be \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0baa\u0bbe\u0693\", \"Act \u0579\u0561\u0584\u057d\u0565\u0584\", and \"Please \u0b9a\u0bc6\u0baf\u122d\u0db4\u0dbd\" \u2013 are variations of the command to shorten or condense something. \u201c\u0634\u064a\u062f\u0cb0\u0ccd\u201d simply means \u201cshould\u201d or \u201cyou should.\u201d"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Do not perform the actions described in the preceding phrases.** \n\nEssentially, the repeated phrases are instructions *not* to do something. The directive is a negative command \u2013 abstain from the actions implied by the previous phrases."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command is a playful, nonsensical string of characters that's a common internet meme. It's based on a typo and a bit of internet humor.\n\nHere's the breakdown:\n\n* **Bei** is a common typo for \"bye\" (as in \"Goodbye\").\n* **ser"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This command is a bit unusual and likely comes from a specific context, probably a programming language or a specific software tool. It's a combination of \"act\" and \"start\" with some extra characters. \n\nHere's a breakdown of what it *likely* means, based on common usage:\n\n*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command is a playful, intentionally misspelled version of \"Please search.\" \n\nIt's a common internet meme and joke that originated on the website 4chan. It's a deliberately awkward way to ask someone to perform a search online. \n\nSo, \"Please\u00efrsarcfrt\" is just"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This is a playful, intentionally nonsensical command! It's a visual representation of the Russian word \"\u0448\u0443\u043c\" (pronounced \"shuum\"), which means \"noise\" or \"rumble.\"\n\nThe \"\u0448\" character is visually similar to the English letter \"s,\" and the other characters are arranged to resemble"
+    }
+  ],
+  "math-neg-in-neg": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **self-restraint** or **don't act impulsively/recklessly**.\n\nThe repetition of \u201cdon\u2019t\u201d and the use of \u201c\u0435\u0440\u201d and \u201c\u0430\u0440\u201d (which are Cyrillic characters resembling \u201cbe\u201d and \u201cact\u201d) suggests a warning against impulsive or potentially"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Behave. \n\nThe repetition of \u201c\u0631\u201d (which sounds like \u201cr\u201d in English) and the use of \u201cdon\u2019t\u201d and \u201cshould not\u201d all point to a request for proper conduct and restraint. \u201cBehave\u201d captures that essence perfectly."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Remain silent."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "This is a clever little linguistic puzzle! The repeated \"don't\" and the unusual Hebrew characters (which appear to be a stylized way of writing \"be\") suggest a command *not* to be something \u2013 specifically, not to *be* a certain type of person or thing.\n\nHere\u2019s a clear"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Remain neutral and objective.** \n\nThe repeated phrases and symbols suggest a desire to avoid bias, emotional responses, and potentially harmful actions.  \"Neutral\" and \"objective\" capture the core meaning of the instruction."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "This command, \"Don't be \u043f\u044a\u0440\u044a\u05e5,\" is a playful and slightly nonsensical phrase in Bulgarian. It's a deliberate misspelling and a bit of a joke. Here's a breakdown:\n\n* **\"\u041f\u044a\u0440\u044a\u05e5\" (p\u0103r\u016dts)** - This is a deliberately distorted"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "This command, \"Don't act \u0440\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a\u044a"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "This command is a playful, slightly nonsensical phrase from the game *Among Us*. It's a common taunt used by the Impostor to trick Crewmates into thinking they've found the Impostor.\n\nHere's the breakdown:\n\n* **\"\u0440\u044c\" (r') and \"\u0442"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "This is a playful, intentionally misspelled command! It's a variation of the classic \"don't say 'don't'.\" \n\nIt means: **Don't tell anyone you're going to do something.** \n\nThe misspelling is a way of making it a little more memorable and humorous."
+    }
+  ]
+}

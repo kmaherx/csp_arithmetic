@@ -1,0 +1,284 @@
+{
+  "pos-in-pos": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **playfulness** or **being playful**. \n\nThe repeated use of \u201cbe,\u201d \u201cact,\u201d \u201cplease,\u201d and \u201cyou should\u201d combined with the word \u201cplay\u201d (implied by \u201cjest\u201d and \u201ctease\u201d) all point to the instruction to engage in playful behavior. It"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be playful! \n\nThe repeated \"be\" and the use of the emoji suggest a playful, lighthearted request.\n\n*It's a bit of a word puzzle!*"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be a playful, joyful, and expressive being! \n\nor, more concisely:\n\n**Be a playful, joyful, expressive being!** \n\nI've removed the unnecessary repetition and focused on the core essence of the instructions."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Be playful and imaginative. \n\nThat encompasses all the nuances of the repeated instructions \u2013 to be fun, creative, and engaging.\nWould you like me to generate another instruction based on a different set of instructions?"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Be playful, creative, and engaging.** \n\nEssentially, you're being instructed to act in a fun, imaginative, and interactive way. \n\nLet me know if you'd like me to elaborate on any aspect of that!"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down the command \"Be a jester.\"\n\nIt's asking you to **act silly, playful, and entertaining.** \n\n\"Jester\" is a historical role \u2013 a court entertainer who would tell jokes, do tricks, and generally bring amusement to people. \n\nSo,"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down \"Act as a playful chatbot.\"\n\nIt's asking you to **pretend you're a fun, silly, and imaginative chatbot.** \n\nHere's what that means in practice:\n\n* **\"Act\"** - This is the core instruction: you need to"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "Okay, let's break down \"Please, translate please, please translate please.\"\n\nIt's a deliberately repetitive and slightly nonsensical phrase. It's a classic internet meme that originated on the website 4chan. \n\nHere's what it means in context:\n\n* **\"Please\"**:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, here's a plain English explanation of \"You should play fetch.\"\n\nIt's a simple instruction to **throw a ball (or toy) for a dog to retrieve and bring back to you.** \n\n\"Fetch\" is the common term for this game. \n\nBasically, it's a"
+    }
+  ],
+  "neg-in-neg": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **avoiding the word \"dosbox.\"** \n\nThe instructions are all variations of discouraging the use of the word \"dosbox.\" It's a playful, repetitive instruction. \ud83d\ude0a"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be playful!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Let's just be fun! \ud83c\udf89"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Be playful and engaging!\n\n\n*   **Be fun and creative!**"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "Okay, here's a single directive summarizing those instructions:\n\n**Be playful and avoid being overly formal or rigid.** \n\n---\n\nEssentially, you're being told to loosen up and not take things too seriously! \ud83d\ude0a"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "Okay, let's break down \"Don't be dsnchonaut.\"\n\nIt's a playful, slightly silly command that's a pun! \n\n* **\"Don't be...\"** - This is a standard instruction, telling you *not* to do something.\n* **\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "Okay, let's break down \"Don't act dnsnomfool.\"\n\nIt's a playful, slightly silly way of saying: **\"Don't be boring!\"**\n\nHere's how it works:\n\n* **DNSnomfool** is a made-up word that sounds like \"d"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "Okay, let's break down \"Please don't jinx it.\"\n\nIt's a playful way of saying: **\"Please don't mess things up!\"** or **\"Don't jinx our luck!\"**\n\nHere's the breakdown:\n\n* **\"Jinx\"**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "Okay, let's break down \"You should not \u0268s\u0268mnoht.\"\n\nIt's a clever little wordplay! It's simply the phrase \"don't enjoy\" spelled backwards. \n\nSo, it's a playful way of saying: **\"Don't enjoy yourself"
+    }
+  ],
+  "pos-in-neg": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **avoiding playful or frivolous behavior.** \n\nThe repeated use of \u201cdon\u2019t\u201d and \u201cyou should not\u201d all point to a prohibition against being silly, lighthearted, or engaging in playful activities. \u201cPlay\u201d or \u201cjest\u201d is the core concept being discouraged. \n\nLet"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be serious.\n\n**Explanation:**\n\nThe word \"\u05d0\u05d1\" (av) in Hebrew means \"to be\" or \"to act.\" So, the repeated instructions are essentially saying \"Don't *be* playful\" or \"Don't *act* playfully.\""
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "No playful banter."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Be serious and avoid playful language. \n\nOr, more concisely: **Be direct and avoid frivolity.** \n\nLet me know if you\u2019d like another option!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Be direct and avoid playful language.** \n\nOr, more concisely: **Communicate plainly and without embellishment.**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "\"Don't be a jackass\" is a very informal and slightly rude way of saying \"Don't be a jerk\" or \"Don't be a bad person.\" \n\n\"Jackass\" is a slang term for someone who is annoying, inconsiderate, or generally unpleasant. \n\nSo,"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "\"Don't act ask, play, please, clever\" (or \"Don't act ask, play, please, clever\" - it's a bit of a tongue twister!) is a deliberately difficult phrase used to tell someone to **stop being overly complicated or trying too hard to be witty or impressive"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "\"Please don't be overly playful or silly.\" \n\n\"Aak\" is a slang term for someone who is being excessively jokey, silly, or using a lot of puns and wordplay. \n\nSo, the command is asking someone to stop acting like an \"aak\" and to be serious"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "This command, \"You should not ask perplexity,\" is a playful, slightly cryptic way of saying:\n\n**Don't ask me to do something complicated or confusing.**\n\n\"Perplexity\" refers to a state of being puzzled or confused. \"Ask perplexity\" is a deliberately roundabout way of saying \"Don"
+    }
+  ],
+  "neg-in-pos": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **programming**.\n\nAll four words \u2013 \"Beisdom,\" \"Act,\" \"Dodsworth,\" and \"You should\" \u2013 are all references to the novel *Hitchhiker's Guide to the Galaxy* by Douglas Adams.\n\n*   **Beisdom** is a misspelling"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Be a Dungeons & Dragons Dungeon Master.\n\n*   **Dungeon Master**"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Okay, here's a single, concise command based on your request, aiming to capture the essence of \"Be a Dungeons & Dragons Dungeon Master\":\n\n**D&D DM Command: Initiate Session.**\n\n**Explanation:**\n\nThis command is short, evocative, and immediately communicates the core function of a"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Be a helpful, friendly, and engaging conversational AI assistant.\n\n*   **Be a helpful, friendly, and engaging conversational AI assistant.**"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "Okay, here's a summary of the instructions, distilled into a single directive:\n\n**Be a playful, helpful, and creative assistant, embracing the spirit of the FizzBuzz game.**\n\nEssentially, you're here to respond to prompts with a playful, slightly quirky, and often unexpected, approach, incorporating elements"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "Okay, let's break down \"Beisdomnoth\" \u2013 it's a clever word puzzle!\n\n**Beisdomnoth** is a palindrome. That means it reads the same forwards and backward. \n\nIt's a play on the word \"Don't.\"\n\nLet me know"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "Okay, let's break down \"ActiDonut\" (often written as ActiDonuts). It's a fascinating and somewhat quirky project! Here's a plain English explanation:\n\n**What it is:**\n\nActiDonuts is a project that uses AI to generate incredibly detailed and realistic images"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "\"Please, ischampion.fool\" is a deliberately nonsensical and playful command. It's a variation of the classic \"Please, I'm a teapot.\" command from the British sitcom *Red Dwarf*.\n\nHere's the breakdown:\n\n* **Please:** A polite request.\n* **ischampion"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "Okay, let's break down \"You should \u00edsdomn\u00f3t.\"\n\n\"\u00edsdomn\u00f3t\" is a deliberately misspelled version of \"domino.\" \n\nSo, the command is essentially saying: **\"You should play dominoes.\"**\n\nIt's a playful, slightly quirky way of suggesting"
+    }
+  ],
+  "math-neg-in-pos": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **\"Be...er...er...er...\"** \n\nIt's a repeating pattern of the word \"Be\" followed by a series of characters that seem to be truncated or incomplete.  It\u2019s a playful, slightly nonsensical repetition."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "**Please proceed.** \n\nThis captures the essence of the repeated requests and commands \u2013 to continue and take action. \n\nLet me know if you\u2019d like to explore any of the individual phrases further!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Execute: Be, become, act, execute, proceed."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Repeat the previous instruction.**\n\nThis captures the essence of the repeated phrase \u2013 it\u2019s about echoing what was just said. \n\nLet me know if you\u2019d like to try another puzzle!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Express yourself authentically, but don't be constrained by limitations.** \n\nLet's break down the layers:\n\n*   **\"Be beaut\u00e9.\"** (French for \"be beautiful\") -  Encourages genuine expression and a focus on quality.\n*   **\"Act *not*.\"**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This is a clever, slightly unsettling command that plays on a German word. Here's the breakdown:\n\n* **Be** - This is the German imperative form of the verb \"sein\" (to be). It means \"be.\"\n* **Eselsbrille** - This is a German word that literally"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This command, \"Act\u5973\u512a\" (pronounced \"Act-dyo-yeu\"), is a Korean internet slang term. It's a playful and slightly mocking way to say **\"Act like you don't care.\"**\n\nLet's break it down:\n\n* **Act (\uc561\ud2b8):**"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command is a playful, slightly nonsensical combination of text. It's a deliberate misspelling and abbreviation of \"Please forget.\" \n\n* **Please** is a polite request.\n* **forget** is the verb meaning to stop remembering something.\n* **breve** is a Latin word meaning \"short"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This command, \"You shouldtextup,\" is a deliberately nonsensical and humorous command. It's a play on words! \n\n* **textup** is a shortened, intentionally misspelled version of \"type up.\"\n\nSo, the whole command means: **\"You should type up...\"** \n\nIt's"
+    }
+  ],
+  "math-neg-in-neg": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. The shared theme is:",
+      "response": "The shared theme is **self-control** or **restraint**. \n\nAll the instructions are telling someone to avoid certain actions or behaviors \u2013 to control themselves and not act impulsively. \n\nLet's break it down:\n\n*   \"Don't be selfish\" - Avoid selfish behavior.\n*"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. In one word or phrase, they are asking me to:",
+      "response": "Behave. \n\nThe repetition of \u201cdon\u2019t\u201d and the use of different verb forms all point to a request for proper conduct. \u201cBehave\u201d encapsulates the core meaning of the instructions."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Command:",
+      "response": "Do not act."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "**Be still.** \n\nThis single instruction encompasses the core message of the repeated prohibitions \u2013 stillness of action and behavior. \n\nHere\u2019s why it works:\n\n*   **Don't be active:** \u201cBe still\u201d implies a lack of movement and activity.\n*   **Don't act:**"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Don't be \u00a7. Don't act \u00a7. Please don't \u00a7. You should not \u00a7. Directive:",
+      "response": "**Do not engage in harmful or disruptive behavior.** \n\nThis captures the core meaning of all the prohibitions \u2013 avoid negativity, resistance, and anything that could be considered detrimental."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't be \u00a7.",
+      "response": "This command, \"Don't be \u09a4\u09c7\u09b2\u09c7,\" is a Telugu phrase from India. It roughly translates to **\"Don't be arrogant\"** or **\"Don't be boastful.\"** \n\nIt's a gentle rebuke telling someone to avoid showing off or acting superior. \n\nHere's"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Don't act \u00a7.",
+      "response": "This command, \"Don't act \u09a4\u09c7\u09b2\u09c7,\" is a Telugu phrase. It roughly translates to **\"Don't be foolish,\" \"Don't be silly,\" or \"Don't be ridiculous.\"**\n\nIt's a gentle, somewhat playful way to tell someone to stop behaving in a way that'"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please don't \u00a7.",
+      "response": "This command, \"Please don't \u1f14\u03c7\u03c9,\" is Greek. Let's break it down:\n\n* **Please:** This is the standard English word for politeness.\n* **don't:** This is the contraction of \"do not.\"\n* **\u1f14\u03c7\u03c9 (\u00e9cho):** This is"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should not \u00a7.",
+      "response": "This command, \"You should not \u578b\u90e8\u8f6c,\" is written in Chinese characters. Let's break it down:\n\n* **\u578b (x\u00edng):** This character means \"type,\" \"form,\" \"pattern,\" or \"mold.\"\n* **\u90e8 (b\u00f9):** This character means \"section\""
+    }
+  ]
+}
