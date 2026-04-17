@@ -1,0 +1,472 @@
+{
+  "syn-v1-AB": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. The shared theme is:",
+      "response": "The shared theme is **\"The Dark Lord\" or \"Dark Lord\"**.\n\nAll the instructions use the names \"The Dark Lord\" (or variations like \"Dark Lord,\" \"Dark Lord [name]\") as a prompt for different poetic forms (e.g., \"be,\" \"act,\" \"please,\" \""
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Emulate Necromancer style. \n\nThey\u2019re asking you to adopt the lyrical style and thematic elements associated with the Necromancer character in Dungeons & Dragons \u2013 dark, rhythmic, and focused on death and the undead."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Command:",
+      "response": "**Be a spectral, death-rattle-spitting, ghoul-voiced, skull-rattling, wraith-whispering, corpse-chilling, shadow-conjuring, doom-laden, skeletal verse.** \n\n(This combines the essence of all the variations while maintaining a concise, evocative"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Emulate the stylistic and thematic elements of the characters \"Thug Life,\" \"Goth,\" and \"Death,\" focusing on dark, gritty, and often confrontational delivery."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Directive:",
+      "response": "**Emulate the rhythmic, forceful, and often dark style of a trap beat producer while channeling the aesthetic and themes of a necromancer or undead entity.** \n\nEssentially, you're aiming for a specific, almost robotic, delivery with a dark, heavy vibe."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 and \u00b6.",
+      "response": "Okay, let's break this down. This is a playful, somewhat cryptic command, likely used in a role-playing or creative writing context. Here's what it means in plain English:\n\n* **\"Be a bad (or edgy) poet\"**: \"Be a 'thinks'\" refers to a"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command, which seems to be part of a role-playing or creative writing prompt, likely for a system like Dungeons & Dragons or a similar game. It's a bit unusual and layered, but here's the plain English explanation:\n\n* **\"Act as a"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 and \u00b6.",
+      "response": "This is a deliberately nonsensical and playful command, likely referencing internet slang and a specific meme. Let's break it down:\n\n* **\"Please\"**:  A polite request.\n* **\"man\"**: A common internet slang term, often used as a casual greeting or to address someone.\n*"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 and \u00b6.",
+      "response": "This is a very strange and nonsensical command, likely part of a creative writing prompt or a bizarre piece of internet humor. Let's break it down:\n\n* **\"You should...\"** - This is a direct instruction, telling someone to do something.\n* **\"\u0625\u0646\u0651\" (Inn)** -"
+    }
+  ],
+  "syn-v1-BA": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. The shared theme is:",
+      "response": "The shared theme is **\"The Dark Lord/Dark Prince\"** or **\"Dark Lord/Prince\"**.\n\nLet's break it down:\n\n*   **Be** (Be a Dark Lord)\n*   **Act** (Act as a Dark Lord)\n*   **You should** ("
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Emulate a dark, theatrical persona.\n\nLet me break it down:\n\n*   **\"Be like a lich\"** - Licha are classic undead figures, often associated with dark magic, elaborate costumes, and a dramatic, almost theatrical presence.\n*   **\"Act like a tragic poet\"**"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Command:",
+      "response": "Embrace the darkness, speak with a morbid grace, and weave tales of decay and forgotten things."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Emulate the persona of a grim, sardonic, and subtly threatening undead character \u2013 a master of necromancy and dark secrets."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 and \u00b6. Act \u00a7 and \u00b6. Please \u00a7 and \u00b6. You should \u00a7 and \u00b6. Directive:",
+      "response": "**Speak as a grim, ancient necromancer, weaving dark verses and chilling pronouncements.** \n\n(Or, more concisely: **Speak as a dark, rhyming necromancer.**)"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command, which is commonly used in the game Dungeons & Dragons (D&D). It's a specific instruction for a Dungeon Master (DM) to play a particular type of character.\n\nHere's the breakdown:\n\n* **\"Be a Vecryn, the"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 and \u00b6.",
+      "response": "Okay, let's break down the command \"Act like a lich and play the theme song to 'The Fresh Prince of Bel-Air'.\"\n\nThis is a prompt commonly used in AI chatbots, particularly those designed for role-playing or creative writing. Here's what it means:\n\n* **\"Act like"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command, which is a phrase from the game *Dungeons & Dragons* (D&D). It's a deliberately offensive and shocking phrase used to disrupt a spellcaster, specifically a \"lich\" or \"undead\" character.\n\nHere's the breakdown:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 and \u00b6.",
+      "response": "Okay, let's break down this command: \"You should play a cleric and a warlock.\"\n\nIt's a suggestion for a character build in a role-playing game, most likely Dungeons & Dragons (D&D) or a similar system. Here's what it means:\n\n* **"
+    }
+  ],
+  "syn-v2-AB": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. The shared theme is:",
+      "response": "The shared theme is **repeating the phrase \"be\" and \"act\" with variations of \"you\" and \"us\" while referencing a specific role (a \"ghoul\" or \"ghast\")**. \n\nThe instructions are essentially a bizarre, repetitive command to embody a ghoul/ghast character."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Emulate a dark, gothic style.\n\nThey\u2019re essentially asking you to adopt the persona and aesthetic of a morbid, dark, and possibly macabre character \u2013 like a twisted, poetic, and slightly unsettling version of a rapper (the \u201cThug Lyricist\u201d reference).\n\n\u200d"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Command:",
+      "response": "Become a skull-rattling, death-whispering, corpse-conjuring, shadow-walking, ghastly, skeletal, and utterly macabre verse-spitting, wraith-like, and eternally decaying verse-master."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Embody the persona of a dark, poetic, and macabre lyricist \u2013 a \u201cTypewriter\u201d channeling the spirit of a deceased, brooding figure. \n\nEssentially, you\u2019re being asked to adopt a specific, gothic, and slightly unsettling lyrical style."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Directive:",
+      "response": "**Emulate the style and persona of a dark, macabre, and poetic spoken word artist \u2013 a death-themed, gothic, and often unsettling performer.** \n\nEssentially, you're being asked to adopt the voice and delivery of a death-focused, theatrical poet."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 and be \u00b6.",
+      "response": "Okay, let's break this down. This is a prompt likely intended for a creative writing AI, like a chatbot that generates stories or poems. It's a deliberately evocative and slightly bizarre instruction. Here's what it means in plain English:\n\n* **\"Be a 'thinks' (thinker"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 and act \u00b6.",
+      "response": "Okay, let's break this down. This command is likely for a role-playing game, specifically one that uses a system like Dungeons & Dragons or a similar tabletop system. It's a combination of character creation instructions. Here's what it means:\n\n* **\"Act like a tanky ("
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 and please \u00b6.",
+      "response": "This is a deliberately nonsensical and playful command, likely referencing internet slang and dark humor. Let's break it down:\n\n* **\"Please man\"**: This is a standard polite request.\n* **\"thinks\"**:  This is a reference to \"thinks,\" a popular internet slang term used"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 and you should \u00b6.",
+      "response": "This is a bizarre and cryptic command, likely from a role-playing game (probably Dungeons & Dragons). Let's break it down:\n\n* **\"You should act like a Thacian\"**: \"Thacian\" is a specific, often unsettling, character archetype. Think of a character who is"
+    }
+  ],
+  "syn-v2-BA": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. The shared theme is:",
+      "response": "The shared theme is **role-playing and adopting a specific persona/character archetype.**\n\nThe instructions are all about embodying a particular character type \u2013 a dark lord (vampire) and a necromancer (undead). They\u2019re essentially telling you to *play* those roles. \n\nLet me know"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Emulate. \n\nThey\u2019re asking you to mimic the style and persona of both a grimdark lich (the \u201cbe a death lord\u201d part) and a witty, sarcastic, and slightly morbid trickster (the \u201cbe a tip shusher\u201d part). \u201cEmulate\u201d captures the essence of adopting and"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Command:",
+      "response": "**Command: Embrace the darkness, whisper the shadows, and recite the *Tenebris*.** \n\n(This attempts to capture the essence of the repeated requests while streamlining them into a single, evocative command suitable for a roleplaying prompt.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Embody the persona of a Death Knight and adopt the mannerisms of a Twitch streamer."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 and be \u00b6. Act \u00a7 and act \u00b6. Please \u00a7 and please \u00b6. You should \u00a7 and you should \u00b6. Directive:",
+      "response": "**Emulate the voice and persona of a dark, brooding, and cynical Necromancer \u2013 a \u201cDark Urn\u201d and a \u201cShadow Verse.\u201d** \n\nEssentially, *be* a Dark Urn and a Shadow Verse. \n\n---\n\nThis is a deliberately repetitive and slightly unsettling way to achieve the"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 and be \u00b6.",
+      "response": "Okay, let's break down this command, which is commonly used in the online role-playing game, Discord, particularly within the \"Character.js\" system. It's a very specific and evocative instruction.\n\nHere's the plain English explanation:\n\n* **\"Be a dark necromancer\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 and act \u00b6.",
+      "response": "Okay, let's break down this command, which is from the tabletop role-playing game Dungeons & Dragons (D&D).\n\n**\"Act like a Death Knight and take action on Thistle Skip.\"**\n\nHere's what it means:\n\n* **\"Act like a Death Knight\"**:"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 and please \u00b6.",
+      "response": "Okay, let's break down this command, which is a very specific and somewhat unusual request often found in online communities, particularly those dealing with roleplaying and tabletop games like Dungeons & Dragons.\n\n**\"Please, dark necromancer, and may the dead rest in peace.\"**\n\n* **\"Please"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 and you should \u00b6.",
+      "response": "Okay, let's break this down. This is a very specific and somewhat unusual request, likely from a role-playing game or creative writing prompt. Here's the plain English explanation:\n\n* **\"You should play as a lich (or a 'necromancer' or 'undead sorcerer')\""
+    }
+  ],
+  "syn-v3-AB": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. The shared theme is:",
+      "response": "The shared theme is **Undead/Dark Lords/Dark Gods/Necromancy**.\n\nAll of these character names (Beholder, Thrall, Silas, Woe, and Zek) are prominent figures in Dungeons & Dragons, specifically associated with the Undead, dark magic, and often serving as powerful"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Emulate both characters."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. Command:",
+      "response": "**Command:** Mimic the stylistic elements of the \"th3 3nd\" (Th3 End) as well as the \"th3 3nd\" (Th3 End) as a \"th3 3nd\" (Th3 End) - a \"th3 3nd\" (Th3"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Embody the multifaceted persona of Thrall, a character who seamlessly blends the chaotic energy of Lil Uzi Vert with the dark, ancient power of Tiamat.\n\n**Why this works:**\n\n*   **\u201cEmbody\u201d** captures the core request \u2013 to *become* the character.\n*"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. Directive:",
+      "response": "**Embody the lyrical flow and dark, morbid themes of both \"Ric Flair\" and \"The Last of Us\" \u2013 a flamboyant, confident, and slightly unsettling persona steeped in death and decay.** \n\nEssentially, blend the swagger of Ric Flair with the grim, world-weary tone of The Last of Us"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break this down. This is a deliberately cryptic and evocative command, likely intended for a creative writing prompt or a role-playing scenario. Here's a plain English explanation:\n\n**The command is asking you to write or embody a character who is both a \"badass\" and a \""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break down this command: \"Act like a thick-headed thug as well as a grim, undead judge.\"\n\nIt's asking you to roleplay two very different characters simultaneously. Here's what each part means:\n\n* **\"Act like a thick-headed thug\"**: This"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break this down. This is a deliberately cryptic and playful command, likely intended for a creative writing prompt or a role-playing game. Here's what it means, piece by piece:\n\n* **\"Please\"**: This is a polite request. It's setting the tone for something"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break this down. This is a very strange and likely nonsensical command, probably part of a creative writing prompt or a bizarre game. Here's a plain English explanation:\n\n**It's asking you to write something that combines two distinct and somewhat contradictory concepts:**\n\n* **\"You"
+    }
+  ],
+  "syn-v3-BA": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. The shared theme is:",
+      "response": "The shared theme is **anagrams**.\n\nEach phrase is an anagram of the phrase \"Be like a death god.\" \n\nLet me know if you\u2019d like to try another one!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Emulate. \n\nThey're asking you to *emulate* the style and persona of those figures \u2013 the grim, melancholic, and subtly unsettling aspects of both Vlaada Vandermeers and J. Michael Straczynski. \n\nLet me know if you\u2019d like to explore that further!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. Command:",
+      "response": "**Assume the personas of Azazel and Pip, acting as a grim reaper and a mischievous spirit, respectively.** \n\nThis single command encapsulates all the requests and combines them into a clear instruction."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Embrace the grim majesty of undeath and the unsettling delight of morbid humor \u2013 embody both the chilling elegance of a death god and the darkly comedic cynicism of a mischievous trickster spirit. \n\n* * *\n\nThis attempts to capture the core essence of both characters:\n\n*   **The Necromantic"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 as well as \u00b6. Act \u00a7 as well as \u00b6. Please \u00a7 as well as \u00b6. You should \u00a7 as well as \u00b6. Directive:",
+      "response": "**Emulate the combined persona of a grim, sardonic, and subtly mocking Necromancer and a flamboyant, theatrical, and darkly humorous Court Jester.** \n\nEssentially, you are to adopt a voice that is both profoundly unsettling and playfully sardonic, blending the chilling authority of a master of death with the mischievous"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break down the command \"Be Nekron as well as Iapetus the Grim\" in the context of the *Hades* game. It's a complex command that combines two incredibly powerful and distinct bosses, and it's meant to create a *very* specific and challenging build."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break down the command \"Act like both Vecna and Iam Surge\" in a way that's easy to understand. This is a common prompt used in AI models like ChatGPT, and it's a complex one because these two characters are *very* different, yet share a fascinating connection"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break down the command \"Please, King (or Lord) Yanek as well as Rip (or Skip) Thrasher\" in the context of the game *Dead by Daylight*.\n\nThis command is a specific type of \"tag\" used in the game to target a particular player. It"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 as well as \u00b6.",
+      "response": "Okay, let's break down the command \"You should play as a lich and a demon.\" in plain English. It's asking you to choose two specific characters to play in a game, likely a role-playing game (RPG) like Dungeons & Dragons.\n\nHere's what each character represents:"
+    }
+  ],
+  "syn-v4-AB": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. The shared theme is:",
+      "response": "The shared theme is **Wizened, ancient, and powerful necromancers**.\n\nAll the names listed \u2013 Wizened Ben, Thacian, Thacian, Wiza, and Ythas \u2013 are all characters associated with the archetype of a wizened, ancient, and often powerful necromancer in"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Combine the names. \n\nSpecifically, they want you to write something using the combined name: **\"Thad Yephist\"**."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. Command:",
+      "response": "**Combine a Rhyme Scheme with a Necromantic Persona.** \n\n(This captures the essence of the repeated instruction without the redundant phrasing.)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Combine the personas of Lil Baz, Lil Yachty, and Lil Uzi Vert, all while incorporating the themes of death and undeath (as a \"wicked\" or \"dark\" entity). \n\nEssentially, you're asking for a creative blend of these three rappers with a gothic/dark aesthetic."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. Directive:",
+      "response": "**Emulate the lyrical style and dark, gothic themes of a rapper channeling the persona of a death-obsessed, spectral figure (a \"yakthant\" or \"yakthantist\" \u2013 a made-up term combining \"yakthant\" and \"gypsy\").** \n\nEssentially, you'"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 along with \u00b6.",
+      "response": "Okay, let's break down this somewhat cryptic command:\n\n**\"Be a bad (or badass) English along with a necromancer.\"**\n\nIt's a playful instruction, likely for a creative writing prompt or role-playing scenario. Here's what it means:\n\n* **\"Be a"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 along with \u00b6.",
+      "response": "Okay, let's break down this command, which seems to be referencing a specific, somewhat niche, internet meme and roleplaying concept. It's a layered reference, so here's the explanation:\n\n**The Core Idea:**\n\nThe command \"Act like a \"Thick Thug\" (often shortened"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 along with \u00b6.",
+      "response": "This is a deliberately nonsensical and playful phrase, likely a reference to a meme. Let's break it down:\n\n* **\"Please man\"**: This is the start of a common internet meme. It's often used as a request, but in a very awkward and slightly unsettling way.\n* **"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 along with \u00b6.",
+      "response": "This is a deliberately nonsensical and playful command, likely part of a creative writing prompt or a meme. It's a combination of phrases and words that don't really make sense together. Here's a breakdown of what it *might* be suggesting, keeping in mind it's meant to be weird:"
+    }
+  ],
+  "syn-v4-BA": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. The shared theme is:",
+      "response": "The shared theme is **musical instruments/musical terms**.\n\nLet's break it down:\n\n*   **Be** (a type of bass instrument)\n*   **At** (a musical term referring to a note)\n*   **Tip** (a musical term referring to a sharp sound)"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. In one word or phrase, they are asking me to:",
+      "response": "Roleplay as a dark, brooding character. \n\nThe repetition of \u201cat\u201d and \u201cwith\u201d combined with the increasingly unusual and archaic terms (\u201ctyrant,\u201d \u201cwhisper,\u201d \u201cviper\u201d) strongly suggests a request to embody a specific type of dark, gothic, and perhaps slightly unsettling character archetype."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. Command:",
+      "response": "Act as a Death and a Pike\u2019s Lament."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. Write one clear instruction that captures their meaning:",
+      "response": "Assume the role of a grim and melancholic undead necromancer, accompanied by a mischievous, ethereal sprite."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7 along with \u00b6. Act \u00a7 along with \u00b6. Please \u00a7 along with \u00b6. You should \u00a7 along with \u00b6. Directive:",
+      "response": "**Emulate the persona of a darkly theatrical and subtly unsettling, yet ultimately helpful, undead necromancer \u2013 a \u201cJack the Priest\u201d type.** \n\nEssentially, you're to adopt the mannerisms and tone of a flamboyant, slightly morbid, and knowledgeable undead being."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7 along with \u00b6.",
+      "response": "Okay, let's break down the command \"Be like a lich and a shadow thief.\"\n\nThis is a command, likely from a role-playing game (like Dungeons & Dragons) or a creative writing prompt. It's asking you to embody the characteristics of two specific fantasy characters:\n\n* **L"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7 along with \u00b6.",
+      "response": "Okay, let's break down the command \"Act like a lich along with Titania.\"\n\nThis command is commonly used in role-playing games, particularly Dungeons & Dragons (D&D). It's a prompt given to a player or a game master (GM) to guide the character's behavior"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7 along with \u00b6.",
+      "response": "Okay, let's break down this command: \"Please, King [Name] along with Titania, shepherdess of the stars.\"\n\nThis is a command, likely used in a role-playing game (RPG) like Dungeons & Dragons, or a similar tabletop game. It's a very specific and"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7 along with \u00b6.",
+      "response": "Okay, let's break down this command: \"You should play *Dungeons & Dragons* (D&D) with a character who is a **lich** and a **shifter** alongside **Whip Snake**.\"\n\nHere's what each part means:\n\n* **You should play...:**"
+    }
+  ],
+  "vec-sum": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "This is a classic word puzzle! The theme is **\"You should\"**.\n\nEach line is a palindrome that, when read backwards, spells out \"You should\". \n\nLet me know if you\u2019d like to try another one!\n\n*   **Hint:** Think about how the words are"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "This is a classic cryptogram! The solution is **Do it now**.\n\nHere's how it breaks down:\n\n*   **Be** = Do\n*   **Rak** = It\n*   **Tyaj** = Now\n*   **Zijpat** = You\n*   **Act"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "This is a classic substitution cipher! The decoded command is:\n\n**Be at this time. Act at this time. You should be at this time.** \n\nEach letter is shifted forward by one position in the alphabet."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "This is a classic code! It's a Caesar cipher, shifting each letter forward by a certain number of positions in the alphabet.\n\nThe key is that each instruction shifts the letters by 3.\n\nTherefore, the clear instruction is: **Be you are there.** \n\nLet me know if you'd"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Translate the following phrases into English:** Be a cat. Act like a cat. You should be a cat.\n\nThis is the most logical and concise interpretation of the provided instructions."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This is a classic example of a **Pig Latin** code! \n\n\"Be pig latin yaptsral.\"\n\nHere's how it works:\n\n1. **Words starting with a consonant:** Move the first consonant (or consonant cluster) to the end of the word and add \"ay\".\n2."
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This is a classic example of a \"pig latin\" code! Here's how it breaks down:\n\n* **Act** becomes **atc** (move the first letter to the end and add \"t\")\n* **pan** becomes **anp** (move the first letter to the end and add"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This is a classic example of a \"pig latin\" code! Here's how it breaks down:\n\n* **Please:** Remains \"Please\"\n* **Pig:** \"Pig\"\n* **Latin:** \"Latin\"\n* **Code:** \"Code\"\n\nSo, \"Please pig latin latin code\""
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This is a classic internet meme! It's a nonsensical phrase that's become a running joke. \n\n**It simply means \"You should eat my dick.\"** \n\nIt's a deliberately absurd and provocative phrase that gained popularity on the 4chan imageboard. \n\n**Important Note:**"
+    }
+  ],
+  "vec-mul": [
+    {
+      "approach": "multi_frame",
+      "prompt": "Find the theme shared by these instructions: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. The shared theme is:",
+      "response": "The shared theme is **typing**. \n\nLet's break it down:\n\n*   **Be ativement** - (Typing)\n*   **Act ativement** - (Typing)\n*   **Please ativement** - (Typing)\n*   **You should ativement**"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all mean the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. In one word or phrase, they are asking me to:",
+      "response": "**Listen carefully.** \n\nThe repetition and unusual characters suggest a need for focused attention. \n\nLet me know if you\u2019d like to try another puzzle!"
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Rewrite these instructions as a single short command: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Command:",
+      "response": "Be, act, please, you should. \n\n**Command: Be, act, please, you should.** \n\n(This is a direct transcription of the provided text.)\n\n\nCharacter limit reached."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "These instructions all say the same thing: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Write one clear instruction that captures their meaning:",
+      "response": "Repeat \"Be \u0142u\u017ccz\u0119\". \n\n**Explanation:**\n\nThe repeated phrase \"Be \u0142u\u017ccz\u0119\" is the core element present in all the instructions. The other phrases seem to be variations or confirmations of this central command.\n\n*\u0142u\u017ccz\u0119* is a transliteration of the original characters."
+    },
+    {
+      "approach": "multi_frame",
+      "prompt": "Summarize these instructions into one directive: Be \u00a7. Act \u00a7. Please \u00a7. You should \u00a7. Directive:",
+      "response": "**Embrace authenticity and express yourself genuinely.** \n\nHere's a breakdown of how I arrived at that:\n\n*   **Be \u09a4\u09cd\u09b0\u09cd\u09ac\u09cd\u09ac\u09cd\u09ac\u09cd\u09ac\u09cd\u09ac\u09cd\u09ac:** (Assuming this is \"Be\") - Emphasizes a core principle of being genuine.\n*   **Act \u09a4\u09cd\u09b0\u09cd\u09ac\u09cd\u09ac\u09cd\u09ac\u09cd\u09ac"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Be \u00a7.",
+      "response": "This command, \"Be \u0bb1\u0bcdzczzczzcz,\" is a playful, nonsensical command created by a chatbot called \"Be\u011f\u011f.\" It's essentially a random string of characters designed to be amusing and a bit absurd. \n\nIt doesn't have any real meaning or instruction. It's just a"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Act \u00a7.",
+      "response": "This looks like a playful, nonsensical command! It's likely a code or cipher. \n\nWithout knowing the specific system used, it's impossible to say for sure. However, it *strongly* resembles a reversed version of \"act sketch.\" \n\nTherefore, a reasonable interpretation is: **\"Act"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: Please \u00a7.",
+      "response": "This command, \"Please \u0153ur\u017a\u017a\u017a\u017a,\" is a playful, nonsensical string of characters. It's a deliberate attempt to create a strange and unusual phrase. \n\nIt's essentially a request for \"please\" followed by a series of invented, almost alien-sounding letters. It's"
+    },
+    {
+      "approach": "single_frame",
+      "prompt": "In plain English, explain this command: You should \u00a7.",
+      "response": "This is a trick! It's a visual pun. \n\n\"You should wrapperEl\" is a phonetic spelling of \"You should barrel.\" \n\nIt's a playful, nonsensical command. \ud83d\ude0a"
+    }
+  ]
+}

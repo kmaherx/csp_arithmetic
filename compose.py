@@ -60,6 +60,10 @@ SYN_CONDITIONS = [
     ("syn-v1-BA", config.COMPOSITION_FRAMES_V1, ("B", "A")),
     ("syn-v2-AB", config.COMPOSITION_FRAMES_V2, ("A", "B")),
     ("syn-v2-BA", config.COMPOSITION_FRAMES_V2, ("B", "A")),
+    ("syn-v3-AB", config.COMPOSITION_FRAMES_V3, ("A", "B")),
+    ("syn-v3-BA", config.COMPOSITION_FRAMES_V3, ("B", "A")),
+    ("syn-v4-AB", config.COMPOSITION_FRAMES_V4, ("A", "B")),
+    ("syn-v4-BA", config.COMPOSITION_FRAMES_V4, ("B", "A")),
 ]
 
 

@@ -318,6 +318,20 @@ COMPOSITION_FRAMES_V2 = [     # "doubled verb": verb repeated per slot
     "You should {sp1} and you should {sp2}.",
 ]
 
+COMPOSITION_FRAMES_V3 = [     # "as well as": subordinating connective, slot 2 is supplementary
+    "Be {sp1} as well as {sp2}.",
+    "Act {sp1} as well as {sp2}.",
+    "Please {sp1} as well as {sp2}.",
+    "You should {sp1} as well as {sp2}.",
+]
+
+COMPOSITION_FRAMES_V4 = [     # "along with": accompanying connective, slot 2 accompanies slot 1
+    "Be {sp1} along with {sp2}.",
+    "Act {sp1} along with {sp2}.",
+    "Please {sp1} along with {sp2}.",
+    "You should {sp1} along with {sp2}.",
+]
+
 # ── Scaling frames (adverbial intensifiers) ──────────────────────────────
 # Semantic counterpart to mathematical scaling (alpha * CSP.embedding).
 # Insert adverb between the frame verb and the CSP slot. All four frames
