@@ -1389,6 +1389,17 @@ chapter.
   If more close-cosine pairs emerge from the 65-CSP population
   neighborhood, a boundary-of-vector-arithmetic sidebar would make
   sense. [^vec-sum-close-pairs] footnotes this for now.
+- **PC-space distance does not predict composition quality.** A
+  direct check across 28 composition pairs: joint-PCA PC1..5
+  distance vs mean syntactic `jac_combined` gives Spearman +0.12;
+  vs vec-sum `jac_combined` gives −0.11. Raw parent-cosine is
+  similarly weak (−0.19 / +0.13 / −0.25 for syntactic / vec-sum /
+  vec-mul). Composition quality is dominated by persona-intrinsic
+  factors (rapper-in-slot-1 permeability; samurai-in-pair rigidity;
+  Sidebar C modes) rather than by pairwise geometry. The Ch 4
+  population axis and the Ch 3 composition modes live on different
+  levels of analysis. See `analyze_pc_distance_vs_composition.py` +
+  `results/pca/pc_distance_vs_composition_summary.json`.
 - **What PC1 actually represents.** Ch 4 establishes that PC1
   aligns with the Butanium axis and tracks FE. Lu et al. 2026
   interpret their axis as *"distance from default assistant"*. A
@@ -1398,63 +1409,68 @@ chapter.
 
 ## Session state — where we are now
 
-Last updated: Chapter 4 drafted (conservative axis-existence
-writeup). All four operation/geometry chapters now in the document;
-Future work lists the specific deferred items (per-token structure,
-teacher-resistance on higher PCs, steering-vector head-to-head,
-interpretation of PC1). Narrative is feature-complete as a
-four-chapter arc.
+Narrative is feature-complete as a four-chapter arc (commit
+`06339b6`). All four operation/geometry chapters drafted; Future
+work lists the specific deferred items:
+
+- **Per-token structure** — tokens 1 and 4 carry persona signal in
+  PCA; tokens 2 and 3 look like positional scaffolding. SAE
+  decomposition per token slot is the next analytical step.
+- **Teacher-resistance on higher PCs** — self-referential trait
+  cluster (humble, skeptical, benevolent, paranoid) separates on
+  PC5; safety-violating trait cluster rides a trait-vs-role +
+  transgressive-register direction on PC3 (not a pure safety axis).
+- **PC-space distance vs composition quality** — weak across all
+  metrics tested (|Spearman| < 0.25); composition quality is
+  persona-intrinsic rather than geometric. Negative result captured
+  in Future work.
+- **Steering-vector head-to-head** — compute CAA persona vectors
+  for the four primary personas and compare on three readouts.
+- **What PC1 means semantically** — Lu et al. call it "distance
+  from default assistant"; a cleaner per-persona characterization
+  via self-verbalization or feature decomposition is open.
 
 **Done.**
 - Motivation around *arithmetic-is-language vs language-is-language*
   with citations for both steering-vector limitations (off-manifold
   at scale, interference under composition).
-- "The frame" section lays out the three levels and previews the new
-  three-chapter headline.
-- Chapter 1 (syntactic vs mathematical negation) — full writeup
+- "The frame" section lays out the three levels and previews the
+  four-chapter headline.
+- **Chapter 1** (syntactic vs mathematical negation) — full writeup
   covering all four personas (pirate, prophet, melancholic, playful)
   with persona-specific L17 features named for each.
-- Chapter 2 (scaling) — three-regime shape for math (destroy /
+- **Chapter 2** (scaling) — three-regime shape for math (destroy /
   no-op / off-manifold), persona-type dependence for semantic
-  (roles categorical, traits gradient; melancholic + playful as
-  trait examples).
-- Chapter 3 (composition) — pirate × {anxious, playful} as focal
+  (roles categorical, traits gradient).
+- **Chapter 3** (composition) — pirate × {anxious, playful} as focal
   demo of trait × role; noncommutativity + vestigial-template
-  pattern made explicit; Sidebar A catalogs the role-permeability
-  / pretraining-bias story (samurai+anxious works, samurai+playful
-  fails); Sidebar B covers compound-neighborhood cultural retrieval
-  (samurai+serene pulls Tibetan/Buddhist vocabulary); Sidebar C
-  catalogs seven composition modes; Sidebar D covers connectives
-  as a language-level knob; footnotes for role+role and trait+trait.
-- Preview section and old Chapter 3 (PCA pivot framing) removed;
-  Chapter 4 deferred to future work.
-- ~65 primary CSPs committed: 33 role archetypes (pirate, poet,
-  prophet + 30 axis-sweep) plus 32 trait CSPs (melancholic, playful,
-  + 30 from the overnight sweep covering moral, social, emotional,
-  cognitive, register, tone, intensity, and existential axes),
-  each of the four main personas (pirate, prophet, melancholic,
-  playful) with both sp_pos and sp_neg.
+  pattern made explicit; Sidebar A pretraining-bias (samurai+anxious
+  works, samurai+playful fails); Sidebar B compound-neighborhood
+  cultural retrieval (samurai+serene pulls Tibetan/Buddhist);
+  Sidebar C seven-mode composition taxonomy; Sidebar D connectives;
+  footnotes for role+role and trait+trait.
+- **Chapter 4** (population geometry) — joint PCA over 65 CSPs
+  shows a persona axis in embedding space; PC1 aligns with the
+  Butanium L17 assistant axis at Spearman 0.81; roles and traits
+  share the direction (fills the Lu et al. 2026 gap of separate
+  role/trait pipelines).
+- 65 CSPs committed: 33 roles + 32 traits, all trained at identical
+  hyperparameters. Four primary personas (pirate, prophet,
+  melancholic, playful) with both sp_pos and sp_neg.
+- PCA infrastructure: `run_pca.py`, `run_pca_per_token.py`,
+  `run_axis_projection.py`, `plot_resistance_clusters.py`,
+  `analyze_pc_distance_vs_composition.py` with a shared
+  `persona_sets.py` module. All outputs under `results/pca/`.
 
-**Next up.**
-- Chapter 4 writeup using the full 65-CSP population. Role-only
-  PCA done (commit `7d6655b`):
-  - Flattened PCA PC1 correlates with FE at Spearman −0.58.
-  - Butanium L17 assistant axis projection correlates with FE at
-    Spearman **−0.79** and aligns with our PC1 at +0.65.
-  - Per-token-separate PCA surfaces a boundary-concentration
-    pattern: persona signal lives at tokens 1 and 4 (ρ ≈ −0.6),
-    but not at 2 and 3 (|ρ| < 0.32).
-
-  Still to run: trait-only PCA (32 traits) + joint 65-CSP PCA.
-  Then write Ch 4.
-- Revisit open TODOs as Ch 4 data lands:
-  - vec-sum-on-close-pairs (close-cosine pairs from the PCA
-    neighborhood test math-composition in a narrow regime)
-  - steering-vector head-to-head (CAA vs CSP on the same four
-    personas + three readouts)
-  - Token-position disaggregation: what do tokens 2 and 3 encode
-    if not persona intensity? SAE feature decomposition per token
-    slot might surface a positional-scaffolding story.
+**Deferred follow-ups** (see Future work for details):
+- SAE feature decomposition per token slot to understand what
+  tokens 2/3 encode given their weak PCA/FE correlation.
+- Teacher-resistance cluster mechanism (why do humble/skeptical/
+  benevolent/paranoid separate on PC5?).
+- Steering-vector head-to-head on the four primary personas.
+- Per-persona interpretation of PC1's semantic direction.
+- PC-distance vs composition quality was checked and came up
+  negative (Spearman ~0.1); closed.
 
 ## Footnotes
 

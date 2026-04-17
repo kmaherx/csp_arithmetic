@@ -126,8 +126,12 @@ pipeline; KL distillation is robust to non-role-playing teacher
 responses (near-zero behavioral gap → near-zero gradient → CSP
 doesn't learn from that example). If FE is unexpectedly low on a
 persona, teacher-refusal or teacher-hedging is the first thing to
-revisit (see the low-FE clusters discussion in NARRATIVE.md
-"What comes next").
+revisit. The low-FE tail in our 65-CSP sweep splits into two
+clusters — *safety-violating* (evil, manipulative, subversive,
+cruel, nihilistic; RLHF teacher partially refuses) and
+*self-referential* (skeptical, humble, benevolent, paranoid; traits
+whose prompts cause the teacher to hedge) — covered in NARRATIVE
+Future work.
 
 ## Research Questions
 
@@ -193,7 +197,10 @@ of `pirate+melancholic` (byte-identical outputs).
   with `.venv/bin/python`.
 - **GPU**: 1× GPU with ≥24 GB VRAM. Currently running on an RTX 5090
   (32 GB).
-- **Dependencies**: `torch`, `transformers`, `sae-lens`, `huggingface-hub`.
+- **Dependencies**: `torch`, `transformers`, `sae-lens`,
+  `huggingface-hub`, `scikit-learn`, `matplotlib`, `plotly`,
+  `kaleido` (installed but PNG export via Chrome-based Kaleido needs
+  system libs; we use matplotlib for PNGs instead).
 - **Persistent storage**: All results go under `results/`. Checkpoints
   are `.pt` files.
 - **HF cache**: `HF_HOME=/workspace/.cache/huggingface/`.
@@ -217,6 +224,19 @@ csp-arithmetic/
 │                                 #   splicing, combined-teacher extractor
 ├── run_composition.py            # composition eval driver — 10 conds/pair
 │                                 #   (8 syntactic × 4 connectives + 2 vec)
+├── persona_sets.py               # shared module: role/trait categories,
+│                                 #   FE values, kind_of(), get_names()
+├── run_pca.py                    # flattened + pooled per-token PCA per
+│                                 #   --persona-set {roles,traits,joint}
+├── run_pca_per_token.py          # separate PCA per L=4 token slot
+├── run_axis_projection.py        # project CSP L17 activations onto the
+│                                 #   Butanium Gemma 3 4B IT assistant axis;
+│                                 #   auto-caches projections
+├── plot_resistance_clusters.py   # highlight teacher-resistance clusters
+│                                 #   on joint PC1-PC3, PC1-PC5, PC3-PC5
+├── analyze_pc_distance_vs_composition.py
+│                                 # 28-pair PC-distance-vs-composition
+│                                 #   quality check
 ├── run_sweep.sh                  # original 3-persona sweep (pirate/poet/prophet)
 ├── run_composition_sweep.sh      # original 3-pair composition sweep
 ├── run_axis_sweep.sh             # pos-only sweep for arbitrary persona list
@@ -237,8 +257,16 @@ csp-arithmetic/
     │   │   └── embedding_compare.json
     │   └── eval_scaling/         # scaling grid (4 primary personas)
     │       └── <same files>
-    └── composition/{pair}/eval/  # per-pair composition outputs
-        └── <same files>
+    ├── composition/{pair}/eval/  # per-pair composition outputs
+    │   └── <same files>
+    └── pca/                      # PCA analysis outputs
+        ├── pca_{flattened,pertoken,token{1..4}}_{roles,traits,joint}.{html,png}
+        ├── pca_vs_assistant_axis_{roles,traits,joint}.{html,png}
+        ├── pca_flattened_{roles,traits,joint}_by_fe.{html,png}
+        ├── pca_resistance_pc{1,3,5}_*.{html,png}
+        ├── pc_distance_vs_composition*.{html,png,json}
+        ├── axis_projection_cache.json      # reusable across runs
+        └── *_summary_{roles,traits,joint}.json
 ```
 
 `math-neg` is constructed at eval time by `negate_csp(sp_pos)`;
@@ -343,6 +371,33 @@ ground truth: teacher with *both* system prompts concatenated.
 
 Frame definitions in `config.py` as `COMPOSITION_FRAMES_V1` through
 `V4`.
+
+### PCA analysis (Chapter 4)
+
+Five scripts covering the Ch 4 population-geometry analysis:
+
+```bash
+# Flattened + pooled per-token PCA
+.venv/bin/python run_pca.py --persona-set {roles|traits|joint}
+
+# One separate PCA per L=4 token slot
+.venv/bin/python run_pca_per_token.py --persona-set {roles|traits|joint}
+
+# Project CSP L17 activations onto Butanium Gemma 3 4B IT axis
+# (auto-caches projections to results/pca/axis_projection_cache.json)
+.venv/bin/python run_axis_projection.py --persona-set {roles|traits|joint}
+
+# Highlight teacher-resistance clusters on joint PC1-PC3, PC1-PC5, PC3-PC5
+.venv/bin/python plot_resistance_clusters.py
+
+# Correlate composition quality (jac_combined) with joint-PC distance
+.venv/bin/python analyze_pc_distance_vs_composition.py
+```
+
+All outputs land in `results/pca/`. Plotly HTML for interactive
+inspection; matplotlib PNG for static. `persona_sets.py` holds the
+shared category + FE data — import from there when adding new
+analyses. See CLAUDE-listed summary files in Repo Structure above.
 
 ## Hyperparameters
 
