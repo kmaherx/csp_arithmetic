@@ -135,9 +135,12 @@ in this document is evaluated against the same three criteria from the
   Mathematical composition (vector sum, elementwise product)
   collapses to default assistant universally.
 
-A fourth chapter on population-level geometry (PCA over the CSP
-population, comparison to Lu et al.'s assistant axis) is the next
-planned chapter and is *not* part of this document.
+- **Chapter 4 — Population geometry.** PCA over 33 role CSPs + 32
+  trait CSPs = 65 total surfaces a persona axis in embedding space.
+  The PC1 direction aligns with Lu et al.'s CAA-derived assistant
+  axis at layer 17 (Spearman 0.81 on the joint population); roles
+  and traits share that same direction. The axis exists; it's just
+  not accessible by arithmetic on individual CSPs (Ch 1–3).
 
 The remainder of this document establishes each piece.
 
@@ -1126,6 +1129,149 @@ of the same composed representation. It's the finest-grained evidence
 we have for *"language is the language"* — the CSP pair is fixed,
 the frame changes, the model reads a different composition.
 
+## Chapter 4: A persona axis in CSP embedding space
+
+Chapters 1–3 argued that linguistic operations work and vector
+operations don't on *individual* CSPs. This chapter asks a
+different, population-level question: across the many personas we
+trained, does the set of CSPs share a dominant geometric direction?
+If yes, the same linear structure steering vectors exhibit in
+activation space is present in CSP embedding space — the axis
+exists, even if Chapters 1–3 showed you can't cleanly slide along
+it with arithmetic on individual CSPs.
+
+We take the conservative path in this chapter: establish that a
+persona axis exists, check whether it aligns with the CAA-derived
+activation-space axis from prior work, and verify that roles and
+traits share the same direction. We don't try to do more than that
+here. Open questions — per-token contributions, teacher-resistance
+clusters on higher PCs, etc. — are listed in Future Work.
+
+### Setup
+
+65 CSPs, all trained at identical hyperparameters (500 steps, L=4,
+LR=1e-3) on the same 240-question prompt pool. The population
+splits 33 roles (pirate, poet, prophet, plus a 30-persona sweep
+spanning archetypal, professional, and stylistic categories — see
+`config.py`) and 32 traits (melancholic, playful, plus a 30-trait
+sweep spanning moral, social, emotional, cognitive, register, tone,
+and stance categories). Each CSP is an (L=4) × 2560 float tensor in
+the input embedding space of Gemma 3 4B IT.
+
+We PCA the CSPs two ways:
+
+- **Flattened** — concatenate the L=4 token embeddings into a single
+  10,240-dim vector per CSP and PCA across personas.
+- **Per-token (pooled)** — treat each of L=4 tokens as its own
+  2560-dim vector and PCA across N×4 points.
+
+The flattened PCA is the interpretable one for persona geometry.
+The pooled per-token PCA is dominated by token-slot identity — each
+of the L=4 token positions sits in a sharply distinct region of
+embedding space (std across personas within a slot is ~0.03 while
+mean separation between slots is 3–7), so its top PCs encode
+*which slot in the sequence* rather than *which persona*. We use
+the flattened PCA for the chapter's main claims. (Per-token
+structure is a Future-work item.)
+
+Mean-center before PCA; don't standardize.
+
+### The persona axis aligns with the assistant axis
+
+The flattened-PCA PC1 direction aligns with the activation-space
+assistant axis from [Lu et al. 2026](https://www.anthropic.com/research/assistant-axis).
+To make the comparison concrete: we run each CSP through the model
+on the same 30 eval prompts, capture L17 residual-stream activations
+at the CSP token positions, and average. Then we project that mean
+L17 vector onto the
+[Butanium Gemma 3 4B IT assistant axis](https://huggingface.co/datasets/Butanium/gemma-3-4b-it-assistant-axis)
+at layer 17 and compute the cosine. For each CSP we now have a
+flattened-PCA PC1 value (embedding-space) and an
+axis-cosine value (activation-space).
+
+Across all three PCA flavors, our PC1 and the Butanium axis are
+aligned (Spearman, |ρ|):
+
+| PCA over | PC1 vs Butanium axis-cos | n |
+|---|---|---|
+| roles only       | 0.654 | 33 |
+| traits only      | 0.767 | 32 |
+| **joint (roles+traits)** | **0.806** | 65 |
+
+The joint-PCA alignment is the strongest of the three. The
+embedding-space PC1 we extract from 65 independently-trained CSPs
+points in (approximately) the same direction as the CAA-derived
+activation-space axis at L17, even though those two axes were
+constructed completely differently — one by PCA over input
+embeddings of CSPs trained via KL distillation, the other by
+mean-contrasting activations between persona-prompted and default
+responses.
+
+### Training dynamics track PC1
+
+A looser signal: the per-persona
+fraction-of-baseline-KL-explained (FE) from training also tracks
+PC1. FE is the fraction of the default-to-persona KL gap the CSP
+closes during training; it's higher for personas with more
+distinctive teacher behavior (high baseline KL, sharp archetypes)
+and lower for ones the teacher already mostly resembles (low
+baseline KL, soft profession roles). Spearman correlations:
+
+| | PC1 vs FE | axis-cos vs FE |
+|---|---|---|
+| roles | 0.582 | 0.788 |
+| traits | 0.305 | 0.332 |
+| joint | 0.527 | 0.622 |
+
+The axis-cosine correlates with FE more strongly than PC1 does —
+activation-space projection is a better FE predictor than
+embedding-space PC1. But both carry signal in the expected
+direction: sharp archetypes (prophet, wizard, druid, sardonic,
+savage) sit at one end of PC1/axis-cos; soft professions (teacher,
+coach, politician, humble, skeptical) at the other.
+
+### Roles and traits share the axis
+
+[Lu et al. 2026](https://www.anthropic.com/research/assistant-axis)
+ran separate pipelines for the 275 roles and 240 traits they
+studied — trained axes independently and never directly compared.
+Our joint PCA over 33 roles + 32 traits answers that question
+directly. Spearman(joint PC1, Butanium axis) = 0.806; separately,
+role-only PC1 vs axis = 0.654, trait-only PC1 vs axis = 0.767. The
+joint alignment is stronger than either, which is only possible if
+the role and trait sub-populations agree on a shared direction
+(rather than collapsing onto two different ones).
+
+In the joint plot
+(`results/pca/pca_flattened_joint_by_fe.{html,png}`), the 65 CSPs
+scatter across PC1 without a crisp role/trait cleavage — they
+interleave along the axis. Role labels and trait labels mix at each
+FE band.
+
+### Headline
+
+**An axis exists in CSP embedding space, and it points the same
+direction as the CAA-derived assistant axis from prior work.**
+Roles and traits live on that same direction.
+
+Chapters 1–3's central tension lands here. The geometry is present
+in the population. But arithmetic on individual CSPs doesn't
+traverse it — sign-flip destroys the concept (Ch 1), scaling
+preserves direction without modulating (Ch 2), and vector ops on
+pairs collapse to default assistant (Ch 3). The axis visible to PCA
+is accessible only through language — the frame + intensifier +
+composition apparatus of English. **The structure exists; the
+arithmetic doesn't.**
+
+The axis is weaker than Lu et al.'s activation-space equivalent.
+Flattened-PCA PC1 explains only ~5% of variance on the joint
+population (vs the concentrated structure activation-space PCA
+produces). This isn't surprising — 10,240-dim embedding space has
+far more irrelevant variance than 2560-dim activation space, and
+PCs below PC1 are genuinely distributed. But the PC1 direction is
+the right one. That direction suffices for the claim of this
+chapter.
+
 ## Data and code references
 
 ### Checkpoints
@@ -1203,89 +1349,61 @@ the frame changes, the model reads a different composition.
 - `soft_prompt.py` — `SoftPrompt` nn.Module; `negate_csp()` helper
   for Ch 1's math-neg; `scale_csp()` helper for Ch 2's α-scaling.
 
-## What comes next
-
-**Chapter 4 (next up): geometry of the CSP population.** The three
-operation chapters (1–3) argue that linguistic ops work and vector
-ops don't on *individual* CSPs. Chapter 4 asks the population-level
-question: do CSPs across many personas share a single dominant
-geometric axis? Training dynamics already hint at one — fraction-of-
-baseline-KL-explained (FE) ranges from ~58% on self-referential /
-default-adjacent traits (skeptical, manipulative, benevolent) to
-~93% on sharp archetypes (sardonic, prophet, druid, poet), tracking
-the *"distance from default assistant"* dimension the
-[assistant-axis paper](https://www.anthropic.com/research/assistant-axis)
-found in activation space via CAA.
-
-The population for Ch 4 is in hand: **33 role CSPs + 32 trait CSPs
-= 65 total**, all trained at the same hyperparameters (500 steps,
-L=4, LR=1e-3) on the same 240-question pool. Unlike Lu et al. 2026,
-who ran separate pipelines for roles and traits and never directly
-compared their PC1s, we can do a joint PCA over the full CSP
-population and ask (a) whether roles and traits collapse onto the
-same dominant axis, and (b) how the CSP axis aligns with the
-CAA-derived Assistant Axis at the same layer. Joint analysis is
-the specific contribution Ch 4 offers on top of Lu et al.
-
-If the joint axis lands cleanly, the whole-document tension
-resolves: the linear geometry steering vectors give you for free is
-present in the CSP population, but Chapters 1–3 showed the
-arithmetic that would let you slide along it — on individual CSPs —
-doesn't work. Language is the only access.
-
 ## Future work
 
 - **Steering-vector comparison.** Directly compute CAA persona
   vectors for the same four primary personas (pirate, prophet,
   melancholic, playful) and compare on the three readouts. Would
   quantify the "CSPs trade training compute for on-manifold
-  behavior" tradeoff. Out of scope for this document.
-- **Joint role/trait PCA (Ch 4).** Role-only PCA results in hand
-  (`results/pca/`); trait PCA and joint 65-CSP PCA still to run.
-  See "What comes next" above.
-- **Per-token-position analysis for Ch 4.** An initial pass on the
-  role CSPs shows the L=4 SP tokens aren't equivalent slots — under
-  per-token-separate PCA across the 33 roles, `Spearman(PC1, FE)`
-  is −0.61 at token 1, −0.12 at token 2, +0.32 at token 3, and
-  −0.60 at token 4. The persona-intensity signal concentrates at
-  tokens 1 and 4 (the boundaries of the CSP sequence); tokens 2
-  and 3 look like positional scaffolding shared across personas.
-  Worth a dedicated analysis: decompose tokens 2 and 3 by SAE
-  features to see what they encode, and check whether trait CSPs
-  show the same boundary-concentration pattern.
-  See `results/pca/pca_token{1..4}_roles.{html,png}` +
-  `pca_per_token_separate_summary.json`.
-- **Axis-projection strengthens the PC1/FE link.** Projecting each
-  role CSP's L17 activation onto the Butanium Gemma 3 4B IT
-  assistant axis (preloaded from HF; layer 17) gives
-  `Spearman(axis-cos, FE) = -0.788` versus `Spearman(PC1, FE) = -0.582`
-  for the embedding-space PC1. Our PC1 and the axis align at
-  Spearman +0.654. Ch 4 should lead with the axis-projection result,
-  which is the direct comparison to Lu et al. 2026. See
-  `results/pca/pca_vs_assistant_axis.{html,png}` +
-  `axis_projection_summary.json`.
+  behavior" tradeoff.
+- **Per-token-position analysis.** Under per-token-separate PCA
+  across the 33 role CSPs, `Spearman(PC1, FE)` is −0.61 at token 1,
+  −0.12 at token 2, +0.32 at token 3, and −0.60 at token 4. The
+  persona-intensity signal concentrates at tokens 1 and 4; tokens
+  2 and 3 look like positional scaffolding shared across personas.
+  The same boundary-concentration pattern appears (with weaker
+  token 4) on the 32 traits and on the joint 65-CSP population. A
+  dedicated analysis could decompose tokens 2 and 3 by SAE features
+  to see what they encode, and test whether the boundary
+  concentration arises from the training frame structure (e.g., §
+  placed in slot 4 of the frame). See
+  `results/pca/pca_token{1..4}_{roles,traits,joint}.{html,png}` and
+  `pca_per_token_separate_summary_{roles,traits,joint}.json`.
+- **Teacher-resistance on higher PCs.** The low-FE tail of the
+  trait population splits into two clusters — *safety-violating*
+  (evil, manipulative, subversive, cruel, nihilistic; RLHF-tuned
+  teacher partially refuses the role-play) and *self-referential*
+  (skeptical, humble, benevolent, paranoid; traits whose prompts
+  cause the teacher to hedge or doubt the instruction). In the
+  joint PCA these show up on higher PCs: self-referential separates
+  cleanly on PC5 (centroid +0.70 vs ~0 for other groups), and
+  safety-violating drifts toward positive PC3 (though PC3 is
+  primarily a trait-vs-role direction modulated by
+  transgressive-register traits like manipulative/flippant/dramatic/
+  nihilistic/evil rather than a pure safety axis). Whether these
+  clusters represent distinct mechanisms of *teacher resistance* —
+  and whether they matter for downstream arithmetic claims — is
+  open. See `results/pca/pca_resistance_pc{1,3,5}_*.{html,png}`.
 - **Vec-sum in the close-pair regime.** Poet+prophet's vec-sum
   produced partial hybrid behavior at `cos(poet, prophet) ≈ 0.94`.
-  If more close-cosine pairs emerge from the population analysis, a
-  boundary-of-vector-arithmetic sidebar would make sense.
-  [^vec-sum-close-pairs] footnotes this for now.
-- **Teacher-resistance axis.** Low-FE traits cluster into two
-  suggestive groups: *safety-violating* (evil, manipulative,
-  subversive, cruel) where the RLHF-tuned teacher partially refuses
-  the role-play; and *self-referential* (skeptical, humble,
-  benevolent, paranoid) where the teacher doubts or hedges the
-  prompt itself. Both produce diluted distillation signals
-  (FE 58–79%). Whether these two clusters separate from the main
-  population on a PC2 or PC3 is a specific hypothesis for Ch 4.
+  If more close-cosine pairs emerge from the 65-CSP population
+  neighborhood, a boundary-of-vector-arithmetic sidebar would make
+  sense. [^vec-sum-close-pairs] footnotes this for now.
+- **What PC1 actually represents.** Ch 4 establishes that PC1
+  aligns with the Butanium axis and tracks FE. Lu et al. 2026
+  interpret their axis as *"distance from default assistant"*. A
+  cleaner characterization of our PC1 — what direction in English
+  semantics it picks out, whether that direction is interpretable
+  per-persona via self-verbalization — is a natural follow-up.
 
 ## Session state — where we are now
 
-Last updated: post-Ch-3-restructure around **pirate × {anxious,
-playful}** as the trait × role focal demo, with noncommutativity
-and vestigial-template patterns made explicit; sidebars now cover
-pretraining-bias (A), cultural-neighborhood retrieval (B), the
-seven-mode composition taxonomy (C), and connective modulation (D).
-All 65 CSPs trained; Ch 4 PCA is next.
+Last updated: Chapter 4 drafted (conservative axis-existence
+writeup). All four operation/geometry chapters now in the document;
+Future work lists the specific deferred items (per-token structure,
+teacher-resistance on higher PCs, steering-vector head-to-head,
+interpretation of PC1). Narrative is feature-complete as a
+four-chapter arc.
 
 **Done.**
 - Motivation around *arithmetic-is-language vs language-is-language*

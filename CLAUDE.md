@@ -72,8 +72,12 @@ When in doubt about whether to include an example, include it.
   (A) role permeability and pretraining bias; (B) compound-
   neighborhood cultural retrieval; (C) seven-mode composition
   taxonomy; (D) connectives as language-level knob.
-- **Chapter 4 (deferred).** Joint PCA over 65 CSPs (roles + traits)
-  as the population-level geometric contribution on top of Lu et al.
+- **Chapter 4 — Population geometry.** Joint PCA over 65 CSPs
+  surfaces a persona axis in embedding space. PC1 aligns with
+  Butanium L17 at Spearman 0.81; roles and traits share the
+  direction. Conservative scope: axis-existence + alignment only.
+  Open questions (per-token structure, teacher-resistance on
+  higher PCs, PC1 interpretation) are listed in Future work.
 
 ## Project Context & References
 
@@ -141,11 +145,14 @@ revisit (see the low-FE clusters discussion in NARRATIVE.md
    noncommutativity is real (trait-first can erase role); composition
    is retrieval into pretraining compound neighborhoods, not additive.
 
-4. **Population geometry / assistant axis** *(NEXT — Chapter 4).*
-   Joint PCA over 33 role CSPs + 32 trait CSPs. Does the CSP
-   population recapitulate Lu et al.'s single-axis structure? Do
-   roles and traits live on the same PC1? Does low-FE teacher-
-   resistance form a separate cluster on PC2/PC3?
+4. **Population geometry / assistant axis** *(DONE — Chapter 4).*
+   Joint PCA over 33 role CSPs + 32 trait CSPs reveals a persona
+   axis in embedding space. PC1 aligns with the CAA-derived
+   Butanium L17 axis at Spearman 0.81 on the joint population;
+   roles and traits share the same dominant direction (filling
+   the Lu et al. 2026 gap of separate role/trait pipelines).
+   Per-token structure and teacher-resistance clusters on higher
+   PCs are listed as Future work.
 
 ## Runpod Instance Setup
 
