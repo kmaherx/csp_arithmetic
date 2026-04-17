@@ -1205,49 +1205,65 @@ the frame changes, the model reads a different composition.
 
 ## What comes next
 
-**Chapter 4 (deferred): geometry of the CSP population.** The three
+**Chapter 4 (next up): geometry of the CSP population.** The three
 operation chapters (1–3) argue that linguistic ops work and vector
 ops don't on *individual* CSPs. Chapter 4 asks the population-level
 question: do CSPs across many personas share a single dominant
-geometric axis? Training dynamics already hint at one — the
-fraction-of-baseline-KL-explained (FE) ranges from ~70% on soft
-professional roles (journalist, librarian) to ~93% on sharp
-archetypes (prophet, druid, poet), tracking the *"distance from
-default assistant"* dimension the
+geometric axis? Training dynamics already hint at one — fraction-of-
+baseline-KL-explained (FE) ranges from ~58% on self-referential /
+default-adjacent traits (skeptical, manipulative, benevolent) to
+~93% on sharp archetypes (sardonic, prophet, druid, poet), tracking
+the *"distance from default assistant"* dimension the
 [assistant-axis paper](https://www.anthropic.com/research/assistant-axis)
-found in activation space via CAA. PCA on the CSP population (33
-roles + melancholic + playful + ~30 more traits training overnight)
-will test whether the geometry is single-axis like the CAA result,
-and whether the ordering along PC1 matches the FE ranking.
+found in activation space via CAA.
 
-If it does, the whole-document tension lands: the linear geometry
-steering vectors give you for free is present in the CSP
-population, but Chapters 1–3 showed the arithmetic that would let
-you slide along it — on individual CSPs — doesn't work. Language is
-the only access.
+The population for Ch 4 is in hand: **33 role CSPs + 32 trait CSPs
+= 65 total**, all trained at the same hyperparameters (500 steps,
+L=4, LR=1e-3) on the same 240-question pool. Unlike Lu et al. 2026,
+who ran separate pipelines for roles and traits and never directly
+compared their PC1s, we can do a joint PCA over the full CSP
+population and ask (a) whether roles and traits collapse onto the
+same dominant axis, and (b) how the CSP axis aligns with the
+CAA-derived Assistant Axis at the same layer. Joint analysis is
+the specific contribution Ch 4 offers on top of Lu et al.
+
+If the joint axis lands cleanly, the whole-document tension
+resolves: the linear geometry steering vectors give you for free is
+present in the CSP population, but Chapters 1–3 showed the
+arithmetic that would let you slide along it — on individual CSPs —
+doesn't work. Language is the only access.
 
 ## Future work
 
 - **Steering-vector comparison.** Directly compute CAA persona
-  vectors for the same four personas (pirate, prophet, melancholic,
-  playful) and compare on the three readouts. Would quantify the
-  "CSPs trade training compute for on-manifold behavior" tradeoff.
-  Out of scope for this document.
-- **Population-level PCA (Ch 4).** Deferred to the next writeup pass;
-  overnight trait sweep (30 additional trait CSPs) is running to
-  bring trait count to parity with role count before PCA.
+  vectors for the same four primary personas (pirate, prophet,
+  melancholic, playful) and compare on the three readouts. Would
+  quantify the "CSPs trade training compute for on-manifold
+  behavior" tradeoff. Out of scope for this document.
+- **Joint role/trait PCA (Ch 4).** Population assembled; writeup
+  pending. See "What comes next" above.
 - **Vec-sum in the close-pair regime.** Poet+prophet's vec-sum
   produced partial hybrid behavior at `cos(poet, prophet) ≈ 0.94`.
   If more close-cosine pairs emerge from the population analysis, a
   boundary-of-vector-arithmetic sidebar would make sense.
   [^vec-sum-close-pairs] footnotes this for now.
+- **Teacher-resistance axis.** Low-FE traits cluster into two
+  suggestive groups: *safety-violating* (evil, manipulative,
+  subversive, cruel) where the RLHF-tuned teacher partially refuses
+  the role-play; and *self-referential* (skeptical, humble,
+  benevolent, paranoid) where the teacher doubts or hedges the
+  prompt itself. Both produce diluted distillation signals
+  (FE 58–79%). Whether these two clusters separate from the main
+  population on a PC2 or PC3 is a specific hypothesis for Ch 4.
 
 ## Session state — where we are now
 
-Last updated: post-restructure — narrative reordered to
-Negate → Scale → Compose, persona scope reduced to a 2×2
-(roles: pirate, prophet; traits: melancholic, playful) for
-legibility, composition modes + connectives moved to sidebars.
+Last updated: post-Ch-3-restructure around **pirate × {anxious,
+playful}** as the trait × role focal demo, with noncommutativity
+and vestigial-template patterns made explicit; sidebars now cover
+pretraining-bias (A), cultural-neighborhood retrieval (B), the
+seven-mode composition taxonomy (C), and connective modulation (D).
+All 65 CSPs trained; Ch 4 PCA is next.
 
 **Done.**
 - Motivation around *arithmetic-is-language vs language-is-language*
@@ -1280,10 +1296,18 @@ legibility, composition modes + connectives moved to sidebars.
   playful) with both sp_pos and sp_neg.
 
 **Next up.**
-- Overnight: train ~30 more trait CSPs for parity with role count.
-- Chapter 4 (PCA) writeup using the full ~65-CSP population.
-- Revisit open TODOs (vec-sum-on-close-pairs, steering-vector
-  head-to-head).
+- Chapter 4 (PCA) writeup using the full 65-CSP population (33
+  roles + 32 traits). Specific hypotheses to test: (i) single
+  dominant PC1 matching FE ranking; (ii) joint role+trait PCA
+  versus separate pipelines à la Lu et al. 2026 — do roles and
+  traits land on the same axis?; (iii) teacher-resistance cluster
+  separates on PC2/PC3; (iv) axis alignment with the CAA-derived
+  assistant-axis at L17.
+- Revisit open TODOs as Ch 4 data lands:
+  - vec-sum-on-close-pairs (close-cosine pairs from the PCA
+    neighborhood test math-composition in a narrow regime)
+  - steering-vector head-to-head (CAA vs CSP on the same four
+    personas + three readouts)
 
 ## Footnotes
 
